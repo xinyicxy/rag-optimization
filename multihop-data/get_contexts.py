@@ -1,3 +1,5 @@
+# Extracts and stores all contexts in a PDF
+
 import json
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet
