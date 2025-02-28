@@ -36,16 +36,20 @@ for item in data:
     # Add the new questions
     qns = item["question"]
     ans = item["answer"]
-    type = item["reasoning_type"]
+    answer_type = item["answer_type"]
+    reasoning_type = item["reasoning_type"]
     id = item["_id"]
-    toAdd = {"Question": qns, "Answer": ans, "Type": type, "id": id}
+    toAdd = {"Question": qns, "Answer": ans, "Answer Type": answer_type,
+             "Reasoning Type": reasoning_type, "id": id}
     res.append(toAdd)
 
     # Add the old questions
     qns = item["previous_question"]
     ans = item["previous_answer"]
-    type = "Original"
-    toAdd = {"Question": qns, "Answer": ans, "Type": type, "id": id}
+    answer_type = item["previous_answer_type"]
+    reasoning_type = "Original"
+    toAdd = {"Question": qns, "Answer": ans, "Answer Type": answer_type,
+             "Reasoning Type": reasoning_type, "id": id}
     res.append(toAdd)
 
 
