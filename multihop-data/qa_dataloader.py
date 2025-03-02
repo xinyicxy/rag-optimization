@@ -53,6 +53,7 @@ for item in data:
     res.append(toAdd)
 
 
-# Convert to excel
+# Convert to csv
 df = pd.DataFrame.from_dict(res)
-df.to_excel("multihopqa_pairs.xlsx", index=False)
+df = df.drop_duplicates(subset=["Question", "Answer"])
+df.to_csv("multihopqa_pairs.csv", index=False)
