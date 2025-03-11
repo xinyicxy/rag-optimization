@@ -1,0 +1,14 @@
+
+Thoughts: 
+
+Pipeline Steps
+- Load local text files
+- Generate embeddings (BAAI/bge-small-en)
+- Store in ChromaDB
+- Retrieve relevant docs
+- Use whatevrr llm for generation
+
+Using rn: 
+- Storage: local (but can use azure blob storage for free) 
+- Embeddings (huggingface: BAAI/bge-small-en)
+- LLM (huggingface: tinyllama)
