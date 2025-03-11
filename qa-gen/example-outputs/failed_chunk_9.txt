@@ -1,0 +1,14 @@
+**Q1:** What is the timeframe for the County to render a decision on a detailed claim after final payment?  
+**A1:** The County must render a decision within 120 days of final payment.  
+**Text Snippet:** "The County, upon receipt of a detailed claim, may at any time render its decision and shall render such decision within one hundred twenty (120) days of final payment."  
+
+**Q2:** What certifications are made by signing the Proposal Signature Sheet?  
+**A2:** The signature certifies compliance with the RFP requirements and confirms no collusion or anti-competitive actions were taken.  
+**Text Snippet:** "My signature certifies that the proposal as submitted complies with all requirements specified in this Request for Proposal [...] the Offeror did not, either directly or indirectly, enter into any combination or arrangement [...] in violation of the Sherman Act [...] or Sections 59.1-9.1 through 59.1-9.17 [...] of the Code of Virginia."  
+
+**Q3:** What is the deadline for a Contractor to appeal the County’s final decision on a claim?  
+**A3:** The Contractor must appeal within six months of the County’s final decision by instituting legal action.  
+**Text Snippet:** "The decision on contractual claims by the governing body of the County shall be final and conclusive unless the Contractor appeals within six months of the date of the final decision on the claim by instituting legal action."  
+
+**Q4:** What defines a "Small Business" under the County’s compliance requirements?  
+**A4:** A small business must have ≤250 employees or ≤$10M annual gross receipts
