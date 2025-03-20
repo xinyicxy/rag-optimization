@@ -12,13 +12,25 @@ from ragas.dataset_schema import EvaluationDataset
 from sklearn.metrics import precision_recall_fscore_support
 import numpy as np
 import os
+from ragas.llms import LangchainLLMWrapper
+from langchain_openai import OpenAI
 
 # setting api key
 OPENAI_KEY = "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"
 os.environ["OPENAI_API_KEY"] = OPENAI_KEY  # Set for RAGAS
 
+"""
+# configuring faster model for eval
+gpt3_llm = LangchainLLMWrapper(model_name=OpenAI(model_name="gpt-3.5-turbo", temperature=0))
+answer_relevancy.llm = gpt3_llm
+faithfulness.llm = gpt3_llm
+context_recall.llm = gpt3_llm
+context_precision.llm = gpt3_llm
+answer_correctness.llm = gpt3_llm
+"""
+
 # load experiment data
-with open('test-experiment-output.json') as f:
+with open('full-experiment-output.json') as f:
     data = json.load(f)
 
 # convert to pandas
