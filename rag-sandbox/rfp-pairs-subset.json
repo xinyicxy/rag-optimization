@@ -1,0 +1,1584 @@
+[
+  {
+    "question_id": 181,
+    "question": "What insurance requirements must contractors meet under both the selection criteria and general terms?",
+    "answer": "Contractors must maintain comprehensive insurance coverage meeting specified limits, including Workers' Compensation, General Liability, and Professional Liability, as outlined in Section 15 (Excerpt 2). This aligns with Section 3 (Excerpt 1), which emphasizes technical capabilities and compliance with federal/state laws.",
+    "snippet": null,
+    "context": [
+      "Familiarity with federal, state and local codes, conditions, and ordinances",
+      "Workers' Compensation",
+      "$100,000 Each Accident",
+      "Professional Liability Insurance $1,000,000 Limit."
+    ],
+    "chunks": [
+      4,
+      7
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 257,
+    "question": "What is the deadline for submitting documents after Government approval of Engineering Change Proposals?**",
+    "answer": "The submission is required within 5 calendar days after Government approval of any Engineering Change Proposals.",
+    "snippet": "Submissions also required 5 calendar days after Government approval of any Engineering Change Proposals.",
+    "context": [
+      "Submissions also required 5 calendar days after Government approval of any Engineering Change Proposals."
+    ],
+    "chunks": [
+      6
+    ],
+    "RFP_id": "natsec_6",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 14,
+    "question": "What defines an Organizational Conflict of Interest (OCI) under the contract?**",
+    "answer": "An organizational conflict of interest occurs when a contractor’s other activities or relationships impair their ability to provide impartial advice, create an unfair competitive advantage, or compromise objectivity.",
+    "snippet": "An organizational conflict of interest means that because of other activities or relationships with other persons, a person is unable or potentially unable to render impartial assistance or advice to the Government, or the person's objectivity in performing the contract work is or might be otherwise impaired, or a person has an unfair competitive advantage.",
+    "context": [
+      "An organizational conflict of interest means that because of other activities or relationships with other persons, a person is unable or potentially unable to render impartial assistance or advice to the Government, or the person's objectivity in performing the contract work is or might be otherwise impaired, or a person has an unfair competitive advantage."
+    ],
+    "chunks": [
+      4
+    ],
+    "RFP_id": "natsec_3",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 162,
+    "question": "How are subfactors prioritized under the technical/management factor?**",
+    "answer": "Subfactors within the technical/management factor are listed in descending order of importance, with sub-elements under each subfactor being approximately equal in importance.",
+    "snippet": "Within the technical/management factor, the subfactors are in descending order of importance. The sub-elements under each respective subfactor are of approximate equal importance to that subfactor.",
+    "context": [
+      "Within the technical/management factor, the subfactors are in descending order of importance. The sub-elements under each respective subfactor are of approximate equal importance to that subfactor."
+    ],
+    "chunks": [
+      6
+    ],
+    "RFP_id": "natsec_8",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 93,
+    "question": "What are the conditions under which the County can terminate the contract for default?",
+    "answer": "The County may terminate the contract for default if the Contractor fails to deliver equipment/services, repeatedly fails to respond to maintenance requests, or breaches other terms after a \"Show Cause Notice.\"",
+    "snippet": "The County shall have the unilateral right to terminate this contract for default... (a) the Contractor shall fail to deliver the equipment or services... (b) the Contractor shall repeatedly fail to respond to request for maintenance... (c) the Contractor shall breach any of the other cures after receiving a 'Show Cause Notice'... If the Contractor fails to answer the cure notice... the County may immediately terminate the agreement for default.",
+    "context": [
+      "The County shall have the unilateral right to terminate this contract for default",
+      "(a) the Contractor shall fail to deliver the equipment or services",
+      "(b) the Contractor shall repeatedly fail to respond to request for maintenance",
+      "(c) the Contractor shall breach any of the other cures after receiving a 'Show Cause Notice'",
+      "If the Contractor fails to answer the cure notice",
+      "the County may immediately terminate the agreement for default."
+    ],
+    "chunks": [
+      8
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 170,
+    "question": "What are the requirements for an OCI Mitigation Plan under the AFATDS contract?**",
+    "answer": "The offeror must submit a Government-approved plan describing all relevant facts about past, present, or planned interests (financial, contractual, organizational, etc.) related to the work. The plan must explain how the OCI will be minimized to a Government-acceptable level.",
+    "snippet": "The offeror shall submit a Government-approved/acceptable OCI Mitigation Plan... relating to work to be performed under the AFATDS contract... The OCI Mitigation Plan shall explain how the OCI will be minimized to a level acceptable to the Government.",
+    "context": [
+      "The offeror shall submit a Government-approved/acceptable OCI Mitigation Plan",
+      "relating to work to be performed under the AFATDS contract",
+      "The OCI Mitigation Plan shall explain how the OCI will be minimized to a level acceptable to the Government."
+    ],
+    "chunks": [
+      8
+    ],
+    "RFP_id": "natsec_8",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 296,
+    "question": "What actions must the Architect take after receiving the Construction Manager’s estimate at the end of the Construction Documents Phase?",
+    "answer": "The Architect must take action under Section 6.7 and request the Owner’s approval of the Construction Documents.",
+    "snippet": "§ 3.4.5 ... the Architect shall take action as required under Section 6.7 and request the Owner's approval of the Construction Documents.",
+    "context": [
+      "§ 3.4.5",
+      "the Architect shall take action as required under Section 6.7 and request the Owner's approval of the Construction Documents."
+    ],
+    "chunks": [
+      9
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 28,
+    "question": "When does the Government have unrestricted rights to information in a bid or proposal?",
+    "answer": "Unrestricted rights apply if the information was disclosed to the Government or others without restrictions, except due to business transfers or asset sales.",
+    "snippet": "The Government's rights [...] shall not be restricted in any manner if such information has been released or disclosed [...] without restrictions other than a release or disclosure resulting from the sale, transfer, or other assignment of interest [...] or the sale or transfer of some or all of a business entity or its assets.",
+    "context": [
+      "The Government's rights",
+      "shall not be restricted in any manner if such information has been released or disclosed",
+      "without restrictions other than a release or disclosure resulting from the sale, transfer, or other assignment of interest",
+      "or the sale or transfer of some or all of a business entity or its assets."
+    ],
+    "chunks": [
+      8
+    ],
+    "RFP_id": "natsec_3",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 335,
+    "question": "How recent must drug testing results be for personnel listed under §10.11.1?",
+    "answer": "Drug testing evidence must be dated within seven (7) days of the Agreement’s effective date.",
+    "snippet": "The list of persons shall be provided written evidence of drug and alcohol testing with respect to all persons on the list dated within seven (7) days of the said date of the Agreement.",
+    "context": [
+      "The list of persons shall be provided written evidence of drug and alcohol testing with respect to all persons on the list dated within seven (7) days of the said date of the Agreement."
+    ],
+    "chunks": [
+      19
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 161,
+    "question": "What are the evaluation criteria for the technical/management approach under SOO paragraph 6.2.11?**",
+    "answer": "The Government evaluates the offeror’s approach based on its ability to meet SOO paragraph 6.2.11 sub-items d, e, g, and j, including a feasible method for developing maintainable training products and embedding 24/7 training capabilities.",
+    "snippet": "The Government will evaluate the extent to which the offeror’s proposed approach meets the objectives of SOO paragraph 6.2.11 sub-items d, e, g, and j and demonstrates: o a sound and feasible approach for developing training products while managing maintainability of material and ease in which content can be added or modified o a sound and feasible approach to embedding individual and collective training capability that supports 24/7 education at the Army unit level.",
+    "context": [
+      "The Government will evaluate the extent to which the offeror’s proposed approach meets the objectives of SOO paragraph 6.2.11 sub-items d, e, g, and j and demonstrates: o a sound and feasible approach for developing training products while managing maintainability of material and ease in which content can be added or modified o a sound and feasible approach to embedding individual and collective training capability that supports 24/7 education at the Army unit level."
+    ],
+    "chunks": [
+      6
+    ],
+    "RFP_id": "natsec_8",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 91,
+    "question": "How are freight charges handled in F.O.B. origin bids?",
+    "answer": "The contractor must prepay freight charges, add the amount to the invoice, and attach a copy of the freight bill.",
+    "snippet": "If a requirement is bid F.O.B. origin, the contractor shall prepay the charges and add the amount to the invoice. A copy of the freight bill should be attached to all invoices that include freight charges.",
+    "context": [
+      "If a requirement is bid F.O.B. origin, the contractor shall prepay the charges and add the amount to the invoice. A copy of the freight bill should be attached to all invoices that include freight charges."
+    ],
+    "chunks": [
+      7
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 89,
+    "question": "What insurance rating and jurisdiction requirements must the contractor's insurance provider meet?",
+    "answer": "The insurance must be issued by a company admitted within the Commonwealth of Virginia and with at least a Best’s Key Rating of A:V1.",
+    "snippet": "Such insurance must be issued by a company admitted within the Commonwealth of Virginia and with at least a Best’s Key Rating of A:V1.",
+    "context": [
+      "Such insurance must be issued by a company admitted within the Commonwealth of Virginia and with at least a Best’s Key Rating of A:V1."
+    ],
+    "chunks": [
+      7
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 194,
+    "question": "Who has the authority to require the removal of a subcontractor?",
+    "answer": "The Project Manager may require the removal of a subcontractor.",
+    "snippet": "His removal may be required by the Project Manager, as in the case of an employee.",
+    "context": [
+      "His removal may be required by the Project Manager, as in the case of an employee."
+    ],
+    "chunks": [
+      4
+    ],
+    "RFP_id": "infra_3",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 166,
+    "question": "What are the four degrees of relevancy used to assess past performance under DoD Source Selection Procedures?**",
+    "answer": "The four degrees are VERY RELEVANT, RELEVANT, SOMEWHAT RELEVANT, and NOT RELEVANT.",
+    "snippet": "VERY RELEVANT [involves] the same scope and magnitude of effort... RELEVANT [involves] similar scope... SOMEWHAT RELEVANT [involves] some of the scope... NOT RELEVANT [involves] little or none of the scope...",
+    "context": [
+      "VERY RELEVANT [involves] the same scope and magnitude of effort",
+      "RELEVANT [involves] similar scope",
+      "SOMEWHAT RELEVANT [involves] some of the scope",
+      "NOT RELEVANT [involves] little or none of the scope"
+    ],
+    "chunks": [
+      7
+    ],
+    "RFP_id": "natsec_8",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 135,
+    "question": "Who must receive an email notification for Block 14 submissions?",
+    "answer": "The Contracting Officer’s Representative must receive an email notification.",
+    "snippet": "Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative.",
+    "context": [
+      "Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative."
+    ],
+    "chunks": [
+      10
+    ],
+    "RFP_id": "natsec_4",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 342,
+    "question": "How is compensation calculated for Reimbursable Expenses under §11.8.2?",
+    "answer": "Reimbursable Expenses are calculated as the incurred expenses plus 10%, with a maximum cap per project.",
+    "snippet": "For Reimbursable Expenses the compensation shall be the expenses incurred by the Architect and the Architect’s consultants plus ten percent (10%) of the expenses incurred, with the maximum not to exceed '$ ' for each elementary Project.",
+    "context": [
+      "For Reimbursable Expenses the compensation shall be the expenses incurred by the Architect and the Architect’s consultants plus ten percent (10%) of the expenses incurred, with the maximum not to exceed '$ ' for each elementary Project."
+    ],
+    "chunks": [
+      21
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 127,
+    "question": "Where must submissions for PM MC be posted, and who must be notified?",
+    "answer": "Submissions must be posted to IDE and DI2E with email notification to the Contracting Officer’s Representative.",
+    "snippet": "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative.",
+    "context": [
+      "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative."
+    ],
+    "chunks": [
+      9
+    ],
+    "RFP_id": "natsec_4",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 374,
+    "question": "Which deliverable is associated with CDRL A037?**",
+    "answer": "CDRL A037 corresponds to the \"Computer Software Product\" deliverable.",
+    "snippet": "Deliverable(s): CDRL A03[7] Computer Software Product (D I-IPSC-81488).",
+    "context": [
+      "Deliverable(s): CDRL A03[7] Computer Software Product (D I-IPSC-81488)."
+    ],
+    "chunks": [
+      8
+    ],
+    "RFP_id": "natsec_2",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 230,
+    "question": "What documents must the contractor align with for CLIN 0002 AFATDS Modernization and Development?**",
+    "answer": "The contractor must align with the AFATDS v7.0 Statement of Objectives, contractor-developed performance work statement, contractor-developed integrated master plan, and AFATDS v7.0 Software Requirements Specification Target Requirements.",
+    "snippet": "Work shall be accomplished in alignment with AFATDS v7.0 Statement of Objectives; contractor developed performance work statement; contractor developed integrated master plan; and AFATDS v7.0 Software Requirements Specification Target Requirements.",
+    "context": [
+      "Work shall be accomplished in alignment with AFATDS v7.0 Statement of Objectives; contractor developed performance work statement; contractor developed integrated master plan; and AFATDS v7.0 Software Requirements Specification Target Requirements."
+    ],
+    "chunks": [
+      2
+    ],
+    "RFP_id": "natsec_1",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 80,
+    "question": "How is past performance evaluated for engineering service providers?**",
+    "answer": "Past performance is assessed via references, work quality, timeliness, and adherence to budgets.",
+    "snippet": "a. references – showing names, addresses, and phone numbers [...] b. quality of work, timeliness, diligence, ability to meet budget.",
+    "context": [
+      "a. references – showing names, addresses, and phone numbers",
+      "b. quality of work, timeliness, diligence, ability to meet budget."
+    ],
+    "chunks": [
+      4
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 37,
+    "question": "What distribution channels are required for submissions to PM Mission Command (PM MC)?**",
+    "answer": "Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative.",
+    "snippet": "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative.",
+    "context": [
+      "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative."
+    ],
+    "chunks": [
+      1
+    ],
+    "RFP_id": "natsec_7",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 317,
+    "question": "What indemnification obligations does the Architect have under Section 7.3.1?**",
+    "answer": "The Architect must defend and indemnify the Owner against claims related to copyright/patent infringement or disputes over ownership of the Drawings.",
+    "snippet": "The Architect shall defend all actions or claims charging infringement of any copyrights or patents by reason of the use or adoption of any designs, Drawings or Specifications supplied by it and shall hold the Owner... harmless from claims, loss, damages, liability, costs and expenses... resulting therefrom.",
+    "context": [
+      "The Architect shall defend all actions or claims charging infringement of any copyrights or patents by reason of the use or adoption of any designs, Drawings or Specifications supplied by it and shall hold the Owner",
+      "harmless from claims, loss, damages, liability, costs and expenses",
+      "resulting therefrom."
+    ],
+    "chunks": [
+      15
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 85,
+    "question": "What specific actions must the Contractor take to maintain a drug-free workplace?",
+    "answer": "The Contractor must prohibit controlled substances, post workplace prohibitions, include drug-free statements in job ads, and enforce these rules in subcontracts.",
+    "snippet": "B) post in conspicuous places [...] a statement notifying employees that the unlawful manufacture, sale, distribution [...] is prohibited in its workplace and specify the actions which will be taken against any employee for a violation; C) state in all of its solicitations or advertisements for employees that it maintains a drug-free workplace.",
+    "context": [
+      "B) post in conspicuous places",
+      "a statement notifying employees that the unlawful manufacture, sale, distribution",
+      "is prohibited in its workplace and specify the actions which will be taken against any employee for a violation; C) state in all of its solicitations or advertisements for employees that it maintains a drug-free workplace."
+    ],
+    "chunks": [
+      5
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 109,
+    "question": "What is required for contractors to access the Software Requirement Specifications (SRS) document?",
+    "answer": "Contractors must submit a Non-Disclosure Agreement (NDA) and request access via designated contacts.",
+    "snippet": "Contractors must have submitted a NDA and may request by contacting Dustie Thompson, Contract Specialist... AFATDS SRS will be distributed via secure website transfer.",
+    "context": [
+      "Contractors must have submitted a NDA and may request by contacting Dustie Thompson, Contract Specialist",
+      "AFATDS SRS will be distributed via secure website transfer."
+    ],
+    "chunks": [
+      1
+    ],
+    "RFP_id": "natsec_4",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 39,
+    "question": "What additional items may the government request as part of CDRL A037 deliverables?**",
+    "answer": "Additional items include DOORS database and database extracts, JMUL updates (or equivalent for AFATDS 7.0), and Non-Developmental Software (NDS) with associated documentation.",
+    "snippet": "Additional related items to be provided as part of this CDRL upon government request include: (1) DOORS database and database extracts, (2) JMUL updates (or equivalent for AFATDS 7.0) and (3) Non-Developmental Software (NDS) and associated documentation.",
+    "context": [
+      "Additional related items to be provided as part of this CDRL upon government request include: (1) DOORS database and database extracts, (2) JMUL updates (or equivalent for AFATDS 7.0) and (3) Non-Developmental Software (NDS) and associated documentation."
+    ],
+    "chunks": [
+      1
+    ],
+    "RFP_id": "natsec_7",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 252,
+    "question": "Which standard applies to Configuration Management for defense contracts?",
+    "answer": "EIA-649-1 establishes Configuration Management requirements.",
+    "snippet": "i. Electronic Industries Alliance (EIA)-649-1, Configuration Management Requirements for Defense Contracts, 20 November 2014",
+    "context": [
+      "i. Electronic Industries Alliance (EIA)-649-1, Configuration Management Requirements for Defense Contracts, 20 November 2014"
+    ],
+    "chunks": [
+      9
+    ],
+    "RFP_id": "natsec_1",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 338,
+    "question": "Which types of buildings qualify for additional protections under Indiana Code § 16-41-37?**",
+    "answer": "Public buildings include enclosed structures occupied by state/local government agencies, educational institutions, healthcare facilities, fire/police stations, childcare centers, hospitals, schools, and school buses.",
+    "snippet": "Additional requirements and levels of protection are afforded to Public Buildings in compliance with Indiana Code § 16-41-37, and include an enclosed structure or part of an enclosed structure that is one of the following: (1) Occupied by an agency of state or local government... (10) School bus (as defined in IC § 16-41-37-2.3).",
+    "context": [
+      "Additional requirements and levels of protection are afforded to Public Buildings in compliance with Indiana Code § 16-41-37, and include an enclosed structure or part of an enclosed structure that is one of the following: (1) Occupied by an agency of state or local government",
+      "(10) School bus (as defined in IC § 16-41-37-2.3)."
+    ],
+    "chunks": [
+      20
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 287,
+    "question": "What is the deadline for the Architect to submit certified insurance documentation to the Owner?",
+    "answer": "Certified copies or certificates of insurance must be delivered within 10 days of the agreement date and before starting work on-site.",
+    "snippet": "The Architect hereby agrees to deliver to the Owner, within ten (10) days of the date of the Owner-Architect Agreement and prior to bringing any equipment or personnel onto the site...certified copies of all insurance policies...or Certificates of Insurance.",
+    "context": [
+      "The Architect hereby agrees to deliver to the Owner, within ten (10) days of the date of the Owner-Architect Agreement and prior to bringing any equipment or personnel onto the site",
+      "certified copies of all insurance policies",
+      "or Certificates of Insurance."
+    ],
+    "chunks": [
+      6
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 294,
+    "question": "What assistance must the Architect provide during the development of Construction Documents if requested by the Owner?",
+    "answer": "The Architect shall assist the Owner and Construction Manager in developing bidding/procurement information, forms of agreement, Contract Conditions, and compiling a project manual.",
+    "snippet": "§ 3.4.3 ... the Architect shall assist the Owner and the Construction Manager in the development and preparation of (1) bidding and procurement information ... (2) the form of agreement ... (3) the Conditions of the Contract for Construction ... and (4) compile a project manual.",
+    "context": [
+      "§ 3.4.3",
+      "the Architect shall assist the Owner and the Construction Manager in the development and preparation of (1) bidding and procurement information",
+      "(2) the form of agreement",
+      "(3) the Conditions of the Contract for Construction",
+      "and (4) compile a project manual."
+    ],
+    "chunks": [
+      9
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 235,
+    "question": "What DFARS clauses govern the Contractor's provision of Unlimited Rights for data and non-commercial software?",
+    "answer": "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014.",
+    "snippet": "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014.",
+    "context": [
+      "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014."
+    ],
+    "chunks": [
+      4
+    ],
+    "RFP_id": "natsec_1",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 188,
+    "question": "Under what conditions can the City of Alexander City reject bids during the evaluation process?**",
+    "answer": "The City reserves the right to reject any or all proposals, waive technicalities, and award the contract based on its determination of the City’s best interest.",
+    "snippet": "(c) The City of Alexander reserves the right to reject any or all proposals, to waive any informality in the proposal process, and to award the contract to the proposal deemed to be in the best interest of the City.",
+    "context": [
+      "(c) The City of Alexander reserves the right to reject any or all proposals, to waive any informality in the proposal process, and to award the contract to the proposal deemed to be in the best interest of the City."
+    ],
+    "chunks": [
+      2
+    ],
+    "RFP_id": "infra_3",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 382,
+    "question": "What is the primary objective of modernizing AFATDS to version 7.0?**",
+    "answer": "The objective is to modernize the backend architecture, integrate COE v3 common services, implement role-based functionality, and provide embedded training.",
+    "snippet": "This next generation version of AFATDS is referred to as AFATDS 7.0. [...] modernized backend AFATDS architecture; incorporates the common services provided by COE Version 3 (v3); implements role duty based functionality; and provides embedded computer based training.",
+    "context": [
+      "This next generation version of AFATDS is referred to as AFATDS 7.0.",
+      "modernized backend AFATDS architecture; incorporates the common services provided by COE Version 3 (v3); implements role duty based functionality; and provides embedded computer based training."
+    ],
+    "chunks": [
+      10
+    ],
+    "RFP_id": "natsec_2",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 292,
+    "question": "What documents must the Architect prepare during the Design Development Phase?**",
+    "answer": "The Architect must prepare Design Development Documents, including plans, sections, elevations, construction details, system layouts, site plans, floor plans with furniture/equipment, and outline specifications for materials and systems.",
+    "snippet": "Design Development Documents shall consist of drawings and other documents including plans, sections, elevations, typical construction details, and diagrammatic layouts of building systems... [and] outline specifications that identify major materials and systems and establish in general their quality levels.",
+    "context": [
+      "Design Development Documents shall consist of drawings and other documents including plans, sections, elevations, typical construction details, and diagrammatic layouts of building systems",
+      "[and] outline specifications that identify major materials and systems and establish in general their quality levels."
+    ],
+    "chunks": [
+      8
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 377,
+    "question": "What security clearance and training requirements apply to contractor personnel accessing Secret information under this contract?",
+    "answer": "Personnel requiring access to Secret information must hold at least an interim Secret clearance and complete annual TARP training.",
+    "snippet": "Those personnel requiring access to Secret information require at a minimum an interim Secret security clearance. Per AR 381-12 Threat Awareness and Reporting Program (TARP), contractor employees with security clearances must complete annual TARP training.",
+    "context": [
+      "Those personnel requiring access to Secret information require at a minimum an interim Secret security clearance. Per AR 381-12 Threat Awareness and Reporting Program (TARP), contractor employees with security clearances must complete annual TARP training."
+    ],
+    "chunks": [
+      9
+    ],
+    "RFP_id": "natsec_2",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 90,
+    "question": "What are the contractor’s obligations for concealed damage discovered after delivery?",
+    "answer": "The contractor must replace damaged or lost merchandise immediately or be in default. The receiving agency must report concealed damages to the contractor and carrier within seven days of receipt.",
+    "snippet": "Discovery of concealed damages or loss will be reported by the receiving agency to the carrier and the contractor within seven days of receipt... The contractor shall make immediate replacement of the damaged or lost merchandise or be in default of the contract.",
+    "context": [
+      "Discovery of concealed damages or loss will be reported by the receiving agency to the carrier and the contractor within seven days of receipt",
+      "The contractor shall make immediate replacement of the damaged or lost merchandise or be in default of the contract."
+    ],
+    "chunks": [
+      7
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 3,
+    "question": "What training is mandated annually for contractor employees with security clearances?**",
+    "answer": "Annual Threat Awareness and Reporting Program (TARP) training is required, with certifications submitted to the COR.",
+    "snippet": "Contractor employees with security clearances must complete annual TARP training... Certifications will be submitted to the COR on an annual basis.",
+    "context": [
+      "Contractor employees with security clearances must complete annual TARP training",
+      "Certifications will be submitted to the COR on an annual basis."
+    ],
+    "chunks": [
+      1
+    ],
+    "RFP_id": "natsec_3",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 348,
+    "question": "What are the reporting requirements for Contractor and subcontractor manpower?**",
+    "answer": "The Contractor will report ALL Contractor manpower (including subcontractor manpower) required for performance of this contract using the specified web address (https://cmra.army.mil) and provide the estimated total cost incurred for compliance. Reporting occurs annually by 31 October.",
+    "snippet": "c. The Contractor will report ALL Contractor manpower (including subcontractor manpower) required for performance of this contract. The Contractor is required to completely fill in all the information in the format using the following web address: https://cmra.army.mil. As part of its submission, the Contractor will also provide the estimated total cost (if any) incurred to comply with this reporting requirement. Reporting period will be the period of performance (POP) not to exceed 12 months ending 30 September of each Government fiscal year and must be reported by 31 October of each calendar year.",
+    "context": [
+      "c. The Contractor will report ALL Contractor manpower (including subcontractor manpower) required for performance of this contract. The Contractor is required to completely fill in all the information in the format using the following web address: https://cmra.army.mil. As part of its submission, the Contractor will also provide the estimated total cost (if any) incurred to comply with this reporting requirement. Reporting period will be the period of performance (POP) not to exceed 12 months ending 30 September of each Government fiscal year and must be reported by 31 October of each calendar year."
+    ],
+    "chunks": [
+      1
+    ],
+    "RFP_id": "natsec_2",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 246,
+    "question": "What are the default roles supported by AFATDS 7.0's role-based operating construct?**",
+    "answer": "AFATDS 7.0 supports four default roles: Fire Direction, Fire Control, Fire Support, and Universal.",
+    "snippet": "AFATDS 7.0 will support the following default roles of: − Fire Direction − Fire Control − Fire Support − Universal.",
+    "context": [
+      "AFATDS 7.0 will support the following default roles of: − Fire Direction − Fire Control − Fire Support − Universal."
+    ],
+    "chunks": [
+      8
+    ],
+    "RFP_id": "natsec_1",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 115,
+    "question": "Under what conditions does the contractor forfeit the flat fee bonus for Gates 1–3?**",
+    "answer": "The contractor forfeits the flat fee bonus if they do not successively pass Gates 1, 2, and 3. This does not affect their eligibility for the Final Gate fee.",
+    "snippet": "If the contractor does not successively pass Gates 1, 2, and 3 they forfeit their opportunity to earn the flat fee bonus. Forfeiting the flat fee bonus... does not impact the contractor’s ability to earn fee at the Final Gate.",
+    "context": [
+      "If the contractor does not successively pass Gates 1, 2, and 3 they forfeit their opportunity to earn the flat fee bonus. Forfeiting the flat fee bonus",
+      "does not impact the contractor’s ability to earn fee at the Final Gate."
+    ],
+    "chunks": [
+      3
+    ],
+    "RFP_id": "natsec_4",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 277,
+    "question": "How does the Agreement address the Owner’s use of Multiple Prime Contractors?**",
+    "answer": "If Multiple Prime Contractors are used, the term \"Contractor\" in the Agreement is treated as plural.",
+    "snippet": "§ 1.1.5 [X] Multiple Prime Contractors ('Contractors') ... (Note that, if Multiple Prime Contractors are used, the term 'Contractor' as referred to throughout this Agreement will be as if plural in number.)",
+    "context": [
+      "§ 1.1.5 [X] Multiple Prime Contractors ('Contractors')",
+      "(Note that, if Multiple Prime Contractors are used, the term 'Contractor' as referred to throughout this Agreement will be as if plural in number.)"
+    ],
+    "chunks": [
+      4
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 286,
+    "question": "How must the Owner be included in the Architect’s Commercial General Liability policy?",
+    "answer": "The Owner must be named as an Additional Insured using ISO forms CG 2010 07 04 and CG 2037 or equivalent, excluding Worker’s Compensation and Professional Liability policies.",
+    "snippet": "All coverage provided above shall be endorsed to include the Owner, as Additional Insured except for the Worker's Compensation/Employer's Liability and Professional Liability policies. ISO forms CG 2010 07 04 and CG 2037 or equivalent endorsement forms must be used...",
+    "context": [
+      "All coverage provided above shall be endorsed to include the Owner, as Additional Insured except for the Worker's Compensation/Employer's Liability and Professional Liability policies. ISO forms CG 2010 07 04 and CG 2037 or equivalent endorsement forms must be used"
+    ],
+    "chunks": [
+      6
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 98,
+    "question": "What certification is provided by signing the Proposal Signature Sheet?",
+    "answer": "The signature certifies compliance with the RFP requirements and confirms no collusion or antitrust violations occurred during proposal preparation.",
+    "snippet": "My signature certifies that the proposal as submitted complies with all requirements specified in this Request for Proposal... the Offeror did not, either directly or indirectly, enter into any combination or arrangement... in violation of the Sherman Act... or Sections 59.1-9.1 through 59.1-9.17... of the Code of Virginia.",
+    "context": [
+      "My signature certifies that the proposal as submitted complies with all requirements specified in this Request for Proposal",
+      "the Offeror did not, either directly or indirectly, enter into any combination or arrangement",
+      "in violation of the Sherman Act",
+      "or Sections 59.1-9.1 through 59.1-9.17",
+      "of the Code of Virginia."
+    ],
+    "chunks": [
+      9
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 212,
+    "question": "How long does the Government have to review and comment on submitted documents?**",
+    "answer": "The Government has 30 calendar days to review and provide comments after receipt.",
+    "snippet": "The Government shall review and provide comments within 30 calendar days of receipt of the document.",
+    "context": [
+      "The Government shall review and provide comments within 30 calendar days of receipt of the document."
+    ],
+    "chunks": [
+      5
+    ],
+    "RFP_id": "natsec_5",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 200,
+    "question": "Where should comments regarding the burden estimate for this contract data requirement be submitted?**",
+    "answer": "Comments must be sent to the Department of Defense (Washington Headquarters Services) and the Office of Management and Budget.",
+    "snippet": "Send comments regarding this burden estimate or any other aspect of this collection of information [...] to Department of Defense, Washington Headquarters Services [...] and to the Office of Management and Budget, Paperwork Reduction Project (0704-0188), Washington, DC 20503.",
+    "context": [
+      "Send comments regarding this burden estimate or any other aspect of this collection of information",
+      "to Department of Defense, Washington Headquarters Services",
+      "and to the Office of Management and Budget, Paperwork Reduction Project (0704-0188), Washington, DC 20503."
+    ],
+    "chunks": [
+      1
+    ],
+    "RFP_id": "natsec_5",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 386,
+    "question": "What must non-emergency/non-essential contractors do if a government facility is closed?",
+    "answer": "Non-emergency/non-essential contractors should not report to a closed government facility.",
+    "snippet": "Non-emergency/non-essential contractors should not report to a closed government facility.",
+    "context": [
+      "Non-emergency/non-essential contractors should not report to a closed government facility."
+    ],
+    "chunks": [
+      11
+    ],
+    "RFP_id": "natsec_2",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 360,
+    "question": "How are vulnerabilities documented if found during security control assessments?",
+    "answer": "Vulnerabilities are recorded as Not Compliant (NC) in the Plan of Action and Milestones (POA&M) with explanations and assigned severity values.",
+    "snippet": "If vulnerabilities are found, the control is recorded as Not Compliant (NC) in the Plan of Action and Milestones (POA&M), with sufficient explanation. Vulnerability severity values are assigned to all NC controls by the SCA as part of the security control analysis.",
+    "context": [
+      "If vulnerabilities are found, the control is recorded as Not Compliant (NC) in the Plan of Action and Milestones (POA&M), with sufficient explanation. Vulnerability severity values are assigned to all NC controls by the SCA as part of the security control analysis."
+    ],
+    "chunks": [
+      5
+    ],
+    "RFP_id": "natsec_2",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 384,
+    "question": "What deliverables are required for Subtask 6.1.2 (Task Order Management)?**",
+    "answer": "The deliverables are the Task Order Management Plan and a Monthly Status Report.",
+    "snippet": "Deliverables: Task Order Management Plan (Example) Monthly Status Report.",
+    "context": [
+      "Deliverables: Task Order Management Plan (Example) Monthly Status Report."
+    ],
+    "chunks": [
+      10
+    ],
+    "RFP_id": "natsec_2",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 202,
+    "question": "How must the System/Subsystem Design Document (SSDD) for AFATDS 7.0 reflect requirements allocation?**",
+    "answer": "The SSDD must show full bi-directional traceability between requirements and physical processes and reflect relationships between physical processes and logical components.",
+    "snippet": "The SSDD shall reflect the allocation of requirements to the physical processes that comprise the software and full bi-directional traceability. Relationship between the physical processes and logical components shall also be reflected.",
+    "context": [
+      "The SSDD shall reflect the allocation of requirements to the physical processes that comprise the software and full bi-directional traceability. Relationship between the physical processes and logical components shall also be reflected."
+    ],
+    "chunks": [
+      1
+    ],
+    "RFP_id": "natsec_5",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 205,
+    "question": "What platforms should be used for PM MC submissions and what notification is required?**",
+    "answer": "Submissions must be posted to DI2E and IDE, with email notification to the Contracting Officer’s Representative.",
+    "snippet": "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative.",
+    "context": [
+      "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative."
+    ],
+    "chunks": [
+      3
+    ],
+    "RFP_id": "natsec_5",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 344,
+    "question": "What obligations does the Architect have regarding changes to their designated representative(s)?",
+    "answer": "The Architect must immediately notify the Owner in writing of any proposed change, and the Owner may withhold consent. The Architect must ensure no negative impact on services and cannot charge the Owner for related costs unless pre-approved.",
+    "snippet": "If the Architect contemplates any changes in the representative(s), the Architect shall immediately provide written notice to the Owner of any proposed change. The Owner shall have the right to withhold consent... The Architect shall ensure that the change in representative shall not have any negative impact on the Architect's Services... [and] will not charge Owner for any cost... unless Owner has already agreed to pay.",
+    "context": [
+      "If the Architect contemplates any changes in the representative(s), the Architect shall immediately provide written notice to the Owner of any proposed change. The Owner shall have the right to withhold consent",
+      "The Architect shall ensure that the change in representative shall not have any negative impact on the Architect's Services",
+      "[and] will not charge Owner for any cost",
+      "unless Owner has already agreed to pay."
+    ],
+    "chunks": [
+      22
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 207,
+    "question": "What is the estimated public reporting burden and where should comments about it be sent?**",
+    "answer": "The burden is estimated at 110 hours per response. Comments must be sent to the Department of Defense and the Office of Management and Budget.",
+    "snippet": "Public reporting burden [...] is estimated to average 110 hours per response [...] Sent comments [...] to Department of Defense [...] and to the Office of Management and Budget, Paperwork Reduction Project (0704-0188), Washington, DC 20503.",
+    "context": [
+      "Public reporting burden",
+      "is estimated to average 110 hours per response",
+      "Sent comments",
+      "to Department of Defense",
+      "and to the Office of Management and Budget, Paperwork Reduction Project (0704-0188), Washington, DC 20503."
+    ],
+    "chunks": [
+      3
+    ],
+    "RFP_id": "natsec_5",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 21,
+    "question": "How long must contractors preserve forensic data after reporting a cyber incident?",
+    "answer": "Contractors must preserve images of affected systems and monitoring data for at least 90 days after submitting the cyber incident report.",
+    "snippet": "preserve and protect images of all known affected information systems... for at least 90 days from the submission of the cyber incident report.",
+    "context": [
+      "preserve and protect images of all known affected information systems",
+      "for at least 90 days from the submission of the cyber incident report."
+    ],
+    "chunks": [
+      6
+    ],
+    "RFP_id": "natsec_3",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 226,
+    "question": "Which DFARS clauses govern data rights for non-commercial software under CLIN 0001?",
+    "answer": "DFARS 252.227-7013 and DFARS 252.227-7014 govern data rights, requiring the contractor to provide Unlimited Rights to the Government.",
+    "snippet": "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014.",
+    "context": [
+      "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014."
+    ],
+    "chunks": [
+      1
+    ],
+    "RFP_id": "natsec_1",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 106,
+    "question": "What is the maximum allowable duration of the contract, including extensions under the Option to Extend the Term?",
+    "answer": "The total duration of the contract, including the exercise of any options under the Option to Extend the Term clause, shall not exceed 60 months.",
+    "snippet": "The total duration of this contract, including the exercise of any options under this clause, shall not exceed 60 months.",
+    "context": [
+      "The total duration of this contract, including the exercise of any options under this clause, shall not exceed 60 months."
+    ],
+    "chunks": [
+      1
+    ],
+    "RFP_id": "natsec_4",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 269,
+    "question": "What staff qualifications must respondents include in their proposal?**",
+    "answer": "Resumes of key personnel, their roles, and relevant experience must be submitted.",
+    "snippet": "Staff qualifications: submit resumes showing relevant experience of key personnel [...] Specify the role of each key staff member in the project.",
+    "context": [
+      "Staff qualifications: submit resumes showing relevant experience of key personnel",
+      "Specify the role of each key staff member in the project."
+    ],
+    "chunks": [
+      2
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 198,
+    "question": "Is a detailed cost estimate still required even if locally purchased materials are listed?",
+    "answer": "Yes, a detailed cost estimate is mandatory separately from the locally purchased materials list.",
+    "snippet": "A detailed cost estimate is still required outside of this locally purchased material list.",
+    "context": [
+      "A detailed cost estimate is still required outside of this locally purchased material list."
+    ],
+    "chunks": [
+      4
+    ],
+    "RFP_id": "infra_3",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 30,
+    "question": "Which clauses address compliance with labor and anti-discrimination requirements?",
+    "answer": "Clauses such as 52.222-26 (Equal Opportunity) and 52.222-50 (Combating Trafficking in Persons) are incorporated.",
+    "snippet": "52.222-26 Equal Opportunity APR 2015 [...] 52.222-50 Combating Trafficking in Persons MAR 2015.",
+    "context": [
+      "52.222-26 Equal Opportunity APR 2015",
+      "52.222-50 Combating Trafficking in Persons MAR 2015."
+    ],
+    "chunks": [
+      8
+    ],
+    "RFP_id": "natsec_3",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 251,
+    "question": "What publication defines security and privacy controls for federal information systems?",
+    "answer": "NIST SP 800-53 Rev. 4 specifies these controls.",
+    "snippet": "cc. National Institute of Standards and Technology Special Publication 800-53, Revision 4, Security and Privacy Controls... April 2013",
+    "context": [
+      "cc. National Institute of Standards and Technology Special Publication 800-53, Revision 4, Security and Privacy Controls",
+      "April 2013"
+    ],
+    "chunks": [
+      9
+    ],
+    "RFP_id": "natsec_1",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 136,
+    "question": "What licensing requirement must the Construction Manager meet for the Project?**",
+    "answer": "The Construction Manager must hold a Construction Manager’s license (or applicable license) valid for the State of Wisconsin.",
+    "snippet": "The Construction Manager will be required to hold a Construction Manager’s license (or applicable license) valid for the State of Wisconsin.",
+    "context": [
+      "The Construction Manager will be required to hold a Construction Manager’s license (or applicable license) valid for the State of Wisconsin."
+    ],
+    "chunks": [
+      2
+    ],
+    "RFP_id": "infra_2",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 376,
+    "question": "What is the highest security classification level required for this contract?**",
+    "answer": "The highest security classification level for this effort is SECRET.",
+    "snippet": "The highest level of security for this effort is SECRET.",
+    "context": [
+      "The highest level of security for this effort is SECRET."
+    ],
+    "chunks": [
+      8
+    ],
+    "RFP_id": "natsec_2",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 159,
+    "question": "What is the basis for contract award under Section M of the solicitation?**",
+    "answer": "The contract will be awarded using a best value trade-off source selection process per FAR 15.3.",
+    "snippet": "This is a best value trade-off source selection conducted in accordance with FAR 15.3, Source Selection... The Government will select the best overall offeror, based on integrated assessment of the evaluation factors and subfactors.",
+    "context": [
+      "This is a best value trade-off source selection conducted in accordance with FAR 15.3, Source Selection",
+      "The Government will select the best overall offeror, based on integrated assessment of the evaluation factors and subfactors."
+    ],
+    "chunks": [
+      4
+    ],
+    "RFP_id": "natsec_8",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 24,
+    "question": "Does the safeguarding and cyber incident reporting clause override other contractual or regulatory obligations?**",
+    "answer": "No, the clause does not abrogate the Contractor’s responsibility for other safeguarding or cyber incident reporting requirements under the contract or other U.S. laws.",
+    "snippet": "The safeguarding and cyber incident reporting required by this clause in no way abrogates the Contractor’s responsibility for other safeguarding or cyber incident reporting [...] required by other applicable clauses of this contract, or as a result of other applicable U.S. Government statutory or regulatory requirements.",
+    "context": [
+      "The safeguarding and cyber incident reporting required by this clause in no way abrogates the Contractor’s responsibility for other safeguarding or cyber incident reporting",
+      "required by other applicable clauses of this contract, or as a result of other applicable U.S. Government statutory or regulatory requirements."
+    ],
+    "chunks": [
+      7
+    ],
+    "RFP_id": "natsec_3",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 329,
+    "question": "What is the Architect’s responsibility regarding hazardous materials at the Project site?**",
+    "answer": "The Architect has no responsibility for hazardous materials unless explicitly required by the Agreement.",
+    "snippet": "§ 10.6 Unless otherwise required in this Agreement, the Architect shall have no responsibility for the discovery, presence, handling, removal or disposal of, or exposure of persons to, hazardous materials or toxic substances in any form at the Project site.",
+    "context": [
+      "§ 10.6 Unless otherwise required in this Agreement, the Architect shall have no responsibility for the discovery, presence, handling, removal or disposal of, or exposure of persons to, hazardous materials or toxic substances in any form at the Project site."
+    ],
+    "chunks": [
+      18
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 52,
+    "question": "Where can offerors find the sample consent letter format for subcontractors/teaming partners?**",
+    "answer": "The sample consent letter is provided in HC1028-16-R-0005, Section L, Attachment L-4.",
+    "snippet": "A sample consent letter is provided at HC1028-16-R-0005, Section L, Attachment L-4.",
+    "context": [
+      "A sample consent letter is provided at HC1028-16-R-0005, Section L, Attachment L-4."
+    ],
+    "chunks": [
+      7
+    ],
+    "RFP_id": "natsec_7",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 214,
+    "question": "Where must submissions for PM MC be posted, and what notification is required?**",
+    "answer": "Submissions must be posted to IDE/DI2E with email notification to the Contracting Officer’s Representative.",
+    "snippet": "Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative.",
+    "context": [
+      "Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative."
+    ],
+    "chunks": [
+      5
+    ],
+    "RFP_id": "natsec_5",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 45,
+    "question": "What are the technical objectives of the AFATDS 7.0 Modernization?",
+    "answer": "The modernization aims to transition to net-centric military operations, leverage web-based networks, and enhance operator usability.",
+    "snippet": "The modernization of the AFATDS baseline will satisfy the technical requirements for a transition to net-centric military operations, take advantage of web-based networks to exploit fires capabilities, and support the execution of joint critical operations. [...] provide the operator an easier, more intuitive capability and feature embedded training [...] modernize the backend AFATDS architecture; incorporate the common services provided by Common Operating Environment v3; implement role duty based functionality; and provide embedded computer based training.",
+    "context": [
+      "The modernization of the AFATDS baseline will satisfy the technical requirements for a transition to net-centric military operations, take advantage of web-based networks to exploit fires capabilities, and support the execution of joint critical operations.",
+      "provide the operator an easier, more intuitive capability and feature embedded training",
+      "modernize the backend AFATDS architecture; incorporate the common services provided by Common Operating Environment v3; implement role duty based functionality; and provide embedded computer based training."
+    ],
+    "chunks": [
+      4
+    ],
+    "RFP_id": "natsec_7",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 11,
+    "question": "What methods are permitted for submitting documents in WAWF?**",
+    "answer": "Documents may be submitted via Web entry, Electronic Data Interchange (EDI), or File Transfer Protocol (FTP).",
+    "snippet": "(e) WAWF methods of document submission. Document submissions may be via Web entry, Electronic Data Interchange, or File Transfer Protocol.",
+    "context": [
+      "(e) WAWF methods of document submission. Document submissions may be via Web entry, Electronic Data Interchange, or File Transfer Protocol."
+    ],
+    "chunks": [
+      3
+    ],
+    "RFP_id": "natsec_3",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 356,
+    "question": "What guidelines must NET training products and IMI courseware follow for Government acceptance?",
+    "answer": "All NET training products and IMI courseware must be validated in accordance with TRADOC Regulation 350-70-10.",
+    "snippet": "Prior to Government acceptance, all NET training products and IMI courseware will be validated in accordance with guidelines specified in TRADOC Regulation 350-70-10.",
+    "context": [
+      "Prior to Government acceptance, all NET training products and IMI courseware will be validated in accordance with guidelines specified in TRADOC Regulation 350-70-10."
+    ],
+    "chunks": [
+      4
+    ],
+    "RFP_id": "natsec_2",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 73,
+    "question": "Who is responsible for advertising costs to obtain contractor bids?**",
+    "answer": "The County pays for newspaper advertising, while the Engineer covers costs for distributing plans to Dodge Report, Builder’s Exchange, and AGC.",
+    "snippet": "Cost of advertising in newspaper will be paid by the County... The Engineer shall advertise for bids in local newspaper and furnish plans... at the Engineer's sole expense to Dodge Report, Builder’s Exchange, and The Association of General Contractors.",
+    "context": [
+      "Cost of advertising in newspaper will be paid by the County",
+      "The Engineer shall advertise for bids in local newspaper and furnish plans",
+      "at the Engineer's sole expense to Dodge Report, Builder’s Exchange, and The Association of General Contractors."
+    ],
+    "chunks": [
+      3
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 125,
+    "question": "What is the Contractor's delivery timeline after contract award for Blocks 10-13?",
+    "answer": "The Contractor shall deliver 90 calendar days after award of contract. The Contractor shall deliver 30 calendar days prior to contract expiration.",
+    "snippet": "Block 10, 11, 12 & 13: The Contractor shall deliver 90 calendar days after award of contract... The Contractor shall deliver 30 calendar days prior to contract expiration.",
+    "context": [
+      "Block 10, 11, 12 & 13: The Contractor shall deliver 90 calendar days after award of contract",
+      "The Contractor shall deliver 30 calendar days prior to contract expiration."
+    ],
+    "chunks": [
+      9
+    ],
+    "RFP_id": "natsec_4",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 153,
+    "question": "What is required for the government to disclose subcontractor past performance information to a prime contractor?",
+    "answer": "The government requires written consent from the subcontractor/teaming partner.",
+    "snippet": "Past performance information concerning subcontractors and teaming partners cannot be disclosed to a private party without the subcontractor’s or teaming partner’s consent. Because a prime contractor is a private party, the Government will need that consent before disclosing subcontractor/teaming partner past and present performance information to the prime contractor during exchanges.",
+    "context": [
+      "Past performance information concerning subcontractors and teaming partners cannot be disclosed to a private party without the subcontractor’s or teaming partner’s consent. Because a prime contractor is a private party, the Government will need that consent before disclosing subcontractor/teaming partner past and present performance information to the prime contractor during exchanges."
+    ],
+    "chunks": [
+      3
+    ],
+    "RFP_id": "natsec_8",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 154,
+    "question": "What must subcontractors/teaming partners include in their proposal to facilitate past performance evaluations?",
+    "answer": "Completed consent letters authorizing the government to share their performance information with the prime contractor.",
+    "snippet": "In an effort to assist the Government’s Past Performance Evaluation Team... we request that the following consent letter be completed by the major subcontractors/teaming partners identified in your proposal. The completed consent letters should be submitted as part of your Present/Past Performance Volume.",
+    "context": [
+      "In an effort to assist the Government’s Past Performance Evaluation Team",
+      "we request that the following consent letter be completed by the major subcontractors/teaming partners identified in your proposal. The completed consent letters should be submitted as part of your Present/Past Performance Volume."
+    ],
+    "chunks": [
+      3
+    ],
+    "RFP_id": "natsec_8",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 279,
+    "question": "What consultants must the Architect retain under Basic Services according to Section 1.1.12.1?**",
+    "answer": "The Architect must retain consultants for Associate Architect and Interior Design, Civil Engineer, Landscape Architect, Structural Engineer, Mechanical and Technology Design, Plumbing and Electrical Design, Educational Programming, and Food Service Design.",
+    "snippet": ".1 Associate Architect and Interior Design: .2 Civil Engineer: .3 Landscape Architect: .4 Structural Engineer: .5 Mechanical and Technology Design: .6 Plumbing and Electrical Design: .7 Educational Programming: [...] .8 Food Service Design: § 1.1.12.1 Consultants retained under Basic Services.",
+    "context": [
+      ".1 Associate Architect and Interior Design: .2 Civil Engineer: .3 Landscape Architect: .4 Structural Engineer: .5 Mechanical and Technology Design: .6 Plumbing and Electrical Design: .7 Educational Programming:",
+      ".8 Food Service Design: § 1.1.12.1 Consultants retained under Basic Services."
+    ],
+    "chunks": [
+      5
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 320,
+    "question": "What happens to the license granted in Section 7.3 if the Architect terminates the Agreement for cause?**",
+    "answer": "The license terminates if the Architect rightfully terminates the Agreement for cause.",
+    "snippet": "If the Architect rightfully terminates this Agreement for cause as provided in Section 9.4, the license granted in this Section 7.3 shall terminate.",
+    "context": [
+      "If the Architect rightfully terminates this Agreement for cause as provided in Section 9.4, the license granted in this Section 7.3 shall terminate."
+    ],
+    "chunks": [
+      15
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 50,
+    "question": "How are pages counted if printed on both sides of a sheet?**",
+    "answer": "Each side of a sheet is counted as a separate page.",
+    "snippet": "A page is defined as each face of a sheet of paper containing information. When both sides of a sheet display printed material, it shall be counted as two pages.",
+    "context": [
+      "A page is defined as each face of a sheet of paper containing information. When both sides of a sheet display printed material, it shall be counted as two pages."
+    ],
+    "chunks": [
+      5
+    ],
+    "RFP_id": "natsec_7",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 261,
+    "question": "Where must submissions for PM MC be posted, and what notification is required?**",
+    "answer": "Submissions must be posted to IDE with email notification to the Contracting Officer’s Representative.",
+    "snippet": "Block 14: Submissions for PM MC shall be posted to IDE with email notification to the Contracting Officer’s Representative.",
+    "context": [
+      "Block 14: Submissions for PM MC shall be posted to IDE with email notification to the Contracting Officer’s Representative."
+    ],
+    "chunks": [
+      6
+    ],
+    "RFP_id": "natsec_6",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 168,
+    "question": "Under what circumstances is an \"Unknown Confidence\" rating assigned for past performance?**",
+    "answer": "It is assigned when no relevant past performance data exists or the record is too sparse for assessment.",
+    "snippet": "Offerors without a record of relevant past performance... will receive an 'Unknown Confidence' rating.",
+    "context": [
+      "Offerors without a record of relevant past performance",
+      "will receive an 'Unknown Confidence' rating."
+    ],
+    "chunks": [
+      7
+    ],
+    "RFP_id": "natsec_8",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 341,
+    "question": "What expenses qualify as Reimbursable Expenses under §11.8.1?",
+    "answer": "Reimbursable Expenses include transportation, long-distance services, fees for approvals, printing, postage, authorized overtime, renderings, insurance, taxes, site office costs, and similar project-related expenditures.",
+    "snippet": "Reimbursable Expenses... include expenses incurred by the Architect and the Architect’s consultants directly related to the Project, as follows: .1 Transportation and authorized out-of-town travel and subsistence; .2 Long distance services... .3 Fees paid for securing approval of authorities... .4 Printing, reproductions... .5 Postage... .6 Expense of overtime work... .7 Renderings... .8 Architect's Consultant's expense of professional liability insurance... .9 All taxes... .10 Site office expenses; and .11 Other similar Project-related expenditures.",
+    "context": [
+      "Reimbursable Expenses",
+      "include expenses incurred by the Architect and the Architect’s consultants directly related to the Project, as follows: .1 Transportation and authorized out-of-town travel and subsistence; .2 Long distance services",
+      ".3 Fees paid for securing approval of authorities",
+      ".4 Printing, reproductions",
+      ".5 Postage",
+      ".6 Expense of overtime work",
+      ".7 Renderings",
+      ".8 Architect's Consultant's expense of professional liability insurance",
+      ".9 All taxes",
+      ".10 Site office expenses; and .11 Other similar Project-related expenditures."
+    ],
+    "chunks": [
+      21
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 370,
+    "question": "What is the scope of regression testing required under Task 14?**",
+    "answer": "Regression testing must verify that prior capabilities function correctly, analyze new requirements and interfaces, and ensure no errors are introduced into previously working components.",
+    "snippet": "The Contractor will design and execute regression testing to verify that prior existing capability still function as required. The Contractor will conduct an analysis of the new requirements, anticipated interfaces, and other interoperability aspects to determine test modifications and scope of regression test threads.",
+    "context": [
+      "The Contractor will design and execute regression testing to verify that prior existing capability still function as required. The Contractor will conduct an analysis of the new requirements, anticipated interfaces, and other interoperability aspects to determine test modifications and scope of regression test threads."
+    ],
+    "chunks": [
+      7
+    ],
+    "RFP_id": "natsec_2",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 65,
+    "question": "What technical compliance standards must the selected engineering firm adhere to?**",
+    "answer": "The firm must comply with all applicable regulations, laws, ordinances, and requirements of governmental agencies, including design criteria and environmental impact standards.",
+    "snippet": "The Engineer will comply with the regulations, laws, ordinances, and requirements of all governmental agencies and authorities that have jurisdiction over design criteria and environmental impact applicable to services provided to the County.",
+    "context": [
+      "The Engineer will comply with the regulations, laws, ordinances, and requirements of all governmental agencies and authorities that have jurisdiction over design criteria and environmental impact applicable to services provided to the County."
+    ],
+    "chunks": [
+      1
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 118,
+    "question": "What unit of measurement must be used in Format 4 for staffing projections?",
+    "answer": "The reportable unit must be \"equivalent months.\"",
+    "snippet": "(3) The reportable unit in Format 4 shall be in 'equivalent months’.",
+    "context": [
+      "(3) The reportable unit in Format 4 shall be in 'equivalent months’."
+    ],
+    "chunks": [
+      6
+    ],
+    "RFP_id": "natsec_4",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 228,
+    "question": "What type of funding structure applies to CLIN 0001?",
+    "answer": "CLIN 0001 is a Cost Plus Incentive Fee (CPIF) CLIN with incremental funding.",
+    "snippet": "This is a Cost Plus Incentive Fee CLIN. [...] This CLIN is incrementally funded.",
+    "context": [
+      "This is a Cost Plus Incentive Fee CLIN.",
+      "This CLIN is incrementally funded."
+    ],
+    "chunks": [
+      1
+    ],
+    "RFP_id": "natsec_1",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 254,
+    "question": "What must the enumeration of potential suppliers include?**",
+    "answer": "The enumeration must include cost, schedule, performance information, and plans for risk management collaboration with the government.",
+    "snippet": "The enumeration of potential suppliers shall include cost, schedule and performance information relevant for choice among alternates and planned selection for the purpose of engaging with the government to develop mutually-agreeable risk management plans.",
+    "context": [
+      "The enumeration of potential suppliers shall include cost, schedule and performance information relevant for choice among alternates and planned selection for the purpose of engaging with the government to develop mutually-agreeable risk management plans."
+    ],
+    "chunks": [
+      5
+    ],
+    "RFP_id": "natsec_6",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 258,
+    "question": "How long does the Government have to review and comment on submitted documents?**",
+    "answer": "The Government must review and provide comments within 30 calendar days of receipt.",
+    "snippet": "The Government shall review and provide comments within 30 calendar days of receipt of the document.",
+    "context": [
+      "The Government shall review and provide comments within 30 calendar days of receipt of the document."
+    ],
+    "chunks": [
+      6
+    ],
+    "RFP_id": "natsec_6",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 74,
+    "question": "What documentation must the Engineer submit during construction?**",
+    "answer": "Monthly progress reports must be submitted to the Director of Public Works/Utilities.",
+    "snippet": "Monthly progress reports on the construction shall be submitted to the Director of Public Works/Utilities.",
+    "context": [
+      "Monthly progress reports on the construction shall be submitted to the Director of Public Works/Utilities."
+    ],
+    "chunks": [
+      3
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 92,
+    "question": "What are the consequences of contractor default under the termination for default clause?",
+    "answer": "The County may procure goods/services from other sources and hold the contractor liable for additional costs. The contractor may also be barred from future bidding until repayment occurs.",
+    "snippet": "The County may procure the articles or services from other sources and hold the defaulting contractor responsible for any resulting additional purchase and administrative costs... When repayment is requested, the contractor will be removed from future bidding until the repayment has occurred.",
+    "context": [
+      "The County may procure the articles or services from other sources and hold the defaulting contractor responsible for any resulting additional purchase and administrative costs",
+      "When repayment is requested, the contractor will be removed from future bidding until the repayment has occurred."
+    ],
+    "chunks": [
+      7
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 12,
+    "question": "What information must the Contractor enter into WAWF’s Routing Data Table?**",
+    "answer": "The Contractor must use the Routing Data Table to fill in applicable fields in WAWF, including DoDAAC information specified by the contracting officer.",
+    "snippet": "(3) Document routing. The Contractor shall use the information in the Routing Data Table below only to fill in applicable fields in WAWF when creating payment requests and receiving reports in the system.",
+    "context": [
+      "(3) Document routing. The Contractor shall use the information in the Routing Data Table below only to fill in applicable fields in WAWF when creating payment requests and receiving reports in the system."
+    ],
+    "chunks": [
+      3
+    ],
+    "RFP_id": "natsec_3",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 63,
+    "question": "What is the deadline and submission method for proposals in response to RFP #2020-05-21?**",
+    "answer": "Proposals must be submitted by 2:00 p.m. on Friday, October 23, 2020, either in person, via special courier, or by U.S. Postal Service. The submittal must include the original proposal and five copies in a sealed, opaque envelope marked with the RFP number, title, date, and time.",
+    "snippet": "The submittal, consisting of the original proposal and five (5) additional copies marked, 'Proposal for Engineering Services,' will be received no later than 2:00 p.m., Friday, October 23, 2020, by: IN PERSON OR SPECIAL COURIER U.S. POSTAL SERVICE [...] Proposals shall be placed in a sealed, opaque envelope, marked in the lower left-hand corner with the R.F.P. number, title, and date, and hour proposals are scheduled to be received.",
+    "context": [
+      "The submittal, consisting of the original proposal and five (5) additional copies marked, 'Proposal for Engineering Services,' will be received no later than 2:00 p.m., Friday, October 23, 2020, by: IN PERSON OR SPECIAL COURIER U.S. POSTAL SERVICE",
+      "Proposals shall be placed in a sealed, opaque envelope, marked in the lower left-hand corner with the R.F.P. number, title, and date, and hour proposals are scheduled to be received."
+    ],
+    "chunks": [
+      1
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 209,
+    "question": "What metrics must be included in the Software Metrics Report?**",
+    "answer": "The report must include Software Developmental Progress, Build Progress, Fault Profile, and Breadth of Testing, illustrated graphically using DA Pamphlet 73-7 for data elements and chart layouts.",
+    "snippet": "All metrics shall be illustrated graphically using DA Pamphlet 73-7 as a guide for data elements and chart layouts. The following metrics shall be collected and reported: Software Developmental Progress; Build Progress; Fault Profile; and Breadth of Testing.",
+    "context": [
+      "All metrics shall be illustrated graphically using DA Pamphlet 73-7 as a guide for data elements and chart layouts. The following metrics shall be collected and reported: Software Developmental Progress; Build Progress; Fault Profile; and Breadth of Testing."
+    ],
+    "chunks": [
+      4
+    ],
+    "RFP_id": "natsec_5",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 191,
+    "question": "What bond amount is required for bid security, and what are the exceptions?",
+    "answer": "A Bid Security equal to 5% of the bid price (not exceeding $10,000) is required, except for bids under $10,000.",
+    "snippet": "Bid Bond: Bids shall be accompanied by a Bid Security equal to 5% of the bid price, but no more than $10,000.00. No Bid Security is required on bids less than $10,000.00.",
+    "context": [
+      "Bid Bond: Bids shall be accompanied by a Bid Security equal to 5% of the bid price, but no more than $10,000.00. No Bid Security is required on bids less than $10,000.00."
+    ],
+    "chunks": [
+      3
+    ],
+    "RFP_id": "infra_3",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 241,
+    "question": "What must the Contractor’s Configuration Management (CM) program ensure for AFATDS 7.0?",
+    "answer": "The CM program must ensure consistency of the product’s performance, functionality, and attributes with its requirements, and maintain control of all architectures, requirements, specifications, and documentation.",
+    "snippet": "e. The Contractor will maintain a Configuration Management (CM) program visible on DI2E. The CM program will establish and maintain consistency of the product’s performance, functionality, and attributes with respect to its requirements. The CM program will establish and maintain control of all architectures, requirements, specifications, designs, drawings, interfaces, software, hardware, firmware, operational information, and documentation for the project.",
+    "context": [
+      "e. The Contractor will maintain a Configuration Management (CM) program visible on DI2E. The CM program will establish and maintain consistency of the product’s performance, functionality, and attributes with respect to its requirements. The CM program will establish and maintain control of all architectures, requirements, specifications, designs, drawings, interfaces, software, hardware, firmware, operational information, and documentation for the project."
+    ],
+    "chunks": [
+      6
+    ],
+    "RFP_id": "natsec_1",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 99,
+    "question": "What defines a \"Small Business\" under the RFP’s terms?",
+    "answer": "A Small Business must have ≤250 employees or ≤$10M annual gross receipts (averaged over three years) and be independently owned/controlled by U.S. citizens or legal resident aliens.",
+    "snippet": "Small business' means a business... has 250 or fewer employees, or annual gross receipts of $10 million or less... owned and controlled by one or more individuals who are U.S. citizens or legal resident aliens.",
+    "context": [
+      "Small business' means a business",
+      "has 250 or fewer employees, or annual gross receipts of $10 million or less",
+      "owned and controlled by one or more individuals who are U.S. citizens or legal resident aliens."
+    ],
+    "chunks": [
+      9
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 218,
+    "question": "How frequently must the Government Furnished Equipment (GFE) Status Report be submitted after the initial delivery?**",
+    "answer": "The GFE Status Report must be submitted semi-annually (twice a year) after the initial delivery, with a final submission 60 days before contract expiration.",
+    "snippet": "The Contractor shall deliver semi-annually (twice a year) thereafter. Final submission shall be no later than 60 calendar days prior to contract expiration.",
+    "context": [
+      "The Contractor shall deliver semi-annually (twice a year) thereafter. Final submission shall be no later than 60 calendar days prior to contract expiration."
+    ],
+    "chunks": [
+      6
+    ],
+    "RFP_id": "natsec_5",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 155,
+    "question": "What defines \"Exceptional (E)\" performance in the contractor evaluation?",
+    "answer": "Performance that meets contractual requirements, exceeds many to the government’s benefit, and resolves minor issues with highly effective corrective actions.",
+    "snippet": "EXCEPTIONAL (E)... contractor performance meets or met contractual requirements and exceeds or exceeded many to the Government's benefit. The contractual performance... was accomplished with few minor problems for which corrective actions taken by the contractor were highly effective.",
+    "context": [
+      "EXCEPTIONAL (E)",
+      "contractor performance meets or met contractual requirements and exceeds or exceeded many to the Government's benefit. The contractual performance",
+      "was accomplished with few minor problems for which corrective actions taken by the contractor were highly effective."
+    ],
+    "chunks": [
+      3
+    ],
+    "RFP_id": "natsec_8",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 192,
+    "question": "What is the deadline for project completion?",
+    "answer": "The project must be completed by September 30th, 2025.",
+    "snippet": "Proposed project timeline. Must be completed by September 30th, 2025.",
+    "context": [
+      "Proposed project timeline. Must be completed by September 30th, 2025."
+    ],
+    "chunks": [
+      3
+    ],
+    "RFP_id": "infra_3",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 297,
+    "question": "What is the Architect's responsibility regarding non-conforming Work under §3.6.2.2?**",
+    "answer": "The Architect has the authority to reject Work that does not conform to the Contract Documents and must notify the Construction Manager about the rejection.",
+    "snippet": "The Architect has the authority to reject Work that does not conform to the Contract Documents and shall notify the Construction Manager about the rejection.",
+    "context": [
+      "The Architect has the authority to reject Work that does not conform to the Contract Documents and shall notify the Construction Manager about the rejection."
+    ],
+    "chunks": [
+      10
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 66,
+    "question": "What types of services fall under the \"Basic Services of Engineer\" scope?**",
+    "answer": "Services include civil, electrical, environmental, mechanical, and structural engineering; surveying; architectural services; groundwater monitoring; landfill gas extraction system maintenance; and environmental compliance.",
+    "snippet": "The selected firm(s) shall perform Professional Engineering Services [...] including, but not limited to: civil, electrical, environmental, mechanical and structural Engineering Services; surveying and architectural services [...] groundwater and landfill gas extraction systems and flare, and required periodic monitoring and maintenance.",
+    "context": [
+      "The selected firm(s) shall perform Professional Engineering Services",
+      "including, but not limited to: civil, electrical, environmental, mechanical and structural Engineering Services; surveying and architectural services",
+      "groundwater and landfill gas extraction systems and flare, and required periodic monitoring and maintenance."
+    ],
+    "chunks": [
+      1
+    ],
+    "RFP_id": "infra_1",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 300,
+    "question": "Under what conditions can the Architect require additional inspections or testing of the Work?**",
+    "answer": "The Architect can require inspections or testing of the Work upon written authorization from the Owner and notification to the Construction Manager, if necessary to implement the intent of the Contract Documents.",
+    "snippet": "Upon written authorization from the Owner and notification to the Construction Manager, [the Architect] shall have the authority to require inspection or testing of the Work in accordance with the provisions of the Contract Documents.",
+    "context": [
+      "Upon written authorization from the Owner and notification to the Construction Manager, [the Architect] shall have the authority to require inspection or testing of the Work in accordance with the provisions of the Contract Documents."
+    ],
+    "chunks": [
+      10
+    ],
+    "RFP_id": "infra_4",
+    "RFP_type": "infra",
+    "manually_edited": false
+  },
+  {
+    "question_id": 62,
+    "question": "What is required regarding the CAS Disclosure Statement (6.3.9)?**",
+    "answer": "The offeror must disclose the current status of their CAS Disclosure Statement and explain any inadequacies or non-compliances.",
+    "snippet": "The offeror shall provide current status of its CAS Disclosure Statement and explain any inadequacies or non-compliances.",
+    "context": [
+      "The offeror shall provide current status of its CAS Disclosure Statement and explain any inadequacies or non-compliances."
+    ],
+    "chunks": [
+      9
+    ],
+    "RFP_id": "natsec_7",
+    "RFP_type": "natsec",
+    "manually_edited": false
+  },
+  {
+    "question_id": 139,
+    "question": "What triggers the commencement of the Construction Phase?",
+    "answer": "The Construction Phase begins upon the execution of the Guaranteed Maximum Price Amendment or the Owner’s issuance of a Notice to Proceed, whichever occurs earlier.",
+    "snippet": "The Construction Phase shall commence upon the execution of the Guaranteed Maximum Price Amendment or the Owner’s issuance of a Notice to Proceed, whichever occurs earlier.",
+    "context": [
+      "The Construction Phase shall commence upon the execution of the Guaranteed Maximum Price Amendment or the Owner’s issuance of a Notice to Proceed, whichever occurs earlier."
+    ],
+    "chunks": [
+      3
+    ],
+    "RFP_id": "infra_2",
+    "RFP_type": "infra",
+    "manually_edited": false
+  }
+]

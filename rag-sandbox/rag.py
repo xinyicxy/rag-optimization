@@ -1,61 +1,164 @@
-# this file does retrieval and generation 
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from load_docs import EMBEDDING_MODEL, embed_texts
-from load_docs import collection
+import openai
+import json
+import re
+import chromadb
+import time
+import csv
+import datetime
 
-# had to uninstall and redownload pytorch cpu to support cpu-only inference
-import torch
-print(torch.cuda.is_available())  # should return false
-print(torch.device("cpu"))  # should print cpu
+from embed_docs import CHUNK_TYPE, CHUNK_SIZE
 
-# load mistral-7b
-# device = torch.device("cpu")
-# model_name = "meta-llama/Llama-2-7b-chat-hf"
-model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+# TODO: set the api key
+OPENAI_KEY = "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"
+openai.api_key = OPENAI_KEY
+TOP_K = 1
 
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name,
-                                             torch_dtype=torch.float16,
-                                             device_map="cpu")
-#model = model.to(device)
-print("model on the cpu")
+# initialize chroma db for searching 
+client = chromadb.PersistentClient(path="./chroma_db")
+collection = client.get_collection(
+    name=f"rag_documents_{CHUNK_TYPE}_{CHUNK_SIZE}"
+)
 
 
-def retrieve_similar_docs(query, top_k=1):
-    """finds the top k relative to query"""
-    query_embedding = embed_texts([query])[0].tolist()
+def is_collection_empty(collection):
+    # function for debugging
+    """double checking collection (embedding store) isn't empty"""
+    return collection.count() == 0
 
-    results = collection.query(query_embeddings=[query_embedding],
-                               n_results=top_k)
-    return [res["text"] for res in results["metadatas"][0]]
+
+def embed_queries(queries, batch_size=10):
+    """Generates embeddings using OpenAI's text-embedding-3-large in batches"""
+    # TODO: make it so that embedding model is not hard coded
+    embeddings = []
+    for i in range(0, len(queries), batch_size):
+        batch = queries[i:i + batch_size]
+        response = openai.embeddings.create(model="text-embedding-3-large", input=batch)
+        embeddings.extend([data.embedding for data in response.data])
+    return embeddings
+
+
+def retrieve_similar_docs(queries, rfp_ids, top_k=TOP_K):
+    """Finds the top k most relevant documents for each query, searching only
+    in the relevant document
+    ParsonsGPT makes us pass in a relevant RFP, so this by default is doing
+    that because we filter on the
+    metadata to ensure we're not searching all of the chunks, only chunks in
+    the relevant documents"""
+    query_embeddings = embed_queries(queries)
+    results_list = [
+        collection.query(query_embeddings=[embedding], n_results=top_k, where={"document": rfp_id})
+        for embedding, rfp_id in zip(query_embeddings, rfp_ids)
+    ]
+
+    # print(len(results_list))
+    # print(results_list)
+
+    return [[res["text"] for res in results["metadatas"][0]] if results["metadatas"] else [] for results in results_list]
+
+
+def batch_process(items, batch_size=10):
+    """Split items into batches"""
+    return [items[i:i+batch_size] for i in range(0, len(items), batch_size)]
 
 
 def ask_llm(query, context):
-    """generating answer from context"""
-    prompt = f"""
-    You are a helpful assistant. Answer only the given question concisely.
-    Do not generate any extra responses or questions, or generate the context. 
-    Summarize the context into one correct response.
-    Stop immediately after answering.
+    """Generates answer for a single query with proper message formatting"""
 
-            Context:
-            {context}
+    prompt = """ You are a helpful assistant. Answer only the given question concisely.
+            Do not generate any extra responses or questions, or generate the context. 
+            Summarize the context into one correct response.
+            Stop immediately after answering."""
+    
+    messages = [
+        {"role": "system", "content": prompt},
+        {"role": "user", "content": f"Context: {context}\n\nQuestion: {query}\nAnswer:"}
+    ]
 
-            Question: {query}
-            Answer:"""
-    inputs = tokenizer(prompt, return_tensors="pt")
-    output = model.generate(**inputs, max_new_tokens=100)
+    try:
+        response = openai.chat.completions.create(
+            model="gpt-4o",
+            messages=messages,
+            max_tokens=100
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"Error processing query: {query[:50]}... - {str(e)}")
+        return "Error generating response"
 
-    return tokenizer.decode(output[0], skip_special_tokens=True)
 
+if __name__ == "__main__":
+    # load in json question data
+    with open("rfp-pairs-subset.json", "r") as f:
+        qa_data = json.load(f)
 
-query = "What is the capital of france? "
-retrieved_docs = retrieve_similar_docs(query)
-# print("Retrieved documents:", retrieved_docs)
+    # xtracting queries + corresponding RFP IDs
+    queries = [item["question"] for item in qa_data]
 
-#print(type(retrieved_docs))
-#print(retrieved_docs)
-context = " ".join([doc for doc in retrieved_docs])
-#print(context)
-answer = ask_llm(query, context)
-print("LLM Response:", answer)
+    # this is needed because I was dumb and used underscores in one place and hyphens in another
+    rfp_ids = [re.sub(r'_', '-', item["RFP_id"]) + ".pdf" for item in qa_data]
+
+    # retrieving relevant context
+    retrieve_start = time.time()
+    retrieved_docs_batch = retrieve_similar_docs(queries, rfp_ids)
+    retrieve_time = time.time() - retrieve_start
+
+    # checking to make sure some output was received
+    contexts = [" ".join(docs) if docs else "No relevant context found" for docs in retrieved_docs_batch]
+
+    """sending -> LLM"""
+
+    # Get LLM responses
+    results = []
+    for idx, (qa, context) in enumerate(zip(qa_data, contexts)):
+        # Get LLM response with timing
+        llm_start = time.time()
+        if idx % 10 == 0:
+            print(idx)
+            time.sleep(3)
+        answer = ask_llm(qa["question"], context)
+        llm_time = time.time() - llm_start
+
+        # Calculate total time for this query
+        total_time = (retrieve_time/len(qa_data)) + llm_time
+
+        results.append({
+            "question": qa["question"],
+            "llm_response": answer,
+            "ground_truth_answer": qa["answer"],
+            "retrieved_context": retrieved_docs_batch[idx],
+            "ground_truth_context": qa["context"],
+            "metadata": {
+                "question_id": qa["question_id"],
+                "RFP_id": qa["RFP_id"],
+                "RFP_type": qa["RFP_type"],
+                "chunks": qa["chunks"],
+                "manually_edited": qa["manually_edited"]
+            },
+            "timing": {
+                "retrieve_context": retrieve_time/len(qa_data),
+                "llm_response": llm_time,
+                "total": total_time
+            }
+        })
+
+    # Save CSV
+    with open('full-experiment-results.csv', 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(["Question", "LLM Response"])
+        writer.writerows([(r["question"], r["llm_response"]) for r in results])
+
+    # Save JSON
+    experiment_output = {
+        "hyperparameters": {
+            "k": TOP_K,
+            "chunk_type": CHUNK_TYPE,
+            "chunk_size": CHUNK_SIZE
+        },
+        "chroma_db_size": collection.count(),
+        "total_time": retrieve_time + sum(r["timing"]["llm_response"] for r in results),
+        "timestamp": datetime.datetime.now().isoformat(),
+        "results": results
+    }
+
+    with open('full-experiment-output.json', 'w') as f:
+        json.dump(experiment_output, f, indent=2)

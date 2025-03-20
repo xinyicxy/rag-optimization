@@ -9,6 +9,6 @@ Pipeline Steps
 - Use whatevrr llm for generation
 
 Using rn: 
-- Storage: local (but can use azure blob storage for free) 
-- Embeddings (huggingface: BAAI/bge-small-en)
+- Storage: local (but can use azure blob storage for free) -> WANT TO UPGRADE TO OPENAI gpt-4(o?)
+- Embeddings (huggingface: BAAI/bge-small-en) -> WANT TO UPGRADE TO OPENAI text-embedding-large
 - LLM (huggingface: tinyllama)
