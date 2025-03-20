@@ -1,0 +1,11 @@
+
+Pipeline Steps
+- put douments in documents
+- Generate embeddings for document index (offline) => embed_docs.py
+- Actually perform the search and run RAG => rag.py
+- Compute experiment metrics (offline) => metrics.py 
+
+Using rn: 
+- Storage: local (ChromaDB)
+- Embeddings (OpenAI: text-embedding-3-large)
+- LLM (OpenAI: gpt40)
