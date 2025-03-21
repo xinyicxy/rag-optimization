@@ -11,12 +11,12 @@ client = OpenAI(api_key=OPENAI_KEY)
 # openAI keys
 #os.getenv("OPENAI_API_KEY")
 
-# specifying dir
-DOCS_DIR = "./documents"
+# specifying dir (change btwn multihop and RFP as needed)
+DOCS_DIR = "./documents/multihop-docs"
 
 # chunking settings (MODIFY AS NEEDED)
-CHUNK_TYPE = "words"  # {'characters', 'words', 'sentences', 'paragraphs', 'pages'}
-CHUNK_SIZE = 1000      # integer
+CHUNK_TYPE = "paragraphs"  # {'characters', 'words', 'sentences', 'paragraphs', 'pages'}
+CHUNK_SIZE = 1      # integer
 
 # chroma db setup
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
@@ -72,7 +72,7 @@ if __name__ == "__main__":
         # embed in batches (to respect OpenAI API limits)
         batch_size = 10  # modify as needed
         for i in range(0, len(chunks), batch_size):
-            chunk_batch = chunks[i:i + batch_size]
+            chunk_batch = chunks[i:min(i + batch_size, len(chunks) - 1)]
             embeddings = embed_texts(chunk_batch)  # get the embeddings
 
             # store chunk + corresponding embedding in ChromaDB
