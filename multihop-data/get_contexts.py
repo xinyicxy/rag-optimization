@@ -68,7 +68,7 @@ def create_pdf(output_filename, contexts):
     for context_string in contexts:
         paragraph = Paragraph(context_string, style)
         story.append(paragraph)
-        space = Paragraph("\n", style)  # Add a newline between contexts
+        space = Paragraph("\n\n", style)  # Add 2 newlines between contexts
         story.append(space)
     doc.build(story)
 
