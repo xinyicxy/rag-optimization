@@ -68,7 +68,7 @@ if __name__ == "__main__":
         # embed in batches (to respect OpenAI API limits)
         batch_size = 10  # modify as needed
         for i in range(0, len(chunks), batch_size):
-            chunk_batch = chunks[i:i + batch_size]
+            chunk_batch = chunks[i:min(i + batch_size, len(chunks) - 1)]
             embeddings = embed_texts(chunk_batch)  # get the embeddings
 
             # store chunk + corresponding embedding in ChromaDB

@@ -127,7 +127,9 @@ def chunk_by_paragraphs(doc_text, chunk_size):
     """
     Chunk text into groups of paragraphs based on the specified chunk size.
     """
-    paragraphs = doc_text.split("\n")
+    doc_text = doc_text.replace('\n\n', ' <PARAGRAPH_BREAK> ')
+    doc_text = doc_text.replace('\n', ' ')
+    paragraphs = doc_text.split(' <PARAGRAPH_BREAK> ')
 
     # Create chunks of paragraphs, each containing `chunk_size` paragraphs
     chunks = [paragraphs[i:i + chunk_size]
