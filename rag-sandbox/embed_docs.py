@@ -1,4 +1,5 @@
 import os
+import argparse
 import chromadb
 from openai import OpenAI
 import tiktoken
@@ -8,27 +9,26 @@ from chunking import load_pdf
 OPENAI_KEY = "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"
 client = OpenAI(api_key=OPENAI_KEY)
 
-# openAI keys
-#os.getenv("OPENAI_API_KEY")
-
 # specifying dir
 DOCS_DIR = "./documents"
 
-# chunking settings (MODIFY AS NEEDED)
-CHUNK_TYPE = "words"  # {'characters', 'words', 'sentences', 'paragraphs', 'pages'}
-CHUNK_SIZE = 1000      # integer
+# arg parse!
+parser = argparse.ArgumentParser(description="Process and embed PDF documents using OpenAI embeddings and ChromaDB.")
+parser.add_argument("--chunk_type", type=str, choices=["characters", "words", "sentences", "paragraphs", "pages"], default="words", help="Chunking method to use.")
+parser.add_argument("--chunk_size", type=int, default=1000, help="Size of each chunk.")
+args = parser.parse_args()
+
+CHUNK_TYPE = args.chunk_type
+CHUNK_SIZE = args.chunk_size
 
 # chroma db setup
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
 collection_name = f"rag_documents_{CHUNK_TYPE}_{CHUNK_SIZE}"
-# we'll use this guy l8r in rag.py
 collection = chroma_client.get_or_create_collection(collection_name)
 
 # OpenAI Embedding Model settings
 EMBEDDING_MODEL = "text-embedding-3-large"
-# just here to estimate the token count
 ENCODER = tiktoken.get_encoding("cl100k_base")
-
 
 def load_documents(directory, chunk_type, chunk_size):
     """
@@ -43,7 +43,6 @@ def load_documents(directory, chunk_type, chunk_size):
             docs.append((filename, chunks))
     return docs
 
-
 def embed_texts(texts):
     """
     Generate OpenAI embeddings for a list of texts
@@ -51,16 +50,13 @@ def embed_texts(texts):
     response = client.embeddings.create(input=texts, model=EMBEDDING_MODEL)
     return [item.embedding for item in response.data]
 
-
 def count_tokens(text):
     """
     Estimating the token count (for future use)
     """
     return len(ENCODER.encode(text))
 
-
 if __name__ == "__main__":
-
     # load and chunk documents
     documents = load_documents(DOCS_DIR, CHUNK_TYPE, CHUNK_SIZE)
     print(f"Loaded {len(documents)} documents using chunking method: {CHUNK_TYPE}")

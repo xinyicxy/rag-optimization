@@ -5,13 +5,23 @@ import chromadb
 import time
 import csv
 import datetime
+import argparse
 
-from embed_docs import CHUNK_TYPE, CHUNK_SIZE
+
+# arg parse!
+parser = argparse.ArgumentParser(description="Process RFP queries with OpenAI and ChromaDB.")
+parser.add_argument("--chunk_type", type=str, required=True, help="Type of chunking (e.g., 'words' or 'sentences').")
+parser.add_argument("--chunk_size", type=int, required=True, help="Size of chunks for document processing.")
+
+args = parser.parse_args()
+CHUNK_TYPE = args.chunk_type
+CHUNK_SIZE = args.chunk_size
+
 
 # TODO: set the api key
 OPENAI_KEY = "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"
 openai.api_key = OPENAI_KEY
-TOP_K = 1
+TOP_K = 15
 
 # initialize chroma db for searching 
 client = chromadb.PersistentClient(path="./chroma_db")
@@ -107,10 +117,10 @@ if __name__ == "__main__":
 
     """sending -> LLM"""
 
-    # Get LLM responses
+    # get the llm responses
     results = []
     for idx, (qa, context) in enumerate(zip(qa_data, contexts)):
-        # Get LLM response with timing
+        # get llm responses with timing
         llm_start = time.time()
         if idx % 10 == 0:
             print(idx)
@@ -118,7 +128,7 @@ if __name__ == "__main__":
         answer = ask_llm(qa["question"], context)
         llm_time = time.time() - llm_start
 
-        # Calculate total time for this query
+        # calc total time for query
         total_time = (retrieve_time/len(qa_data)) + llm_time
 
         results.append({
