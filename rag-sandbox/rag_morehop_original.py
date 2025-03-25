@@ -5,9 +5,17 @@ import chromadb
 import time
 import csv
 import datetime
+import argparse
 
-# set manually in command line input instead of importing ########################################
-from embed_docs import CHUNK_TYPE, CHUNK_SIZE
+
+# arg parse!
+parser = argparse.ArgumentParser(description="Process RFP queries with OpenAI and ChromaDB.")
+parser.add_argument("--chunk_type", type=str, required=True, help="Type of chunking (e.g., 'words' or 'sentences').")
+parser.add_argument("--chunk_size", type=int, required=True, help="Size of chunks for document processing.")
+
+args = parser.parse_args()
+CHUNK_TYPE = args.chunk_type
+CHUNK_SIZE = args.chunk_size
 
 # TODO: set the api key
 OPENAI_KEY = "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"
