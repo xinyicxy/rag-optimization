@@ -5,8 +5,18 @@ import chromadb
 import time
 import csv
 import datetime
+import argparse
 
-from embed_docs import CHUNK_TYPE, CHUNK_SIZE
+
+# arg parse!
+parser = argparse.ArgumentParser(description="Process RFP queries with OpenAI and ChromaDB.")
+parser.add_argument("--chunk_type", type=str, required=True, help="Type of chunking (e.g., 'words' or 'sentences').")
+parser.add_argument("--chunk_size", type=int, required=True, help="Size of chunks for document processing.")
+
+args = parser.parse_args()
+CHUNK_TYPE = args.chunk_type
+CHUNK_SIZE = args.chunk_size
+
 
 # TODO: set the api key
 OPENAI_KEY = "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"
@@ -57,7 +67,8 @@ def batch_process(items, batch_size=10):
 def ask_llm(query, context):
     """Generates answer for a single query with proper message formatting"""
 
-    prompt = """ You are a helpful assistant. Answer only the given question concisely.
+    prompt = """You are a helpful assistant. Answer only the given question concisely.
+            Answer ONLY with the facts given in the context.
             Do not generate any extra responses or questions, or generate the context.
             If the answer is a string or character, output only the string or character.
             If the answer is a date, format it as follows: YYYY-MM-DD (ISO standard)

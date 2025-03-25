@@ -9,8 +9,8 @@ from chunking import load_pdf
 OPENAI_KEY = "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"
 client = OpenAI(api_key=OPENAI_KEY)
 
-# specifying dir
-DOCS_DIR = "./documents"
+# specifying directory (change btwn multihop and RFP as needed)
+DOCS_DIR = "./documents/multihop-docs"
 
 # arg parse!
 parser = argparse.ArgumentParser(description="Process and embed PDF documents using OpenAI embeddings and ChromaDB.")
@@ -60,7 +60,6 @@ if __name__ == "__main__":
     # load and chunk documents
     documents = load_documents(DOCS_DIR, CHUNK_TYPE, CHUNK_SIZE)
     print(f"Loaded {len(documents)} documents using chunking method: {CHUNK_TYPE}")
-
     # embedding + store in ChromaDB
     for doc_id, chunks in documents:
         print(f"Processing {doc_id} with {len(chunks)} chunks...")
@@ -68,7 +67,7 @@ if __name__ == "__main__":
         # embed in batches (to respect OpenAI API limits)
         batch_size = 10  # modify as needed
         for i in range(0, len(chunks), batch_size):
-            chunk_batch = chunks[i:min(i + batch_size, len(chunks) - 1)]
+            chunk_batch = chunks[i:i + batch_size] # there's an issue here with the batching
             embeddings = embed_texts(chunk_batch)  # get the embeddings
 
             # store chunk + corresponding embedding in ChromaDB

@@ -4,7 +4,7 @@
 import json
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet
-from reportlab.platypus import SimpleDocTemplate, Paragraph
+from reportlab.platypus import SimpleDocTemplate, Paragraph, PageBreak
 import re
 import random
 
@@ -18,7 +18,7 @@ with open('morehopqa_final_150samples.json', 'r') as file:
 
 # Extract contexts
 def clean_contexts(text):
-    return re.sub(r'<br>', '', text)  # remove extra <br>s
+    return re.sub(r'<br>', ' ', text)  # remove extra <br>s
 
 
 random.seed(12345)
@@ -30,8 +30,9 @@ for id in morehop_full:
     contexts = id.get("context", [])
     for item in contexts:
         context = item[1]
-        context_cat = "".join(context)
-        context_cat = clean_contexts(context_cat)
+        context = [sentence.strip() for sentence in context] # remove extra whitespaces
+        context_cat = " ".join(context)
+        # context_cat = clean_contexts(context_cat)
         paragraphs_full.append(context_cat)
 
         label = item[0]
@@ -48,8 +49,9 @@ for id in morehop_150:
     contexts = id.get("context", [])
     for item in contexts:
         context = item[1]
-        context_cat = "".join(context)
-        context_cat = clean_contexts(context_cat)
+        context = [sentence.strip() for sentence in context]
+        context_cat = " ".join(context)
+        # context_cat = clean_contexts(context_cat)
         paragraphs_150.append(context_cat)
 
         label = item[0]
@@ -68,8 +70,9 @@ def create_pdf(output_filename, contexts):
     for context_string in contexts:
         paragraph = Paragraph(context_string, style)
         story.append(paragraph)
-        space = Paragraph("\n\n", style)  # Add 2 newlines between contexts
+        space = Paragraph("PARAGRAPH BREAK", style)  # Specify paragraph break
         story.append(space)
+    story.pop()  # Remove the last paragraph break
     doc.build(story)
 
 

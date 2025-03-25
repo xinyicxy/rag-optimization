@@ -6,12 +6,14 @@ import time
 import csv
 import datetime
 
+# set manually in command line input instead of importing ########################################
 from embed_docs import CHUNK_TYPE, CHUNK_SIZE
 
 # TODO: set the api key
 OPENAI_KEY = "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"
 openai.api_key = OPENAI_KEY
 TOP_K = 2 # set to 2 because morehop needs exactly 2 contexts
+########################################### change to 5 (baseline) cuz parsonsgpt min is 5?
 
 # initialize chroma db for searching 
 client = chromadb.PersistentClient(path="./chroma_db")
@@ -57,7 +59,8 @@ def batch_process(items, batch_size=10):
 def ask_llm(query, context):
     """Generates answer for a single query with proper message formatting"""
 
-    prompt = """ You are a helpful assistant. Answer only the given question concisely.
+    prompt = """You are a helpful assistant. Answer only the given question concisely.
+            Answer ONLY with the facts given in the context.
             Do not generate any extra responses or questions, or generate the context.
             If the answer is a name, format it as follows: Firstname Lastname
             If the answer is a place or organization, give only the name of the place or organization.
@@ -85,7 +88,7 @@ def ask_llm(query, context):
 
 if __name__ == "__main__":
     # load in json question data
-    with open("../multihop-data/morehopqa_final_150samples.json", "r") as f: # 
+    with open("morehop_original_test.json", "r") as f: # ../multihop-data/morehopqa_final_150samples.json
         qa_data = json.load(f)
 
     # extracting queries
@@ -134,7 +137,7 @@ if __name__ == "__main__":
         })
 
     # Save CSV
-    with open('morehop1_results.csv', 'w', newline='') as f:
+    with open('morehop_original_results.csv', 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(["Question", "LLM Response"])
         writer.writerows([(r["question"], r["llm_response"]) for r in results])
@@ -152,5 +155,5 @@ if __name__ == "__main__":
         "results": results
     }
 
-    with open('morehop1_output.json', 'w') as f:
+    with open('morehop_original_output.json', 'w') as f:
         json.dump(experiment_output, f, indent=2)
