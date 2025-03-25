@@ -96,7 +96,7 @@ def ask_llm(query, context):
 
 if __name__ == "__main__":
     # load in json question data
-    with open("morehop_original_test.json", "r") as f: # ../multihop-data/morehopqa_final_150samples.json
+    with open("morehop_original_test.json", "r") as f: # ../multihop-data/morehopqa_150.json
         qa_data = json.load(f)
 
     # extracting queries
