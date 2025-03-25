@@ -25,7 +25,7 @@ def load_pdf(pdf_path, chunk_type, chunk_size):
         with open(pdf_path, "rb") as file:
             reader = PyPDF2.PdfReader(file)
             text = ""
-
+                                    #####################################error is here: \n are not here
             # Extract text from each page
             for page_num in range(len(reader.pages)):
                 page = reader.pages[page_num]
@@ -58,7 +58,11 @@ def chunk_by_pages(pdf_path, chunk_size):
         # Add any remaining pages that didn't form a full chunk
         if text:
             chunks.append(text)
-
+    chunks = [chunk.replace('\nPARAGRAPH BREAK\n', ' ') for chunk in chunks]
+    chunks = [chunk.replace('PARAGRAPH BREAK\n', ' ') for chunk in chunks]  # remove breaks that occur at start of page
+    chunks = [chunk.replace('\nPARAGRAPH BREAK', ' ') for chunk in chunks]  # remove breaks that occur at end of page
+    chunks = [chunk.replace('\n', ' ') for chunk in chunks]
+    chunks = [chunk.strip() for chunk in chunks]
     return chunks
 
 
@@ -90,6 +94,9 @@ def chunk_by_characters(doc_text, char_per_chunk=500):
     """
     Chunk text into fixed-size character chunks
     """
+    doc_text = doc_text.replace("PARAGRAPH BREAK", ' ')
+    doc_text = doc_text.replace('\n', ' ')
+    doc_text = doc_text.strip()
     chunks = [doc_text[i:i + char_per_chunk]
               for i in range(0, len(doc_text), char_per_chunk)]
     return chunks
@@ -99,7 +106,9 @@ def chunk_by_words(doc_text, words_per_chunk=100):
     """
     Chunk text into fixed-size word chunks
     """
-    words = doc_text.split()  # Split text into words
+    doc_text = doc_text.replace("PARAGRAPH BREAK", ' ')
+    doc_text = doc_text.replace('\n', ' ')
+    words = doc_text.split()  # Split text into words (in corporates regular space vs. \n)
     chunks = [" ".join(words[i:i + words_per_chunk])
               for i in range(0, len(words), words_per_chunk)]
     return chunks
@@ -110,30 +119,32 @@ def chunk_by_sentences(doc_text, lines_per_chunk=10):
     """
     Chunk a document by lines, with a fixed number of lines in each chunk
     """
+    doc_text = doc_text.replace('PARAGRAPH BREAK', ' ')
+    doc_text = doc_text.replace('\n', ' ')
     lines = re.split(r'(?<=[.!?])', doc_text.strip())
+    lines = [line.strip() for line in lines]
     chunks = []
 
     # Group lines into chunks of size `lines_per_chunk`
     for i in range(0, len(lines), lines_per_chunk):
-        chunk = "\n".join(lines[i:i + lines_per_chunk])
+        chunk = " ".join(lines[i:i + lines_per_chunk])
         chunks.append(chunk)
 
     return chunks
 
 
 # TODO: follows parsons gpt in recognising as \n, see if correct (more usually for lines?)
-# Also note that our current morehop_context pdf does not differentiate between lines and paras. might want to change this
 def chunk_by_paragraphs(doc_text, chunk_size):
     """
     Chunk text into groups of paragraphs based on the specified chunk size.
     """
-    doc_text = doc_text.replace('\n\n', ' <PARAGRAPH_BREAK> ')
     doc_text = doc_text.replace('\n', ' ')
-    paragraphs = doc_text.split(' <PARAGRAPH_BREAK> ')
+    paragraphs = doc_text.split('PARAGRAPH BREAK')
+    paragraphs = [paragraph.strip() for paragraph in paragraphs]
 
     # Create chunks of paragraphs, each containing `chunk_size` paragraphs
     chunks = [paragraphs[i:i + chunk_size]
               for i in range(0, len(paragraphs), chunk_size)]
 
     # Join paragraphs in each chunk into a single string
-    return ['\n\n'.join(chunk) for chunk in chunks]
+    return [' '.join(chunk) for chunk in chunks]
