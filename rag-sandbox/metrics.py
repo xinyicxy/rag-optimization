@@ -41,6 +41,20 @@ df['chunks_length'] = df['metadata'].apply(lambda x: len(x['chunks']))
 df['manually_edited'] = df['metadata'].apply(lambda x: x['manually_edited'])
 df['RFP_id'] = df['metadata'].apply(lambda x: x['RFP_id'])
 df['RFP_type'] = df['metadata'].apply(lambda x: x['RFP_type'])
+df['question_id'] = df['metadata'].apply(lambda x: x['question_id'])
+
+
+# hack for now?
+def is_negative_rejection(response):
+    return "i don't know" in response.lower()
+
+
+# filtering the negative rejection questions and computing stats!
+# filter on question id TODO replace 400 with correct quesiton id threshold
+negative_rejection_df = df[df['question_id'] >= 400]
+total_negative_rejections = negative_rejection_df['llm_response'].apply(is_negative_rejection).sum()
+total_negative_questions = len(negative_rejection_df)
+negative_rejection_percentage = (total_negative_rejections / total_negative_questions * 100) if total_negative_questions > 0 else 0
 
 
 def compute_metrics(row):
@@ -156,6 +170,13 @@ for group_name, group_key in grouping_dimensions:
         }
 
     report[group_name] = group_results
+
+# adding negative rejection stuff
+report.update({
+    "total_negative_questions": total_negative_questions,
+    "total_negative_rejections": total_negative_rejections,
+    "negative_rejection_percentage": negative_rejection_percentage
+})
 
 # save report
 with open('metrics_report.json', 'w') as f:
