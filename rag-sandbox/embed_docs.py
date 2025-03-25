@@ -1,4 +1,5 @@
 import os
+import argparse
 import chromadb
 from openai import OpenAI
 import tiktoken
@@ -11,12 +12,17 @@ client = OpenAI(api_key=OPENAI_KEY)
 # openAI keys
 #os.getenv("OPENAI_API_KEY")
 
-# specifying dir (change btwn multihop and RFP as needed)
+# specifying directory (change btwn multihop and RFP as needed)
 DOCS_DIR = "./documents/multihop-docs"
 
-# chunking settings (MODIFY AS NEEDED)
-CHUNK_TYPE = "paragraphs"  # {'characters', 'words', 'sentences', 'paragraphs', 'pages'}
-CHUNK_SIZE = 1      # integer
+# arg parse!
+parser = argparse.ArgumentParser(description="Process and embed PDF documents using OpenAI embeddings and ChromaDB.")
+parser.add_argument("--chunk_type", type=str, choices=["characters", "words", "sentences", "paragraphs", "pages"], default="words", help="Chunking method to use.")
+parser.add_argument("--chunk_size", type=int, default=1000, help="Size of each chunk.")
+args = parser.parse_args()
+
+CHUNK_TYPE = args.chunk_type
+CHUNK_SIZE = args.chunk_size
 
 # chroma db setup
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
@@ -48,6 +54,9 @@ def embed_texts(texts):
     """
     Generate OpenAI embeddings for a list of texts
     """
+    #print("length", len(texts))
+    #print(type(texts))
+    #print(texts[0])
     response = client.embeddings.create(input=texts, model=EMBEDDING_MODEL)
     return [item.embedding for item in response.data]
 
@@ -64,15 +73,21 @@ if __name__ == "__main__":
     # load and chunk documents
     documents = load_documents(DOCS_DIR, CHUNK_TYPE, CHUNK_SIZE)
     print(f"Loaded {len(documents)} documents using chunking method: {CHUNK_TYPE}")
-
+    #print("start")
+    #print(type(documents))
+    #print(documents[0])
     # embedding + store in ChromaDB
     for doc_id, chunks in documents:
+        #print(doc_id)
+        #print(type(chunks))
         print(f"Processing {doc_id} with {len(chunks)} chunks...")
 
         # embed in batches (to respect OpenAI API limits)
         batch_size = 10  # modify as needed
         for i in range(0, len(chunks), batch_size):
-            chunk_batch = chunks[i:min(i + batch_size, len(chunks) - 1)]
+            chunk_batch = chunks[i:i + batch_size] # there's an issue here with the batching
+            #print(type(chunk_batch))
+            #print(len(chunk_batch))
             embeddings = embed_texts(chunk_batch)  # get the embeddings
 
             # store chunk + corresponding embedding in ChromaDB
