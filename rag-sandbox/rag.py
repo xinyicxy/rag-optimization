@@ -101,7 +101,7 @@ def ask_llm(query, context):
 
 if __name__ == "__main__":
     # load in json question data
-    with open("rfp-pairs-subset.json", "r") as f: # TODO: change this file as needed
+    with open("subset-final.json", "r") as f: # TODO: change this file as needed
         qa_data = json.load(f)
 
     # xtracting queries + corresponding RFP IDs

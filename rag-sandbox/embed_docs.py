@@ -10,7 +10,7 @@ OPENAI_KEY = "sk-proj-f8TvBAz0ozk9fSn3FNYlrUGOkkiv1A9MLZ2nfxKCIm26SQmvwrXKFNrVlt
 client = OpenAI(api_key=OPENAI_KEY)
 
 # specifying directory (change btwn multihop and RFP as needed)
-DOCS_DIR = "./documents/multihop-docs"
+DOCS_DIR = "./documents/"
 
 # arg parse!
 parser = argparse.ArgumentParser(description="Process and embed PDF documents using OpenAI embeddings and ChromaDB.")
