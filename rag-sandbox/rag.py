@@ -12,16 +12,17 @@ import argparse
 parser = argparse.ArgumentParser(description="Process RFP queries with OpenAI and ChromaDB.")
 parser.add_argument("--chunk_type", type=str, required=True, help="Type of chunking (e.g., 'words' or 'sentences').")
 parser.add_argument("--chunk_size", type=int, required=True, help="Size of chunks for document processing.")
+parser.add_argument("--top_k", type=int, required=True, help="K chunks retrieved during search.")
 
 args = parser.parse_args()
 CHUNK_TYPE = args.chunk_type
 CHUNK_SIZE = args.chunk_size
+TOP_K = args.top_k
 
 
 # TODO: set the api key
 OPENAI_KEY = "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"
 openai.api_key = OPENAI_KEY
-TOP_K = 15
 
 # initialize chroma db for searching 
 client = chromadb.PersistentClient(path="./chroma_db")
@@ -77,7 +78,9 @@ def ask_llm(query, context):
     prompt = """ You are a helpful assistant. Answer only the given question concisely.
             Do not generate any extra responses or questions, or generate the context. 
             Summarize the context into one correct response.
-            Stop immediately after answering."""
+            Stop immediately after answering.
+            If you do not have sufficient information to answer the question, return only
+            'Insufficient information to answer question based on given context'"""
     
     messages = [
         {"role": "system", "content": prompt},
@@ -98,7 +101,7 @@ def ask_llm(query, context):
 
 if __name__ == "__main__":
     # load in json question data
-    with open("rfp-pairs-subset.json", "r") as f:
+    with open("rfp-pairs-subset.json", "r") as f: # TODO: change this file as needed
         qa_data = json.load(f)
 
     # xtracting queries + corresponding RFP IDs
@@ -170,5 +173,7 @@ if __name__ == "__main__":
         "results": results
     }
 
-    with open('full-experiment-output.json', 'w') as f:
+    filename = f"exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+
+    with open(filename, 'w') as f:
         json.dump(experiment_output, f, indent=2)

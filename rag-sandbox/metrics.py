@@ -14,6 +14,7 @@ import numpy as np
 import os
 from ragas.llms import LangchainLLMWrapper
 from langchain_openai import OpenAI
+import argparse
 
 # setting api key
 OPENAI_KEY = "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"
@@ -29,8 +30,20 @@ context_precision.llm = gpt3_llm
 answer_correctness.llm = gpt3_llm
 """
 
-# load experiment data
-with open('full-experiment-output.json') as f:
+# arg parse!
+parser = argparse.ArgumentParser(description="Process RFP queries with OpenAI and ChromaDB.")
+parser.add_argument("--chunk_type", type=str, required=True, help="Type of chunking (e.g., 'words' or 'sentences').")
+parser.add_argument("--chunk_size", type=int, required=True, help="Size of chunks for document processing.")
+parser.add_argument("--top_k", type=int, required=True, help="K chunks retrieved during search.")
+
+args = parser.parse_args()
+CHUNK_TYPE = args.chunk_type
+CHUNK_SIZE = args.chunk_size
+TOP_K = args.top_k
+
+# load experiment data TODO: change the filename
+exp_filename = f"exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+with open(exp_filename) as f:
     data = json.load(f)
 
 # convert to pandas
@@ -46,7 +59,8 @@ df['question_id'] = df['metadata'].apply(lambda x: x['question_id'])
 
 # hack for now?
 def is_negative_rejection(response):
-    return "i don't know" in response.lower()
+    # "Insufficient information to answer question based on given context"
+    return "insufficient information" in response.lower()
 
 
 # filtering the negative rejection questions and computing stats!
@@ -179,7 +193,8 @@ report.update({
 })
 
 # save report
-with open('metrics_report.json', 'w') as f:
+metrics_filename = f"metrics_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+with open(metrics_filename, 'w') as f:
     json.dump(report, f, indent=2)
 
 print("Metrics report generated at metrics_report.json")
