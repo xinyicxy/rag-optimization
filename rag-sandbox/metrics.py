@@ -60,13 +60,13 @@ df['question_id'] = df['metadata'].apply(lambda x: x['question_id'])
 # hack for now?
 def is_negative_rejection(response):
     # "Insufficient information to answer question based on given context"
-    return "insufficient information" in response.lower()
+    return "Insufficient information" in response.lower()
 
 
 # filtering the negative rejection questions and computing stats!
 # filter on question id TODO replace 400 with correct quesiton id threshold
 negative_rejection_df = df[df['question_id'] >= 400]
-total_negative_rejections = negative_rejection_df['llm_response'].apply(is_negative_rejection).sum()
+total_negative_rejections = int(negative_rejection_df['llm_response'].apply(is_negative_rejection).sum())
 total_negative_questions = len(negative_rejection_df)
 negative_rejection_percentage = (total_negative_rejections / total_negative_questions * 100) if total_negative_questions > 0 else 0
 
@@ -188,7 +188,7 @@ for group_name, group_key in grouping_dimensions:
 # adding negative rejection stuff
 report.update({
     "total_negative_questions": total_negative_questions,
-    "total_negative_rejections": total_negative_rejections,
+    "total_negative_rejections": int(total_negative_rejections),
     "negative_rejection_percentage": negative_rejection_percentage
 })
 

@@ -1,0 +1,2890 @@
+{
+  "hyperparameters": {
+    "k": 2,
+    "chunk_type": "words",
+    "chunk_size": 50
+  },
+  "chroma_db_size": 2356,
+  "total_time": 127.78041291236877,
+  "timestamp": "2025-03-26T12:09:30.683930",
+  "results": [
+    {
+      "question": "Under what conditions does ownership of the Drawings and Specifications transfer to the Owner?**",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Ownership transfers to the Owner upon full payment of fees owed to the Architect.",
+      "retrieved_context": [
+        ". \u00a7 7.3.3 Notwith standing the transfer of ownership set forth in Section 7.3 above , it is abrreed and acknowledged that: .1 Drawings and Specification s prepared by the Arc hitect will contain numerou s design det ails and typical speci fication s (\"Standard Detail s/Specifications\") which , collectively",
+        "its completion , the Owner shall retain the license and ownership and is permitt ed to make changes, correcti ons or additions to the Drawing s and Specifications for the purposes of comp letin g, using and maintaining the Project , or for future additions or alternations to th e"
+      ],
+      "ground_truth_context": [
+        "Upon payment by the Owner of all fees due and owing Architect for professional services under this Agreement, all right, title and interest in the Drawings and Specifications and other documents",
+        "shall become the property of the Owner."
+      ],
+      "metadata": {
+        "question_id": 314,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          15
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 3.5531229972839355,
+        "total": 3.611776997826316
+      }
+    },
+    {
+      "question": "What are the erosion control requirements for the project design?**",
+      "llm_response": "The erosion control requirements for the project design include conforming to the latest County and state erosion control and sedimentation rules, regulations, and ordinances, and having an erosion control and sedimentation plan approved by the County Erosion and Utility Inspection Department.",
+      "ground_truth_answer": "Designs must comply with County and state erosion control rules, including an approved erosion control plan.",
+      "retrieved_context": [
+        "the latest C ounty, state, and federal regulations or standards. All designs shall conform to the latest County and state erosion contr ol and sedimentation rules, regulations, and ordinances. An erosion control and sedimentation plan must be approved by the County Erosion and Utility Inspection Department and included in the",
+        "have jurisdiction over design criteria and environmental impact applicable to the project, and assist in obtaining such approvals by participati ng in submissions to and negotiations with appropriate officials and authorities, including administrative hearings involving the project . The Engineer will attend as many hearings and meetings as are necessary"
+      ],
+      "ground_truth_context": [
+        "All designs shall conform to the latest County and state erosion control and sedimentation rules",
+        "An erosion control and sedimentation plan must be approved by the County Erosion and Utility Inspection Department."
+      ],
+      "metadata": {
+        "question_id": 72,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          3
+        ],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 1.422523021697998,
+        "total": 1.4811770222403786
+      }
+    },
+    {
+      "question": "Who is the designated point of contact for compliance-related inquiries about the Tribune Building project?",
+      "llm_response": "Chelsey Mazurek is the designated point of contact for compliance-related inquiries about the Tribune Building project.",
+      "ground_truth_answer": "The designated point of contact is Chelsey Mazurek, Tribune Building Project Manager at Incourage Community Foundation Inc.",
+      "retrieved_context": [
+        "be directed to: Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org",
+        "the single contact who is th e authorized representative of the Proposer. Inclu de a brief history of the firm , number of full -time and part -time employees , and how you heard about/your interest in the Tribune Building Project . b) Organization: Provide an organizational chart graphically indicating"
+      ],
+      "ground_truth_context": [
+        "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"
+      ],
+      "metadata": {
+        "question_id": 145,
+        "RFP_id": "infra_2",
+        "RFP_type": "infra",
+        "chunks": [
+          5
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.8156678676605225,
+        "total": 0.874321868202903
+      }
+    },
+    {
+      "question": "What is the contractor's responsibility regarding subcontractors' work under this RFP?",
+      "llm_response": "The contractor is responsible to the City for all the subcontractor's work, including failures or omissions.",
+      "ground_truth_answer": "The contractor is fully responsible to the City for all subcontractor work, including failures or omissions.",
+      "retrieved_context": [
+        "the Public Works Director. 7. Other Information: Sub- Contractor\u2019s Status: A sub- contractor shall be recognized only in the capacity of an employee or agent of the contractor and the contractor will be responsible to the City for all the subcontractor's work, including failures or omissions; and his removal may",
+        "manner. (h) Warranty (i) Suitability for use by the owner. (j) Experience and Qualifications (k) Quality of Past Projects (l) Cost-effectiveness of the proposal (m) Proposed Project Timeline (n) Compliance with the RFP Requirements Errors in Bids Bidders or their authorized agents are expected to examine the maps, drawings, specifications,"
+      ],
+      "ground_truth_context": [
+        "A sub-contractor shall be recognized only in the capacity of an employee or agent of the contractor and the contractor will be responsible to the City for all the subcontractor's work, including failures or omissions."
+      ],
+      "metadata": {
+        "question_id": 193,
+        "RFP_id": "infra_3",
+        "RFP_type": "infra",
+        "chunks": [
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.8193869590759277,
+        "total": 0.8780409596183083
+      }
+    },
+    {
+      "question": "What must the Owner include in the Project budget if selecting accelerated, phased, or fast-track scheduling?",
+      "llm_response": "The Owner must include sufficient contingencies in the Project budget to cover the costs if selecting accelerated, phased, or fast-track scheduling.",
+      "ground_truth_answer": "The Owner agrees to include sufficient contingencies in the budget to cover costs incurred by the Architect for coordination/redesign and the Contractor for removing/replacing previously installed Work.",
+      "retrieved_context": [
+        "Document s. and costs for the Contractor to remove and replace previou sly installed Work . lfthe Owner select s accelerated , phased or fast-track scheduling , the Owne r agree s to include in the budget for the Project sufficient conti ngencies to cover such costs. \u00a7 5.5 The",
+        "overall Project schedu le. The Owner shall adjust the Project schedule, if necessa ry. as the Project proceed s. \u00a7 5.4 The Owner shall establish and periodically up date the Owner' s budget tor the Project . includin g (I) the budget t o r the Cost of the Work"
+      ],
+      "ground_truth_context": [
+        "If the Owner selects accelerated, phased or fast-track scheduling, the Owner agrees to include in the budget for the Project sufficient contingencies to cover such costs."
+      ],
+      "metadata": {
+        "question_id": 307,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          13
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.8649439811706543,
+        "total": 0.9235979817130349
+      }
+    },
+    {
+      "question": "When must the Construction Manager provide cost estimates during the design process?**",
+      "llm_response": "The Construction Manager must provide cost estimates prior to the completion of each phase for the Architect's review and the Owner's approval.",
+      "ground_truth_answer": "The Construction Manager must provide estimates of the Cost of the Work for the Owner's approval prior to the completion of each design phase.",
+      "retrieved_context": [
+        "shall provide cost evaluations of those alternative m aterials and systems. As the Architect progresses with the preparation of the Design Documents, the Construction Manager shall prepare estimates of the Cost of the Work of increasing detail and refinement and allowing for the further development of the de sign until",
+        "such time as the Owner and Construction Manager agree on a Guaranteed Maximum Price for the Work. Such estimates shall be provided for the Architect\u2019s review and the Owner\u2019s approval prior to the completion of each phase . The Construction Manage r shall inform the Owner and Architect when estimates"
+      ],
+      "ground_truth_context": [
+        "Such estimates shall be provided for the Architect's review and the Owner's approval prior to the completion of each phase."
+      ],
+      "metadata": {
+        "question_id": 138,
+        "RFP_id": "infra_2",
+        "RFP_type": "infra",
+        "chunks": [
+          2
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6828780174255371,
+        "total": 0.7415320179679177
+      }
+    },
+    {
+      "question": "What documents define the physical and additional parameters for the Project?",
+      "llm_response": "The documents identified in Section 2.2.4 and described in Section 1.1.2 define the physical and additional parameters for the Project.",
+      "ground_truth_answer": "The physical parameters are outlined in the program identified in Section 2.2.4, and additional parameters are specified in the Construction Documents and other site restrictions.",
+      "retrieved_context": [
+        "SPECIAL TERMS AND CONDITIONS Special te rms and conditions that modify this Agreement are as follows: \u00a7 12.1 ADDIT IONAL PARAMETERS \u00a7 12.1.1 The physical parameters for the Project are as set forth in the prog ram identified in Section 2.2.4. Additiona l parameter s for the Projec t are",
+        "or state the mann er in which the program will be develope d.) \u00a7 1.1.2 The Project's physical characteristics: (Jdent(fy or desc ribe. if appropriat e, size, location, dimensions , or o ther pe rtinent inf ormation , such as geotechni cal reports; site, boundmy and topographi c surveys; traffic"
+      ],
+      "ground_truth_context": [
+        "The physical parameters for the Project are as set forth in the program identified in Section 2.2.4. Additional parameters for the Project are contained in the Construction Documents and any other restrictions on the site available by actual/constructive knowledge or notice."
+      ],
+      "metadata": {
+        "question_id": 343,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          22
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5468249320983887,
+        "total": 0.6054789326407692
+      }
+    },
+    {
+      "question": "What contract document must the selected A/E enter into?**",
+      "llm_response": "The selected A/E must enter into the District\u2019s AIA Document B132 - 2009 Standard Form of Agreement Between Owner and Architect.",
+      "ground_truth_answer": "The selected A/E must enter into the District's modified AIA Document B132-2009 Standard Form of Agreement Between Owner and Architect, Construction Manager as Adviser Edition.",
+      "retrieved_context": [
+        "the RFP or in anticipation of any contract. 9 Award of Agreement. Upon the completion of the selection process, the District shall notify all A/E(s) of the selection and the successful A/E shall enter into the District\u2019 s AIA Document B132 - 2009 Standard Form of Agreement Between Owner and",
+        ".3 AlA Document E202T11C2008 , Building Information Mode ling Protocol Exhibit, if completed , or the following : None .4 Other document s: (List other documents, [{any, including additional scopes ofservicefor ming part oft he Agree ment.) Modified AlA Document A232-2 009, General Conditions of the Contract for Constru ction"
+      ],
+      "ground_truth_context": [
+        "The successful A/E shall enter into the District's AIA Document B132 - 2009 Standard Form of Agreement",
+        "modified by the District and included in these RFP Documents (the 'Agreement')."
+      ],
+      "metadata": {
+        "question_id": 272,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          3
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.43152308464050293,
+        "total": 0.4901770851828835
+      }
+    },
+    {
+      "question": "What steps are involved in the County's selection procedure for offerors?**",
+      "llm_response": "The County's selection procedure for offerors involves evaluating the offerors based on the evaluation factors listed in the request and all developed information up to that point. The County will then select qualified offerors and engage in individual discussions with those deemed fully qualified, responsible, and suitable, focusing on their professional competence. Offerors are encouraged to elaborate on their qualifications and present alternative concepts.",
+      "ground_truth_answer": "Steps include written proposals, discussions with qualified offerors, preference ranking, and contract negotiations.",
+      "retrieved_context": [
+        "questio ns from evaluation team members. 3. Following these discussions, on the basis of the evaluation factors listed in this request and all information developed in the selection process to this point, the County shall select in the order of preference those offe rors whose professional qualifications and proposed services",
+        "the County shall engage in individual discussions with the offeror or offerors deeme d fully qualified, responsible, and suitable on the basis of the written proposals and with emphasis on professional competence. Such offerors shall be encouraged to elaborate on their qualifications, as well as alternative concepts, and to answer"
+      ],
+      "ground_truth_context": [
+        "1. Offerors should make written proposals",
+        "2. Following evaluation",
+        "3.",
+        "select in the order of preference",
+        "4. Negotiations shall then be conducted with the offeror ranked first."
+      ],
+      "metadata": {
+        "question_id": 81,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 1.675886869430542,
+        "total": 1.7345408699729226
+      }
+    },
+    {
+      "question": "How do the design criteria and warranty requirements align for compliance?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Designs must conform to County, state, and federal regulations (Excerpt 1, \"Design Criteria\"), while warranties for materials/services under (Section 4) must match the \"most favorable warranties\" provided by the contractor. Non-compliant designs or breached warranties could trigger liability.",
+      "retrieved_context": [
+        "with the design concept of the project and compliance with the information given in the final plans and specifications and the contract documents; determine the acceptability of substitute materials and equipmen t proposed by contractor; and receive and review maintenance and operating instructions, schedules, guarantees, bonds, and certificates in accordance",
+        "performed under this agreement. Such person shall have the authority to transmit instructions, receive information, interpret and define the County 's policies and decisions with respect to materials, equipment, elements, an d systems pertinent to the Engineer 's services. DESIGN CRITERIA FOR ALL COUNTY PROJECTS All designs shall conform to"
+      ],
+      "ground_truth_context": [
+        "All designs shall conform to the latest County, state, and federal regulations or standards.",
+        "Goods or services",
+        "covered by the most favorable warranties",
+        "Contractor will pay the full contract price if warranties are breached."
+      ],
+      "metadata": {
+        "question_id": 179,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          3,
+          6
+        ],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6110479831695557,
+        "total": 0.6697019837119362
+      }
+    },
+    {
+      "question": "What contact information must be included when submitting compliance documentation for the Tribune Building project?",
+      "llm_response": "Include contact information for Chelsey Mazurek, the Tribune Building Project Manager, specifically her phone number (715.423.3863) and email (cmazurek@incouragecf.org).",
+      "ground_truth_answer": "Submissions must include Chelsey Mazurek's phone number (715.423.3863) and email address (cmazurek@incouragecf.org).",
+      "retrieved_context": [
+        "the single contact who is th e authorized representative of the Proposer. Inclu de a brief history of the firm , number of full -time and part -time employees , and how you heard about/your interest in the Tribune Building Project . b) Organization: Provide an organizational chart graphically indicating",
+        "be directed to: Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"
+      ],
+      "ground_truth_context": [
+        "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"
+      ],
+      "metadata": {
+        "question_id": 146,
+        "RFP_id": "infra_2",
+        "RFP_type": "infra",
+        "chunks": [
+          5
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 3.7891769409179688,
+        "total": 3.8478309414603493
+      }
+    },
+    {
+      "question": "What indemnification obligations does the Architect have under Section 7.3.1?**",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "The Architect must defend and indemnify the Owner against claims related to copyright/patent infringement or disputes over ownership of the Drawings.",
+      "retrieved_context": [
+        "Project. lfthe Architect rightfull y termina tes this Agreement for cause as provided in Section 9.4, the license grante d in this Section 7.3 shall terminate . (Paragrap h deleted) \u00a7 7.3.1 The Architect agrees to indem nity, save and hold harmle ss, and defend at its expense, the Own",
+        "under the law. This docum ent was produced by AlA software at 13:26:47 on 08/01/20 17 under Order No.2341 018896_1 which expires on 01/01/2018. and is not for resale User Notes : (1232093781) I nit. \u00a7 8.1.3 Architect shall, to the fullest extent permitt ed by law. indemnity , defend"
+      ],
+      "ground_truth_context": [
+        "The Architect shall defend all actions or claims charging infringement of any copyrights or patents by reason of the use or adoption of any designs, Drawings or Specifications supplied by it and shall hold the Owner",
+        "harmless from claims, loss, damages, liability, costs and expenses",
+        "resulting therefrom."
+      ],
+      "metadata": {
+        "question_id": 317,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          15
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6272299289703369,
+        "total": 0.6858839295127175
+      }
+    },
+    {
+      "question": "When can the City of Alexander City choose to reject bids during the evaluation process?**",
+      "llm_response": "The City of Alexander City can choose to reject any or all bids during the evaluation process if it is deemed to be in the best interest of the City.",
+      "ground_truth_answer": "The City reserves the right to reject any or all proposals, waive technicalities, and award the contract based on its determination of the City's best interest.",
+      "retrieved_context": [
+        "Director at [drew.meacham@alexandercityal.gov ]. 4 | Page Evaluation The award will be made to the Bidder whose proposal conforms to all conditions and requirements within the specifications of this bid. In addition, t he City of Alexander City reserves the right to consider the following during the evaluation period: (a)",
+        "best interest of the City. (d) Reject any or all bids and to waive technicalities when in the opinion of the City of Alexander City the best interest of The City of Alexander City will be served. (e) Make null and void the purchase order with the successful bidder if"
+      ],
+      "ground_truth_context": [
+        "(c) The City of Alexander reserves the right to reject any or all proposals, to waive any informality in the proposal process, and to award the contract to the proposal deemed to be in the best interest of the City."
+      ],
+      "metadata": {
+        "question_id": 188,
+        "RFP_id": "infra_3",
+        "RFP_type": "infra",
+        "chunks": [
+          2
+        ],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6522119045257568,
+        "total": 0.7108659050681374
+      }
+    },
+    {
+      "question": "What is the Architect's obligation regarding certificate execution requested by the Owner?**",
+      "llm_response": "The Architect's obligation is to review the proposed language of the certificates at least fourteen (14) days prior to the requested dates of execution and, if requested by the Owner, furnish proof of compliance with the requirements of the section.",
+      "ground_truth_answer": "The Architect is not required to execute certificates that exceed the scope of the Agreement or impose additional liabilities.",
+      "retrieved_context": [
+        "User Notes : (1232093781 ) In it. \u00a7 10.4lfthe Owner requests the Architect to execute certificates, the propo sed language of such certificates shall be submitted to th e Architect for review at least fourteen ( 14) days prior to the requested dates of exec ution . The Architect shall",
+        "1) I nit. The Architect shall also, i frequested by the Owner, furnish such proof of its comp liance with the requirements this Section . Upon any alleged violation of this Section, the Architect shall indemnity and hold harmle ss the Owner against any and all claims. losses. costs. damage"
+      ],
+      "ground_truth_context": [
+        "The Architect shall not be required to execute certificates or consents that would require knowledge, services or responsibilities beyond the scope of this Agreement",
+        "or subject the Architect to liabilities, claims or causes of action other than those that would be available to the Owner under this Agreement."
+      ],
+      "metadata": {
+        "question_id": 327,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          18
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.7639670372009277,
+        "total": 0.8226210377433083
+      }
+    },
+    {
+      "question": "How does the County handle violations of drug-free workplace policies?",
+      "llm_response": "The County specifies that actions will be taken against any employee for a violation of the drug-free workplace policies, including the unlawful manufacture, sale, distribution, dispensation, possession, or use of controlled substances or marijuana in the workplace.",
+      "ground_truth_answer": "The Contractor must post workplace notices prohibiting drug-related activities and include compliance terms in solicitations. If breached, the County may issue a \"Show Cause Notice\" under termination provisions, allowing 10 days to cure the failure. Persistent non-compliance may lead to contract termination for default, with costs borne by the Contractor.",
+      "retrieved_context": [
+        "conspicuous places, available to employees and applicants for employment, a statement notifying employees that the unlawful manufacture, sale, distribution, dispensation, possession, or use of a co ntrolled substance or marijuana is prohibited in its workplace and specify the actions which will be taken against any employee for a violation; C)",
+        "or use of any controlled substance or marijuana during the performance of the contract. F. In addition to the provisions contained in sub- paragraph C. pertaining to drug- free workplace, Contractor shall comply with the federal Drug -Free Workplace Act. G. Pursuant to Section 2.2 -4343.1 of the Code of"
+      ],
+      "ground_truth_context": [
+        "post",
+        "a statement notifying employees that the unlawful manufacture, sale, distribution",
+        "of a controlled substance",
+        "is prohibited",
+        "the Contractor shall breach any of the other cures after receiving a 'Show Cause Notice'",
+        "the County may immediately terminate the agreement for default."
+      ],
+      "metadata": {
+        "question_id": 183,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          5,
+          8
+        ],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 1.0065388679504395,
+        "total": 1.06519286849282
+      }
+    },
+    {
+      "question": "How must subcontractors be addressed in the proposal and after contract signing?**",
+      "llm_response": "Subcontractors must be identified in the proposal. After contract signing, Incourage Community Foundation reserves the right to approve any subcontractors that were not approved during the RFP process.",
+      "ground_truth_answer": "Subcontractors must be identified in the proposal. After contract signing, Incourage Community Foundation reserves the right to approve all subcontractors not approved during the RFP process.",
+      "retrieved_context": [
+        "experience and past performance. Any subcontractors must be identified in the proposal. Please remember that after contract signing, Incourage Com munity Foundation reserves the right to approve all subcontractors that were not approved during the RFP process . j) Ability to Meet Timelines: Provide a detailed summary of your current",
+        "be set forth in the Construction Contract. 5. PROPOSAL FORMAT The proposal shall include the following information in the order indicated: a) Proposer Information: Identify the firm\u2019s name and the address of its principal office and any branch offices, as well as telephone number, e -mail address and website. Identify"
+      ],
+      "ground_truth_context": [
+        "Any subcontractors must be identified in the proposal. Please remember that after contract signing, Incourage Community Foundation reserves the right to approve all subcontractors that were not approved during the RFP process."
+      ],
+      "metadata": {
+        "question_id": 143,
+        "RFP_id": "infra_2",
+        "RFP_type": "infra",
+        "chunks": [
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6361989974975586,
+        "total": 0.6948529980399392
+      }
+    },
+    {
+      "question": "Are bidders required to disclose the source of concrete purchases if not locally sourced?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Yes, bidders must specify the non-local source and cost of concrete materials.",
+      "retrieved_context": [
+        "vendor? (y/n) ____ If yes, the vendor to be used is ___________________________________________ If no, where do you intend to purchase the materials? _______________________________________________________________ Cost of materials? ______________________________ Do you intend to purchase the concrete from a local vendor? (y/n) ____ If yes, the vendor to be used is ___________________________________________ If",
+        "be required by the Project Manager, as in the case of an employee. 11 | Page RFP 25 -07 ALEXANDER CITY, ALABAMA RECYCLING CENTER CONSTRUCTION PROJECT Locally Purchased Material List Are you a locally owned business or have and/or have an office located within city limits or police jurisdiction? (y/n)"
+      ],
+      "ground_truth_context": [
+        "If no, where do you intend to purchase the materials? _______________________________________________________________ Cost of materials? ______________________________"
+      ],
+      "metadata": {
+        "question_id": 196,
+        "RFP_id": "infra_3",
+        "RFP_type": "infra",
+        "chunks": [
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6144986152648926,
+        "total": 0.6731526158072731
+      }
+    },
+    {
+      "question": "What types of services fall under the \"Basic Services of Engineer\" scope?**",
+      "llm_response": "The \"Basic Services of Engineer\" scope includes civil, electrical, environmental, mechanical, and structural engineering services, as well as surveying, architectural services, groundwater, and landfill gas extraction.",
+      "ground_truth_answer": "Services include civil, electrical, environmental, mechanical, and structural engineering; surveying; architectural services; groundwater monitoring; landfill gas extraction system maintenance; and environmental compliance.",
+      "retrieved_context": [
+        "Solid Was te Master Planning BASIC SERVICES OF ENGINEER 1.1 Basic Services. A) The selected firm(s) shall perform Professional Engineering Service s, related to potable water and sanitary sewer systems, including , but not limited to : civil, electrical, environmental, mechanical and structura l Engineering Services ; surveying and architectural",
+        "services ; and all other services incidental thereto; B) The selected firms(s) shall perform Professional Environmental Engineering Services pertaining to its closed sanitary landfi ll facility and other solid waste management facilities, including, but not limited to civil, electrical, environmental, mechanical, and structural Engineering Service; groundwater and landfill gas extraction"
+      ],
+      "ground_truth_context": [
+        "The selected firm(s) shall perform Professional Engineering Services",
+        "including, but not limited to: civil, electrical, environmental, mechanical and structural Engineering Services; surveying and architectural services",
+        "groundwater and landfill gas extraction systems and flare, and required periodic monitoring and maintenance."
+      ],
+      "metadata": {
+        "question_id": 66,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          1
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 1.0234520435333252,
+        "total": 1.0821060440757058
+      }
+    },
+    {
+      "question": "What is required for a bidder to arrange a site survey for the Alexander City Recycling Center Construction Project?**",
+      "llm_response": "To arrange a site survey for the Alexander City Recycling Center Construction Project, a bidder must contact Drew Meacham, the City Engineer and Public Works representative, to schedule an appointment.",
+      "ground_truth_answer": "Bidders must contact Drew Meacham, City Engineer & Public Works Director, via email to schedule an appointment.",
+      "retrieved_context": [
+        "https://alexandercityal.gov/rfps ]. Site Survey It is highly recommended that any potential bidder conducts a site survey prior to the submittal of a proposal. Surveys should be conducted by an appointment. T o arrange a date and time for an appointment, please contact Drew Meacham , City Engineer & Public Works",
+        "RFP 25 -07 ALEXANDER CITY, ALABAMA RECYCLING CENTER CONSTRUCTION PROJECT Specifications and Scope of Work 1. Introduction: The City of Alexander City Public Works Department is issuing a request for proposals from qualified contractors for the construction of a new recycling center. This facility will support our commitment to sustainability"
+      ],
+      "ground_truth_context": [
+        "Surveys should be conducted by an appointment. To arrange a date and time for an appointment, please contact Drew Meacham, City Engineer & Public Works Director at [drew.meacham@alexandercityal.gov]."
+      ],
+      "metadata": {
+        "question_id": 187,
+        "RFP_id": "infra_3",
+        "RFP_type": "infra",
+        "chunks": [
+          2
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.8189990520477295,
+        "total": 0.8776530525901101
+      }
+    },
+    {
+      "question": "What extra materials need to be reported if bought locally?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Any materials purchased from vendors within Alexander City Limits or Police Jurisdiction must be listed, including vendor names and approximate dollar amounts.",
+      "retrieved_context": [
+        "locally purchased material list.",
+        "yes, what is the approximate dollar amount of the additional materials to be locally purchased? ___________________ Grand Total Amount of All Locally Purchased Materials: ____________________________ (This includes siding, windows, doors, concrete and any other locally purchased material for the project) *A detailed cost estimate is still required outside of this"
+      ],
+      "ground_truth_context": [
+        "If yes, the vendor(s) and material to be purchased are:",
+        "If yes, what is the approximate dollar amount of the additional materials to be locally purchased?"
+      ],
+      "metadata": {
+        "question_id": 197,
+        "RFP_id": "infra_3",
+        "RFP_type": "infra",
+        "chunks": [
+          4
+        ],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.7196159362792969,
+        "total": 0.7782699368216774
+      }
+    },
+    {
+      "question": "What contractual flexibility does the County retain for awarding work assignments?",
+      "llm_response": "The County retains the flexibility to make work assignments on an \"as needed\" basis, with no assurance of work assignments under the contract. It also reserves the right to award contracts to multiple qualified offerors and to perform the contract for two additional one-year periods, which can be canceled by the County with sixty days notice.",
+      "ground_truth_answer": "The County reserves the right to award contracts to multiple firms, perform work in-house, or bid large projects separately. (Background) states the contract is \"non-exclusive\" and allows for multi-award, while (Selection Procedure) confirms negotiations occur with ranked firms until terms are met.",
+      "retrieved_context": [
+        "the contract. Work assignments shall be made on an \"as needed \" basis. There is no assurance that a successful offeror will rece ive any work assignments whatsoever under the contract awarded as a result of this Request for Proposals. CAROLINE COUNTY RESERVES THE RIGHT AT ALL TIMES TO PERFORM",
+        "the contract for two (2) additional one (1) year periods, cancelable by the County on sixty (60) days notice. The County reserves the right to award contracts to more than one qualified offeror, depending on the expertise of the offering firms and the needs of the County. Selection will be"
+      ],
+      "ground_truth_context": [
+        "The County reserves the right to award contracts to more than one qualified offeror",
+        "Caroline County may make final award to multiple offerors",
+        "[and] negotiate with the offeror ranked first",
+        "then second, etc."
+      ],
+      "metadata": {
+        "question_id": 174,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          1,
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 6.622104167938232,
+        "total": 6.680758168480613
+      }
+    },
+    {
+      "question": "What timeline details must proposers provide regarding their current workload and project phases?**",
+      "llm_response": "Proposers must provide their expected duration in days for each phase of the project, considering their current workload and future commitments, assuming a two-week turnaround from submission to commencement of services.",
+      "ground_truth_answer": "Proposers must submit a detailed summary of current workload and future commitments over the proposed timeline, assuming a two-week turnaround from proposal submission to service commencement. They must also provide the expected duration in days for each project phase.",
+      "retrieved_context": [
+        "workload and future commitments over the proposed timeline assuming a t wo-week turnaround from the submission of this proposal to the commencement of services. Submit your expected duration in days for each pha se of the project. k) Tax-Exempt Status: Describe how your firm will manage material purchases to take",
+        "Proposer should be available to begin work, and should be prepared for project activities to commenc e, immediately upon selection. Please refer to Exhibit C \u2013 Project Timeline. Your submission of a proposal to this RFP acknowledges your ability to work within this timeline but also acknowledges that there may"
+      ],
+      "ground_truth_context": [
+        "Provide a detailed summary of your current workload and future commitments over the proposed timeline assuming a two-week turnaround from the submission of this proposal to the commencement of services. Submit your expected duration in days for each phase of the project."
+      ],
+      "metadata": {
+        "question_id": 142,
+        "RFP_id": "infra_2",
+        "RFP_type": "infra",
+        "chunks": [
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6866328716278076,
+        "total": 0.7452868721701882
+      }
+    },
+    {
+      "question": "What requirements apply to subcontracts or purchase orders exceeding $10,000 under this contract?",
+      "llm_response": "The requirements for subcontracts or purchase orders exceeding $10,000 under this contract include providing a drug-free workplace for employees and including the specified provisions in every subcontract or purchase order.",
+      "ground_truth_answer": "Subcontracts or purchase orders over $10,000 must include nondiscrimination and drug-free workplace clauses binding on subcontractors/vendors.",
+      "retrieved_context": [
+        "Contract of over $10,000 so that the provisions will be binding upon each subcontractor or vendor; and E. In every contract of over $10,000, the Contractor agrees during the performance of this contract that: The Contractor shall A) pro vide a drug- free workplace for its employees; B) post in",
+        "contract. All notices, advertisements, and solicitations place d in accordance with federal law, rule or regulation shall be deemed sufficient for the purpose of meeting the requirements of this section; 2. The Contractor will include the provisions of the foregoing subparagraph 2.(B)(1) in every subcontract or purchase order under this"
+      ],
+      "ground_truth_context": [
+        "The Contractor will include the provisions of the foregoing subparagraph 2.(B)(1) in every subcontract or purchase order under this Contract of over $10,000",
+        "and D) include the provisions of this subparagraph in every subcontract or purchase order of over $10,000, so that said provisions shall be binding upon each subcontractor or vendor."
+      ],
+      "metadata": {
+        "question_id": 84,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          5
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.7771670818328857,
+        "total": 0.8358210823752663
+      }
+    },
+    {
+      "question": "What is the required bond amount for bid security, and are there any exceptions?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "A Bid Security equal to 5% of the bid price (not exceeding $10,000) is required, except for bids under $10,000.",
+      "retrieved_context": [
+        "bid price, but no more than $10,000.00. Bid Security shall be in the form of a Bid Bond or a cashier\u2019s check payable to The City of Alexander City. No Bid Security is required on bids less than $10,000.00.) The bid package will not be considered if the bid bond",
+        "the bid price, but no more than $10,000.00. Bid Security shall be in the form of a Bid Bond or a cashier\u2019s check payable to The City of Alexander City . No Bid Security is required on bids less than $10,000.00.) E-Verify Affidavit Complete Y or N _____ / Proof"
+      ],
+      "ground_truth_context": [
+        "Bid Bond: Bids shall be accompanied by a Bid Security equal to 5% of the bid price, but no more than $10,000.00. No Bid Security is required on bids less than $10,000.00."
+      ],
+      "metadata": {
+        "question_id": 191,
+        "RFP_id": "infra_3",
+        "RFP_type": "infra",
+        "chunks": [
+          3
+        ],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6146678924560547,
+        "total": 0.6733218929984353
+      }
+    },
+    {
+      "question": "What is the Architect's responsibility regarding non-conforming Work under 3.6.2.2?**",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "The Architect has the authority to reject Work that does not conform to the Contract Documents and must notify the Construction Manager about the rejection.",
+      "retrieved_context": [
+        "or substitution , or for the Owner 's acceptance of non-conforming Work , made without the Architect's approval. \u00a7 3.1.7 The Architect shall, at appropriat e time s, in coordinat ion w ith the Construction Mana ger, contact the gove rnmental authoriti es required to approve the Construction Documents and",
+        "the Contractor's failure to perform the Work in accordance with the requirement s of the Contract Documents. The Architect shall be responsible for the Archi tect's negligent acts or omissions, but shall not have control over or charge of, and shall not be responsible for, acts or omiss ions of"
+      ],
+      "ground_truth_context": [
+        "The Architect has the authority to reject Work that does not conform to the Contract Documents and shall notify the Construction Manager about the rejection."
+      ],
+      "metadata": {
+        "question_id": 297,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          10
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.4120209217071533,
+        "total": 0.4706749222495339
+      }
+    },
+    {
+      "question": "What licensing requirement must the Construction Manager meet for the Project?**",
+      "llm_response": "The Construction Manager must hold a Construction Manager's license (or applicable license) valid for the State of Wisconsin.",
+      "ground_truth_answer": "The Construction Manager must hold a Construction Manager's license (or applicable license) valid for the State of Wisconsin.",
+      "retrieved_context": [
+        "completion of the Preconstruction Phase, in which case, both phases will proceed concurrently. The Construction Manager shall identify a representative authorized to act on behalf of the Construction Manager with respect to the Project. Page 3 The Construction Manager will be required to hold a Construction Manager s\u2019 license (or",
+        "applicable license) valid for the State of Wisconsin . 2.1 PRECONSTRUCTION PHASE Consultation The Construction Manager shall meet with the Architect and Owner to discuss such matters as procedures, progress, coord ination, and scheduling of th e work. The Construction Manager shall advise the Owner and the Architect on proposed"
+      ],
+      "ground_truth_context": [
+        "The Construction Manager will be required to hold a Construction Manager's license (or applicable license) valid for the State of Wisconsin."
+      ],
+      "metadata": {
+        "question_id": 136,
+        "RFP_id": "infra_2",
+        "RFP_type": "infra",
+        "chunks": [
+          2
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.3900120258331299,
+        "total": 0.44866602637551045
+      }
+    },
+    {
+      "question": "Which types of buildings qualify for additional protections under Indiana Code  16-41-37?**",
+      "llm_response": "Buildings occupied by an agency of state or local government and those used as classroom buildings qualify for additional protections under Indiana Code \u00a7 16-41-37.",
+      "ground_truth_answer": "Public buildings include enclosed structures occupied by state/local government agencies, educational institutions, healthcare facilities, fire/police stations, childcare centers, hospitals, schools, and school buses.",
+      "retrieved_context": [
+        "afforded to Public Building s in compliance with Indiana Code \u00a7 16-41-37, and include an enclo sed struc ture or part of an enclosed structure that is one of the following: (I) Occup ied by an agency of state or local governme nt. (2) Used as a classroom building or",
+        "Marion County, and the State of Indiana Departmen t of Commerce, Safety & Building Division for the building(s) including, but not limited to, Storm water Management, HVAC, Mec hanical , plumbing and/or Fire Protection. b. Construction Related Services - The A/E will provide on the District\u2019s behalf, construction administration and"
+      ],
+      "ground_truth_context": [
+        "Additional requirements and levels of protection are afforded to Public Buildings in compliance with Indiana Code  16-41-37, and include an enclosed structure or part of an enclosed structure that is one of the following: (1) Occupied by an agency of state or local government",
+        "(10) School bus (as defined in IC  16-41-37-2.3)."
+      ],
+      "metadata": {
+        "question_id": 338,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          20
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.9414951801300049,
+        "total": 1.0001491806723855
+      }
+    },
+    {
+      "question": "What marks the official start of the Construction Phase?",
+      "llm_response": "The official start of the Construction Phase is marked by either the execution of the Guaranteed Maximum Price Amendment or the Owner\u2019s issuance of a Notice to Proceed, whichever occurs earlier.",
+      "ground_truth_answer": "The Construction Phase begins upon the execution of the Guaranteed Maximum Price Amendment or the Owner's issuance of a Notice to Proceed, whichever occurs earlier.",
+      "retrieved_context": [
+        "2.2 CONSTRUCTION PHASE The Construction Phase shall commence upon the execution of the Guaranteed Maximum Price Amendment or the Owner\u2019s issuance of a Notice to Proceed, whichever occurs earlier. Changes in the Work The Owner may, without invalidating the Contract, order changes in the Work within the general scope of",
+        "completion of the Preconstruction Phase, in which case, both phases will proceed concurrently. The Construction Manager shall identify a representative authorized to act on behalf of the Construction Manager with respect to the Project. Page 3 The Construction Manager will be required to hold a Construction Manager s\u2019 license (or"
+      ],
+      "ground_truth_context": [
+        "The Construction Phase shall commence upon the execution of the Guaranteed Maximum Price Amendment or the Owner's issuance of a Notice to Proceed, whichever occurs earlier."
+      ],
+      "metadata": {
+        "question_id": 139,
+        "RFP_id": "infra_2",
+        "RFP_type": "infra",
+        "chunks": [
+          3
+        ],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.8205959796905518,
+        "total": 0.8792499802329323
+      }
+    },
+    {
+      "question": "What is the minimum bid security required for proposals exceeding $10,000?**",
+      "llm_response": "A Bid Bond or a cashier\u2019s check payable to The City of Alexander City.",
+      "ground_truth_answer": "Bidders must provide bid security equal to 5% of the bid price, capped at $10,000, in the form of a bid bond or cashier's check.",
+      "retrieved_context": [
+        "the bid price, but no more than $10,000.00. Bid Security shall be in the form of a Bid Bond or a cashier\u2019s check payable to The City of Alexander City . No Bid Security is required on bids less than $10,000.00.) E-Verify Affidavit Complete Y or N _____ / Proof",
+        "bid price, but no more than $10,000.00. Bid Security shall be in the form of a Bid Bond or a cashier\u2019s check payable to The City of Alexander City. No Bid Security is required on bids less than $10,000.00.) The bid package will not be considered if the bid bond"
+      ],
+      "ground_truth_context": [
+        "Bids shall be accompanied by a Bid Security equal to 5% of the bid price, but no more than $10,000.00. Bid Security shall be in the form of a Bid Bond or a cashier's check payable to The City of Alexander City."
+      ],
+      "metadata": {
+        "question_id": 189,
+        "RFP_id": "infra_3",
+        "RFP_type": "infra",
+        "chunks": [
+          2
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6157712936401367,
+        "total": 0.6744252941825173
+      }
+    },
+    {
+      "question": "How are changes to the Work authorized, and who must acknowledge them?",
+      "llm_response": "Changes to the Work are authorized in writing by the Architect, and they must be signed and acknowledged by the Owner and Construction Manager.",
+      "ground_truth_answer": "The Architect issues changes in writing, and all change orders must be signed and acknowledged by the Owner and Construction Manager.",
+      "retrieved_context": [
+        "the Contract consisting of additions, deletions or other revisions. The Architect shall issue such changes in writing and all change orders will be signed and acknowledged by Owner and Construction Manager . The Constru ction Manager shall be entitled to an equitable adjustment in the Contract Time as a result",
+        "of changes in the Work. Change orders issued by the Owner subsequent to the execution of the Guaranteed Maximum Price Amendment shall constitute adjustments to the Guaranteed Maximum Price. Administration Upon the execution of the Guaranteed Maximum Price Amendment, the Construction Manager shall prepare and submit to the Owner and"
+      ],
+      "ground_truth_context": [
+        "The Architect shall issue such changes in writing and all change orders will be signed and acknowledged by Owner and Construction Manager."
+      ],
+      "metadata": {
+        "question_id": 140,
+        "RFP_id": "infra_2",
+        "RFP_type": "infra",
+        "chunks": [
+          3
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 1.1222100257873535,
+        "total": 1.180864026329734
+      }
+    },
+    {
+      "question": "What advisory responsibilities does the Construction Manager have during the Preconstruction Phase?**",
+      "llm_response": "The Construction Manager is responsible for advising the Owner and the Architect on proposed procedures, progress, coordination, and scheduling of the work during the Preconstruction Phase.",
+      "ground_truth_answer": "The Construction Manager must advise the Owner and Architect on site use, material selection, building systems, constructability, labor/material availability, procurement timelines, cost factors, and accelerated scheduling.",
+      "retrieved_context": [
+        "MANAGER \u2019S RESPONSIBILITIES The Construction Manager \u2019s Preconstruction Phase responsibi lities are set forth in Section 2.1. The Construction Manager \u2019s Construction Phase responsibilities are set forth in Section 2.2. The Owner and Construction Manager may agree, in consultation with the Architect, for the Construction Phase to commence prior to",
+        "applicable license) valid for the State of Wisconsin . 2.1 PRECONSTRUCTION PHASE Consultation The Construction Manager shall meet with the Architect and Owner to discuss such matters as procedures, progress, coord ination, and scheduling of th e work. The Construction Manager shall advise the Owner and the Architect on proposed"
+      ],
+      "ground_truth_context": [
+        "The Construction Manager shall advise the Owner and the Architect on proposed site use and improvements, selection of materials, and building systems and equipment",
+        "[and] provide recommendations consistent with the Project requirements",
+        "including, but not limited to: costs of alternative designs or materials, preliminary budgets, life-cycle data, and possible cost reductions."
+      ],
+      "metadata": {
+        "question_id": 137,
+        "RFP_id": "infra_2",
+        "RFP_type": "infra",
+        "chunks": [
+          2
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 3.4988112449645996,
+        "total": 3.55746524550698
+      }
+    },
+    {
+      "question": "What is the duration of the contract for Engineering Services under this RFP?**",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "The contract is for three (3) years, with an option to extend for two additional one-year periods, cancelable by the County on sixty (60) days' notice.",
+      "retrieved_context": [
+        "Proposals should be specific as to the ability to perform Engineering Services and surveying re lated to design and 10 | Page Engineering Services RFP #2020 -05-21 operation of water and sewer, solid waste, capital projects , and other county departments. 2. Following evaluation of the written proposals as submitted,",
+        "specifications and the contract documen ts. The Engineer 's efforts will be 6 | Page Engineering Services RFP #2020 -05-21 directed toward providing assurance for the County that the completed project will conform to the final plans and specifications and to the contract documents. During such visits and on the"
+      ],
+      "ground_truth_context": [
+        "The County",
+        "intends to consolidate these requirements into a three (3) year, non-exclusive contract for these services, with the option to extend the contract for two (2) additional one (1) year periods, cancelable by the County on sixty (60) days notice."
+      ],
+      "metadata": {
+        "question_id": 64,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          1
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5012698173522949,
+        "total": 0.5599238178946755
+      }
+    },
+    {
+      "question": "How do federal compliance requirements align with the final design deliverables?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Final design documents must include federal compliance elements such as bonding, insurance, and drug-free workplace adherence. (1.3.A) requires \"federal compliance requirements\" in contractor documents, while (2.F) obligates compliance with the federal Drug-Free Workplace Act.",
+      "retrieved_context": [
+        "the basis of the preliminary design documents as finally approved, prepare the final construction plans and specifications, easements plats, and the contractor documents, which shall include bid forms, notice to bidders, instructions to bidders, advertisement, bid proposals, contract form, bonding and insurance requirements and, where applicable, federal compliance requirements, and",
+        "with the design concept of the project and compliance with the information given in the final plans and specifications and the contract documents; determine the acceptability of substitute materials and equipmen t proposed by contractor; and receive and review maintenance and operating instructions, schedules, guarantees, bonds, and certificates in accordance"
+      ],
+      "ground_truth_context": [
+        "contractor documents, which shall include",
+        "federal compliance requirements.",
+        "Contractor shall comply with the federal Drug-Free Workplace Act."
+      ],
+      "metadata": {
+        "question_id": 177,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          2,
+          5
+        ],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.8115630149841309,
+        "total": 0.8702170155265114
+      }
+    },
+    {
+      "question": "What is the Engineer's responsibility regarding as-built plans?**",
+      "llm_response": "The Engineer is responsible for furnishing a set of as-built project plans (recording drawings) as reflected by the final plans and specifications and the contract documents.",
+      "ground_truth_answer": "The Engineer must provide as-built plans on blackline mylar film based on inspection reports and field notes at no cost to the County.",
+      "retrieved_context": [
+        "final approved set of utility plans. The Engineer shall be res ponsible for coordinating his design and construction work with other Engineer s where the projects connect or are affected by other projects. The Engineer shall furnish a set of as -built project plans (recording drawings) as reflected by the",
+        "the final plans and specifications and the contrac t documents and judge of the performance thereunder by the parties thereto. F. Based on the Engineer 's on- site observations as an experienced and qualified design professional and on his review of contractor 's applications for payment and the accompanying data"
+      ],
+      "ground_truth_context": [
+        "The Engineer shall furnish a set of as-built project plans",
+        "on blackline mylar film from information furnished by the project inspector at no additional cost to the County."
+      ],
+      "metadata": {
+        "question_id": 76,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          3
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 1.7421269416809082,
+        "total": 1.8007809422232888
+      }
+    },
+    {
+      "question": "What documentation is required if a bidder intends to purchase siding from a local vendor?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "The bidder must name the vendor and provide the cost of materials.",
+      "retrieved_context": [
+        "____ Do you intend to purchase the siding from a local vendor? (y/n) ____ If yes, the vendor to be used is ___________________________________________ If no, where do you intend to purchase the materials? _______________________________________________________________ Cost of materials? ______________________________ Do you intend to purchase the window and doors from a local",
+        "locally purchased material list."
+      ],
+      "ground_truth_context": [
+        "If yes, the vendor to be used is ___________________________________________",
+        "Cost of materials? ______________________________"
+      ],
+      "metadata": {
+        "question_id": 195,
+        "RFP_id": "infra_3",
+        "RFP_type": "infra",
+        "chunks": [
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.499194860458374,
+        "total": 0.5578488610007546
+      }
+    },
+    {
+      "question": "What adjustments is the Construction Manager entitled to if the Work changes?",
+      "llm_response": "The Construction Manager is entitled to an equitable adjustment in the Contract Time and may require a Change Order to adjust the Guaranteed Maximum Price.",
+      "ground_truth_answer": "The Construction Manager is entitled to an equitable adjustment in the Contract Time due to changes in the Work.",
+      "retrieved_context": [
+        "the Contract consisting of additions, deletions or other revisions. The Architect shall issue such changes in writing and all change orders will be signed and acknowledged by Owner and Construction Manager . The Constru ction Manager shall be entitled to an equitable adjustment in the Contract Time as a result",
+        "then the Construction Manager may require that a Change Order be issued t o adjust the Guaranteed Maximum Price by the difference between the bid of the person or entity recommended to the Owner by the Construction Manager and the proposal of the person or entity designated by the Owner."
+      ],
+      "ground_truth_context": [
+        "The Construction Manager shall be entitled to an equitable adjustment in the Contract Time as a result of changes in the Work."
+      ],
+      "metadata": {
+        "question_id": 141,
+        "RFP_id": "infra_2",
+        "RFP_type": "infra",
+        "chunks": [
+          3
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6955580711364746,
+        "total": 0.7542120716788552
+      }
+    },
+    {
+      "question": "What are the consequences of contractor default under the termination for default clause?",
+      "llm_response": "If the contractor defaults under the termination for default clause, the County may terminate the agreement and resolicit the purchase competitively. If this leads to increased costs for the County, the defaulted contractor will be required to pay the additional costs. The contractor will also be removed from future bidding until the repayment is made.",
+      "ground_truth_answer": "The County may procure goods/services from other sources and hold the contractor liable for additional costs. The contractor may also be barred from future bidding until repayment occurs.",
+      "retrieved_context": [
+        "receiving a \" Show Cause Notice \" identifying the failure, then providing the Contractor ten (10) days to cure the failure/nonperformance. If the Contractor fails to answer the cure notice, or does not correct the deficiencies noted, the County may immediately terminate the agreem ent for default. In such event",
+        "purchase competitively by resolicitation. If the repurchase results in increased costs to the County, a letter will be sent to the defaulted contractor required payment for additional costs. When repayment is requested, the contractor will be removed from future bidding until the repayment has occurred. Contractors shall not be liable"
+      ],
+      "ground_truth_context": [
+        "The County may procure the articles or services from other sources and hold the defaulting contractor responsible for any resulting additional purchase and administrative costs",
+        "When repayment is requested, the contractor will be removed from future bidding until the repayment has occurred."
+      ],
+      "metadata": {
+        "question_id": 92,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          7
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 1.1593170166015625,
+        "total": 1.217971017143943
+      }
+    },
+    {
+      "question": "What prior acts coverage is required under the Professional Liability policy?",
+      "llm_response": "Insufficient information to answer question based on given context",
+      "ground_truth_answer": "The policy must include prior acts coverage sufficient to cover all services performed by the Architect for the project.",
+      "retrieved_context": [
+        "of the Architect and indepe ndent of the duty to furnish a cettified copy or cetiificate of such insurance policie s. \u00a7 2.6.5 The Architect's policies of insurance shall contain prior acts coverage sufficient to cover all service s performed by the Arcitect for this Project and shall provide primary",
+        "Requirement s Cove rage B (Emp loyers Liability) -$500,000/each acciden t; $500,000 Disease- each employee; $500,000 Disease policy limit. EXCESS LIABILITY (Umbrella Form) Each Occun-enc e $5,000,000.00 .5 PROF ESSIONAL LIABILITY INSURANCE . TI1e Architect shall can-y and maintain during the contin uance of this Agreement , professional liability insurance"
+      ],
+      "ground_truth_context": [
+        "The Architect's policy of insurance shall contain prior acts coverage sufficient to cover all services performed by the Architect for this Project."
+      ],
+      "metadata": {
+        "question_id": 285,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          6
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.875042200088501,
+        "total": 0.9336962006308815
+      }
+    },
+    {
+      "question": "Is a detailed cost estimate still required even if locally purchased materials are listed?",
+      "llm_response": "Yes, a detailed cost estimate is still required even if locally purchased materials are listed.",
+      "ground_truth_answer": "Yes, a detailed cost estimate is mandatory separately from the locally purchased materials list.",
+      "retrieved_context": [
+        "yes, what is the approximate dollar amount of the additional materials to be locally purchased? ___________________ Grand Total Amount of All Locally Purchased Materials: ____________________________ (This includes siding, windows, doors, concrete and any other locally purchased material for the project) *A detailed cost estimate is still required outside of this",
+        "locally purchased material list."
+      ],
+      "ground_truth_context": [
+        "A detailed cost estimate is still required outside of this locally purchased material list."
+      ],
+      "metadata": {
+        "question_id": 198,
+        "RFP_id": "infra_3",
+        "RFP_type": "infra",
+        "chunks": [
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5602309703826904,
+        "total": 0.618884970925071
+      }
+    },
+    {
+      "question": "What is the Engineer required to submit to the County once the project is completed?**",
+      "llm_response": "The Engineer is required to provide the County with digitized plans.",
+      "ground_truth_answer": "The Engineer must submit digitized plans in a format specified by the County.",
+      "retrieved_context": [
+        "completion of the preliminary design phase and notification by the County that the preliminary design documents ar e acceptable in all respects to the County and to all governmental agencies and authorities as have jurisdiction over design criteria and environmental impact applicable to the project, the Engineer shall: A. On",
+        "in accordance with the final plans and specifications and the contract documents and if each contractor has fulfilled all of its obligations thereunder so that the Engineer may indicate to the County, in writing, that final payment should be made to each contractor. H. Provide the County with digitized plans"
+      ],
+      "ground_truth_context": [
+        "H. Provide the County with digitized plans in a format to be specified by the County."
+      ],
+      "metadata": {
+        "question_id": 71,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          3
+        ],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.41011714935302734,
+        "total": 0.4687711498954079
+      }
+    },
+    {
+      "question": "What fee structure is required for the Construction Phase in addition to the Estimate of Probable Cost?**",
+      "llm_response": "In addition to the Estimate of Probable Cost, the fee structure for the Construction Phase requires providing the amount of, or basis for, compensation, along with information on constructability, provisions for temporary facilities, procurement, and construction scheduling issues.",
+      "ground_truth_answer": "For the Construction Phase, proposers must provide the amount or basis for compensation **in addition** to the costs in the Estimate of Probable Cost (Exhibit B). The Guaranteed Maximum Price Proposal and quoted fees are binding, subject to mutually agreed change orders.",
+      "retrieved_context": [
+        "advantage of the tax exempt status of the Owner. l) Fees: \uf0b7 Pre-Construction Phase: Provide the amount of, or basis for, compensation for the Pre Construction Phase. Include a list of reimbursable cost items, as applicable. \uf0b7 Construction Phase: Provide the amount of, or basis for, compensation IN ADDITION to",
+        "cost information, constructability, provisions for temporary facilities and procurement and construction scheduling issues. Preliminary Cost Estimates Based on the preliminary design and other design criteria, the Architect has prepared an Estimate of Probable Cost (Exhibit B). If the Architect or Construction Manager suggests alternative materials and systems, the Construction Manager"
+      ],
+      "ground_truth_context": [
+        "Construction Phase: Provide the amount of, or basis for, compensation IN ADDITION to the cost listed in the Estimate of Probable Cost (Exhibit B). The Proposer will guarantee to construct the Project",
+        "for the amount specified in the Guaranteed Maximum Price Proposal and the fees quoted in this proposal subject to change orders mutually agreed upon by the Proposer and the Owner."
+      ],
+      "metadata": {
+        "question_id": 144,
+        "RFP_id": "infra_2",
+        "RFP_type": "infra",
+        "chunks": [
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 3.9919910430908203,
+        "total": 4.050645043633201
+      }
+    },
+    {
+      "question": "What is the role of Chelsey Mazurek in the Tribune Building project's compliance process?",
+      "llm_response": "Insufficient information to answer question based on given context",
+      "ground_truth_answer": "Chelsey Mazurek serves as the Tribune Building Project Manager, responsible for handling compliance inquiries and documentation.",
+      "retrieved_context": [
+        "be directed to: Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org",
+        "is \u201c Construction Manager at Risk\u201d ( CMAR), which consists of a n AIA A133 based contract covering the pre -construction and construction phase. 1.3 PROJECT BACKGROUND The Project (tribunebuilding.org) began when Incourage Community Foundati on (incouragecf.org) purchased the historic Tribune Building along the Wisconsin River with the intent that"
+      ],
+      "ground_truth_context": [
+        "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"
+      ],
+      "metadata": {
+        "question_id": 148,
+        "RFP_id": "infra_2",
+        "RFP_type": "infra",
+        "chunks": [
+          5
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.9742729663848877,
+        "total": 1.0329269669272683
+      }
+    },
+    {
+      "question": "Which sustainability standards must the A/E apply in the District's projects?**",
+      "llm_response": "The A/E must integrate the District's vision and apply/utilize standards found in the Leadership in Energy & Environmental Design (LEED) or other nationally recognized sustainability programs/certifications in the District's projects.",
+      "ground_truth_answer": "The A/E must use LEED, Declare, Cradle to Cradle, or other nationally recognized sustainability programs.",
+      "retrieved_context": [
+        "in the Leadership in Energy & Environmental Design Green Building Rating System, Declare, Cradle to Cradle or other nationally recognized sustainability program/certification. The District may consider pursuing LEED or oth er sustainability program/certification. The District may engage the services on an independent commission agent/authority. The A/E shall integrate District\u2019s vision",
+        "-up and project closeout. The A/E, in conjunction with the Construction Manager, shall provide updated budgetary cost estimates during each phase of the design process. IV. Design Guidelines The District will require the A/E to integrate sustainable principles/desig n into the District\u2019s projects. The A/E sh all apply/utilize standards found"
+      ],
+      "ground_truth_context": [
+        "The A/E shall apply/utilize standards found in the Leadership in Energy & Environmental Design Green Building Rating System, Declare, Cradle to Cradle or other nationally recognized sustainability program/certification."
+      ],
+      "metadata": {
+        "question_id": 267,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          2
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.8680109977722168,
+        "total": 0.9266649983145974
+      }
+    },
+    {
+      "question": "What compliance requirements must engineering firms meet regarding legal standards in their service delivery?",
+      "llm_response": "Engineering firms must comply with the regulations, laws, ordinances, and requirements relevant to their service delivery.",
+      "ground_truth_answer": "Firms must comply with all federal, state, and local laws, ordinances, and regulations, including environmental and procurement laws. (Section 1.1) requires adherence to \"regulations, laws, ordinances, and requirements of all governmental agencies,\" while (Exhibit A, Section 2.C) mandates conformity with the Civil Rights Act, Virginia Fair Employment Contracting Act, and Immigration Reform and Control Act.",
+      "retrieved_context": [
+        "accepted professional standards , and further represent that they will provide the County with the best possible advice and consultation within their authority and capacity as a Professional Engineer or Certified Land Surveyor in the Commonwealth of Virginia. The Engineer will comply with the regulations, laws, ordinances , and requirements",
+        "services ; and all other services incidental thereto; B) The selected firms(s) shall perform Professional Environmental Engineering Services pertaining to its closed sanitary landfi ll facility and other solid waste management facilities, including, but not limited to civil, electrical, environmental, mechanical, and structural Engineering Service; groundwater and landfill gas extraction"
+      ],
+      "ground_truth_context": [
+        "The Engineer will comply with the regulations, laws, ordinances, and requirements of all governmental agencies and authorities",
+        "Conforming to the provisions of the Civil Rights Act of 1964",
+        "and the Virginia Human Rights Act",
+        "[and] not employing illegal alien workers"
+      ],
+      "metadata": {
+        "question_id": 172,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          1,
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.9971928596496582,
+        "total": 1.0558468601920388
+      }
+    },
+    {
+      "question": "What must be included in the Owner's budget for the Cost of the Work under Section 1.1.3?**",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "The Owner's budget must include the total Cost of the Work and, if known, a line item breakdown.",
+      "retrieved_context": [
+        "of the Architect, the costs of the land, rights-of-way , financing, contingencies for changes in the Work or other costs that are the responsibility of the Owner . \u00a7 6.2 The Owner 's budget for the Cost of the Work is provided herein, and may be adjusted throughout the Project",
+        "and utility studies ; availabili ty of publi c and privat e utilities and services; legal description oft he s ite; etc.) \u00a7 1.1.3 The Own er's budge t for the Cost of the Work, as defined in Section 6.1: (Provide total and, if known , a line item breakd"
+      ],
+      "ground_truth_context": [
+        " 1.1.3 The Owner's budget for the Cost of the Work, as defined in Section 6.1: (Provide total and, if known, a line item breakdown.)"
+      ],
+      "metadata": {
+        "question_id": 276,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 5.267000675201416,
+        "total": 5.325654675743797
+      }
+    },
+    {
+      "question": "Which organization is responsible for overseeing compliance for the Tribune Building project?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Incourage Community Foundation Inc. is the overseeing organization for compliance matters.",
+      "retrieved_context": [
+        "seeks to support residents in determining their own identity. By reimagining the building\u2019s future, residents are collectively shaping the com munity\u2019s future. 1.5 PROPERTY SIGNIFICANCE The Tribune Building is centrally located downtown, beside the Wisconsin River and other community assets. Both the site and the 20,000 square foot building leverage",
+        "be directed to: Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"
+      ],
+      "ground_truth_context": [
+        "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"
+      ],
+      "metadata": {
+        "question_id": 147,
+        "RFP_id": "infra_2",
+        "RFP_type": "infra",
+        "chunks": [
+          5
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.4176349639892578,
+        "total": 0.4762889645316384
+      }
+    },
+    {
+      "question": "What compliance requirements apply to subcontractor agreements in both the bidding phase and general contract obligations?",
+      "llm_response": "Insufficient information to answer question based on given context",
+      "ground_truth_answer": "Subcontractors must meet non-discrimination and drug-free workplace requirements. During bidding (Excerpt 1, 1.4.B), the Engineer must evaluate subcontractor acceptability. (Section 2.B.1) mandates that subcontracts over $10,000 include clauses prohibiting discrimination and requiring drug-free workplaces.",
+      "retrieved_context": [
+        "contract. All notices, advertisements, and solicitations place d in accordance with federal law, rule or regulation shall be deemed sufficient for the purpose of meeting the requirements of this section; 2. The Contractor will include the provisions of the foregoing subparagraph 2.(B)(1) in every subcontract or purchase order under this",
+        "applicable to the performance of the services procured; and 4. Submitting the bid or proposal in full compliance with the Virginia Conflict of Interest Act. D. In every contract of over $10,000, the Contractor a grees during the performance of this contract that: 1. The Contractor (1) will not discriminate"
+      ],
+      "ground_truth_context": [
+        "Consult with and advise the County as to the acceptability of subcontractors",
+        "The Contractor will include the provisions of the foregoing subparagraph 2.(B)(1) in every subcontract or purchase order under this Contract of over $10,000"
+      ],
+      "metadata": {
+        "question_id": 176,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          2,
+          5
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.7244288921356201,
+        "total": 0.7830828926780007
+      }
+    },
+    {
+      "question": "Who has the authority to require the removal of a subcontractor?",
+      "llm_response": "The Public Works Director.",
+      "ground_truth_answer": "The Project Manager may require the removal of a subcontractor.",
+      "retrieved_context": [
+        "the Public Works Director. 7. Other Information: Sub- Contractor\u2019s Status: A sub- contractor shall be recognized only in the capacity of an employee or agent of the contractor and the contractor will be responsible to the City for all the subcontractor's work, including failures or omissions; and his removal may",
+        "Works Director's shall be a condition precedent to the right of the Contractor to receive any money or payment for work under this contract affected in any manner or to any extent by such question. The Public Works Director shall decide the meaning and intent of any portion of the"
+      ],
+      "ground_truth_context": [
+        "His removal may be required by the Project Manager, as in the case of an employee."
+      ],
+      "metadata": {
+        "question_id": 194,
+        "RFP_id": "infra_3",
+        "RFP_type": "infra",
+        "chunks": [
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.4585568904876709,
+        "total": 0.5172108910300515
+      }
+    },
+    {
+      "question": "What SCC registration option applies to an out-of-state entity without regular operations in Virginia?",
+      "llm_response": "Is an out-of-state business entity that does not regularly and continuously maintain as part of its ordinary and customary business any employees, agents, offices, facilities, or inventories.",
+      "ground_truth_answer": "The entity must not regularly maintain employees, offices, or facilities in Virginia, excluding incidental presence for assembly/repair or solicitation of orders requiring out-of-state acceptance.",
+      "retrieved_context": [
+        "any of the foregoing options but currently have pending before the S .C.C. an application for authority to transact business in the Commonwealth of Virginia and wish to be considered for a waiver to allow you to submit the S.C.C. identification number after the due date for bids/proposals:",
+        "number: ________________________________ -OR- is not a corporation, limited liability company, limited partnership, registered limited liability partnership, or business trust - OR- is an out -of-state business entity that does not regularly an d continuously maintain as part of its ordinary and customary business any employees, agents, offices, facilities, or inventories"
+      ],
+      "ground_truth_context": [
+        "is an out-of-state business entity that does not regularly and continuously maintain as part of its ordinary and customary business any employees, agents, offices, facilities, or inventories in Virginia (not counting any employees or agents in Virginia who merely solicit orders that require acceptance outside Virginia before they become contracts, and not counting any incidental presence",
+        "needed to assemble, maintain, and repair goods)."
+      ],
+      "metadata": {
+        "question_id": 104,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          10
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 1.9654018878936768,
+        "total": 2.0240558884360573
+      }
+    },
+    {
+      "question": "What certification is provided by signing the Proposal Signature Sheet?",
+      "llm_response": "The signature certifies that the proposal complies with all requirements specified in the Request for Proposal and that the signer is a legal representative for the business entity submitting the proposal.",
+      "ground_truth_answer": "The signature certifies compliance with the RFP requirements and confirms no collusion or antitrust violations occurred during proposal preparation.",
+      "retrieved_context": [
+        "instituting legal action in the appropriate circuit court. RFP#2020- 05-21 Engineeri ng Services 8 of 23 ATTACHMENT A PROPOSAL SIGNATURE SHEET Page 1 of 2 My signature certifies that the proposal as submitted complies with all requirements specified in this Request for Proposal ( \"R.F.P.\" ). My signature also certifies",
+        "to sign as a legal representative for the business entity submitting this proposal. LEGAL NAME OF OFFEROR (DO NOT USE TRADE NAME): ADDRESS: SIGNATURE: NAME OF PERSON SIGNING (pri nt): TITLE: TELEPHONE: FAX: E-MAIL ADDRESS: DATE: RFP#2020- 05-21 Engineeri ng Services 9 of 23 ATTACHMENT A PROPOSAL SIGNATURE SHEET Page"
+      ],
+      "ground_truth_context": [
+        "My signature certifies that the proposal as submitted complies with all requirements specified in this Request for Proposal",
+        "the Offeror did not, either directly or indirectly, enter into any combination or arrangement",
+        "in violation of the Sherman Act",
+        "or Sections 59.1-9.1 through 59.1-9.17",
+        "of the Code of Virginia."
+      ],
+      "metadata": {
+        "question_id": 98,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          9
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 1.1482958793640137,
+        "total": 1.2069498799063942
+      }
+    },
+    {
+      "question": "How must a Contractor formally dispute a County decision on a claim?",
+      "llm_response": "The Contractor must formally dispute a County decision on a claim by promptly notifying the County in writing that the Contractor is proceeding with the work under protest.",
+      "ground_truth_answer": "The Contractor must notify the County in writing that they are proceeding with the work under protest.",
+      "retrieved_context": [
+        "the Contractor by written notice. C. If the Contractor disagrees with the decision of the County concerning any pending claim, the Contractor shall promptly notify the County by wri tten notice that the Contractor is proceeding with the work under protest. Any claim not resolved, whether by failure of the",
+        "Contractor to accept the decision of the County or under a written notice of Contractor's intention to file a claim or a detailed claim not acted upon by the governing body of the County, shall be specifically exempt by the Contractor from payment request, whether progress or final. Pendency of"
+      ],
+      "ground_truth_context": [
+        "If the Contractor disagrees with the decision of the County concerning any pending claim, the Contractor shall promptly notify the County by written notice that the Contractor is proceeding with work under protest."
+      ],
+      "metadata": {
+        "question_id": 97,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          9
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 3.563264846801758,
+        "total": 3.6219188473441384
+      }
+    },
+    {
+      "question": "How are subcontractor payment obligations enforced under the contract, and what certifications ensure compliance with antitrust laws?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Contractors must pay subcontractors within seven days of receiving County payments or provide written justification for withholding (Section 12). Subcontracts must include these terms. The Proposal Signature Sheet (Section 2) certifies compliance with the Sherman Act and Virginia antitrust laws, prohibiting collusion in bidding.",
+      "retrieved_context": [
+        "other Contracts, whether or not required by such sections of the Code. 12. Required Payment Pursua nt to Section 2.2 -4354 of the Code, the Contractor covenants and agrees to: A. within seven (7) days after receipt of any amounts paid to the Contractor under the Contract, (i) pay any",
+        "Contract of over $10,000 so that the provisions will be binding upon each subcontractor or vendor; and E. In every contract of over $10,000, the Contractor agrees during the performance of this contract that: The Contractor shall A) pro vide a drug- free workplace for its employees; B) post in"
+      ],
+      "ground_truth_context": [
+        "Within 7 days",
+        "pay subcontractor",
+        "or notify County",
+        "of withholding.",
+        "The County",
+        "shall render [a] decision within 120 days of final payment",
+        "Contractor appeals [must be filed] within six months."
+      ],
+      "metadata": {
+        "question_id": 185,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          6,
+          9
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5112199783325195,
+        "total": 0.5698739788749001
+      }
+    },
+    {
+      "question": "What are the conditions under which the County can terminate the contract for default?",
+      "llm_response": "The County can terminate the contract for default if the Contractor receives a \"Show Cause Notice\" for a failure, is given ten days to rectify the failure/nonperformance, and then either fails to respond to the cure notice or does not correct the deficiencies.",
+      "ground_truth_answer": "The County may terminate the contract for default if the Contractor fails to deliver equipment/services, repeatedly fails to respond to maintenance requests, or breaches other terms after a \"Show Cause Notice.\"",
+      "retrieved_context": [
+        "granting the waiver to be effective. 21. Termination and Cancellation The County shall have the u nilateral right to terminate this contract for default, in the event that any one or more of the following events of default occur or continue during the term of this agreement: (a) the Contractor",
+        "receiving a \" Show Cause Notice \" identifying the failure, then providing the Contractor ten (10) days to cure the failure/nonperformance. If the Contractor fails to answer the cure notice, or does not correct the deficiencies noted, the County may immediately terminate the agreem ent for default. In such event"
+      ],
+      "ground_truth_context": [
+        "The County shall have the unilateral right to terminate this contract for default",
+        "(a) the Contractor shall fail to deliver the equipment or services",
+        "(b) the Contractor shall repeatedly fail to respond to request for maintenance",
+        "(c) the Contractor shall breach any of the other cures after receiving a 'Show Cause Notice'",
+        "If the Contractor fails to answer the cure notice",
+        "the County may immediately terminate the agreement for default."
+      ],
+      "metadata": {
+        "question_id": 93,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          8
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.9813942909240723,
+        "total": 1.0400482914664528
+      }
+    },
+    {
+      "question": "How many copies of the proposal are required for submission?**",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Six (6) copies of the proposal are requested.",
+      "retrieved_context": [
+        "staff members that were assigned and their role(s) in the project. VIII. Proposal Response 7 Respondents to this RFP shall include the following minimum information in the ir proposal: a. Describe how A/E will organize and perform the work described in the Scope of Services section. List the names of",
+        "represents. If selected, agrees to incorporate the requirement of this RFP in the final contract with the District. Signature of Person Authorized to Submit Proposal: ____________________________________ Typed Name of Signature Above: ____________________________________ I nit. Document 8132\u2122-2009 Standard Form of Agreement Between Owner and Architect, C onstruction Manager as Adviser Edition"
+      ],
+      "ground_truth_context": [
+        "Six (6) copies of your proposal are requested."
+      ],
+      "metadata": {
+        "question_id": 274,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          3
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.7610599994659424,
+        "total": 0.819714000008323
+      }
+    },
+    {
+      "question": "What insurance-related rights do the Owner and Architect waive under 8.1.2?",
+      "llm_response": "The Owner and Architect waive all rights against each other and against the contractors, consultants, and agents to the extent damages are covered by property insurance.",
+      "ground_truth_answer": "The Owner and Architect waive all rights against each other and against contractors, consultants, agents, and employees for damages covered by property insurance, except rights to insurance proceeds.",
+      "retrieved_context": [
+        "the meth od of binding dispute resolution selected in this A greemen t within the period specified by applicable law. \u00a7 8.1.2 To the extent damages are covered by property insurance, the Owner and Architect waive all rights against each other and against the contractors , consultant s, agents and",
+        "the Owner of the Architect's obligation s to obtain insmance pursuant to this AlA Docume nt B132'M -2009 (formerly 8141 TMCMa- 1992). Copyrig ht \u00a9 1992 and 2009 by The American Institute of Architects. All right s reserved . WARNING : This AlA\" Docum ent is protected by U.S. Copyright"
+      ],
+      "ground_truth_context": [
+        "To the extent damages are covered by property insurance, the Owner and Architect waive all rights against each other and against the contractors, consultants, agents and employees of the other for damages, except such rights as they may have to the proceeds of such insurance."
+      ],
+      "metadata": {
+        "question_id": 321,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          16
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5919249057769775,
+        "total": 0.6505789063193581
+      }
+    },
+    {
+      "question": "What compliance requirements must engineering firms meet regarding legal standards in their service delivery?",
+      "llm_response": "Engineering firms must comply with the regulations, laws, ordinances, and requirements relevant to their service delivery.",
+      "ground_truth_answer": "Firms must comply with all federal, state, and local laws, ordinances, and regulations, including environmental and procurement laws. (Section 1.1) requires adherence to \"regulations, laws, ordinances, and requirements of all governmental agencies,\" while (Exhibit A, Section 2.C) mandates conformity with the Civil Rights Act, Virginia Fair Employment Contracting Act, and Immigration Reform and Control Act.",
+      "retrieved_context": [
+        "accepted professional standards , and further represent that they will provide the County with the best possible advice and consultation within their authority and capacity as a Professional Engineer or Certified Land Surveyor in the Commonwealth of Virginia. The Engineer will comply with the regulations, laws, ordinances , and requirements",
+        "services ; and all other services incidental thereto; B) The selected firms(s) shall perform Professional Environmental Engineering Services pertaining to its closed sanitary landfi ll facility and other solid waste management facilities, including, but not limited to civil, electrical, environmental, mechanical, and structural Engineering Service; groundwater and landfill gas extraction"
+      ],
+      "ground_truth_context": [
+        "The Engineer will comply with the regulations, laws, ordinances, and requirements of all governmental agencies and authorities",
+        "Conforming to the provisions of the Civil Rights Act of 1964",
+        "and the Virginia Human Rights Act",
+        "[and] not employing illegal alien workers"
+      ],
+      "metadata": {
+        "question_id": 172,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          1,
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5339481830596924,
+        "total": 0.592602183602073
+      }
+    },
+    {
+      "question": "What are the structural requirements for the recycling center's main building?",
+      "llm_response": "The structural requirements for the recycling center's main building include a 40 x 60 enclosed blue metal building with a 20 x 60 lean-to structure, 6x6 timber posts with in-ground protectors spaced at 12 feet on center, steel trusses, and 29-gauge metal for the metal sides. Additionally, there are two 10-foot wide by 12-foot tall drum roll-up doors.",
+      "ground_truth_answer": "The main building requires a 40x60 enclosed blue metal structure with a 20x60 lean-to.",
+      "retrieved_context": [
+        "and waste reduction. The center will serve as a hub for collec ting, processing, and distributing recyclable materials. 2. Project Description: The proposed recycling center will be located at the corner of Railey Road and Joseph Street in Alexander City. The facility will include the following: \u00b7 40 x 60",
+        "enclosed blue metal building with a 20 x 60 lean to structure \u2022 6x6 timber posts with in ground protectors \u2022 Posts spaced at 12\u2019 on center \u2022 Steel trusses \u2022 Metal and sides will be 29 -gauge metal \u00b7 2 10\u2019 wide x 12\u2019 tall drum roll up doors"
+      ],
+      "ground_truth_context": [
+        "The facility will include the following: 40 x 60 enclosed blue metal building with a 20 x 60 lean to structur, 6x6 timber posts with in ground protectors, Posts spaced at 12' on center, Steel trusses, Metal and sides will be 29 -gauge metal."
+      ],
+      "metadata": {
+        "question_id": 190,
+        "RFP_id": "infra_3",
+        "RFP_type": "infra",
+        "chunks": [
+          3
+        ],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 1.2281630039215088,
+        "total": 1.2868170044638894
+      }
+    },
+    {
+      "question": "What is the deadline for project completion?",
+      "llm_response": "The deadline for project completion is September 30th, 2025.",
+      "ground_truth_answer": "The project must be completed by September 30th, 2025.",
+      "retrieved_context": [
+        "of work within _______ days of receipt of order. Must be completed prior to September 30th, 2025. Do all items bid meet or exceed the required specifications? ____ Y/N If no, please highlight and provide documentation detailing the reason for the deviation from the specifications. Non-Collusion Statement: By signing this",
+        "the metal building and the 20 x 60 lean to structure. \u00b7 Compliance with all local, state, and federal regulations. 4. Proposal Requirements: Interested contractors must submit the following information: \u00b7 Company profile and qualifications. \u00b7 List of similar projects completed. \u00b7 Proposed project timeline. Must be completed by September"
+      ],
+      "ground_truth_context": [
+        "Proposed project timeline. Must be completed by September 30th, 2025."
+      ],
+      "metadata": {
+        "question_id": 192,
+        "RFP_id": "infra_3",
+        "RFP_type": "infra",
+        "chunks": [
+          3
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.615929126739502,
+        "total": 0.6745831272818825
+      }
+    },
+    {
+      "question": "What is the basis for compensation for Basic Services under 11.5?",
+      "llm_response": "Compensation for Basic Services under 11.5 is based on a stipulated sum.",
+      "ground_truth_answer": "Compensation for Basic Services is based on a stipulated sum allocated across defined project phases.",
+      "retrieved_context": [
+        "the Architect' s consultants when not included in Sections 1 I .2 or 11.3, shall be the amount invoiced to the Architect plus ten percent ( 1 0%), or as otherwi se stated below : NONE \u00a7 11.5 Compensa tion for Basic Service s is based on a stipulated sum,",
+        "For the Architect's Basic Services described under Article 3, the Owner shall compensate the Architect as follow s: (Paragraph delet ed) \u00a7 11.2 For Additiona l Services designated in Section 4.1. the Owner shall compensate the Architect as agreed by the parti es and at the attached rates . See"
+      ],
+      "ground_truth_context": [
+        "Compensation for Basic Services is based on a stipulated sum, the compensation for each phase of services shall be as follows: Programming/Standards I Contractual/Schematic Design Phase percent %) II (Design Development Phase III percent %) (Construction Documents Phase IV percent %) (Bidding or Contract_ Phase V percent %) (Construction Admin & Closeout percent %) Phase VI."
+      ],
+      "metadata": {
+        "question_id": 340,
+        "RFP_id": "infra_4",
+        "RFP_type": "infra",
+        "chunks": [
+          21
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5112550258636475,
+        "total": 0.569909026406028
+      }
+    },
+    {
+      "question": "How do past performance evaluations relate to termination for default clauses?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Past performance (Excerpt 1, Section 5) is evaluated for quality, timeliness, and budget adherence, which directly impacts the County's right to terminate for default (Excerpt 2, Section 16) if contractors fail to meet obligations.",
+      "retrieved_context": [
+        "receiving a \" Show Cause Notice \" identifying the failure, then providing the Contractor ten (10) days to cure the failure/nonperformance. If the Contractor fails to answer the cure notice, or does not correct the deficiencies noted, the County may immediately terminate the agreem ent for default. In such event",
+        "granting the waiver to be effective. 21. Termination and Cancellation The County shall have the u nilateral right to terminate this contract for default, in the event that any one or more of the following events of default occur or continue during the term of this agreement: (a) the Contractor"
+      ],
+      "ground_truth_context": [
+        "Past performance record",
+        "quality of work, timeliness, diligence, ability to meet budget.",
+        "In case of default",
+        "County may procure services from other sources and hold the contractor responsible for additional costs."
+      ],
+      "metadata": {
+        "question_id": 182,
+        "RFP_id": "infra_1",
+        "RFP_type": "infra",
+        "chunks": [
+          4,
+          7
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5119328498840332,
+        "total": 0.5705868504264138
+      }
+    },
+    {
+      "question": "What materials must the contractor provide for the Computer Software Product (CDRL A037) to build the source code?**",
+      "llm_response": "The contractor must provide build scripts, build environment details, patch installer creation instructions, build logs, build tools with associated configurations, and IDE details for loading, reading, modifying, and building the source code documents.",
+      "ground_truth_answer": "The Contractor shall provide all materials necessary to build the source code into an executable and functioning application, including build scripts, build environment details, patch installer creation instructions, build logs, build tools with configurations, and integrated development environment (IDE) details.",
+      "retrieved_context": [
+        "shall provide all materials necessary to build the source code into an executable and functioning application. This includes but is not limited to: (1) build scripts (2) build environment details (3) Patch installer creation instructions, ( 4) build logs, (5) build tools with associated configurations and (6) integrated development environment",
+        "(IDE) details associated with loading, reading, modifying and building source code documents Additional related items to be provided as part of this CDRL upon government request include: (1) DOORS database and database extracts, (2) JMUL updates (or equivalent for AFATDS 7.0) and (3) Non -Developmental Software (NDS) and associated documentation"
+      ],
+      "ground_truth_context": [
+        "The Contractor shall provide all materials necessary to build the source code into an executable and functioning application. This includes but is not limited to: (1) build scripts (2) build environment details (3) Patch installer creation instructions, (4) build logs, (5) build tools with associated configurations and (6) integrated development environment (IDE) details associated with loading, reading, modifying and building source code documents."
+      ],
+      "metadata": {
+        "question_id": 36,
+        "RFP_id": "natsec_7",
+        "RFP_type": "natsec",
+        "chunks": [
+          1
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 4.095168113708496,
+        "total": 4.153822114250877
+      }
+    },
+    {
+      "question": "What restriction applies to proprietary data or code in the AFATDS baseline?",
+      "llm_response": "The introduction of proprietary data, code, or products into the Government-owned AFATDS baseline is strictly prohibited, with the exception of free and open source software (FOSS).",
+      "ground_truth_answer": "Proprietary data, code, or products are strictly prohibited in the AFATDS baseline, except for free and open-source software (FOSS).",
+      "retrieved_context": [
+        "all data and all no n- commercial software developed/modified under this CLIN as defined in DFARS 252.227 -7013 and DFARS 252 .227-7014. The introduction of propriety data, code, or products into the Government owned AFATDS baseline is strictly prohibited, with the exception of free and open source software (FOSS) .",
+        "The Contractor shall provide Unlimited Rights for all data and all no n- commercial software developed/modified under this CLIN as defined in DFARS 252.227 -7013 and DFARS 252.227 -7014. The introduction of propriety data, code, or products into the Government owned AFATDS baseline is strictly prohibited, with the exception of"
+      ],
+      "ground_truth_context": [
+        "The introduction of propriety data, code, or products into the Government owned AFATDS baseline is strictly prohibited, with the exception of free and open source software (FOSS)."
+      ],
+      "metadata": {
+        "question_id": 227,
+        "RFP_id": "natsec_1",
+        "RFP_type": "natsec",
+        "chunks": [
+          1
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 1.4059083461761475,
+        "total": 1.464562346718528
+      }
+    },
+    {
+      "question": "What training is mandated annually for contractor employees with security clearances?**",
+      "llm_response": "Contractor employees with security clearances must complete annual TARP (Threat Awareness and Reporting Program) training.",
+      "ground_truth_answer": "Annual Threat Awareness and Reporting Program (TARP) training is required, with certifications submitted to the COR.",
+      "retrieved_context": [
+        "must be U.S. citizens. Those personnel requiring access to Secret information require at a minimum an interim Secret security clearance. Per AR 38 1-12 Threat Awareness and Reporting Program (TARP), contractor employees with security clearances must complete annual TARP training: http://cdsetrain.dtic.mil/thwarting/. Certifications will be submitted to the COR on an",
+        "Information Assurance Contractor Training and Certification JAN 2008 252.239 -7017 Notice of Supply Chain Risk NOV 2013"
+      ],
+      "ground_truth_context": [
+        "Contractor employees with security clearances must complete annual TARP training",
+        "Certifications will be submitted to the COR on an annual basis."
+      ],
+      "metadata": {
+        "question_id": 3,
+        "RFP_id": "natsec_3",
+        "RFP_type": "natsec",
+        "chunks": [
+          1
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5009880065917969,
+        "total": 0.5596420071341774
+      }
+    },
+    {
+      "question": "What is required to ensure genuine ICT in the solution?**",
+      "llm_response": "Processes and practices must be employed to ensure that genuine ICT will be used in the solution, and these processes and requirements must also be applied to subcontractors.",
+      "ground_truth_answer": "Processes must verify genuine ICT and enforce requirements on subcontractors.",
+      "retrieved_context": [
+        "technology . 4. The processes and practices employed to e nsure that genuine information and communications technology (ICT) will be employed in the solution and that processes and requirements for genuine ICT are levied upon subcontractors . 5. The processes used to protect unclassified DoD information in the de velopment",
+        "of engaging with the government to develop mutuall y-agreeable risk management plans for the suppliers to be solicited. 3. The process es to control access by foreign nationals to program information, including, but not limited to, system design information, Do D-unique technology, and software or hardware used to integrate commercial"
+      ],
+      "ground_truth_context": [
+        "The processes and practices employed to ensure that genuine information and communications technology (ICT) will be employed in the solution and that processes and requirements for genuine ICT are levied upon subcontractors."
+      ],
+      "metadata": {
+        "question_id": 256,
+        "RFP_id": "natsec_6",
+        "RFP_type": "natsec",
+        "chunks": [
+          5
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.9251899719238281,
+        "total": 0.9838439724662087
+      }
+    },
+    {
+      "question": "Which standard applies to Configuration Management for defense contracts?",
+      "llm_response": "Electronic Industries Alliance (EIA)-649-1, Configuration Management Requirements for Defense Contracts, 20 November 2014.",
+      "ground_truth_answer": "EIA-649-1 establishes Configuration Management requirements.",
+      "retrieved_context": [
+        "March 201 4 h. DoD Instruction 8500.01, Cybersecurity, 14 March 2014 i. Electronic Industries Allianc e (EIA )-649-1, Configuration Management Requirements for Defense Contracts, 20 November 2014 j. Information Assurance Best Business Practice, 0 5-PR-M-0002, Information Assur ance Training and Certification, Version 5.0, 30 March 2012 k. Military Performance Specification,",
+        "The Contractor will maintain a Configuration Management (CM) program visible on DI2E. The CM program will establish and maintain consistency of the product\u2019s performance, functionality, and attributes with respect to its requirements. The CM p rogram will establish and maintain control of all architectures, requirements, specifications, designs, drawings, interfaces, software,"
+      ],
+      "ground_truth_context": [
+        "i. Electronic Industries Alliance (EIA)-649-1, Configuration Management Requirements for Defense Contracts, 20 November 2014"
+      ],
+      "metadata": {
+        "question_id": 252,
+        "RFP_id": "natsec_1",
+        "RFP_type": "natsec",
+        "chunks": [
+          9
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.699530839920044,
+        "total": 0.7581848404624245
+      }
+    },
+    {
+      "question": "Who must receive an email notification for Block 14 submissions?",
+      "llm_response": "The Contracting Officer\u2019s Representative must receive an email notification for Block 14 submissions.",
+      "ground_truth_answer": "The Contracting Officer\u2019s Representative must receive an email notification.",
+      "retrieved_context": [
+        "30 calendar days following the receipt of comments. Block 14: Submissions for PM M C shall be posted to IDE with email notification to the Contracting Officer\u2019s Representative. PM M C 0 1 0 DITC O-Scott 0 1 0 15. TOTA L 0 2 0 G. PREPARED B Y H.",
+        "of comments. No Government response within 45 cale ndar days of submission constitutes approval . Block 14: Submissions for PM MC shall be posted to IDE with email notification to the Contracting Officer\u2019s Representative. PM M C 0 1 0 DITC O-Scott 0 1 0 15. TOTA L 0 2"
+      ],
+      "ground_truth_context": [
+        "Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative."
+      ],
+      "metadata": {
+        "question_id": 135,
+        "RFP_id": "natsec_4",
+        "RFP_type": "natsec",
+        "chunks": [
+          10
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.44539976119995117,
+        "total": 0.5040537617423317
+      }
+    },
+    {
+      "question": "What facility security clearance is required for access to the AFATDS software baseline?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Contractors must have a U.S. SECRET facility clearance from the Defense Security Service.",
+      "retrieved_context": [
+        "229- 9243 for access to the AFATDS software baseline and technical documentation. Contractors will then be required to complete an Access Certification of Compliance, complete a NDA, and provide a complete mailing address. Upon receipt and clearance by the Contracting Officer, AFATDS baseline and technical documentation will be mailed a",
+        "qualified and received access to the AFATDS software baseline and technical documentation during market research DO NOT need to reapply or resubmit forms . Contractors that were approved for access to the AFATDS source code and technical documentation under the Access Compliance Certification are granted extended access past the 180"
+      ],
+      "ground_truth_context": [
+        "Have an existing facility security clearance of at least U.S. SECRET from the Defense Security Service. Provide a copy of the facility clearance letter",
+        "for verification."
+      ],
+      "metadata": {
+        "question_id": 379,
+        "RFP_id": "natsec_2",
+        "RFP_type": "natsec",
+        "chunks": [
+          9
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.508091926574707,
+        "total": 0.5667459271170876
+      }
+    },
+    {
+      "question": "What distribution restrictions apply to unclassified technical data under Block 9?**",
+      "llm_response": "Distribution under Block 9 is authorized to DoD agencies and U.S. DoD contractors only, even if the technical data is unclassified.",
+      "ground_truth_answer": "Unclassified data is export-controlled and subject to DoD Directive 5230.25, with distribution limited to DoD agencies and U.S. DoD contractors.",
+      "retrieved_context": [
+        ". Block 9: Distribution D: Distribution authorized to DoD agencies and U.S. DoD contractors only to protect information and technical data that advances current technology and that relates to a specific military deficiency of a potential adversary. Information of this type may be classified or unclassified; when unclassified, it is",
+        "patche s Block 9: Distribution D: Distribution authorized to DoD agencies and U.S. DoD contractors only to protect information and technical data that advances current technology and that relates to a specific military deficiency of a potential adversary. Information of this type may be classified or unclassified; when unclassified, it"
+      ],
+      "ground_truth_context": [
+        "Distribution authorized to DoD agencies and U.S. DoD contractors only",
+        "when unclassified, it is export-controlled and subject to the provisions of DoD Directive 5230.25."
+      ],
+      "metadata": {
+        "question_id": 262,
+        "RFP_id": "natsec_6",
+        "RFP_type": "natsec",
+        "chunks": [
+          6
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5621449947357178,
+        "total": 0.6207989952780983
+      }
+    },
+    {
+      "question": "What format must subcontractors use for IPMR submissions?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Subcontractors must use the DoD-approved XML format.",
+      "retrieved_context": [
+        "XML Guideline. Format 7 shall be submitted using the Do D-approved Time-Phased Cost XML Guideline and schema. 3.5 All IPMR files must be electronically forwarded to the central repository at the DCARC website at http://dcarc.cape.osd.mil/EV M 3.6 Formats 5 and 6 shall also be submitted in contractor native format. Formats",
+        "XML format . 4.7. Format 6 Instruction s (1) The IMS is also submitted in the con tractor\u2019s native schedule format including the calendar(s). (2) The IMS shall include all discrete work. Subcontractors with EVM flowdown shall be incorporated with sufficient detail to develop a realistic critical path. (3) The"
+      ],
+      "ground_truth_context": [
+        "(9) IPMRs required from subcontractors will be provided electronically using the DoD approved XML format."
+      ],
+      "metadata": {
+        "question_id": 120,
+        "RFP_id": "natsec_4",
+        "RFP_type": "natsec",
+        "chunks": [
+          6
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5634050369262695,
+        "total": 0.6220590374686501
+      }
+    },
+    {
+      "question": "What are the reporting obligations for a cyber incident affecting operationally critical support?",
+      "llm_response": "To report a cyber incident affecting operationally critical support, the contractor must provide a cyber incident report to the Department of Defense (DoD) through http://dibnet.dod.mil, including the required elements specified on that site. Additionally, a medium assurance certificate is required to report the incident.",
+      "ground_truth_answer": "The contractor must conduct a review for compromised data, systems, and user accounts, and rapidly report the incident to DoD via the specified portal.",
+      "retrieved_context": [
+        "cyber incidents to DoD at http://dibnet.dod.mi l. (2) Cyber incident report . The cyber incident report shall b e treated as information created by or for DoD and shall include, at a minimum, the required elements at http://dibnet.dod.mi l. (3) Medium assurance certificate requirement . In order to report cyber",
+        "part of the cyber incident, as well as other information systems on the Contractor\u2019s network(s), that may have been accessed as a result of the incident in order to identify compromised covered defense information, or that affect t he Contractor\u2019s ability to provide operationally critical support; and (ii) Rapidly report"
+      ],
+      "ground_truth_context": [
+        "When the Contractor discovers a cyber incident",
+        "the Contractor shall\u2014 (i) Conduct a review for evidence of compromise",
+        "(ii) Rapidly report cyber incidents to DoD at http://dibnet.dod.mil."
+      ],
+      "metadata": {
+        "question_id": 19,
+        "RFP_id": "natsec_3",
+        "RFP_type": "natsec",
+        "chunks": [
+          6
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 2.069650888442993,
+        "total": 2.1283048889853737
+      }
+    },
+    {
+      "question": "What is the process if the Contractor modifies the Interface Control Document after Government approval?**",
+      "llm_response": "If the Contractor modifies the Interface Control Document after Government approval, the Contractor must resubmit it for Government review and approval.",
+      "ground_truth_answer": "The Contractor must resubmit the revised document for Government review and approval. The Government will provide comments within 30 calendar days of receipt, and the final version is due back within 30 days after receiving comments.",
+      "retrieved_context": [
+        "in conjunction with the final delivery of every software baseline. If the Contractor throughout the course of the contract makes changes to the Interface Control Document after Government approval, the Contractor shall resubmit for Government review and approval . The Government shall review and provide comments within 30 calendar days",
+        "the contract makes changes to the Quality Assurance Program Plan after Government approval, the Contractor shall resubmit for Government review and approval . The Government shall review and provide comments within 45 calendar days of receipt of the document. The final reproduced version is due back to the Government within"
+      ],
+      "ground_truth_context": [
+        "If the Contractor throughout the course of the contract makes changes to the Interface Control Document after Government approval, the Contractor shall resubmit for Government review and approval. The Government shall review and provide comments within 30 calendar days of receipt of the document. The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments."
+      ],
+      "metadata": {
+        "question_id": 208,
+        "RFP_id": "natsec_5",
+        "RFP_type": "natsec",
+        "chunks": [
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 5.120064973831177,
+        "total": 5.178718974373558
+      }
+    },
+    {
+      "question": "What is the Contractor's delivery timeline after contract award for Blocks 10-13?",
+      "llm_response": "The Contractor's delivery timeline after contract award for Blocks 10-13 is 45 calendar days.",
+      "ground_truth_answer": "The Contractor shall deliver 90 calendar days after award of contract. The Contractor shall deliver 30 calendar days prior to contract expiration.",
+      "retrieved_context": [
+        "Command, SFAE-CCC-MC . Block 10, 11, 12 & 13: The Contractor shall deliver 90 calendar days after award of contract. The Contractor shall deliver 90 calendar days after the exercise of each option. The Contractor shall deliver 30 calendar days prior to contrac t expiration. The Government shall review and",
+        "Project Manager, Mission Command, SFA E-CCC-MC . Block 10, 11, 12 & 13: The Contractor shall deliver 45 calendar days after contract award. If the Contract or throughout the course of the contract makes changes to the Software Development Plan after Government approval, the Contractor shall resubmit for Government review"
+      ],
+      "ground_truth_context": [
+        "Block 10, 11, 12 & 13: The Contractor shall deliver 90 calendar days after award of contract",
+        "The Contractor shall deliver 30 calendar days prior to contract expiration."
+      ],
+      "metadata": {
+        "question_id": 125,
+        "RFP_id": "natsec_4",
+        "RFP_type": "natsec",
+        "chunks": [
+          9
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5112640857696533,
+        "total": 0.5699180863120339
+      }
+    },
+    {
+      "question": "What are the two subtasks under Task 1 (Enterprise Management Controls)?**",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "The subtasks are Integration Management Control Planning (Subtask 1) and Task Order Management (Subtask 2).",
+      "retrieved_context": [
+        "Subtask 1 - Integration Management Control Plannin g. Provide the technical and functional activities at the required for integration of all tasks specified within this PWS. Include productivity and manage ment methods such as quality assurance, progress/status reporting and program reviews. Provide the centralized administrative, clerical, documentation and related functions",
+        "a correspo nding standard(s), a statement of the maximum allowable degree of deviation from the standard, the method of surveillance to determine whether the standard is met, and a positive and/or negative incentive based on adherence to the standard. 6.1 Task 1 - Enterprise Management Control s. (Example ) 6.1.1"
+      ],
+      "ground_truth_context": [
+        "6.1.1 Subtask 1 - Integration Management Control Planning",
+        "6.1.2 Subtask 2 - Task Order Management."
+      ],
+      "metadata": {
+        "question_id": 383,
+        "RFP_id": "natsec_2",
+        "RFP_type": "natsec",
+        "chunks": [
+          10
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.4112269878387451,
+        "total": 0.4698809883811257
+      }
+    },
+    {
+      "question": "Under what conditions does the contractor forfeit the flat fee bonus for Gates 1\u20133?**",
+      "llm_response": "The contractor forfeits the flat fee bonus for Gates 1\u20133 if they do not successively pass Gates 1, 2, and 3.",
+      "ground_truth_answer": "The contractor forfeits the flat fee bonus if they do not successively pass Gates 1, 2, and 3. This does not affect their eligibility for the Final Gate fee.",
+      "retrieved_context": [
+        "the contractor does not successively pass Gates 1, 2, and 3 they forfeit their opportunity to earn the flat fee bonu s. Forfeiting t he flat fee bonus for not successively passing Gates 1, 2, and 3 does not impact the contractor\u2019s ability to earn fee at the Final Gate.",
+        "5% fee pool as a flat fee bonus for successively meeting Gates 1, 2, and 3, as defined above. Therefore, if the contractor delivers all thre e engineering releases (engineering releases 3, 6, and 9) with no Priority 1 or 2 errors, they are eligible for the flat fee bonus;"
+      ],
+      "ground_truth_context": [
+        "If the contractor does not successively pass Gates 1, 2, and 3 they forfeit their opportunity to earn the flat fee bonus. Forfeiting the flat fee bonus",
+        "does not impact the contractor\u2019s ability to earn fee at the Final Gate."
+      ],
+      "metadata": {
+        "question_id": 115,
+        "RFP_id": "natsec_4",
+        "RFP_type": "natsec",
+        "chunks": [
+          3
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5174877643585205,
+        "total": 0.5761417649009011
+      }
+    },
+    {
+      "question": "What legal frameworks must contractors follow when conducting activities involving electronic communications and data?**",
+      "llm_response": "Contractors must conduct activities involving electronic communications and data in accordance with applicable laws and regulations on the interception, monitoring, access, use, and disclosure of electronic communications and data.",
+      "ground_truth_answer": "Contractors must comply with applicable laws and regulations on interception, monitoring, access, use, and disclosure of electronic communications and data.",
+      "retrieved_context": [
+        ". HC1028 -16-R-0005 0004 Page 76 of 217 (k) The Contractor shall conduct activities under this clause in accordance with applicable laws and regulations on the interception, monitoring, access , use, and disclosure of electronic communications and data . (l) Other safeguarding or reporting requirement s. The safeguarding and cyber",
+        "National Labor Relations Act DEC 2010 52.22 2-50 Combating Trafficking in Persons MAR 2015 52.22 2-54 Employment Eligibility Verification OCT 2015 52.22 3-6 Drug-Free Workplace MAY 2001 52.22 3-18 Encouraging Contractor Policies To Ban Text Messaging While Driving AUG 2011 52.22 4-1 Privacy Act Notification APR 1984 52.22 4-2 Privacy"
+      ],
+      "ground_truth_context": [
+        "The Contractor shall conduct activities under this clause in accordance with applicable laws and regulations on the interception, monitoring, access, use, and disclosure of electronic communications and data."
+      ],
+      "metadata": {
+        "question_id": 23,
+        "RFP_id": "natsec_3",
+        "RFP_type": "natsec",
+        "chunks": [
+          7
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.8127198219299316,
+        "total": 0.8713738224723122
+      }
+    },
+    {
+      "question": "How does Subtask 3 require AFATDS 7.0 to interface with external services?**",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "It mandates reliance on COE common services to streamline development efforts toward fires capabilities and integration.",
+      "retrieved_context": [
+        "need to be filled via HC1028 -16-R-0005 0004 Page 22 of 217 development actions performed by the AFATDS 7.0 developer working in coordination with the primary service developer. 6.2.9 Subtask 9 External Interface Requirement s AFATDS 7.0 will support all external interfac es and devices as described in the AFATDS",
+        "training will be animated and interactive as opposed to text based and m ust be accessible directly from the AFATDS 7.0 system without additional modules or software being installed. 6.1.6 Subtask 6 Acquire an AFATDS 7.0 software baseline that implements a service based architecture. These services will be connected to"
+      ],
+      "ground_truth_context": [
+        "Acquire an AFATDS 7.0 software baseline that maximizes the use of common services made available from the COE environment",
+        "allowing the AFATDS 7.0 developer to focus their primary efforts on the development of fires capabilities and integration tasks."
+      ],
+      "metadata": {
+        "question_id": 238,
+        "RFP_id": "natsec_1",
+        "RFP_type": "natsec",
+        "chunks": [
+          5
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6151859760284424,
+        "total": 0.673839976570823
+      }
+    },
+    {
+      "question": "What templates or checklists must be included in the documentation per Block 4?**",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "The documentation must include applicable Assured Compliance Assessment Solution (ACAS) templates and Security Content Automation Protocols (SCAP) checklists.",
+      "retrieved_context": [
+        "BLK 1 6 14. DISTRIBUTIO N 8. APP COD E A D 11. AS OF DAT E See BLK 1 6 13. DATE OF SUBSEQUENT SUBMISSIO N See BLK 1 6 b. COPIE S 16. REMARK S Block 4: Prepare the required document, in contractor format, in accordance with the",
+        "BLK 1 6 14. DISTRIBUTIO N 8. APP COD E A D 11. AS OF DAT E See BLK 1 6 13. DATE OF SUBSEQUENT SUBMISSIO N See BLK 1 6 b. COPIE S 16. REMARK S Block 4: Prepare the required document, in contractor format, in accordance with the"
+      ],
+      "ground_truth_context": [
+        "a. Applicable Assured Compliance Assessment Solution (ACAS) templates b. Applicable Security Content Automation Protocols (SCAP) checklists."
+      ],
+      "metadata": {
+        "question_id": 260,
+        "RFP_id": "natsec_6",
+        "RFP_type": "natsec",
+        "chunks": [
+          6
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.36809587478637695,
+        "total": 0.4267498753287575
+      }
+    },
+    {
+      "question": "What must the Test for Record (TFR) include?**",
+      "llm_response": "The Test for Record (TFR) must include testing of security and safety requirements.",
+      "ground_truth_answer": "The TFR must include Government-approved system-level test cases, regression threads, stability tests, and security/safety requirements testing, observed by the Government for compliance.",
+      "retrieved_context": [
+        "execution of Government approved syste m-level test cases, regression threads, and a stability test. The Contractor will ensure that the TFR also includes testing of security and safety requirements. T he TFR is subject to Government observation, the focus of which is to determine the level of compliance with the",
+        "provided as GFI. The NABK test cases will be provided in XML format, which necessitates a change to the front end of the NABK test tool. HC1028 -16-R-0005 0004 Page 44 of 217 e The Contractor will conduct a Tes t for Record (TFR), which is defined as the controlled"
+      ],
+      "ground_truth_context": [
+        "The Contractor will conduct a Test for Record (TFR), which is defined as the controlled execution of Government approved system-level test cases, regression threads, and a stability test. The Contractor will ensure that the TFR also includes testing of security and safety requirements. The TFR is subject to Government observation, the focus of which is to determine the level of compliance with the AFATDS specifications."
+      ],
+      "metadata": {
+        "question_id": 371,
+        "RFP_id": "natsec_2",
+        "RFP_type": "natsec",
+        "chunks": [
+          7
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6558940410614014,
+        "total": 0.7145480416037819
+      }
+    },
+    {
+      "question": "When must the final version of Blocks 10-13 be delivered?",
+      "llm_response": "The final version of Blocks 10-13 must be delivered in conjunction with the software Final Release.",
+      "ground_truth_answer": "The final version must be delivered in conjunction with software Final Release.",
+      "retrieved_context": [
+        "at the direction of Project Manager, Mission Command, SFA E-CCC-MC . Block 10, 11, 12 & 13: The Contractor shall deliver a draft version no later than 20 calendar days prior to Test for Record (TFR). The Contractor shall deliver a final version in conjunction with software Final Release. The",
+        "Command, SFAE-CCC-MC . Block 10, 11, 12 & 13: The Contractor shall deliver 90 calendar days after award of contract. The Contractor shall deliver 90 calendar days after the exercise of each option. The Contractor shall deliver 30 calendar days prior to contrac t expiration. The Government shall review and"
+      ],
+      "ground_truth_context": [
+        "The Contractor shall deliver a final version in conjunction with software Final Release."
+      ],
+      "metadata": {
+        "question_id": 131,
+        "RFP_id": "natsec_4",
+        "RFP_type": "natsec",
+        "chunks": [
+          10
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5219171047210693,
+        "total": 0.5805711052634499
+      }
+    },
+    {
+      "question": "What are the consequences of proposing unrealistically low or high costs?",
+      "llm_response": "Proposing unrealistically low or high costs may lead to the elimination of a proposal from competition because it suggests that the offeror does not understand the requirement or has submitted an unrealistic proposal.",
+      "ground_truth_answer": "Unrealistically low or high proposed costs may result in elimination from competition, as they indicate the offeror may not understand requirements or has submitted an unrealistic proposal. Unbalanced costs may also lead to rejection.",
+      "retrieved_context": [
+        "in a clear and useful format. Note that unrealistically low or high proposed costs, initially or subsequently, may be grounds for elimina ting a proposal from competition either on the basis that the offeror does not understand the requirement or has submitted an unrealistic proposal. Additionally, unbalanced costs pose an",
+        "unacceptable risk to the Government and may be a reason to reject an offeror\u2019s proposal. Cost submissions should be sufficiently detailed to demonstrate their reasonableness and be adequate enough to support and sustain a DCAA audit. 6.1.2 Cost/Price Information Information beyond that required by this instruction shall not be submitted,"
+      ],
+      "ground_truth_context": [
+        "Note that unrealistically low or high proposed costs, initially or subsequently, may be grounds for eliminating a proposal from competition",
+        "Additionally, unbalanced costs pose an unacceptable risk to the Government and may be a reason to reject an offeror\u2019s proposal."
+      ],
+      "metadata": {
+        "question_id": 56,
+        "RFP_id": "natsec_7",
+        "RFP_type": "natsec",
+        "chunks": [
+          8
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5432238578796387,
+        "total": 0.6018778584220192
+      }
+    },
+    {
+      "question": "What must the Contractor\u2019s System Safety Program Plan (SSPP) include?**",
+      "llm_response": "The Contractor\u2019s System Safety Program Plan (SSPP) must include the proposed design, operations in CPCE and MCE, and a strategy for mitigating, controlling, or minimizing potential hazards.",
+      "ground_truth_answer": "The SSPP must include tasks to fulfill system and software safety analysis per MIL-STD-882E and the Joint Software System Safety Engineering Handbook.",
+      "retrieved_context": [
+        "(D I-MISC-80508B ) 6.13 Task 13 Safet y HC1028 -16-R-0005 0004 Page 43 of 217 The Contractor will conduct and implement a system safety management and engineering program using MI L-STD-882E. The Contractor will provide a system safety program plan for Government review and approval. The SSPP will include the",
+        "proposed design, operating in CPCE and MCE, and recommend a strategy for mitigating, controlling, or minimizing the potential hazards. The Contractor will analyze and provide the safety impact of code reuse. CDRL A032, CDRL A03 3 Deliverable(s) : CDRL A03 2 System Safety Program Plan (D I-SAFT-81626) CDRL A03 3"
+      ],
+      "ground_truth_context": [
+        "The SSPP will include the tasks the Contractor will perform to fulfill the level of rigor activities and system and software safety analysis per MIL-STD-882E and the Joint Software System Safety Engineering handbook."
+      ],
+      "metadata": {
+        "question_id": 368,
+        "RFP_id": "natsec_2",
+        "RFP_type": "natsec",
+        "chunks": [
+          7
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 3.808457851409912,
+        "total": 3.8671118519522927
+      }
+    },
+    {
+      "question": "Where must final submissions for PM MC be posted as per Block 14?**",
+      "llm_response": "Final submissions for PM MC must be posted to IDE as per Block 14.",
+      "ground_truth_answer": "Submissions must be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative.",
+      "retrieved_context": [
+        "of the document. The final reproduced version is due back to the Government within 30 calendar days following the r eceipt of comments . Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative. PM M C 0 2",
+        "comments within 30 c alendar days of receipt of the document. The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments. Block 14: Submissions for PM MC shall be posted to IDE with email notification to the Contr acting Officer\u2019s Representative."
+      ],
+      "ground_truth_context": [
+        "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative."
+      ],
+      "metadata": {
+        "question_id": 204,
+        "RFP_id": "natsec_5",
+        "RFP_type": "natsec",
+        "chunks": [
+          1
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.8764269351959229,
+        "total": 0.9350809357383034
+      }
+    },
+    {
+      "question": "How must access by foreign nationals to program information be controlled?**",
+      "llm_response": "Access by foreign nationals to program information must be controlled through processes that protect system design information, DoD-unique technology, and software or hardware integration. This involves ensuring that such information is either classified or, if unclassified, export-controlled and subject to DoD Directive 5230.25.",
+      "ground_truth_answer": "Processes must control access to system design information, DoD-unique technology, and integration tools for commercial technology.",
+      "retrieved_context": [
+        "of engaging with the government to develop mutuall y-agreeable risk management plans for the suppliers to be solicited. 3. The process es to control access by foreign nationals to program information, including, but not limited to, system design information, Do D-unique technology, and software or hardware used to integrate commercial",
+        "protect information and technical data that advances current technology and that relates to a specific military deficiency of a potential adversary. Information of this type may be classified or unclassified; when unclassified, it is expor t-controlled and subject to the provisions of DoD Directive 5230.25 (reference (c)), determined June 15,"
+      ],
+      "ground_truth_context": [
+        "The processes to control access by foreign nationals to program information, including, but not limited to, system design information, DoD-unique technology, and software or hardware used to integrate commercial technology."
+      ],
+      "metadata": {
+        "question_id": 255,
+        "RFP_id": "natsec_6",
+        "RFP_type": "natsec",
+        "chunks": [
+          5
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.9789912700653076,
+        "total": 1.0376452706076882
+      }
+    },
+    {
+      "question": "What are the permitted uses of contractor attributional/proprietary information obtained by DoD?**",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "The information may be used and released outside DoD for purposes authorized by paragraph (i) of the clause and for any lawful Government purpose, subject to statutory, regulatory, and policy restrictions.",
+      "retrieved_context": [
+        "(j) Use and release of contractor attributional/proprietary information created by or for DoD. Information that is obtained from the contractor (or derived from information obtained from the contractor) under this clause that is created by or for DoD (including the information submitted p ursuant to paragraph (c) of this clause)",
+        "Government will implement appropriate procedures to minimize the contractor attributional/proprietary information that is included in such authorized release, seeking to include only that information that is necessary for the authorized purpose(s) for which the information is being released . (i) Use and release of contractor attributional/proprietary information not created by"
+      ],
+      "ground_truth_context": [
+        "Information that is obtained from the contractor",
+        "is authorized to be used and released outside of DoD for purposes and activities authorized by paragraph (i) of this clause, and for any other lawful Government purpose or activity, subject to all applicable statutory, regulatory, and policy based restrictions."
+      ],
+      "metadata": {
+        "question_id": 22,
+        "RFP_id": "natsec_3",
+        "RFP_type": "natsec",
+        "chunks": [
+          7
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 1.0254178047180176,
+        "total": 1.0840718052603981
+      }
+    },
+    {
+      "question": "What standards govern the development of Interactive Electronic Technical Manuals (IETMs)?",
+      "llm_response": "MIL-STD-40051-2B governs the development of Interactive Electronic Technical Manuals (IETMs).",
+      "ground_truth_answer": "The Contractor must develop IETMs in Portable Document Format (PDF) IAW MIL-STD-40051-2B and ensure all products comply with MIL-STD-40051-1B.",
+      "retrieved_context": [
+        "F. CONTRACTO R TBD 1. DATA ITEM NO . A022 2. TITLE OF DATA ITEM Interactive Electronic Technical Manuals (IETMs), Technical Bulleti n 43. SUBTITL E 4. AUTHORIT Y (Data Acquisition Document No. ) DI-MISC-80711A/ T 5. CONTRACT REFERENCE SOO 6.1 0 6. REQUIRING OFFIC E SFAE-CCC -MC 7. DD",
+        "1-1B an d IETM (Portable Document Format) format IAW MI L-STD-4005 1-2B. The Contractor shall conduct validations at the Contractor\u2019s facility for all products prior to Government verifications; and provide specified quantity of all draft products for these Governm ent verifications . The following SUMs will be provided: AFATDS Startup"
+      ],
+      "ground_truth_context": [
+        "Additionally, the Contractor shall develop all products IAW MIL-STD-40051-1B and IETM (Portable Document Format) format IAW MIL-STD-40051-2B."
+      ],
+      "metadata": {
+        "question_id": 220,
+        "RFP_id": "natsec_5",
+        "RFP_type": "natsec",
+        "chunks": [
+          8
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5575621128082275,
+        "total": 0.6162161133506081
+      }
+    },
+    {
+      "question": "What are the three parts required in Volume III - Past Performance volume organization?**",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "The Past Performance volume must be organized into Part A (Summary of Relevant Past Performance Contracts), Part B (Subcontractor/Teaming Partner Consent Letters), and Part C (Client Authorization Letters).",
+      "retrieved_context": [
+        "by such risk mitigation . 4.2.2 Volume Organization The Technical/Management volume shall be organized according to the following general outline : Part A - Subfactor 1 - Contractor developed PWS, IMP and CWBS Glossar y Part B - Subfactor 2 - Modernized/Conversion Approac h Part C - Subfactor 3 -",
+        "submit a consent letter executed by each subcontractor, teaming partner, and/or joint venture partner, HC1028 -16-R-0005 0004 Page 181 of 217 authorizing release of past performance information to the offeror so the offeror can respond to such information. 5.2 Volume III Organization The Past Performance volume shall be organized according"
+      ],
+      "ground_truth_context": [
+        "Part A \u2013 Summary of Relevant Past Performance Contracts",
+        "Part B - Subcontractor/Teaming Partner Consent Letters",
+        "Part C - Client Authorization Letters."
+      ],
+      "metadata": {
+        "question_id": 51,
+        "RFP_id": "natsec_7",
+        "RFP_type": "natsec",
+        "chunks": [
+          7
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.38224315643310547,
+        "total": 0.44089715697548604
+      }
+    },
+    {
+      "question": "Who is authorized to access contractor records and facilities during service performance?",
+      "llm_response": "The contracting officer (KO), contracting officer's representative (COR), and/or designated representatives are authorized to access contractor records and facilities during service performance.",
+      "ground_truth_answer": "The Contractor shall permit the contracting officer (KO), contracting officer's representative (COR), and/or designated representatives access at any reasonable time to all records, data, and facilities used in performance of the contemplated services.",
+      "retrieved_context": [
+        "e HC1028 -16-R-0005 0004 Page 59 of 217 Section E - Inspection and Acceptance SECTION E Section E -Inspection and Acceptance E.1. ACCESS TO RECORD, DATA AND FACILITIES . The Contractor shall permit the contracting officer (KO), contracting officer's representative (COR) and/or designated representative\u2019s access at any reasonable time to",
+        "The following security requirements shall apply to this effort. 12.1 Facility Security Clearanc e. The Contractor shall also have access to Communication Security (COMSEC), For Official Use Only, and s ecurity classification guide information. in performing the contract the Contractor will also have access to classified information at the Contractor\u2019s"
+      ],
+      "ground_truth_context": [
+        "The Contractor shall permit the contracting officer (KO), contracting officer's representative (COR) and/or designated representative\u2019s access at any reasonable time to all records, data and facilities used in performance of the contemplated services."
+      ],
+      "metadata": {
+        "question_id": 6,
+        "RFP_id": "natsec_3",
+        "RFP_type": "natsec",
+        "chunks": [
+          2
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.654813289642334,
+        "total": 0.7134672901847146
+      }
+    },
+    {
+      "question": "What is the primary objective of CLIN 0001 under this contract?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "CLIN 0001 requires modernizing the AFATDS software baseline to align with AFATDS v7.0 requirements, including backend architecture updates, Common Services integration, role-based functionality, and embedded training.",
+      "retrieved_context": [
+        "Capability Development Document, 06 June 2011 6.4 Task 4 Performance Objectives a. The Contractor will provide the services and items specified in Section B, Contract Line Item Numbers (CLINs), of the contract in alignment with the objectives stated herein and in compliance with the AFATDS SRS and other applicable documents",
+        "CLIN is $20,000,000.00 FOB: Destinatio n ESTIMATED COS T FIXED FE E TOTAL EST COST + FE E HC1028 -16-R-0005 0004 Page 14 of 217 Section C - Descriptions and Specification s STATEMENT OF OBJECTIVE S STATEMENT OF OBJECTIVES (SOO ) as of April 4, 2016 Contract Number: (completed by"
+      ],
+      "ground_truth_context": [
+        "The contractor shall modernize the existing AFATDS software baseline to provide a modernized backend AFATDS architecture; incorporate the Common Services provided by Common Operating Environment v3; implement role duty based functionality; and provide embedded computer based training."
+      ],
+      "metadata": {
+        "question_id": 225,
+        "RFP_id": "natsec_1",
+        "RFP_type": "natsec",
+        "chunks": [
+          1
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.38051795959472656,
+        "total": 0.43917196013710713
+      }
+    },
+    {
+      "question": "How are option periods evaluated for pricing purposes?**",
+      "llm_response": "The Government evaluates option periods for pricing purposes by adding the total price for all options to the total price for the base period.",
+      "ground_truth_answer": "Option pricing, including a six-month extension under FAR 52.217-8, is added to the base period price for evaluation.",
+      "retrieved_context": [
+        "proposed pricing in the six months prior to expiration of the base period, or the final option period, if option periods are present. The total evaluate d price will consist of the contractor\u2019s proposed price for the base period, all option periods, and the option pricing for the additional si",
+        ". c. Evaluation of Option s The Government will evaluate offers for award purposes by adding the total price for all options to the total price for the base period. The offeror shall submit pricing for the base period and a ll option periods, including option pricing for an additional"
+      ],
+      "ground_truth_context": [
+        "The Government will evaluate offers for award purposes by adding the total price for all options to the total price for the base period",
+        "The pricing for the additional six-month extension period, IAW FAR 52.217-8, applies to the Engineering Support Services and ODC CLINs only."
+      ],
+      "metadata": {
+        "question_id": 160,
+        "RFP_id": "natsec_8",
+        "RFP_type": "natsec",
+        "chunks": [
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.47761011123657227,
+        "total": 0.5362641117789528
+      }
+    },
+    {
+      "question": "What defines an Organizational Conflict of Interest (OCI) under the contract?**",
+      "llm_response": "An Organizational Conflict of Interest (OCI) under the contract is defined as a situation where the nature of the work to be performed may, without some restriction on future activities, result in an unfair competitive advantage.",
+      "ground_truth_answer": "An organizational conflict of interest occurs when a contractor\u2019s other activities or relationships impair their ability to provide impartial advice, create an unfair competitive advantage, or compromise objectivity.",
+      "retrieved_context": [
+        "Government seeks to acquire unbiased advi ce and/or goods and services from offerors/contractors that are free from, or have mitigated, Organizational Conflicts of Interest , as defined in FAR 2.101, relating to this contract . b. In order for the Government to try to prevent an OCI relating to this",
+        "nature of the work to be performed on the instant contract creates an actual or potential COI on a future acquisition.\u201d An organizational COI exists when the nature of the work to b e performed may, without some restriction on future activities, (1) result in an unfair competitive advantage to"
+      ],
+      "ground_truth_context": [
+        "An organizational conflict of interest means that because of other activities or relationships with other persons, a person is unable or potentially unable to render impartial assistance or advice to the Government, or the person's objectivity in performing the contract work is or might be otherwise impaired, or a person has an unfair competitive advantage."
+      ],
+      "metadata": {
+        "question_id": 14,
+        "RFP_id": "natsec_3",
+        "RFP_type": "natsec",
+        "chunks": [
+          4
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6474728584289551,
+        "total": 0.7061268589713356
+      }
+    },
+    {
+      "question": "How long does the Government have to review submitted documents?",
+      "llm_response": "The Government has 30 calendar days to review submitted documents.",
+      "ground_truth_answer": "The Government must review and provide comments within 45 calendar days of receiving the document.",
+      "retrieved_context": [
+        "contract expiration, whichever comes first. The Government shall review and provide comments within 30 calendar days of receipt of the document. The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments . Block 14: Submissions for PM MC shall be posted",
+        "a year) thereafter. Final submission shall be no later than 60 calendar days prior to contract expiration. The Government shall review and provide comments within 30 calendar days of receipt of the document. The final reproduced version is due back to the Government within 30 calendar days following the receipt"
+      ],
+      "ground_truth_context": [
+        "The Government shall review and provide comments within 45 calendar days of receipt of the document."
+      ],
+      "metadata": {
+        "question_id": 223,
+        "RFP_id": "natsec_5",
+        "RFP_type": "natsec",
+        "chunks": [
+          8
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 3.3703460693359375,
+        "total": 3.429000069878318
+      }
+    },
+    {
+      "question": "What are the destruction requirements for AFATDS materials after contract award?",
+      "llm_response": "Contractors must destroy all AFATDS source code, technical documentation, and derivative products no later than 10 calendar days after contract award, in compliance with the Access Compliance Certification.",
+      "ground_truth_answer": "Contractors must destroy AFATDS source code, technical documentation, and derivative products no later than 10 calendar days after contract award.",
+      "retrieved_context": [
+        "later than 10 calendar days after contract award, contractors shall comply with destruction requirements as documented in their Access Compliance Certification.\" To qualify for access to afatds s oftware baseline and technical documentation, the following criteria must be me t: \u2212 Maintain compliance with Code of Federal Regulations Title 22,",
+        "days. Contractor s are allowed keep all AFATDS source code, technical documentation, and derivative products for no later than 10 CALENDAR DAYS AFTER CONTRACT AWARD. Access requirements and those approved for access to this information remains unchanged and shall be follo wed as described in the Access Compliance Certification. No"
+      ],
+      "ground_truth_context": [
+        "Contractors are allowed to keep all AFATDS source code, technical documentation, and derivative products for no later than 10 CALENDAR DAYS AFTER CONTRACT AWARD",
+        "comply with destruction requirements as documented in their Access Compliance Certification."
+      ],
+      "metadata": {
+        "question_id": 381,
+        "RFP_id": "natsec_2",
+        "RFP_type": "natsec",
+        "chunks": [
+          9
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.9305291175842285,
+        "total": 0.9891831181266091
+      }
+    },
+    {
+      "question": "What submission milestones must the Contractor meet for technical publications?",
+      "llm_response": "The Contractor must submit technical publications at 30%, 60%, 90%, and 100% (Final) stages for Government review.",
+      "ground_truth_answer": "The Contractor must submit 30%, 60%, 90%, and 100% Final drafts for Government review and propose interim draft acceptance criteria for each cycle.",
+      "retrieved_context": [
+        "E-CCC-MC . Block 10, 11, 12 & 13: The C ontractor shall submit 30%, 60%, 90% and 100% Final for all technical publications and training products for Government review. The Contractor shall propose interim draft acceptance criteria for each draft deliverable cycle. After the final technical pu blications are submitted",
+        "13: The Contractor shall deliver as required. The Government shall review and provide comments within 45 calendar days of receipt of the document. The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments. Block 14: Submissions for PM MC shall be"
+      ],
+      "ground_truth_context": [
+        "The Contractor shall submit 30%, 60%, 90% and 100% Final for all technical publications",
+        "propose interim draft acceptance criteria for each draft deliverable cycle."
+      ],
+      "metadata": {
+        "question_id": 222,
+        "RFP_id": "natsec_5",
+        "RFP_type": "natsec",
+        "chunks": [
+          8
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.8180959224700928,
+        "total": 0.8767499230124733
+      }
+    },
+    {
+      "question": "What methods are permitted for submitting documents in WAWF?**",
+      "llm_response": "Web entry, Electronic Data Interchange, or File Transfer Protocol.",
+      "ground_truth_answer": "Documents may be submitted via Web entry, Electronic Data Interchange (EDI), or File Transfer Protocol (FTP).",
+      "retrieved_context": [
+        "submitting payment requests throug h WAWF. Both can be accessed by selecting the \u201cWeb Based Training\u201d link on the WAWF home page at https://wawf.eb.mil/. (e) WAWF methods of document submission. Document submissions may be via Web entry, Electronic Data Interchange, or File Transfer Protocol . (f) WAWF payment instructions. The",
+        "type is identified b ut not supportable by the Contractor's business systems, an \u201cInvoice\u201d (stan d-alone) an d \u201cReceiving Report\u201d (stan d-alone) document type may be used instead. ) (2) Inspection/acceptance location. The Contractor shall select the following inspection/accep tance location(s) in WAWF, as specified by the contracting officer ."
+      ],
+      "ground_truth_context": [
+        "(e) WAWF methods of document submission. Document submissions may be via Web entry, Electronic Data Interchange, or File Transfer Protocol."
+      ],
+      "metadata": {
+        "question_id": 11,
+        "RFP_id": "natsec_3",
+        "RFP_type": "natsec",
+        "chunks": [
+          3
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.925839900970459,
+        "total": 0.9844939015128396
+      }
+    },
+    {
+      "question": "What must subcontractors/teaming partners include in their proposal to facilitate past performance evaluations?",
+      "llm_response": "Subcontractors/teaming partners must include a completed consent letter in their proposal to facilitate past performance evaluations.",
+      "ground_truth_answer": "Completed consent letters authorizing the government to share their performance information with the prime contractor.",
+      "retrieved_context": [
+        "partner past and present performance information to the prime contractor during exchanges. In an effort to assist the Government\u2019s Past Performance Evaluation Team in assessing your past performance relevancy and confidence, we r equest that the following consent letter be completed by the major subcontractors/teaming partners identified in your proposal.",
+        "only the offeror\u2019s, significant teaming partner\u2019s, or significant subcontractor\u2019s past performance on the submitte d effort, rather than the past performance of other contractors on the submitted effort. Past performance information shall be obtained from any other sources available to the Government, to include, but not limited to, the Past"
+      ],
+      "ground_truth_context": [
+        "In an effort to assist the Government\u2019s Past Performance Evaluation Team",
+        "we request that the following consent letter be completed by the major subcontractors/teaming partners identified in your proposal. The completed consent letters should be submitted as part of your Present/Past Performance Volume."
+      ],
+      "metadata": {
+        "question_id": 154,
+        "RFP_id": "natsec_8",
+        "RFP_type": "natsec",
+        "chunks": [
+          3
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.7124910354614258,
+        "total": 0.7711450360038064
+      }
+    },
+    {
+      "question": "What is the requirement for the Quality Assurance Program Plan (QAPP) if changes occur after Government approval?**",
+      "llm_response": "If changes occur to the Quality Assurance Program Plan (QAPP) after Government approval, the Contractor must resubmit the plan for Government review and approval.",
+      "ground_truth_answer": "The Contractor must resubmit the QAPP for Government review and approval if changes are made post-approval.",
+      "retrieved_context": [
+        "the contract makes changes to the Quality Assurance Program Plan after Government approval, the Contractor shall resubmit for Government review and approval . The Government shall review and provide comments within 45 calendar days of receipt of the document. The final reproduced version is due back to the Government within",
+        "CATEGORY : TDP TM OTHER QCIC D. SYSTEM/ITE M AFATDS 7. 0 33. CONTRAC T/PR NO. TBD F. CONTRACTO R TBD 1. DATA ITEM NO . A019 2. TITLE OF DATA ITEM Quality Assurance Program Plan (QAPP ) 34. SUBTITL E 4. AUTHORIT Y (Data Acquisition Document No. ) DI-QCIC-81794"
+      ],
+      "ground_truth_context": [
+        "If the Contractor throughout the course of the contract makes changes to the Quality Assurance Program Plan after Government approval, the Contractor shall resubmit for Government review and approval."
+      ],
+      "metadata": {
+        "question_id": 217,
+        "RFP_id": "natsec_5",
+        "RFP_type": "natsec",
+        "chunks": [
+          6
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.6154601573944092,
+        "total": 0.6741141579367897
+      }
+    },
+    {
+      "question": "What is the maximum total extension period allowed under the Option to Extend Services clause?",
+      "llm_response": "6 months",
+      "ground_truth_answer": "The total extension of performance under the Option to Extend Services clause shall not exceed 6 months.",
+      "retrieved_context": [
+        "may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months. The Contracting Officer may exercise the option by written notice to the Contractor prior to the expiration of the contract. (End o f clause) 52.21 7-9 OPTION TO EXTEND THE TERM OF",
+        "EXTEND SERVICES (NOV 1999 ) The Government may require continued performance of any services within the limits and at the rates specified in the contract. These rates may be adjusted only as a result of revisions to prevailing labor rates provided by the Secretary of Labor. The op tion provision"
+      ],
+      "ground_truth_context": [
+        "The total extension of performance hereunder shall not exceed 6 months."
+      ],
+      "metadata": {
+        "question_id": 105,
+        "RFP_id": "natsec_4",
+        "RFP_type": "natsec",
+        "chunks": [
+          1
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5122559070587158,
+        "total": 0.5709099076010964
+      }
+    },
+    {
+      "question": "How long is the period of performance for CLIN 0001?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "The period of performance is 26 months.",
+      "retrieved_context": [
+        "CLIN with fee payable to 8 %. The period of performance for each TDL will be designated in the TDL. TDLs may be issued under this CLIN from contract award through final acceptable of work under CLINs 0001 and 0002. FOB: Destinatio n ESTIMATED COS T FIXED FE E TOTAL",
+        "This is a CPFF CLIN with fee payable up to 8%. The period o f performance for each TDL will be designated in the TDL. TDLs may be issued under this CLIN from contract award through final acceptable of work under CLINs 0001 and 0002. The ceiling for the Surge"
+      ],
+      "ground_truth_context": [
+        "PERIOD OF PERFORMANCE: 26 MONTHS"
+      ],
+      "metadata": {
+        "question_id": 229,
+        "RFP_id": "natsec_1",
+        "RFP_type": "natsec",
+        "chunks": [
+          1
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.3880772590637207,
+        "total": 0.44673125960610127
+      }
+    },
+    {
+      "question": "What rights must the contractor provide for non-commercial software under CLIN 0002?**",
+      "llm_response": "Unlimited Rights",
+      "ground_truth_answer": "The contractor must provide Unlimited Rights for all data and non-commercial software developed/modified under CLIN 0002, as defined in DFARS 252.227-7013 and DFARS 252.227-7014.",
+      "retrieved_context": [
+        "The Contractor shall provide Unlimited Rights for all data and all no n- commercial software developed/modified under this CLIN as defined in DFARS 252.227 -7013 and DFARS 252.227 -7014. The introduction of propriety data, code, or products into the Government owned AFATDS baseline is strictly prohibited, with the exception of",
+        "CLINs 0001 and 0002 and in accordance with DD Form 1423, Exhibit A, Contract Data Requirements Lists. The Contractor shall provide Unlimited Rights for all data and all no n-commercial software developed/modified under this CLIN as defined in DFARS 252.22 7- 7013 and DFARS 252.227 -7014. The introduction of propriety"
+      ],
+      "ground_truth_context": [
+        "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014."
+      ],
+      "metadata": {
+        "question_id": 231,
+        "RFP_id": "natsec_1",
+        "RFP_type": "natsec",
+        "chunks": [
+          2
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.35906314849853516,
+        "total": 0.4177171490409157
+      }
+    },
+    {
+      "question": "Does the safeguarding and cyber incident reporting clause override other contractual or regulatory obligations?**",
+      "llm_response": "No, the safeguarding and cyber incident reporting clause does not override other contractual or regulatory obligations.",
+      "ground_truth_answer": "No, the clause does not abrogate the Contractor\u2019s responsibility for other safeguarding or cyber incident reporting requirements under the contract or other U.S. laws.",
+      "retrieved_context": [
+        "incident reporting required by this clause in no way abrogates the Contractor\u2019s responsibility for other safeguarding or cyber incident reporting pertaining to its unclassified information systems as required by other applicable clauses of this contract, or as a result of other applicable U.S. Government statutory or regulatory requirements . (m)",
+        ". HC1028 -16-R-0005 0004 Page 76 of 217 (k) The Contractor shall conduct activities under this clause in accordance with applicable laws and regulations on the interception, monitoring, access , use, and disclosure of electronic communications and data . (l) Other safeguarding or reporting requirement s. The safeguarding and cyber"
+      ],
+      "ground_truth_context": [
+        "The safeguarding and cyber incident reporting required by this clause in no way abrogates the Contractor\u2019s responsibility for other safeguarding or cyber incident reporting",
+        "required by other applicable clauses of this contract, or as a result of other applicable U.S. Government statutory or regulatory requirements."
+      ],
+      "metadata": {
+        "question_id": 24,
+        "RFP_id": "natsec_3",
+        "RFP_type": "natsec",
+        "chunks": [
+          7
+        ],
+        "manually_edited": false
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.4825601577758789,
+        "total": 0.5412141583182595
+      }
+    },
+    {
+      "question": "How many letters are there between the first and last letters of the first name of the person who designed and built the park which links Salisbury Woodland Gardens with a zoo?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Insufficient information to answer question based on given context",
+      "retrieved_context": [],
+      "ground_truth_context": [],
+      "metadata": {
+        "question_id": 400,
+        "RFP_id": "negative_rejection",
+        "RFP_type": "negative_rejection",
+        "chunks": [],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 3.6855478286743164,
+        "total": 3.744201829216697
+      }
+    },
+    {
+      "question": "How many letters are there between the first and last letters of the first name of the director of a 2004 film where Kam Heskin plays Paige Morgan in?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Insufficient information to answer question based on given context",
+      "retrieved_context": [],
+      "ground_truth_context": [],
+      "metadata": {
+        "question_id": 401,
+        "RFP_id": "negative_rejection",
+        "RFP_type": "negative_rejection",
+        "chunks": [],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5110330581665039,
+        "total": 0.5696870587088845
+      }
+    },
+    {
+      "question": "What is the difference between the birth year of the mathematician husband of Anneli Cahn Lax  and the year 2024?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Insufficient information to answer question based on given context",
+      "retrieved_context": [],
+      "ground_truth_context": [],
+      "metadata": {
+        "question_id": 402,
+        "RFP_id": "negative_rejection",
+        "RFP_type": "negative_rejection",
+        "chunks": [],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.32924532890319824,
+        "total": 0.3878993294455788
+      }
+    },
+    {
+      "question": "How many times does the letter \"o\" appear in the first name of the former member of Beatles married the starring actress of The Black Belly of the Tarantula ?",
+      "llm_response": "Insufficient information to answer question based on given context",
+      "ground_truth_answer": "Insufficient information to answer question based on given context",
+      "retrieved_context": [],
+      "ground_truth_context": [],
+      "metadata": {
+        "question_id": 403,
+        "RFP_id": "negative_rejection",
+        "RFP_type": "negative_rejection",
+        "chunks": [],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.48971986770629883,
+        "total": 0.5483738682486794
+      }
+    },
+    {
+      "question": "What the concatenation of the first and last digits of the year when Marvel Classics Comics specialized in adaptations of literary classics, such as a novel by American writer Herman Melville, that was published?",
+      "llm_response": "Insufficient information to answer question based on given context",
+      "ground_truth_answer": "Insufficient information to answer question based on given context",
+      "retrieved_context": [],
+      "ground_truth_context": [],
+      "metadata": {
+        "question_id": 404,
+        "RFP_id": "negative_rejection",
+        "RFP_type": "negative_rejection",
+        "chunks": [],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.3298311233520508,
+        "total": 0.38848512389443135
+      }
+    },
+    {
+      "question": "What is the date 9 months after the birth date of the British author who wrote the novel on which \"Here We Go Round the Mulberry Bush\"?",
+      "llm_response": "Insufficient information to answer question based on given context",
+      "ground_truth_answer": "Insufficient information to answer question based on given context",
+      "retrieved_context": [],
+      "ground_truth_context": [],
+      "metadata": {
+        "question_id": 405,
+        "RFP_id": "negative_rejection",
+        "RFP_type": "negative_rejection",
+        "chunks": [],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.3913130760192871,
+        "total": 0.4499670765616677
+      }
+    },
+    {
+      "question": "What is the name of the character portrayed by Anna Camp in the film centered on the fictional Barden University and The Bellas?",
+      "llm_response": "The name of the character portrayed by Anna Camp is Aubrey Posen.",
+      "ground_truth_answer": "Insufficient information to answer question based on given context",
+      "retrieved_context": [],
+      "ground_truth_context": [],
+      "metadata": {
+        "question_id": 406,
+        "RFP_id": "negative_rejection",
+        "RFP_type": "negative_rejection",
+        "chunks": [],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5841050148010254,
+        "total": 0.642759015343406
+      }
+    },
+    {
+      "question": "How many syllables are there in the first name of the person who created the 2003 remake of the 1983 overhead view, vehicular combat game developed by Bally Midway?",
+      "llm_response": "Insufficient information to answer question based on given context",
+      "ground_truth_answer": "Insufficient information to answer question based on given context",
+      "retrieved_context": [],
+      "ground_truth_context": [],
+      "metadata": {
+        "question_id": 407,
+        "RFP_id": "negative_rejection",
+        "RFP_type": "negative_rejection",
+        "chunks": [],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.34430623054504395,
+        "total": 0.4029602310874245
+      }
+    },
+    {
+      "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+      "llm_response": "Insufficient information to answer question based on given context",
+      "ground_truth_answer": "Insufficient information to answer question based on given context",
+      "retrieved_context": [],
+      "ground_truth_context": [],
+      "metadata": {
+        "question_id": 408,
+        "RFP_id": "negative_rejection",
+        "RFP_type": "negative_rejection",
+        "chunks": [],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.5950489044189453,
+        "total": 0.6537029049613259
+      }
+    },
+    {
+      "question": "What is the binary code of the last letter of the last name of the american film actor by who Stephen susco wrote a movie produced?",
+      "llm_response": "Insufficient information to answer question based on given context.",
+      "ground_truth_answer": "Insufficient information to answer question based on given context",
+      "retrieved_context": [],
+      "ground_truth_context": [],
+      "metadata": {
+        "question_id": 409,
+        "RFP_id": "negative_rejection",
+        "RFP_type": "negative_rejection",
+        "chunks": [],
+        "manually_edited": true
+      },
+      "timing": {
+        "retrieve_context": 0.05865400054238059,
+        "llm_response": 0.8570489883422852,
+        "total": 0.9157029888846657
+      }
+    }
+  ]
+}

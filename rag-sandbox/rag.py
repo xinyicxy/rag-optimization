@@ -101,7 +101,7 @@ def ask_llm(query, context):
 
 if __name__ == "__main__":
     # load in json question data
-    with open("subset-final.json", "r") as f: # TODO: change this file as needed
+    with open("subset_final.json", "r") as f: # TODO: change this file as needed
         qa_data = json.load(f)
 
     # xtracting queries + corresponding RFP IDs
@@ -155,7 +155,8 @@ if __name__ == "__main__":
         })
 
     # Save CSV
-    with open('full-experiment-results.csv', 'w', newline='') as f:
+    csv_filename = f"csv_exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+    with open(csv_filename, 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(["Question", "LLM Response"])
         writer.writerows([(r["question"], r["llm_response"]) for r in results])
