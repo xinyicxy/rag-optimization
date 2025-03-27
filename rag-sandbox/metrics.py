@@ -60,7 +60,7 @@ df['question_id'] = df['metadata'].apply(lambda x: x['question_id'])
 # hack for now?
 def is_negative_rejection(response):
     # "Insufficient information to answer question based on given context"
-    return "Insufficient information" in response.lower()
+    return "insufficient information" in response.lower()
 
 
 # filtering the negative rejection questions and computing stats!
