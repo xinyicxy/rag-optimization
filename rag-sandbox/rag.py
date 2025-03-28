@@ -9,10 +9,14 @@ import argparse
 
 
 # arg parse!
-parser = argparse.ArgumentParser(description="Process RFP queries with OpenAI and ChromaDB.")
-parser.add_argument("--chunk_type", type=str, required=True, help="Type of chunking (e.g., 'words' or 'sentences').")
-parser.add_argument("--chunk_size", type=int, required=True, help="Size of chunks for document processing.")
-parser.add_argument("--top_k", type=int, required=True, help="K chunks retrieved during search.")
+parser = argparse.ArgumentParser(
+    description="Process RFP queries with OpenAI and ChromaDB.")
+parser.add_argument("chunk_type", type=str, required=True,
+                    help="Type of chunking (e.g., 'words' or 'sentences').")
+parser.add_argument("chunk_size", type=int, required=True,
+                    help="Size of chunks for document processing.")
+parser.add_argument("top_k", type=int, required=True,
+                    help="K chunks retrieved during search.")
 
 args = parser.parse_args()
 CHUNK_TYPE = args.chunk_type
@@ -24,7 +28,7 @@ TOP_K = args.top_k
 OPENAI_KEY = "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"
 openai.api_key = OPENAI_KEY
 
-# initialize chroma db for searching 
+# initialize chroma db for searching
 client = chromadb.PersistentClient(path="./chroma_db")
 collection = client.get_collection(
     name=f"rag_documents_{CHUNK_TYPE}_{CHUNK_SIZE}"
@@ -43,7 +47,8 @@ def embed_queries(queries, batch_size=10):
     embeddings = []
     for i in range(0, len(queries), batch_size):
         batch = queries[i:i + batch_size]
-        response = openai.embeddings.create(model="text-embedding-3-large", input=batch)
+        response = openai.embeddings.create(
+            model="text-embedding-3-large", input=batch)
         embeddings.extend([data.embedding for data in response.data])
     return embeddings
 
@@ -57,7 +62,8 @@ def retrieve_similar_docs(queries, rfp_ids, top_k=TOP_K):
     the relevant documents"""
     query_embeddings = embed_queries(queries)
     results_list = [
-        collection.query(query_embeddings=[embedding], n_results=top_k, where={"document": rfp_id})
+        collection.query(query_embeddings=[embedding], n_results=top_k, where={
+                         "document": rfp_id})
         for embedding, rfp_id in zip(query_embeddings, rfp_ids)
     ]
 
@@ -81,7 +87,7 @@ def ask_llm(query, context):
             Stop immediately after answering.
             If you do not have sufficient information to answer the question, return only
             'Insufficient information to answer question based on given context'"""
-    
+
     messages = [
         {"role": "system", "content": prompt},
         {"role": "user", "content": f"Context: {context}\n\nQuestion: {query}\nAnswer:"}
@@ -101,7 +107,7 @@ def ask_llm(query, context):
 
 if __name__ == "__main__":
     # load in json question data
-    with open("subset_final.json", "r") as f: # TODO: change this file as needed
+    with open("subset_final.json", "r") as f:  # TODO: change this file as needed
         qa_data = json.load(f)
 
     # xtracting queries + corresponding RFP IDs
@@ -116,7 +122,8 @@ if __name__ == "__main__":
     retrieve_time = time.time() - retrieve_start
 
     # checking to make sure some output was received
-    contexts = [" ".join(docs) if docs else "No relevant context found" for docs in retrieved_docs_batch]
+    contexts = [" ".join(
+        docs) if docs else "No relevant context found" for docs in retrieved_docs_batch]
 
     """sending -> LLM"""
 

@@ -13,9 +13,12 @@ client = OpenAI(api_key=OPENAI_KEY)
 DOCS_DIR = "./documents/"
 
 # arg parse!
-parser = argparse.ArgumentParser(description="Process and embed PDF documents using OpenAI embeddings and ChromaDB.")
-parser.add_argument("--chunk_type", type=str, choices=["characters", "words", "sentences", "paragraphs", "pages"], default="words", help="Chunking method to use.")
-parser.add_argument("--chunk_size", type=int, default=1000, help="Size of each chunk.")
+parser = argparse.ArgumentParser(
+    description="Process and embed PDF documents using OpenAI embeddings and ChromaDB.")
+parser.add_argument("chunk_type", type=str, choices=[
+                    "characters", "words", "sentences", "paragraphs", "pages"], default="words", help="Chunking method to use.")
+parser.add_argument("chunk_size", type=int, default=1000,
+                    help="Size of each chunk.")
 args = parser.parse_args()
 
 CHUNK_TYPE = args.chunk_type
@@ -30,6 +33,7 @@ collection = chroma_client.get_or_create_collection(collection_name)
 EMBEDDING_MODEL = "text-embedding-3-large"
 ENCODER = tiktoken.get_encoding("cl100k_base")
 
+
 def load_documents(directory, chunk_type, chunk_size):
     """
     Loads PDFs from a directory, chunks them,
@@ -43,6 +47,7 @@ def load_documents(directory, chunk_type, chunk_size):
             docs.append((filename, chunks))
     return docs
 
+
 def embed_texts(texts):
     """
     Generate OpenAI embeddings for a list of texts
@@ -50,16 +55,19 @@ def embed_texts(texts):
     response = client.embeddings.create(input=texts, model=EMBEDDING_MODEL)
     return [item.embedding for item in response.data]
 
+
 def count_tokens(text):
     """
     Estimating the token count (for future use)
     """
     return len(ENCODER.encode(text))
 
+
 if __name__ == "__main__":
     # load and chunk documents
     documents = load_documents(DOCS_DIR, CHUNK_TYPE, CHUNK_SIZE)
-    print(f"Loaded {len(documents)} documents using chunking method: {CHUNK_TYPE}")
+    print(
+        f"Loaded {len(documents)} documents using chunking method: {CHUNK_TYPE}")
     # embedding + store in ChromaDB
     for doc_id, chunks in documents:
         print(f"Processing {doc_id} with {len(chunks)} chunks...")
@@ -67,7 +75,8 @@ if __name__ == "__main__":
         # embed in batches (to respect OpenAI API limits)
         batch_size = 10  # modify as needed
         for i in range(0, len(chunks), batch_size):
-            chunk_batch = chunks[i:i + batch_size] # there's an issue here with the batching
+            # there's an issue here with the batching
+            chunk_batch = chunks[i:i + batch_size]
             embeddings = embed_texts(chunk_batch)  # get the embeddings
 
             # store chunk + corresponding embedding in ChromaDB
