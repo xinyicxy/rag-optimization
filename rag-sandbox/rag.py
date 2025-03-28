@@ -6,16 +6,17 @@ import time
 import csv
 import datetime
 import argparse
+from credentials import OPENAI_KEY
 
 
 # arg parse!
 parser = argparse.ArgumentParser(
     description="Process RFP queries with OpenAI and ChromaDB.")
-parser.add_argument("chunk_type", type=str, required=True,
+parser.add_argument("chunk_type", type=str,
                     help="Type of chunking (e.g., 'words' or 'sentences').")
-parser.add_argument("chunk_size", type=int, required=True,
+parser.add_argument("chunk_size", type=int,
                     help="Size of chunks for document processing.")
-parser.add_argument("top_k", type=int, required=True,
+parser.add_argument("top_k", type=int,
                     help="K chunks retrieved during search.")
 
 args = parser.parse_args()
@@ -25,7 +26,6 @@ TOP_K = args.top_k
 
 
 # TODO: set the api key
-OPENAI_KEY = "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"
 openai.api_key = OPENAI_KEY
 
 # initialize chroma db for searching
@@ -162,7 +162,7 @@ if __name__ == "__main__":
         })
 
     # Save CSV
-    csv_filename = f"csv_exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+    csv_filename = f"outputs/csv_exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
     with open(csv_filename, 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(["Question", "LLM Response"])
@@ -181,7 +181,7 @@ if __name__ == "__main__":
         "results": results
     }
 
-    filename = f"exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+    filename = f"outputs/exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
 
     with open(filename, 'w') as f:
         json.dump(experiment_output, f, indent=2)

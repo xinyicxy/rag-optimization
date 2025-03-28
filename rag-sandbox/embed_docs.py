@@ -4,9 +4,9 @@ import chromadb
 from openai import OpenAI
 import tiktoken
 from chunking import load_pdf
+from credentials import OPENAI_KEY
 
 
-OPENAI_KEY = "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"
 client = OpenAI(api_key=OPENAI_KEY)
 
 # specifying directory (change btwn multihop and RFP as needed)
@@ -63,17 +63,61 @@ def count_tokens(text):
     return len(ENCODER.encode(text))
 
 
+# Controlling size of chunks
+MAX_TOKENS = 8000  # Token limit is 8192
+
+
+def split_text_if_too_long(text, max_tokens=MAX_TOKENS):
+    """
+    Split a text into smaller chunks if it exceeds the max token limit
+    """
+
+    token_count = count_tokens(text)
+    if token_count > max_tokens:
+        # Split the text into smaller chunks (naive split by number of tokens)
+        words = text.split()
+        current_chunk = []
+        current_chunk_token_count = 0
+        chunks = []
+
+        for word in words:
+            word_token_count = count_tokens(word)
+            if current_chunk_token_count + word_token_count <= max_tokens:
+                current_chunk.append(word)
+                current_chunk_token_count += word_token_count
+            else:
+                chunks.append(' '.join(current_chunk))
+                current_chunk = [word]
+                current_chunk_token_count = word_token_count
+
+        # Add the last chunk
+        if current_chunk:
+            chunks.append(' '.join(current_chunk))
+
+        return chunks
+    else:
+        # Return the text as a single chunk
+        return [text]
+
+
 if __name__ == "__main__":
     # load and chunk documents
     documents = load_documents(DOCS_DIR, CHUNK_TYPE, CHUNK_SIZE)
     print(
         f"Loaded {len(documents)} documents using chunking method: {CHUNK_TYPE}")
+
     # embedding + store in ChromaDB
     for doc_id, chunks in documents:
         print(f"Processing {doc_id} with {len(chunks)} chunks...")
 
+        # To deal w paragraphs
+        checked_chunks = []
+        for chunk in chunks:
+            checked_chunks.extend(split_text_if_too_long(chunk))
+        chunks = checked_chunks
+
         # embed in batches (to respect OpenAI API limits)
-        batch_size = 10  # modify as needed
+        batch_size = 5  # NOTE: for infra-4 chunked by paragraphs/ any extremely long chunks, need to change to 1, since we had to split the chunks
         for i in range(0, len(chunks), batch_size):
             # there's an issue here with the batching
             chunk_batch = chunks[i:i + batch_size]

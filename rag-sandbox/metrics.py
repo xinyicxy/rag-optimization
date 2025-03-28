@@ -15,9 +15,9 @@ import os
 from ragas.llms import LangchainLLMWrapper
 from langchain_openai import OpenAI
 import argparse
+from credentials import OPENAI_KEY
 
 # setting api key
-OPENAI_KEY = "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"
 os.environ["OPENAI_API_KEY"] = OPENAI_KEY  # Set for RAGAS
 
 """
@@ -31,10 +31,14 @@ answer_correctness.llm = gpt3_llm
 """
 
 # arg parse!
-parser = argparse.ArgumentParser(description="Process RFP queries with OpenAI and ChromaDB.")
-parser.add_argument("--chunk_type", type=str, required=True, help="Type of chunking (e.g., 'words' or 'sentences').")
-parser.add_argument("--chunk_size", type=int, required=True, help="Size of chunks for document processing.")
-parser.add_argument("--top_k", type=int, required=True, help="K chunks retrieved during search.")
+parser = argparse.ArgumentParser(
+    description="Process RFP queries with OpenAI and ChromaDB.")
+parser.add_argument("chunk_type", type=str,
+                    help="Type of chunking (e.g., 'words' or 'sentences').")
+parser.add_argument("chunk_size", type=int,
+                    help="Size of chunks for document processing.")
+parser.add_argument("top_k", type=int,
+                    help="K chunks retrieved during search.")
 
 args = parser.parse_args()
 CHUNK_TYPE = args.chunk_type
@@ -42,7 +46,7 @@ CHUNK_SIZE = args.chunk_size
 TOP_K = args.top_k
 
 # load experiment data TODO: change the filename
-exp_filename = f"exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+exp_filename = f"outputs/exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
 with open(exp_filename) as f:
     data = json.load(f)
 
@@ -66,9 +70,11 @@ def is_negative_rejection(response):
 # filtering the negative rejection questions and computing stats!
 # filter on question id TODO replace 400 with correct quesiton id threshold
 negative_rejection_df = df[df['question_id'] >= 400]
-total_negative_rejections = int(negative_rejection_df['llm_response'].apply(is_negative_rejection).sum())
+total_negative_rejections = int(
+    negative_rejection_df['llm_response'].apply(is_negative_rejection).sum())
 total_negative_questions = len(negative_rejection_df)
-negative_rejection_percentage = (total_negative_rejections / total_negative_questions * 100) if total_negative_questions > 0 else 0
+negative_rejection_percentage = (
+    total_negative_rejections / total_negative_questions * 100) if total_negative_questions > 0 else 0
 
 
 def compute_metrics(row):
@@ -77,14 +83,17 @@ def compute_metrics(row):
     ground_truths = row['ground_truth_context']
 
     if isinstance(retrieved_contexts, str):
-        retrieved_contexts = [retrieved_contexts]  # putting single string in list
+        # putting single string in list
+        retrieved_contexts = [retrieved_contexts]
     elif not isinstance(retrieved_contexts, list):
-        raise TypeError(f"Unexpected type for retrieved_context: {type(retrieved_contexts)}")
+        raise TypeError(
+            f"Unexpected type for retrieved_context: {type(retrieved_contexts)}")
 
     if isinstance(ground_truths, str):
         ground_truths = [ground_truths]
     elif not isinstance(ground_truths, list):
-        raise TypeError(f"Unexpected type for ground_truth_context: {type(ground_truths)}")
+        raise TypeError(
+            f"Unexpected type for ground_truth_context: {type(ground_truths)}")
 
     # constructing evaluation data set
     dataset = EvaluationDataset.from_list([
@@ -93,7 +102,7 @@ def compute_metrics(row):
             "response": row["llm_response"],
             "retrieved_contexts": retrieved_contexts,
             "reference": row['ground_truth_answer'],
-            "ground_truths": ground_truths # TODO: this one may not be needed
+            "ground_truths": ground_truths  # TODO: this one may not be needed
         }
     ])
 
@@ -134,9 +143,11 @@ def compute_f1(row):
     if len(true_tokens) == 0:
         return 0.0
 
-    precision = len(pred_tokens & true_tokens) / len(pred_tokens) if pred_tokens else 0
+    precision = len(pred_tokens & true_tokens) / \
+        len(pred_tokens) if pred_tokens else 0
     recall = len(pred_tokens & true_tokens) / len(true_tokens)
-    f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
+    f1 = 2 * (precision * recall) / (precision +
+                                     recall) if (precision + recall) > 0 else 0
     return f1
 
 
@@ -166,7 +177,8 @@ for group_name, group_key in grouping_dimensions:
     for name, group in groups:
         # Ensure list-type columns are converted to numeric values before computing mean
         for col in ['answer_relevancy', 'faithfulness', 'context_recall', 'context_precision', 'answer_correctness', 'EM', 'F1']:
-            group[col] = group[col].apply(lambda x: sum(x) / len(x) if isinstance(x, list) else x)
+            group[col] = group[col].apply(lambda x: sum(
+                x) / len(x) if isinstance(x, list) else x)
 
         # Compute average metrics
         metrics_avg = group[[
@@ -193,7 +205,7 @@ report.update({
 })
 
 # save report
-metrics_filename = f"metrics_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+metrics_filename = f"outputs/metrics_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
 with open(metrics_filename, 'w') as f:
     json.dump(report, f, indent=2)
 
