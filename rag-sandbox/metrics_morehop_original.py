@@ -20,9 +20,11 @@ from langchain_openai import OpenAI
 
 # arg parse!
 parser = argparse.ArgumentParser(description="Process MoreHop queries with OpenAI and ChromaDB.")
-parser.add_argument("--chunk_type", type=str, required=True, help="Type of chunking (e.g., 'words' or 'sentences').")
-parser.add_argument("--chunk_size", type=int, required=True, help="Size of chunks for document processing.")
-parser.add_argument("--top_k", type=int, required=True, help="K chunks retrieved during search.")
+parser.add_argument("chunk_type", type=str, choices=["characters", "words", "sentences", "paragraphs", "pages"],
+                    default="words", help="Chunking method to use.")
+parser.add_argument("chunk_size", type=int, default=1000,
+                    help="Size of each chunk.")
+parser.add_argument("top_k", type=int, default=2, help="K chunks retrieved during search.")
 
 args = parser.parse_args()
 CHUNK_TYPE = args.chunk_type
@@ -173,4 +175,4 @@ metrics_filename = f"morehop_metrics_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.
 with open(metrics_filename, 'w') as f:
     json.dump(report, f, indent=2)
 
-print("Metrics report generated at morehop1_metrics_report.json")
+print(f"Metrics report generated at morehop_metrics_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json")
