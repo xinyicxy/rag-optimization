@@ -1,5 +1,8 @@
 import json
 import pandas as pd
+
+import argparse
+
 from ragas.metrics import (
     answer_relevancy,
     faithfulness,
@@ -15,8 +18,21 @@ import os
 from ragas.llms import LangchainLLMWrapper
 from langchain_openai import OpenAI
 
+# arg parse!
+parser = argparse.ArgumentParser(description="Process MoreHop queries with OpenAI and ChromaDB.")
+parser.add_argument("chunk_type", type=str, choices=["characters", "words", "sentences", "paragraphs", "pages"],
+                    default="words", help="Chunking method to use.")
+parser.add_argument("chunk_size", type=int, default=1000,
+                    help="Size of each chunk.")
+parser.add_argument("top_k", type=int, default=2, help="K chunks retrieved during search.")
+
+args = parser.parse_args()
+CHUNK_TYPE = args.chunk_type
+CHUNK_SIZE = args.chunk_size
+TOP_K = args.top_k
+
 # setting api key
-OPENAI_KEY = "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"
+OPENAI_KEY = "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"
 os.environ["OPENAI_API_KEY"] = OPENAI_KEY  # Set for RAGAS
 
 """
@@ -30,7 +46,8 @@ answer_correctness.llm = gpt3_llm
 """
 
 # load experiment data
-with open('morehop1_output.json') as f:
+exp_filename = f"morehop_exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+with open(exp_filename) as f:
     data = json.load(f)
 
 # convert to pandas
@@ -154,7 +171,8 @@ for group_name, group_key in grouping_dimensions:
     report[group_name] = group_results
 
 # save report
-with open('morehop1_metrics_report.json', 'w') as f:
+metrics_filename = f"morehop_metrics_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+with open(metrics_filename, 'w') as f:
     json.dump(report, f, indent=2)
 
-print("Metrics report generated at morehop1_metrics_report.json")
+print(f"Metrics report generated at morehop_metrics_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json")

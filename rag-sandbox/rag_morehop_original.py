@@ -9,18 +9,21 @@ import argparse
 
 
 # arg parse!
-parser = argparse.ArgumentParser(description="Process RFP queries with OpenAI and ChromaDB.")
-parser.add_argument("--chunk_type", type=str, required=True, help="Type of chunking (e.g., 'words' or 'sentences').")
-parser.add_argument("--chunk_size", type=int, required=True, help="Size of chunks for document processing.")
+parser = argparse.ArgumentParser(description="Process MoreHop queries with OpenAI and ChromaDB.")
+parser.add_argument("chunk_type", type=str, choices=["characters", "words", "sentences", "paragraphs", "pages"],
+                    default="words", help="Chunking method to use.")
+parser.add_argument("chunk_size", type=int, default=1000,
+                    help="Size of each chunk.")
+parser.add_argument("top_k", type=int, default=2, help="K chunks retrieved during search.")
 
 args = parser.parse_args()
 CHUNK_TYPE = args.chunk_type
 CHUNK_SIZE = args.chunk_size
+TOP_K = args.top_k
 
 # TODO: set the api key
-OPENAI_KEY = "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"
+OPENAI_KEY = "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"
 openai.api_key = OPENAI_KEY
-TOP_K = 2 # set to 2 because morehop needs exactly 2 contexts
 ########################################### change to 5 (baseline) cuz parsonsgpt min is 5?
 
 # initialize chroma db for searching 
@@ -96,7 +99,7 @@ def ask_llm(query, context):
 
 if __name__ == "__main__":
     # load in json question data
-    with open("morehop_original_test.json", "r") as f: # ../multihop-data/morehopqa_150.json
+    with open("../multihop-data/morehopqa_120.json", "r") as f: # ../multihop-data/morehopqa_150.json
         qa_data = json.load(f)
 
     # extracting queries
@@ -145,7 +148,8 @@ if __name__ == "__main__":
         })
 
     # Save CSV
-    with open('morehop_original_results.csv', 'w', newline='') as f:
+    csv_filename = f"morehop_csv_exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.csv"
+    with open(csv_filename, 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(["Question", "LLM Response"])
         writer.writerows([(r["question"], r["llm_response"]) for r in results])
@@ -163,5 +167,6 @@ if __name__ == "__main__":
         "results": results
     }
 
-    with open('morehop_original_output.json', 'w') as f:
+    filename = f"morehop_exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+    with open(filename, 'w') as f:
         json.dump(experiment_output, f, indent=2)
