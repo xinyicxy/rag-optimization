@@ -296,6 +296,6 @@
     }
   },
   "total_negative_questions": 10,
-  "total_negative_rejections": 0,
-  "negative_rejection_percentage": 0.0
+  "total_negative_rejections": 9,
+  "negative_rejection_percentage": 90.0
 }
