@@ -2,6 +2,8 @@ import os
 import json
 import re
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 def extract_metrics_from_files(directory):
@@ -37,10 +39,25 @@ def extract_metrics_from_files(directory):
     return df
 
 
+def plot_metric(df, split, metric):
+    if metric not in df.columns:
+        print(f"Metric '{metric}' not found in DataFrame.")
+        return
+    
+    plt.figure(figsize=(12, 6))
+    sns.lineplot(data=df, x="k", y=metric, hue="type", style="size", markers=True)
+    plt.title(f"{metric} over k for different hyperparameters ({split} split)")
+    plt.xlabel("k")
+    plt.ylabel(metric)
+    plt.legend(title="Type & Size")
+    plt.grid(True)
+    plt.show()
+
 if __name__ == "__main__":
     # example usage
     directory = "./outputs_r1/"  # REPLACE
     df_metrics = extract_metrics_from_files(directory)
     check = df_metrics.at[0, 'RFP_type']
     print(check)
+    plot_metric(df_metrics, "RFP_id", "F1")
     # print(df_metrics.head())
