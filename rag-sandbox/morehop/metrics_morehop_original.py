@@ -1,7 +1,14 @@
 import json
 import pandas as pd
 import argparse
-from ragas.metrics import context_recall
+
+from ragas.metrics import (
+    answer_relevancy,
+    faithfulness,
+    context_recall,
+    context_precision,
+    answer_correctness
+)
 from ragas import evaluate
 from ragas.dataset_schema import EvaluationDataset
 from sklearn.metrics import precision_recall_fscore_support
@@ -25,6 +32,7 @@ CHUNK_SIZE = args.chunk_size
 TOP_K = args.top_k
 
 # setting api key
+OPENAI_KEY = "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"
 os.environ["OPENAI_API_KEY"] = OPENAI_KEY  # Set for RAGAS
 
 """
@@ -99,6 +107,7 @@ def exact_match(row):
 
 
 df['EM'] = df.apply(exact_match, axis=1)
+df['F1'] = df.apply(compute_f1, axis=1)
 
 # define grouping dimensions
 grouping_dimensions = [

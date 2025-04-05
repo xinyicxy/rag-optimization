@@ -10,7 +10,7 @@ from credentials import OPENAI_KEY
 client = OpenAI(api_key=OPENAI_KEY)
 
 # specifying directory (change btwn multihop and RFP as needed)
-DOCS_DIR = "./documents/"
+DOCS_DIR = "./documents"
 
 # arg parse!
 parser = argparse.ArgumentParser(
