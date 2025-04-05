@@ -21,8 +21,7 @@ CHUNK_TYPE = args.chunk_type
 CHUNK_SIZE = args.chunk_size
 TOP_K = args.top_k
 
-# TODO: set the api key
-OPENAI_KEY = "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"
+# set the api key
 openai.api_key = OPENAI_KEY
 
 # initialize chroma db for searching 
