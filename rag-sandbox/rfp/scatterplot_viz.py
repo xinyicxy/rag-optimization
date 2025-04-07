@@ -297,7 +297,6 @@ def plot_scatter_by_chunk_type(csv_path):
         plt.ylabel(metric.replace("_", " ").title())
         plt.title(f'{metric.replace("_", " ").title()} vs Retrieval Ratio')
         plt.legend(title='Chunk Type')
-        plt.grid(True)
         plt.tight_layout()
         plt.show()
 
@@ -328,5 +327,5 @@ if __name__ == "__main__":
                             output_path="metric_plot_data.csv")
     """
 
-    plot_scatter_by_rfp("metric_plot_data.csv")
+    # plot_scatter_by_rfp("metric_plot_data.csv")
     plot_scatter_by_chunk_type("metric_plot_data.csv")
