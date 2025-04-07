@@ -1,15 +1,7 @@
 import json
 import pandas as pd
-
 import argparse
-
-from ragas.metrics import (
-    answer_relevancy,
-    faithfulness,
-    context_recall,
-    context_precision,
-    answer_correctness
-)
+from ragas.metrics import context_recall
 from ragas import evaluate
 from ragas.dataset_schema import EvaluationDataset
 from sklearn.metrics import precision_recall_fscore_support
@@ -17,6 +9,7 @@ import numpy as np
 import os
 from ragas.llms import LangchainLLMWrapper
 from langchain_openai import OpenAI
+from credentials import OPENAI_KEY
 
 # arg parse!
 parser = argparse.ArgumentParser(description="Process MoreHop queries with OpenAI and ChromaDB.")
@@ -32,7 +25,6 @@ CHUNK_SIZE = args.chunk_size
 TOP_K = args.top_k
 
 # setting api key
-OPENAI_KEY = "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"
 os.environ["OPENAI_API_KEY"] = OPENAI_KEY  # Set for RAGAS
 
 """
@@ -46,7 +38,7 @@ answer_correctness.llm = gpt3_llm
 """
 
 # load experiment data
-exp_filename = f"morehop_exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+exp_filename = f"outputs/morehop_exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
 with open(exp_filename) as f:
     data = json.load(f)
 
@@ -88,20 +80,12 @@ def compute_metrics(row):
     scores = evaluate(
         dataset,
         metrics=[
-            answer_relevancy,
-            faithfulness,
-            context_recall,
-            context_precision,
-            answer_correctness
+            context_recall
         ]
     )
 
     return pd.Series({
-        "answer_relevancy": scores["answer_relevancy"],
-        "faithfulness": scores["faithfulness"],
-        "context_recall": scores["context_recall"],
-        "context_precision": scores["context_precision"],
-        "answer_correctness": scores["answer_correctness"]
+        "context_recall": scores["context_recall"]
     })
 
 
@@ -109,26 +93,12 @@ df = pd.concat([df, df.apply(compute_metrics, axis=1)], axis=1)
 print(df.head())
 
 
-# computing EM and F1
+# computing EM
 def exact_match(row):
     return int(row['llm_response'].strip().lower() == row['ground_truth_answer'].strip().lower())
 
 
-def compute_f1(row):
-    pred_tokens = set(row['llm_response'].lower().split())
-    true_tokens = set(row['ground_truth_answer'].lower().split())
-
-    if len(true_tokens) == 0:
-        return 0.0
-
-    precision = len(pred_tokens & true_tokens) / len(pred_tokens) if pred_tokens else 0
-    recall = len(pred_tokens & true_tokens) / len(true_tokens)
-    f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
-    return f1
-
-
 df['EM'] = df.apply(exact_match, axis=1)
-df['F1'] = df.apply(compute_f1, axis=1)
 
 # define grouping dimensions
 grouping_dimensions = [
@@ -150,13 +120,12 @@ for group_name, group_key in grouping_dimensions:
     group_results = {}
     for name, group in groups:
         # Ensure list-type columns are converted to numeric values before computing mean
-        for col in ['answer_relevancy', 'faithfulness', 'context_recall', 'context_precision', 'answer_correctness', 'EM', 'F1']:
+        for col in ['context_recall', 'EM']:
             group[col] = group[col].apply(lambda x: sum(x) / len(x) if isinstance(x, list) else x)
 
         # Compute average metrics
         metrics_avg = group[[
-            'answer_relevancy', 'faithfulness', 'context_recall',
-            'context_precision', 'answer_correctness', 'EM', 'F1'
+            'context_recall', 'EM'
         ]].mean().to_dict()
 
         # Compute latency metrics
@@ -171,7 +140,7 @@ for group_name, group_key in grouping_dimensions:
     report[group_name] = group_results
 
 # save report
-metrics_filename = f"morehop_metrics_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+metrics_filename = f"outputs/morehop_metrics_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
 with open(metrics_filename, 'w') as f:
     json.dump(report, f, indent=2)
 

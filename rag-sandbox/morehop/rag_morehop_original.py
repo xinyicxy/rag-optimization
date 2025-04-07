@@ -1,11 +1,11 @@
 import openai
 import json
-import re
 import chromadb
 import time
 import csv
 import datetime
 import argparse
+from credentials import OPENAI_KEY
 
 
 # arg parse!
@@ -21,10 +21,8 @@ CHUNK_TYPE = args.chunk_type
 CHUNK_SIZE = args.chunk_size
 TOP_K = args.top_k
 
-# TODO: set the api key
-OPENAI_KEY = "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"
+# set the api key
 openai.api_key = OPENAI_KEY
-########################################### change to 5 (baseline) cuz parsonsgpt min is 5?
 
 # initialize chroma db for searching 
 client = chromadb.PersistentClient(path="./chroma_db")
@@ -99,7 +97,7 @@ def ask_llm(query, context):
 
 if __name__ == "__main__":
     # load in json question data
-    with open("../multihop-data/morehopqa_120.json", "r") as f: # ../multihop-data/morehopqa_150.json
+    with open("../../multihop-data/morehopqa_120.json", "r") as f:
         qa_data = json.load(f)
 
     # extracting queries
@@ -148,7 +146,7 @@ if __name__ == "__main__":
         })
 
     # Save CSV
-    csv_filename = f"morehop_csv_exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.csv"
+    csv_filename = f"outputs/morehop_csv_exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.csv"
     with open(csv_filename, 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(["Question", "LLM Response"])
@@ -167,6 +165,6 @@ if __name__ == "__main__":
         "results": results
     }
 
-    filename = f"morehop_exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
+    filename = f"outputs/morehop_exp_output_k{TOP_K}_type{CHUNK_TYPE}_size{CHUNK_SIZE}.json"
     with open(filename, 'w') as f:
         json.dump(experiment_output, f, indent=2)
