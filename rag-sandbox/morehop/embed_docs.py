@@ -9,7 +9,7 @@ from credentials import OPENAI_KEY
 
 client = OpenAI(api_key=OPENAI_KEY)
 
-# specifying directory (change btwn multihop and RFP as needed)
+# specifying directory
 DOCS_DIR = "./documents/"
 
 # arg parse!
@@ -117,9 +117,8 @@ if __name__ == "__main__":
         chunks = checked_chunks
 
         # embed in batches (to respect OpenAI API limits)
-        batch_size = 5  # NOTE: for infra-4 chunked by paragraphs/ any extremely long chunks, need to change to 1, since we had to split the chunks
+        batch_size = 5  # NOTE:
         for i in range(0, len(chunks), batch_size):
-            # there's an issue here with the batching
             chunk_batch = chunks[i:i + batch_size]
             embeddings = embed_texts(chunk_batch)  # get the embeddings
 

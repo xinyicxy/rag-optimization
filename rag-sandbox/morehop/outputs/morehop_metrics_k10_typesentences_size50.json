@@ -1,0 +1,54 @@
+{
+  "full_dataset": {
+    "full_dataset": {
+      "context_recall": 0.35833333333333334,
+      "EM": 0.5583333333333333,
+      "avg_retrieve_context": 0.11328350901603695,
+      "avg_llm_response": 1.8558249612649282,
+      "avg_total": 1.9691084702809647,
+      "sample_size": 120
+    }
+  },
+  "answer_type": {
+    "date": {
+      "context_recall": 0.34375,
+      "EM": 0.5625,
+      "avg_retrieve_context": 0.11328350901603698,
+      "avg_llm_response": 1.6926296278834343,
+      "avg_total": 1.8059131368994712,
+      "sample_size": 32
+    },
+    "organization": {
+      "context_recall": 0.0,
+      "EM": 0.3333333333333333,
+      "avg_retrieve_context": 0.11328350901603697,
+      "avg_llm_response": 1.6533887386322021,
+      "avg_total": 1.7666722476482388,
+      "sample_size": 3
+    },
+    "person": {
+      "context_recall": 0.43548387096774194,
+      "EM": 0.5806451612903226,
+      "avg_retrieve_context": 0.11328350901603702,
+      "avg_llm_response": 1.818765478749429,
+      "avg_total": 1.9320489877654667,
+      "sample_size": 62
+    },
+    "place": {
+      "context_recall": 0.5,
+      "EM": 0.5,
+      "avg_retrieve_context": 0.11328350901603698,
+      "avg_llm_response": 2.9313899278640747,
+      "avg_total": 3.044673436880112,
+      "sample_size": 2
+    },
+    "year": {
+      "context_recall": 0.19047619047619047,
+      "EM": 0.5238095238095238,
+      "avg_retrieve_context": 0.11328350901603697,
+      "avg_llm_response": 2.140401976449149,
+      "avg_total": 2.2536854854651858,
+      "sample_size": 21
+    }
+  }
+}
