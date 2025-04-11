@@ -48,8 +48,8 @@ for item in data:
 df = pd.DataFrame.from_dict(res)
 df.to_csv("multihop120_questions.csv", index=False)
 
-# batch_size = 15
-# batch = [df.iloc[i:i + batch_size] for i in range(0, len(df), batch_size)]
-# # Write each batch to a separate CSV
-# for i, chunk in enumerate(batch, start=1):
-#     chunk.to_csv(f"multihop150_questions{i}.csv", index=False)
+# Write in batches of 30 to separate CSVs
+batch_size = 30
+batch = [df.iloc[i:i + batch_size] for i in range(0, len(df), batch_size)]
+for i, chunk in enumerate(batch, start=1):
+    chunk.to_csv(f"multihop120_questions{i}.csv", index=False)
