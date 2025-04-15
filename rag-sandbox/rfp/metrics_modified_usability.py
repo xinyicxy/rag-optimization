@@ -29,11 +29,16 @@ context_recall.llm = gpt3_llm
 context_precision.llm = gpt3_llm
 answer_correctness.llm = gpt3_llm
 """
+# argparse filepath, starting from the rag-sandbox/rfp/ directory
+parser = argparse.ArgumentParser(
+    description="Evaluate the performance of the LLM on the RFP dataset.")
+parser.add_argument("filepath", type=str,
+                    help="Path to the exp_output JSON file containing the LLM responses (e.g. outputs/query/exp_output_k15_typesentences_size10_method_llm_multiquery.json)")
+#NAME = "k15_typesentences_size10_method_llm_multiquery"
+# NAME = "k15_typeparagraphs_size1_method_llm_ans"
+# exp_filename = f"outputs/query/exp_output_{NAME}.json"
 
-# Just manually input name of file for now, might do argparse later
-#NAME = "k15_typesentences_size10_method_llm_ans"
-NAME = "k15_typesentences_size10_method_llm_multiquery"
-exp_filename = f"outputs/query/exp_output_{NAME}.json"
+exp_filename = parser.parse_args().filepath
 with open(exp_filename) as f:
     data = json.load(f)
 

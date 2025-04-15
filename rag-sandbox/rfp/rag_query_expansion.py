@@ -21,11 +21,14 @@ parser.add_argument("chunk_size", type=int,
                     help="Size of chunks for document processing.")
 parser.add_argument("top_k", type=int,
                     help="K chunks retrieved during search.")
+parser.add_argument("method", type=int,
+                    help="Query expansion method (ie llm_ans or llm_multiquery).")
 
 args = parser.parse_args()
 CHUNK_TYPE = args.chunk_type
 CHUNK_SIZE = args.chunk_size
 TOP_K = args.top_k
+method = args.method
 
 
 # TODO: set the api key
@@ -206,9 +209,8 @@ if __name__ == "__main__":
     # xtracting queries + corresponding RFP IDs
     queries = [item["question"] for item in qa_data]
 
-    # NOTE: query expansion bit here, can change this/add to argparse for diff methods
     # Also rn for llm_ans, llm_multiquery and synonym I am putting the expended query only in the document retrieval part.
-    method = "synonym"
+    #method = "llm_ans"
     if method == "llm_ans":
         queries = llm_ans_query_expansion(queries)
     elif method == "llm_multiquery":
