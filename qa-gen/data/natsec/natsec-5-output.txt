@@ -1,0 +1,199 @@
+LLM Output - Generated on 2025-03-18 07:52:40
+
+
+=== Chunk 1 ===
+**Q1: What is the estimated public reporting burden for the collection of information under OMB No. 0704-0188?**  
+A1: The estimated public reporting burden is 110 hours per response.  
+**Text Snippet:** "Public reporting burden for this collection of information is estimated to average 110 hours per response, including the time for reviewing instructions, searching existing data source, gathering and maintaining the data needed, and completing and reviewing the collection of information."  
+
+---
+
+**Q2: Where should comments regarding the burden estimate for this contract data requirement be submitted?**  
+A2: Comments must be sent to the Department of Defense (Washington Headquarters Services) and the Office of Management and Budget.  
+**Text Snippet:** "Send comments regarding this burden estimate or any other aspect of this collection of information [...] to Department of Defense, Washington Headquarters Services [...] and to the Office of Management and Budget, Paperwork Reduction Project (0704-0188), Washington, DC 20503."  
+
+---
+
+**Q3: What is the deadline for submitting the draft version of the Software Design Description (SDD) under Data Item A009?**  
+A3: The draft must be submitted no later than 20 calendar days prior to Test for Record (TFR).  
+**Text Snippet:** "The Contractor shall deliver a draft version no later than 20 calendar days prior to Test for Record (TFR)."  
+
+---
+
+**Q4: How must the System/Subsystem Design Document (SSDD) for AFATDS 7.0 reflect requirements allocation?**  
+A4: The SSDD must show full bi-directional traceability between requirements and physical processes and reflect relationships between physical processes and logical components.  
+**Text Snippet:** "The SSDD shall reflect the allocation of requirements to the physical processes that comprise the software and full bi-directional traceability. Relationship between the physical processes and logical components shall also be reflected."  
+
+---
+
+**Q5: What distribution authorization applies to the SSDD under Block 9?**  
+A5: Distribution is authorized to the DoD and U.S. DoD contractors only, with further distribution directed by Project Manager, Mission Command.  
+**Text Snippet:** "Block 9: Distribution D: Distribution authorized to the DoD and U.S. DoD contractors only; further distribution at the direction of Project Manager, Mission Command, SFAE-CCC-MC."  
+
+---
+
+**Q6: Where must final submissions for PM MC be posted as per Block 14?**  
+A6: Submissions must be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative.  
+**Text Snippet:** "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative."  
+
+---
+
+**Q7: What is the timeframe for the Government to review and provide comments
+
+=== Chunk 2 ===
+**Q1: What preparation requirements apply to the Software Requirements Specification (SRS)?**  
+**A1:** The SRS must be prepared in contractor format following the cited Data Item Description (DID).  
+**Text Snippet:**  
+*"Block 4: Prepare the required document, in contractor format, in accordance with the cited DID."*  
+
+---
+
+**Q2: What are the submission deadlines for the draft and final SRS?**  
+**A2:** The draft SRS is due 20 days before Test for Record (TFR), and the final version is due 60 days before Full Material Release (FMR) or contract expiration, whichever is earlier.  
+**Text Snippet:**  
+*"Block 10, 11, 12 & 13: The Contractor shall deliver a draft version no later than 20 calendar days prior to Test for Record (TFR). The Contractor shall deliver a final version 60 calendar days prior to Full Material Release OR 60 calendar days prior to contract expiration, whichever comes first."*  
+
+---
+
+**Q3: What distribution restrictions apply to the Software Version Description (SVD)?**  
+**A3:** Distribution of the SVD is limited to the Department of Defense (DoD) and U.S. DoD contractors, with further distribution controlled by Project Manager, Mission Command (SFAE-CCC-MC).  
+**Text Snippet:**  
+*"Block 9: Distribution D: Distribution authorized to the Department of Defense and U.S. DoD contractors only; further distribution at the direction of Project Manager, Mission Command, SFAE-CCC-MC."*  
+
+---
+
+**Q4: When must the SVD be submitted during software delivery?**  
+**A4:** The SVD (including Release Notes) must be submitted every time software is delivered to the Government, whether for engineering or final releases.  
+**Text Snippet:**  
+*"Block 10, 11, 12 & 13: A SVD will be submitted each time software is delivered to the Government (this applies both for engineering releases and final releases of software)."*  
+
+---
+
+**Q5: What is the estimated public reporting burden for this contract’s documentation?**  
+**A5:** The estimated
+
+=== Chunk 3 ===
+**Q1: What platforms should be used for PM MC submissions and what notification is required?**  
+**A1:** Submissions must be posted to DI2E and IDE, with email notification to the Contracting Officer’s Representative.  
+**Text Snippet:** "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative."  
+
+**Q2: What are the distribution restrictions outlined in Block 9?**  
+**A2:** Distribution is authorized only to the Department of Defense and U.S. DoD contractors, with further distribution requiring approval from the Project Manager, Mission Command.  
+**Text Snippet:** "Block 9: Distribution D: Distribution authorized to the Department of Defense and U.S. DoD contractors only; further distribution at the direction of Project Manager, Mission Command, SFAE-CCC-MC."  
+
+**Q3: What is the estimated public reporting burden and where should comments about it be sent?**  
+**A3:** The burden is estimated at 110 hours per response. Comments must be sent to the Department of Defense and the Office of Management and Budget.  
+**Text Snippet:** "Public reporting burden [...] is estimated to average 110 hours per response [...] Sent comments [...] to Department of Defense [...] and to the Office of Management and Budget, Paperwork Reduction Project (0704-0188), Washington, DC 20503."  
+
+**Q4: What are the deadlines for submitting draft and final versions of documents per
+
+=== Chunk 4 ===
+**Q1: What is the process if the Contractor modifies the Interface Control Document after Government approval?**  
+A1: The Contractor must resubmit the revised document for Government review and approval. The Government will provide comments within 30 calendar days of receipt, and the final version is due back within 30 days after receiving comments.  
+**Text Snippet:** "If the Contractor throughout the course of the contract makes changes to the Interface Control Document after Government approval, the Contractor shall resubmit for Government review and approval. The Government shall review and provide comments within 30 calendar days of receipt of the document. The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments."  
+
+---
+
+**Q2: What metrics must be included in the Software Metrics Report?**  
+A2: The report must include Software Developmental Progress, Build Progress, Fault Profile, and Breadth of Testing, illustrated graphically using DA Pamphlet 73-7 for data elements and chart layouts.  
+**Text Snippet:** "All metrics shall be illustrated graphically using DA Pamphlet 73-7 as a guide for data elements and chart layouts. The following metrics shall be collected and reported: Software Developmental Progress; Build Progress; Fault Profile; and Breadth of Testing."  
+
+---
+
+**Q3: Where must
+
+=== Chunk 5 ===
+**Q1: What is the initial delivery timeframe required after contract award?**  
+A1: The Contractor must deliver 60 calendar days after contract award.  
+**Text Snippet:** "The Contractor shall delivery 60 calendar days after contract award."  
+
+---
+
+**Q2: What process must the Contractor follow if changes are made to the Configuration Management Plan after Government approval?**  
+A2: The Contractor must resubmit the revised plan for Government review and approval.  
+**Text Snippet:** "If the Contractor... makes changes to the Configuration Management Plan after Government approval, the Contractor shall resubmit for Government review and approval."  
+
+---
+
+**Q3: How long does the Government have to review and comment on submitted documents?**  
+A3: The Government has 30 calendar days to review and provide comments after receipt.  
+**Text Snippet:** "The Government shall review and provide comments within 30 calendar days of receipt of the document."  
+
+---
+
+**Q4: What is the deadline for the Contractor to submit the final reproduced version after receiving Government comments?**  
+A4: The final version must be returned to the Government within 30 calendar days after receiving comments.  
+**Text Snippet:** "The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments."  
+
+---
+
+**Q5: Where must submissions for PM MC be posted, and what notification is required?**  
+A5: Submissions must be posted to IDE/DI2E with email notification to the Contracting Officer’s Representative.  
+**Text Snippet:** "Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative."
+
+=== Chunk 6 ===
+**Q1: What platforms are required for submitting PM MC documentation?**  
+A1: Submissions must be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative.  
+**Text Snippet:** "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative."  
+
+---
+
+**Q2: What is the timeline for submitting the final reproduced version of a document after receiving Government comments?**  
+A2: The final reproduced version is due to the Government within 30 calendar days following receipt of comments.  
+**Text Snippet:** "The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments."  
+
+---
+
+**Q3: What is the requirement for the Quality Assurance Program Plan (QAPP) if changes occur after Government approval?**  
+A3: The Contractor must resubmit the QAPP for Government review and approval if changes are made post-approval.  
+**Text Snippet:** "If the Contractor throughout the course of the contract makes changes to the Quality Assurance Program Plan after Government approval, the Contractor shall resubmit for Government review and approval."  
+
+---
+
+**Q4: How frequently must the Government Furnished Equipment (GFE) Status Report be submitted after the initial delivery?**  
+A4: The GFE Status Report must be submitted semi-annually (twice a year) after the initial delivery, with a final submission 60 days before contract expiration.  
+**Text Snippet:** "The Contractor shall deliver semi-annually (twice a year) thereafter. Final submission shall be no later than 60 calendar days prior to contract expiration."  
+
+---
+
+**Q5: What is the distribution requirement for documents under Block 9?**  
+A5: Distribution is authorized to the Department of Defense and U.S. DoD contractors only, with further distribution directed by Project Manager, Mission Command, SFAE-CCC-MC.  
+**Text Snippet:** "Block 9: Distribution D: Distribution authorized to the Department of Defense and U.S. DoD contractors only; further distribution at the direction of Project Manager, Mission Command, SFAE-CCC-MC."  
+
+---
+
+**Q6: What is the estimated public reporting burden for completing the form?**  
+A6: The estimated burden is 110 hours per response, including time for reviewing instructions, data gathering, and document completion.  
+**Text Snippet:** "Public reporting burden for this collection of information is estimated to
+
+=== Chunk 7 ===
+**Q1:** What platforms must be used for PM MC submissions and what notification is required?  
+**A1:** Submissions must be posted to both DI2E and IDE with email notification to the Contracting Officer’s Representative.  
+**Text Snippet:** *"Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer’s Representative."*  
+
+---
+
+**Q2:** What standards govern the preparation of Software User Manuals (SUMs) and Software Administration Manuals (SAMs)?  
+**A2:** Documents must comply with the cited DID, MIL-STD-40051-1B, and IETM format per MIL-STD-40051-2B.  
+**Text Snippet:** *"Block 4: Prepare the required document, in contractor format, in accordance with the cited DID and MIL-STD-40051-1B and IETM (Portable Document Format) format IAW MIL-STD-40051-2B."*  
+
+---
+
+**
+
+=== Chunk 8 ===
+**Q1:** What standards govern the development of Interactive Electronic Technical Manuals (IETMs)?  
+**A1:** The Contractor must develop IETMs in Portable Document Format (PDF) IAW MIL-STD-40051-2B and ensure all products comply with MIL-STD-40051-1B.  
+**Text Snippet:** "Additionally, the Contractor shall develop all products IAW MIL-STD-40051-1B and IETM (Portable Document Format) format IAW MIL-STD-40051-2B."  
+
+**Q2:** What are the distribution restrictions for documents under Block 9?  
+**A2:** Distribution is limited to the Department of Defense, U.S. DoD contractors, and further distribution requires approval from the Project Manager, Mission Command.  
+**Text Snippet:** "Distribution authorized to the Department of Defense and U.S. DoD contractors only; further distribution at the direction of Project Manager, Mission Command, SFA E-CCC-MC."  
+
+**Q3:** What submission milestones must the Contractor meet for technical publications?  
+**A3:** The Contractor must submit 30%, 60%, 90%, and 100% Final drafts for Government review and propose interim draft acceptance criteria for each cycle.  
+**Text Snippet:** "The Contractor shall submit 30%, 60%, 90% and 100% Final for all technical publications... propose interim draft acceptance criteria for each draft deliverable cycle."  
+
+**Q4:** How long does the Government have to review submitted documents?  
+**A4:** The Government must review and provide comments within 45 calendar days of receiving the document.  
+**Text Snippet:** "The Government shall review and provide comments within 45 calendar days of receipt of the document."

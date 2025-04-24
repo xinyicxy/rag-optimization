@@ -1,0 +1,218 @@
+[
+    {
+        "chunk": 1,
+        "question": "What are the submission deadlines for the Software Requirements Specification (A011)?",
+        "answer": "The draft version must be submitted no later than 20 calendar days prior to TFR, and the final version is due 60 calendar days prior to Full Material Release or 60 calendar days prior to contract expiration, whichever comes first.",
+        "snippet": "Draft version no later than 20 calendar days prior to TFR. Final version- 60 calendar days prior to Full Material Release OR 60 calendar days prior to contract expiration, whichever comes first.",
+        "context": [
+            "Draft version no later than 20 calendar days prior to TFR. Final version- 60 calendar days prior to Full Material Release OR 60 calendar days prior to contract expiration, whichever comes first."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "When is the Interface Control Document (A014) required to be submitted?",
+        "answer": "The Interface Control Document (A014) must be submitted 30 calendar days after completion of TFR, in conjunction with the final delivery of every software baseline.",
+        "snippet": "30 calendar days after completion of TFR. In conjunction with final delivery of every software baseline.",
+        "context": [
+            "30 calendar days after completion of TFR. In conjunction with final delivery of every software baseline."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What is the submission schedule for the Status of GFE Report (A020)?",
+        "answer": "The Status of GFE Report (A020) is due 180 calendar days after award, submitted semi-annually thereafter, with a final submission 60 calendar days prior to contract expiration.",
+        "snippet": "180 calendar days after award. Semi-annually thereafter. Final submission 60 calendar days prior to contract expiration.",
+        "context": [
+            "180 calendar days after award. Semi-annually thereafter. Final submission 60 calendar days prior to contract expiration."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What is required for the government to disclose subcontractor past performance information to a prime contractor?",
+        "answer": "The government requires written consent from the subcontractor/teaming partner.",
+        "snippet": "Past performance information concerning subcontractors and teaming partners cannot be disclosed to a private party without the subcontractor\u2019s or teaming partner\u2019s consent. Because a prime contractor is a private party, the Government will need that consent before disclosing subcontractor/teaming partner past and present performance information to the prime contractor during exchanges.",
+        "context": [
+            "Past performance information concerning subcontractors and teaming partners cannot be disclosed to a private party without the subcontractor\u2019s or teaming partner\u2019s consent. Because a prime contractor is a private party, the Government will need that consent before disclosing subcontractor/teaming partner past and present performance information to the prime contractor during exchanges."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What must subcontractors/teaming partners include in their proposal to facilitate past performance evaluations?",
+        "answer": "Completed consent letters authorizing the government to share their performance information with the prime contractor.",
+        "snippet": "In an effort to assist the Government\u2019s Past Performance Evaluation Team... we request that the following consent letter be completed by the major subcontractors/teaming partners identified in your proposal. The completed consent letters should be submitted as part of your Present/Past Performance Volume.",
+        "context": [
+            "In an effort to assist the Government\u2019s Past Performance Evaluation Team",
+            "we request that the following consent letter be completed by the major subcontractors/teaming partners identified in your proposal. The completed consent letters should be submitted as part of your Present/Past Performance Volume."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What defines \"Exceptional (E)\" performance in the contractor evaluation?",
+        "answer": "Performance that meets contractual requirements, exceeds many to the government\u2019s benefit, and resolves minor issues with highly effective corrective actions.",
+        "snippet": "EXCEPTIONAL (E)... contractor performance meets or met contractual requirements and exceeds or exceeded many to the Government's benefit. The contractual performance... was accomplished with few minor problems for which corrective actions taken by the contractor were highly effective.",
+        "context": [
+            "EXCEPTIONAL (E)",
+            "contractor performance meets or met contractual requirements and exceeds or exceeded many to the Government's benefit. The contractual performance",
+            "was accomplished with few minor problems for which corrective actions taken by the contractor were highly effective."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What is required for commercial client references to be contacted by the government for past performance verification?",
+        "answer": "A client authorization letter granting permission to disclose performance information.",
+        "snippet": "Client authorization letters are required for each identified effort for a commercial customer. This letter will authorize release to the Government of requested information on the offeror's performance.",
+        "context": [
+            "Client authorization letters are required for each identified effort for a commercial customer. This letter will authorize release to the Government of requested information on the offeror's performance."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What specific cost template is required for proposal submissions under this solicitation?**",
+        "answer": "The required cost template is provided in Attachment L-6.",
+        "snippet": "ATTACHMENT L-6 COST TEMPLATE Cost Template 4 1 2016.xls x HC1028-16-R-0005 0004 Page 205 of 217.",
+        "context": [
+            "ATTACHMENT L-6 COST TEMPLATE Cost Template 4 1 2016.xls x HC1028-16-R-0005 0004 Page 205 of 217."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "Which clause outlines requirements for submitting certified cost or pricing data?**",
+        "answer": "Clause 52.215-20 governs requirements for certified cost or pricing data or information other than certified cost or pricing data.",
+        "snippet": "52.215-20 Requirements for Certified Cost or Pricing Data or Information Other Than Certified Cost or Pricing Data OCT 2010.",
+        "context": [
+            "52.215-20 Requirements for Certified Cost or Pricing Data or Information Other Than Certified Cost or Pricing Data OCT 2010."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What is the basis for contract award under Section M of the solicitation?**",
+        "answer": "The contract will be awarded using a best value trade-off source selection process per FAR 15.3.",
+        "snippet": "This is a best value trade-off source selection conducted in accordance with FAR 15.3, Source Selection... The Government will select the best overall offeror, based on integrated assessment of the evaluation factors and subfactors.",
+        "context": [
+            "This is a best value trade-off source selection conducted in accordance with FAR 15.3, Source Selection",
+            "The Government will select the best overall offeror, based on integrated assessment of the evaluation factors and subfactors."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "How are option periods evaluated for pricing purposes?**",
+        "answer": "Option pricing, including a six-month extension under FAR 52.217-8, is added to the base period price for evaluation.",
+        "snippet": "The Government will evaluate offers for award purposes by adding the total price for all options to the total price for the base period... The pricing for the additional six-month extension period, IAW FAR 52.217-8, applies to the Engineering Support Services and ODC CLINs only.",
+        "context": [
+            "The Government will evaluate offers for award purposes by adding the total price for all options to the total price for the base period",
+            "The pricing for the additional six-month extension period, IAW FAR 52.217-8, applies to the Engineering Support Services and ODC CLINs only."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What are the evaluation criteria for the technical/management approach under SOO paragraph 6.2.11?**",
+        "answer": "The Government evaluates the offeror\u2019s approach based on its ability to meet SOO paragraph 6.2.11 sub-items d, e, g, and j, including a feasible method for developing maintainable training products and embedding 24/7 training capabilities.",
+        "snippet": "The Government will evaluate the extent to which the offeror\u2019s proposed approach meets the objectives of SOO paragraph 6.2.11 sub-items d, e, g, and j and demonstrates: o a sound and feasible approach for developing training products while managing maintainability of material and ease in which content can be added or modified o a sound and feasible approach to embedding individual and collective training capability that supports 24/7 education at the Army unit level.",
+        "context": [
+            "The Government will evaluate the extent to which the offeror\u2019s proposed approach meets the objectives of SOO paragraph 6.2.11 sub-items d, e, g, and j and demonstrates: o a sound and feasible approach for developing training products while managing maintainability of material and ease in which content can be added or modified o a sound and feasible approach to embedding individual and collective training capability that supports 24/7 education at the Army unit level."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "How are subfactors prioritized under the technical/management factor?**",
+        "answer": "Subfactors within the technical/management factor are listed in descending order of importance, with sub-elements under each subfactor being approximately equal in importance.",
+        "snippet": "Within the technical/management factor, the subfactors are in descending order of importance. The sub-elements under each respective subfactor are of approximate equal importance to that subfactor.",
+        "context": [
+            "Within the technical/management factor, the subfactors are in descending order of importance. The sub-elements under each respective subfactor are of approximate equal importance to that subfactor."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What defines a proposal rated as \"Blue\" under technical evaluations?**",
+        "answer": "A \"Blue\" rating indicates an outstanding proposal with an exceptional approach, no deficiencies, and multiple strengths.",
+        "snippet": "BLUE Outstanding Proposal meets requirements and indicates an exceptional approach and understanding of the requirements. The proposal contains multiple strengths and no deficiencies.",
+        "context": [
+            "BLUE Outstanding Proposal meets requirements and indicates an exceptional approach and understanding of the requirements. The proposal contains multiple strengths and no deficiencies."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What constitutes a \"High\" technical risk rating?**",
+        "answer": "A \"High\" risk rating signifies a likelihood of significant schedule disruption, cost increases, or performance degradation that cannot be easily mitigated.",
+        "snippet": "High Is likely to cause significant disruption of schedule, increased cost or degradation of performance. Is unlikely to overcome any difficulties, even with special contractor emphasis and close Government monitoring.",
+        "context": [
+            "High Is likely to cause significant disruption of schedule, increased cost or degradation of performance. Is unlikely to overcome any difficulties, even with special contractor emphasis and close Government monitoring."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "How does the technical/management factor compare to past performance in evaluation priority?**",
+        "answer": "The technical/management approach factor is more important than the past performance factor.",
+        "snippet": "The technical/management approach factor is more important than the past performance factor.",
+        "context": [
+            "The technical/management approach factor is more important than the past performance factor."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What are the four degrees of relevancy used to assess past performance under DoD Source Selection Procedures?**",
+        "answer": "The four degrees are VERY RELEVANT, RELEVANT, SOMEWHAT RELEVANT, and NOT RELEVANT.",
+        "snippet": "VERY RELEVANT [involves] the same scope and magnitude of effort... RELEVANT [involves] similar scope... SOMEWHAT RELEVANT [involves] some of the scope... NOT RELEVANT [involves] little or none of the scope...",
+        "context": [
+            "VERY RELEVANT [involves] the same scope and magnitude of effort",
+            "RELEVANT [involves] similar scope",
+            "SOMEWHAT RELEVANT [involves] some of the scope",
+            "NOT RELEVANT [involves] little or none of the scope"
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What criteria define an \"Exceptional\" Performance Quality Assessment rating?**",
+        "answer": "An \"Exceptional\" rating indicates performance exceeding contractual requirements with few minor issues and highly effective corrective actions.",
+        "snippet": "EXCEPTIONAL... contractor performance meets or met contractual requirements and exceeds or exceeded many to the Government's benefit... corrective actions... were highly effective.",
+        "context": [
+            "EXCEPTIONAL",
+            "contractor performance meets or met contractual requirements and exceeds or exceeded many to the Government's benefit",
+            "corrective actions",
+            "were highly effective."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "Under what circumstances is an \"Unknown Confidence\" rating assigned for past performance?**",
+        "answer": "It is assigned when no relevant past performance data exists or the record is too sparse for assessment.",
+        "snippet": "Offerors without a record of relevant past performance... will receive an 'Unknown Confidence' rating.",
+        "context": [
+            "Offerors without a record of relevant past performance",
+            "will receive an 'Unknown Confidence' rating."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What sources does the Government use to assess Performance Quality?**",
+        "answer": "Sources include past performance questionnaires, PPIRS data, customer interviews, and Defense Contract Management Agency input.",
+        "snippet": "The quality assessment... evaluates questionnaire responses, PPIRS information, interviews with Government customers... [and] Defense Contract Management Agency officials.",
+        "context": [
+            "The quality assessment",
+            "evaluates questionnaire responses, PPIRS information, interviews with Government customers",
+            "[and] Defense Contract Management Agency officials."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What are the requirements for an OCI Mitigation Plan under the AFATDS contract?**",
+        "answer": "The offeror must submit a Government-approved plan describing all relevant facts about past, present, or planned interests (financial, contractual, organizational, etc.) related to the work. The plan must explain how the OCI will be minimized to a Government-acceptable level.",
+        "snippet": "The offeror shall submit a Government-approved/acceptable OCI Mitigation Plan... relating to work to be performed under the AFATDS contract... The OCI Mitigation Plan shall explain how the OCI will be minimized to a level acceptable to the Government.",
+        "context": [
+            "The offeror shall submit a Government-approved/acceptable OCI Mitigation Plan",
+            "relating to work to be performed under the AFATDS contract",
+            "The OCI Mitigation Plan shall explain how the OCI will be minimized to a level acceptable to the Government."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "How is the cost proposal evaluated for the basic award and options?**",
+        "answer": "The cost proposal is evaluated based on the total price for basic requirements, all options (including a 6-month extension period under FAR 52.217-8), and probable cost computed by the Government.",
+        "snippet": "The offeror\u2019s cost proposal will be evaluated for award purposes... based upon the total price proposed for basic requirements (basic award) and all options, including option pricing for an additional 6-month extension period... by the probable cost (PC) computed by the Government.",
+        "context": [
+            "The offeror\u2019s cost proposal will be evaluated for award purposes",
+            "based upon the total price proposed for basic requirements (basic award) and all options, including option pricing for an additional 6-month extension period",
+            "by the probable cost (PC) computed by the Government."
+        ]
+    }
+]

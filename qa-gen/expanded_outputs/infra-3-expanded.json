@@ -1,0 +1,112 @@
+[
+    {
+        "chunk": 2,
+        "question": "What is required for a bidder to arrange a site survey for the Alexander City Recycling Center Construction Project?**",
+        "answer": "Bidders must contact Drew Meacham, City Engineer & Public Works Director, via email to schedule an appointment.",
+        "snippet": "Surveys should be conducted by an appointment. To arrange a date and time for an appointment, please contact Drew Meacham, City Engineer & Public Works Director at [drew.meacham@alexandercityal.gov].",
+        "context": [
+            "Surveys should be conducted by an appointment. To arrange a date and time for an appointment, please contact Drew Meacham, City Engineer & Public Works Director at [drew.meacham@alexandercityal.gov]."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "Under what conditions can the City of Alexander City reject bids during the evaluation process?**",
+        "answer": "The City reserves the right to reject any or all proposals, waive technicalities, and award the contract based on its determination of the City\u2019s best interest.",
+        "snippet": "(c) The City of Alexander reserves the right to reject any or all proposals, to waive any informality in the proposal process, and to award the contract to the proposal deemed to be in the best interest of the City.",
+        "context": [
+            "(c) The City of Alexander reserves the right to reject any or all proposals, to waive any informality in the proposal process, and to award the contract to the proposal deemed to be in the best interest of the City."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What is the minimum bid security required for proposals exceeding $10,000?**",
+        "answer": "Bidders must provide bid security equal to 5% of the bid price, capped at $10,000, in the form of a bid bond or cashier\u2019s check.",
+        "snippet": "Bids shall be accompanied by a Bid Security equal to 5% of the bid price, but no more than $10,000.00. Bid Security shall be in the form of a Bid Bond or a cashier\u2019s check payable to The City of Alexander City.",
+        "context": [
+            "Bids shall be accompanied by a Bid Security equal to 5% of the bid price, but no more than $10,000.00. Bid Security shall be in the form of a Bid Bond or a cashier\u2019s check payable to The City of Alexander City."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What are the structural specifications for the recycling center's main building?",
+        "answer": "The main building requires a 40x60 enclosed blue metal structure with a 20x60 lean-to.",
+        "snippet": "The facility will include the following: \u00b7 40 x 60 enclosed blue metal building with a 20 x 60 lean to structure \u2022 6x6 timber posts with in ground protectors \u2022 Posts spaced at 12\u2019 on center \u2022 Steel trusses \u2022 Metal and sides will be 29 -gauge metal.",
+        "context": [
+            "The facility will include the following: \u00b7 40 x 60 enclosed blue metal building with a 20 x 60 lean to structure \u2022 6x6 timber posts with in ground protectors \u2022 Posts spaced at 12\u2019 on center \u2022 Steel trusses \u2022 Metal and sides will be 29 -gauge metal."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What bond amount is required for bid security, and what are the exceptions?",
+        "answer": "A Bid Security equal to 5% of the bid price (not exceeding $10,000) is required, except for bids under $10,000.",
+        "snippet": "Bid Bond: Bids shall be accompanied by a Bid Security equal to 5% of the bid price, but no more than $10,000.00. No Bid Security is required on bids less than $10,000.00.",
+        "context": [
+            "Bid Bond: Bids shall be accompanied by a Bid Security equal to 5% of the bid price, but no more than $10,000.00. No Bid Security is required on bids less than $10,000.00."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What is the deadline for project completion?",
+        "answer": "The project must be completed by September 30th, 2025.",
+        "snippet": "Proposed project timeline. Must be completed by September 30th, 2025.",
+        "context": [
+            "Proposed project timeline. Must be completed by September 30th, 2025."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What is the contractor\u2019s responsibility regarding subcontractors\u2019 work under this RFP?",
+        "answer": "The contractor is fully responsible to the City for all subcontractor work, including failures or omissions.",
+        "snippet": "A sub-contractor shall be recognized only in the capacity of an employee or agent of the contractor and the contractor will be responsible to the City for all the subcontractor's work, including failures or omissions.",
+        "context": [
+            "A sub-contractor shall be recognized only in the capacity of an employee or agent of the contractor and the contractor will be responsible to the City for all the subcontractor's work, including failures or omissions."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "Who has the authority to require the removal of a subcontractor?",
+        "answer": "The Project Manager may require the removal of a subcontractor.",
+        "snippet": "His removal may be required by the Project Manager, as in the case of an employee.",
+        "context": [
+            "His removal may be required by the Project Manager, as in the case of an employee."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What documentation is required if a bidder intends to purchase siding from a local vendor?",
+        "answer": "The bidder must name the vendor and provide the cost of materials.",
+        "snippet": "If yes, the vendor to be used is ___________________________________________ [...] Cost of materials? ______________________________",
+        "context": [
+            "If yes, the vendor to be used is ___________________________________________",
+            "Cost of materials? ______________________________"
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "Are bidders required to disclose the source of concrete purchases if not locally sourced?",
+        "answer": "Yes, bidders must specify the non-local source and cost of concrete materials.",
+        "snippet": "If no, where do you intend to purchase the materials? _______________________________________________________________ Cost of materials? ______________________________",
+        "context": [
+            "If no, where do you intend to purchase the materials? _______________________________________________________________ Cost of materials? ______________________________"
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What additional materials must be reported if purchased locally?",
+        "answer": "Any materials purchased from vendors within Alexander City Limits or Police Jurisdiction must be listed, including vendor names and approximate dollar amounts.",
+        "snippet": "If yes, the vendor(s) and material to be purchased are: [...] If yes, what is the approximate dollar amount of the additional materials to be locally purchased?",
+        "context": [
+            "If yes, the vendor(s) and material to be purchased are:",
+            "If yes, what is the approximate dollar amount of the additional materials to be locally purchased?"
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "Is a detailed cost estimate still required even if locally purchased materials are listed?",
+        "answer": "Yes, a detailed cost estimate is mandatory separately from the locally purchased materials list.",
+        "snippet": "A detailed cost estimate is still required outside of this locally purchased material list.",
+        "context": [
+            "A detailed cost estimate is still required outside of this locally purchased material list."
+        ]
+    }
+]

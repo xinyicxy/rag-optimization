@@ -1,0 +1,327 @@
+[
+    {
+        "chunk": 1,
+        "question": "What security clearance level is required for contractor personnel accessing Secret information?**",
+        "answer": "Personnel requiring access to Secret information must hold at a minimum an interim Secret security clearance.",
+        "snippet": "Those personnel requiring access to Secret information require at a minimum an interim Secret security clearance.",
+        "context": [
+            "Those personnel requiring access to Secret information require at a minimum an interim Secret security clearance."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What investigation is required for personnel accessing Secret information under this contract?**",
+        "answer": "Personnel must undergo a favorably adjudicated National Agency Check, Local Agency Check, and Credit Check (NACLC) maintained current within 10 years.",
+        "snippet": "All personnel requiring access to Secret information...must undergo a favorably adjudicated National Agency Check, Local Agency Check and Credit Check (NACLC) as a minimum investigation. The NACLC will be maintained current within 10-years.",
+        "context": [
+            "All personnel requiring access to Secret information",
+            "must undergo a favorably adjudicated National Agency Check, Local Agency Check and Credit Check (NACLC) as a minimum investigation. The NACLC will be maintained current within 10-years."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What training is mandated annually for contractor employees with security clearances?**",
+        "answer": "Annual Threat Awareness and Reporting Program (TARP) training is required, with certifications submitted to the COR.",
+        "snippet": "Contractor employees with security clearances must complete annual TARP training... Certifications will be submitted to the COR on an annual basis.",
+        "context": [
+            "Contractor employees with security clearances must complete annual TARP training",
+            "Certifications will be submitted to the COR on an annual basis."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What clause ensures contractor compliance with security requirements for classified information?**",
+        "answer": "Contractors must comply with FAR 52.204-2 and the Security Agreement (DD Form 441), including the National Industrial Security Program Operating Manual (DoD 5220.22-M).",
+        "snippet": "Contractor shall comply with FAR 52.204-2, Security Requirements. This clause...requires contractors to comply with\u2014 (1) The Security Agreement (DD Form 441), including the National Industrial Security Program Operating Manual (DoD 5220.22-M).",
+        "context": [
+            "Contractor shall comply with FAR 52.204-2, Security Requirements. This clause",
+            "requires contractors to comply with\u2014 (1) The Security Agreement (DD Form 441), including the National Industrial Security Program Operating Manual (DoD 5220.22-M)."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What are the security facility requirements for the contractor?**",
+        "answer": "The contractor must have access to COMSEC, FOUO, and classified information, with authorization to generate, store, and modify classified material.",
+        "snippet": "The Contractor shall also have access to Communication Security (COMSEC), For Official Use Only, and security classification guide information... [and] will be able to receive and generate classified material; fabricate, modify, and store classified hardware.",
+        "context": [
+            "The Contractor shall also have access to Communication Security (COMSEC), For Official Use Only, and security classification guide information",
+            "[and] will be able to receive and generate classified material; fabricate, modify, and store classified hardware."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "Who is authorized to access contractor records and facilities during service performance?",
+        "answer": "The Contractor shall permit the contracting officer (KO), contracting officer's representative (COR), and/or designated representatives access at any reasonable time to all records, data, and facilities used in performance of the contemplated services.",
+        "snippet": "The Contractor shall permit the contracting officer (KO), contracting officer's representative (COR) and/or designated representative\u2019s access at any reasonable time to all records, data and facilities used in performance of the contemplated services.",
+        "context": [
+            "The Contractor shall permit the contracting officer (KO), contracting officer's representative (COR) and/or designated representative\u2019s access at any reasonable time to all records, data and facilities used in performance of the contemplated services."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "How are data item formats and inspection requirements specified in the contract?",
+        "answer": "Data item formats and inspection requirements are specified on separate DD Forms 1423 or incorporated into the deliverables schedule.",
+        "snippet": "The format of data items shall be submitted as specified in the DD Form 1423 or contract.",
+        "context": [
+            "The format of data items shall be submitted as specified in the DD Form 1423 or contract."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "Who is responsible for inspecting and accepting Contract or Subline Items?",
+        "answer": "Inspection and acceptance are performed by the Program Manager, COR, and/or designated Government representative.",
+        "snippet": "Inspection and acceptance for all Contract and or Subline Items shall be accomplished by the Program Manager, COR and/or designated Government representative.",
+        "context": [
+            "Inspection and acceptance for all Contract and or Subline Items shall be accomplished by the Program Manager, COR and/or designated Government representative."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What are the Contractor's requirements for accessing WAWF under DFARS 252.232-7003?**",
+        "answer": "The Contractor must have a designated electronic business point of contact in SAM and be registered to use WAWF.",
+        "snippet": "(c) WAWF access. To access WAWF, the Contractor shall-- (1) Have a designated electronic business point of contact in the System for Award Management at https://www.acquisition.gov; and (2) Be registered to use WAWF at https://wawf.eb.mil/ following the step-by-step procedures for self-registration available at this Web site.",
+        "context": [
+            "(c) WAWF access. To access WAWF, the Contractor shall-- (1) Have a designated electronic business point of contact in the System for Award Management at https://www.acquisition.gov; and (2) Be registered to use WAWF at https://wawf.eb.mil/ following the step-by-step procedures for self-registration available at this Web site."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What training must the Contractor complete before submitting WAWF payment requests?**",
+        "answer": "The Contractor must complete the WAWF Web-Based Training Course and use the Practice Training Site.",
+        "snippet": "(d) WAWF training. The Contractor should follow the training instructions of the WAWF Web-Based Training Course and use the Practice Training Site before submitting payment requests through WAWF. Both can be accessed by selecting the 'Web Based Training' link on the WAWF home page at https://wawf.eb.mil/.",
+        "context": [
+            "(d) WAWF training. The Contractor should follow the training instructions of the WAWF Web-Based Training Course and use the Practice Training Site before submitting payment requests through WAWF. Both can be accessed by selecting the 'Web Based Training' link on the WAWF home page at https://wawf.eb.mil/."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What methods are permitted for submitting documents in WAWF?**",
+        "answer": "Documents may be submitted via Web entry, Electronic Data Interchange (EDI), or File Transfer Protocol (FTP).",
+        "snippet": "(e) WAWF methods of document submission. Document submissions may be via Web entry, Electronic Data Interchange, or File Transfer Protocol.",
+        "context": [
+            "(e) WAWF methods of document submission. Document submissions may be via Web entry, Electronic Data Interchange, or File Transfer Protocol."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What information must the Contractor enter into WAWF\u2019s Routing Data Table?**",
+        "answer": "The Contractor must use the Routing Data Table to fill in applicable fields in WAWF, including DoDAAC information specified by the contracting officer.",
+        "snippet": "(3) Document routing. The Contractor shall use the information in the Routing Data Table below only to fill in applicable fields in WAWF when creating payment requests and receiving reports in the system.",
+        "context": [
+            "(3) Document routing. The Contractor shall use the information in the Routing Data Table below only to fill in applicable fields in WAWF when creating payment requests and receiving reports in the system."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What details must a WAWF payment request include under DFARS Appendix F?**",
+        "answer": "Payment requests must include line item descriptions, unit price/cost, fee (if applicable), and supporting documentation like timesheets.",
+        "snippet": "(4) Payment request and supporting documentation. The Contractor shall ensure a payment request includes appropriate contract line item and subline item descriptions of the work performed or supplies delivered, unit price/cost per unit, fee (if applicable), and all relevant back-up documentation, as defined in DFARS Appendix F, (e.g. timesheets) in support of each payment request.",
+        "context": [
+            "(4) Payment request and supporting documentation. The Contractor shall ensure a payment request includes appropriate contract line item and subline item descriptions of the work performed or supplies delivered, unit price/cost per unit, fee (if applicable), and all relevant back-up documentation, as defined in DFARS Appendix F, (e.g. timesheets) in support of each payment request."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What defines an Organizational Conflict of Interest (OCI) under the contract?**",
+        "answer": "An organizational conflict of interest occurs when a contractor\u2019s other activities or relationships impair their ability to provide impartial advice, create an unfair competitive advantage, or compromise objectivity.",
+        "snippet": "An organizational conflict of interest means that because of other activities or relationships with other persons, a person is unable or potentially unable to render impartial assistance or advice to the Government, or the person's objectivity in performing the contract work is or might be otherwise impaired, or a person has an unfair competitive advantage.",
+        "context": [
+            "An organizational conflict of interest means that because of other activities or relationships with other persons, a person is unable or potentially unable to render impartial assistance or advice to the Government, or the person's objectivity in performing the contract work is or might be otherwise impaired, or a person has an unfair competitive advantage."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What are the consequences of failing to disclose an OCI before contract award?**",
+        "answer": "The Government may terminate the contract for default if the contractor fails to disclose an OCI before award.",
+        "snippet": "If the offeror or contractor is aware, or should have been aware, of an OCI before award of this contract [...] and does not fully disclose that conflict to the Contracting Officer, the Government may terminate the contractor for default.",
+        "context": [
+            "If the offeror or contractor is aware, or should have been aware, of an OCI before award of this contract",
+            "and does not fully disclose that conflict to the Contracting Officer, the Government may terminate the contractor for default."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What security requirements apply to covered contractor information systems that are part of an IT service *other than cloud computing* operated on behalf of the Government?",
+        "answer": "Non-cloud IT services or systems operated on behalf of the Government must comply with security requirements specified elsewhere in the contract.",
+        "snippet": "(B) Any other such IT service or system (i.e., other than cloud computing) shall be subject to the security requirements specified elsewhere in this contract.",
+        "context": [
+            "(B) Any other such IT service or system (i.e., other than cloud computing) shall be subject to the security requirements specified elsewhere in this contract."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What is the deadline for contractors to implement NIST SP 800-171 requirements for non-Government-operated systems?",
+        "answer": "Contractors must implement NIST SP 800-171 requirements no later than December 31, 2017, unless authorized otherwise by the Contracting Officer.",
+        "snippet": "as soon as practical, but not later than December 31, 2017.",
+        "context": [
+            "as soon as practical, but not later than December 31, 2017."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What must a contractor do if it cannot fully implement a specific NIST SP 800-171 requirement at the time of contract award?",
+        "answer": "The contractor must notify the DoD CIO within 30 days of contract award and either implement compensating controls or obtain written acceptance of alternative measures from the DoD CIO.",
+        "snippet": "The Contractor shall notify the DoD CIO... within 30 days of contract award, of any security requirements specified by NIST SP 800-171 not implemented at the time of contract award; or (B) Alternative but equally effective security measures... accepted in writing by an authorized representative of the DoD CIO.",
+        "context": [
+            "The Contractor shall notify the DoD CIO",
+            "within 30 days of contract award, of any security requirements specified by NIST SP 800-171 not implemented at the time of contract award; or (B) Alternative but equally effective security measures",
+            "accepted in writing by an authorized representative of the DoD CIO."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What are the reporting obligations for a cyber incident affecting operationally critical support?",
+        "answer": "The contractor must conduct a review for compromised data, systems, and user accounts, and rapidly report the incident to DoD via the specified portal.",
+        "snippet": "When the Contractor discovers a cyber incident... the Contractor shall\u2014 (i) Conduct a review for evidence of compromise... (ii) Rapidly report cyber incidents to DoD at http://dibnet.dod.mil.",
+        "context": [
+            "When the Contractor discovers a cyber incident",
+            "the Contractor shall\u2014 (i) Conduct a review for evidence of compromise",
+            "(ii) Rapidly report cyber incidents to DoD at http://dibnet.dod.mil."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What type of certificate is required to report cyber incidents to DoD?",
+        "answer": "A DoD-approved medium assurance certificate is required for cyber incident reporting.",
+        "snippet": "the Contractor or subcontractor shall have or acquire a DoD-approved medium assurance certificate to report cyber incidents.",
+        "context": [
+            "the Contractor or subcontractor shall have or acquire a DoD-approved medium assurance certificate to report cyber incidents."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "How long must contractors preserve forensic data after reporting a cyber incident?",
+        "answer": "Contractors must preserve images of affected systems and monitoring data for at least 90 days after submitting the cyber incident report.",
+        "snippet": "preserve and protect images of all known affected information systems... for at least 90 days from the submission of the cyber incident report.",
+        "context": [
+            "preserve and protect images of all known affected information systems",
+            "for at least 90 days from the submission of the cyber incident report."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What are the permitted uses of contractor attributional/proprietary information obtained by DoD?**",
+        "answer": "The information may be used and released outside DoD for purposes authorized by paragraph (i) of the clause and for any lawful Government purpose, subject to statutory, regulatory, and policy restrictions.",
+        "snippet": "Information that is obtained from the contractor [...] is authorized to be used and released outside of DoD for purposes and activities authorized by paragraph (i) of this clause, and for any other lawful Government purpose or activity, subject to all applicable statutory, regulatory, and policy based restrictions.",
+        "context": [
+            "Information that is obtained from the contractor",
+            "is authorized to be used and released outside of DoD for purposes and activities authorized by paragraph (i) of this clause, and for any other lawful Government purpose or activity, subject to all applicable statutory, regulatory, and policy based restrictions."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What legal frameworks must contractors follow when conducting activities involving electronic communications and data?**",
+        "answer": "Contractors must comply with applicable laws and regulations on interception, monitoring, access, use, and disclosure of electronic communications and data.",
+        "snippet": "The Contractor shall conduct activities under this clause in accordance with applicable laws and regulations on the interception, monitoring, access, use, and disclosure of electronic communications and data.",
+        "context": [
+            "The Contractor shall conduct activities under this clause in accordance with applicable laws and regulations on the interception, monitoring, access, use, and disclosure of electronic communications and data."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "Does the safeguarding and cyber incident reporting clause override other contractual or regulatory obligations?**",
+        "answer": "No, the clause does not abrogate the Contractor\u2019s responsibility for other safeguarding or cyber incident reporting requirements under the contract or other U.S. laws.",
+        "snippet": "The safeguarding and cyber incident reporting required by this clause in no way abrogates the Contractor\u2019s responsibility for other safeguarding or cyber incident reporting [...] required by other applicable clauses of this contract, or as a result of other applicable U.S. Government statutory or regulatory requirements.",
+        "context": [
+            "The safeguarding and cyber incident reporting required by this clause in no way abrogates the Contractor\u2019s responsibility for other safeguarding or cyber incident reporting",
+            "required by other applicable clauses of this contract, or as a result of other applicable U.S. Government statutory or regulatory requirements."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What are the Government's rights regarding information contained in the Contractor's bid or proposal under paragraph (1)?",
+        "answer": "The Government may use, modify, reproduce, release, perform, display, or disclose the information internally but requires the Contractor's written permission for external release.",
+        "snippet": "The Government shall have the rights to use, modify, reproduce, release, perform, display, or disclose information contained in the Contractor's bid or proposal within the Government. The Government shall not release, perform, display, or disclose such information outside the Government without the Contractor's written permission.",
+        "context": [
+            "The Government shall have the rights to use, modify, reproduce, release, perform, display, or disclose information contained in the Contractor's bid or proposal within the Government. The Government shall not release, perform, display, or disclose such information outside the Government without the Contractor's written permission."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "How are the Government's rights to technical data or computer software delivered under the contract determined?",
+        "answer": "Rights are governed by specific clauses addressing technical data and software, such as \"Rights in Technical Data\u2014Noncommercial Items\" or the SBIR Program clause.",
+        "snippet": "The Government's right to use, modify, reproduce, release, perform, display, or disclose information that is technical data or computer software required to be delivered under this contract are determined by the Rights in Technical Data\u2014Noncommercial Items [...] clause(s) of this contract.",
+        "context": [
+            "The Government's right to use, modify, reproduce, release, perform, display, or disclose information that is technical data or computer software required to be delivered under this contract are determined by the Rights in Technical Data\u2014Noncommercial Items",
+            "clause(s) of this contract."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What restrictions apply to Government-furnished technical data or software under paragraph (d)?",
+        "answer": "Restrictions are limited to those imposed by the original developer or licensor of the data or software.",
+        "snippet": "The Government's rights with respect to technical data or computer software [...] provided to the Contractor by the Government are subject only to restrictions [...] imposed by the developer or licensor of such data or software.",
+        "context": [
+            "The Government's rights with respect to technical data or computer software",
+            "provided to the Contractor by the Government are subject only to restrictions",
+            "imposed by the developer or licensor of such data or software."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "When does the Government have unrestricted rights to information in a bid or proposal?",
+        "answer": "Unrestricted rights apply if the information was disclosed to the Government or others without restrictions, except due to business transfers or asset sales.",
+        "snippet": "The Government's rights [...] shall not be restricted in any manner if such information has been released or disclosed [...] without restrictions other than a release or disclosure resulting from the sale, transfer, or other assignment of interest [...] or the sale or transfer of some or all of a business entity or its assets.",
+        "context": [
+            "The Government's rights",
+            "shall not be restricted in any manner if such information has been released or disclosed",
+            "without restrictions other than a release or disclosure resulting from the sale, transfer, or other assignment of interest",
+            "or the sale or transfer of some or all of a business entity or its assets."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What is the flowdown requirement for subcontractors under paragraph (f)?",
+        "answer": "The Contractor must include this clause in all subcontracts without alteration, except to identify the parties.",
+        "snippet": "Contractor shall include this clause in all subcontracts or similar contractual instruments and require its subcontractors or suppliers to do so without alteration, except to identify the parties.",
+        "context": [
+            "Contractor shall include this clause in all subcontracts or similar contractual instruments and require its subcontractors or suppliers to do so without alteration, except to identify the parties."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "Which clauses address compliance with labor and anti-discrimination requirements?",
+        "answer": "Clauses such as 52.222-26 (Equal Opportunity) and 52.222-50 (Combating Trafficking in Persons) are incorporated.",
+        "snippet": "52.222-26 Equal Opportunity APR 2015 [...] 52.222-50 Combating Trafficking in Persons MAR 2015.",
+        "context": [
+            "52.222-26 Equal Opportunity APR 2015",
+            "52.222-50 Combating Trafficking in Persons MAR 2015."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What clause addresses the safeguarding of Covered Defense Information and cyber incident reporting?",
+        "answer": "The clause 252.204-7012 (Dev) Safeguarding Covered Defense Information and Cyber Incident Reporting (OCT 2015) outlines requirements for protecting sensitive defense-related data and reporting cyber incidents.",
+        "snippet": "252.204 -7012 (Dev) Safeguarding Covered Defense Information and Cyber Incident Reporting OCT 2015",
+        "context": [
+            "252.204 -7012 (Dev) Safeguarding Covered Defense Information and Cyber Incident Reporting OCT 2015"
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What is the requirement for small business subcontracting plans under DoD contracts?",
+        "answer": "Clause 252.219-7003 mandates that contractors submit and comply with a small business subcontracting plan for DoD contracts.",
+        "snippet": "252.219 -7003 Small Business Subcontracting Plan (DOD Contracts) OCT 2014",
+        "context": [
+            "252.219 -7003 Small Business Subcontracting Plan (DOD Contracts) OCT 2014"
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "Which clause specifies preferences for domestic commodities in defense contracts?",
+        "answer": "Clause 252.225-7012 establishes a preference for acquiring certain domestic commodities in compliance with federal regulations.",
+        "snippet": "252.225 -7012 Preference For Certain Domestic Commodities FEB 2013",
+        "context": [
+            "252.225 -7012 Preference For Certain Domestic Commodities FEB 2013"
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What obligation does the clause 252.203-7002 impose on contractors regarding employee rights?",
+        "answer": "Contractors must inform employees of their whistleblower rights under 252.203-7002.",
+        "snippet": "252.203 -7002 Requirement to Inform Employees of Whistleblower Rights SEP 2013",
+        "context": [
+            "252.203 -7002 Requirement to Inform Employees of Whistleblower Rights SEP 2013"
+        ]
+    }
+]

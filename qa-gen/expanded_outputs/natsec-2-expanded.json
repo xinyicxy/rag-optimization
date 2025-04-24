@@ -1,0 +1,409 @@
+[
+    {
+        "chunk": 1,
+        "question": "What areas must the Contractor provide visibility into for program management under the contract?**",
+        "answer": "The Contractor will provide visibility into program management, cost and schedule performance, systems/software engineering, technical performance, risk management, and issue management.",
+        "snippet": "a. The Contractor will provide visibility into program management, cost and schedule performance, systems/software engineering, technical performance, risk management, and issue management.",
+        "context": [
+            "a. The Contractor will provide visibility into program management, cost and schedule performance, systems/software engineering, technical performance, risk management, and issue management."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "How must the Contractor report cost and schedule performance against the contract baseline?**",
+        "answer": "The Contractor will provide visibility into cost and schedule performance measured against the contract baseline through monthly Earned Value Management System reporting and quarterly Contract Funds Status Reporting.",
+        "snippet": "b. The Contractor will provide visibility into cost and schedule performance measured against the contract baseline through monthly Earned Value Management System reporting and quarterly Contract Funds Status Reporting.",
+        "context": [
+            "b. The Contractor will provide visibility into cost and schedule performance measured against the contract baseline through monthly Earned Value Management System reporting and quarterly Contract Funds Status Reporting."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What are the reporting requirements for Contractor and subcontractor manpower?**",
+        "answer": "The Contractor will report ALL Contractor manpower (including subcontractor manpower) required for performance of this contract using the specified web address (https://cmra.army.mil) and provide the estimated total cost incurred for compliance. Reporting occurs annually by 31 October.",
+        "snippet": "c. The Contractor will report ALL Contractor manpower (including subcontractor manpower) required for performance of this contract. The Contractor is required to completely fill in all the information in the format using the following web address: https://cmra.army.mil. As part of its submission, the Contractor will also provide the estimated total cost (if any) incurred to comply with this reporting requirement. Reporting period will be the period of performance (POP) not to exceed 12 months ending 30 September of each Government fiscal year and must be reported by 31 October of each calendar year.",
+        "context": [
+            "c. The Contractor will report ALL Contractor manpower (including subcontractor manpower) required for performance of this contract. The Contractor is required to completely fill in all the information in the format using the following web address: https://cmra.army.mil. As part of its submission, the Contractor will also provide the estimated total cost (if any) incurred to comply with this reporting requirement. Reporting period will be the period of performance (POP) not to exceed 12 months ending 30 September of each Government fiscal year and must be reported by 31 October of each calendar year."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What design reviews/milestones must the Contractor conduct for AFATDS 7.0?**",
+        "answer": "The Contractor must conduct design reviews/milestones including, but not limited to: Requirements Analysis Review, Preliminary Design Review, Critical Design Review, In Process Review, Test Readiness Review, and Test Completion Review.",
+        "snippet": "At a minimum, the reviews/milestones will include, but not be limited to: Requirements Analysis Review, Preliminary Design Review, Critical Design Review, In Process Review, Test Readiness Review, and Test Completion Review.",
+        "context": [
+            "At a minimum, the reviews/milestones will include, but not be limited to: Requirements Analysis Review, Preliminary Design Review, Critical Design Review, In Process Review, Test Readiness Review, and Test Completion Review."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What is the requirement for SMEs supporting USAF machine-to-machine interfaces?**",
+        "answer": "SMEs must directly interface with the USAF to address interoperability questions, concerns, and requests, and travel approximately thirteen weeks to CONUS locations during the POP of CLINs 0001 and 0002.",
+        "snippet": "Personnel will directly interface with members of the USAF to address questions, concerns, and requests for information related to interoperability between USAF systems and AFATDS 7.0. SMEs will travel approximately thirteen weeks throughout the POP of CLINs 0001 and 0002 to various CONUS locations.",
+        "context": [
+            "Personnel will directly interface with members of the USAF to address questions, concerns, and requests for information related to interoperability between USAF systems and AFATDS 7.0. SMEs will travel approximately thirteen weeks throughout the POP of CLINs 0001 and 0002 to various CONUS locations."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "How must the Contractor manage software requirements for AFATDS 7.0?**",
+        "answer": "The Contractor must document system, interface, and software requirements using DOORS, maintain the technical database for baselines, and manage change notices after requirements are baselined.",
+        "snippet": "All system, interface, and software requirements will be documented using the DOORS. The database will be continually maintained and updated to account for test cases, code units, and traceability of functional requirements... Contractor will monitor and manage all change notices after requirements definition documentation is baselined.",
+        "context": [
+            "All system, interface, and software requirements will be documented using the DOORS. The database will be continually maintained and updated to account for test cases, code units, and traceability of functional requirements",
+            "Contractor will monitor and manage all change notices after requirements definition documentation is baselined."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What deliverables are required for Configuration Management under Task 8?**",
+        "answer": "Deliverables include the Configuration Management Plan (CDRL A016) and configuration change control documentation (CDRL A017, A018).",
+        "snippet": "Deliverable(s): CDRL A016 Configuration Management Plan (DI-SESS-81875) CDRL A017...",
+        "context": [
+            "Deliverable(s): CDRL A016 Configuration Management Plan (DI-SESS-81875) CDRL A017"
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What must the Contractor provide under the Quality Assurance Program?**",
+        "answer": "The Contractor must implement and maintain a Quality Assurance Program and make their internal quality assurance control and inspection procedures available for Government review.",
+        "snippet": "The Contractor will implement and maintain a Quality Assurance Program. Contractor's established internal quality assurance control and inspection procedures shall be made available for Government review.",
+        "context": [
+            "The Contractor will implement and maintain a Quality Assurance Program. Contractor's established internal quality assurance control and inspection procedures shall be made available for Government review."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What formats must the Interactive Electronic Technical Manuals (IETMs) comply with?**",
+        "answer": "The IETMs must comply with MIL-STD-40051-1B for Interactive Electronic Technical Manual format and MIL-STD-40051-2B for ETM (PDF) format.",
+        "snippet": "The Contractor will develop [...] manuals [...] in accordance with MIL-STD-40051-1B and ETM (PDF) format in accordance with MIL-STD-40051-2B.",
+        "context": [
+            "The Contractor will develop",
+            "manuals",
+            "in accordance with MIL-STD-40051-1B and ETM (PDF) format in accordance with MIL-STD-40051-2B."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What is the timeline requirement for providing I&KP to support test events?",
+        "answer": "The Contractor must provide I&KP no later than four months prior to the scheduled Test Player Training Start or as defined in the Outline Test Plan.",
+        "snippet": "The Contractor will provide I&KP to support the training developers... NLT four months prior to scheduled Test Player Training Start or as defined in the Outline Test Plan.",
+        "context": [
+            "The Contractor will provide I&KP to support the training developers",
+            "NLT four months prior to scheduled Test Player Training Start or as defined in the Outline Test Plan."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What guidelines must NET training products and IMI courseware follow for Government acceptance?",
+        "answer": "All NET training products and IMI courseware must be validated in accordance with TRADOC Regulation 350-70-10.",
+        "snippet": "Prior to Government acceptance, all NET training products and IMI courseware will be validated in accordance with guidelines specified in TRADOC Regulation 350-70-10.",
+        "context": [
+            "Prior to Government acceptance, all NET training products and IMI courseware will be validated in accordance with guidelines specified in TRADOC Regulation 350-70-10."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What must the System Security Plan (SSP) include?",
+        "answer": "The SSP must include an overview of security requirements, security controls, implementation status, responsible entities, resources, and estimated completion dates. It may also list system characteristics, risk assessments, contingency plans, and other security-related documents.",
+        "snippet": "The System Security Plan (SSP)... include implementation status, responsible entities, resources, and estimated completion dates... may also include... risk assessment, privacy impact assessment, system interconnection agreements, contingency plan, security configurations, configuration management plan, and incident response plan.",
+        "context": [
+            "The System Security Plan (SSP)",
+            "include implementation status, responsible entities, resources, and estimated completion dates",
+            "may also include",
+            "risk assessment, privacy impact assessment, system interconnection agreements, contingency plan, security configurations, configuration management plan, and incident response plan."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What are the RMF categorization levels for the system\u2019s integrity and availability?",
+        "answer": "The system\u2019s integrity and availability are categorized as High, while confidentiality is Medium.",
+        "snippet": "Confidentiality: Medium; Integrity: High; Availability: High.",
+        "context": [
+            "Confidentiality: Medium; Integrity: High; Availability: High."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What is the purpose of the Security Assessment Plan in Subtask 5?",
+        "answer": "The Security Assessment Plan is developed to assess security controls in accordance with NIST SP 800-53A and DoD procedures.",
+        "snippet": "The Contractor will develop a plan to assess the security controls, known as the Security Assessment Plan. An assessment methodology can be found in NIST Special Publication 800-53A. The Contractor will assess the security controls in accordance with the security assessment plan and DoD assessment procedures.",
+        "context": [
+            "The Contractor will develop a plan to assess the security controls, known as the Security Assessment Plan. An assessment methodology can be found in NIST Special Publication 800-53A. The Contractor will assess the security controls in accordance with the security assessment plan and DoD assessment procedures."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "How are vulnerabilities documented if found during security control assessments?",
+        "answer": "Vulnerabilities are recorded as Not Compliant (NC) in the Plan of Action and Milestones (POA&M) with explanations and assigned severity values.",
+        "snippet": "If vulnerabilities are found, the control is recorded as Not Compliant (NC) in the Plan of Action and Milestones (POA&M), with sufficient explanation. Vulnerability severity values are assigned to all NC controls by the SCA as part of the security control analysis.",
+        "context": [
+            "If vulnerabilities are found, the control is recorded as Not Compliant (NC) in the Plan of Action and Milestones (POA&M), with sufficient explanation. Vulnerability severity values are assigned to all NC controls by the SCA as part of the security control analysis."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What tool is used to document applicable STIGs and SRGs?",
+        "answer": "The DISA SRG/STIG Collection Tool is used to document applicable security guidance documents.",
+        "snippet": "The DISA SRG/STIG Collection Tool will be used to document applicable documents. In addition, each control will be documented with the applicable trouble report identifier in eMASS.",
+        "context": [
+            "The DISA SRG/STIG Collection Tool will be used to document applicable documents. In addition, each control will be documented with the applicable trouble report identifier in eMASS."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What is the Contractor\u2019s role in the authorization process (Subtask 6)?",
+        "answer": "The Contractor assists in reviewing the POA&M with the ISSM to ensure vulnerabilities are remediated or mitigated.",
+        "snippet": "The Contractor will assist in the authorization process through review of the POA&M with the ISSM. The POA&M identifies tasks that need to be accomplished to remediate or mitigate vulnerabilities, specifies resources required... and includes milestones for completing tasks.",
+        "context": [
+            "The Contractor will assist in the authorization process through review of the POA&M with the ISSM. The POA&M identifies tasks that need to be accomplished to remediate or mitigate vulnerabilities, specifies resources required",
+            "and includes milestones for completing tasks."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What must the Contractor's IAVM Plan include regarding vulnerability evaluations?**",
+        "answer": "The IAVM Plan must include monthly evaluation of Information Assurance Vulnerability Messages, such as IAVAs, IAVBs, and situational awareness reports.",
+        "snippet": "The IAVM plan will include monthly evaluation of Information Assurance Vulnerability Messages to include: Information Assurance Vulnerability Alerts (IAVAs), Information Assurance Vulnerability Bulletins (IAVBs), and situational awareness reports that can be located in the Army IAVM non-secure internet protocol router portal.",
+        "context": [
+            "The IAVM plan will include monthly evaluation of Information Assurance Vulnerability Messages to include: Information Assurance Vulnerability Alerts (IAVAs), Information Assurance Vulnerability Bulletins (IAVBs), and situational awareness reports that can be located in the Army IAVM non-secure internet protocol router portal."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What OPSEC training requirements apply to Contractor employees?**",
+        "answer": "New contractor employees must complete Level I OPSEC training within 30 days of reporting for duty, and all employees must complete annual OPSEC awareness training.",
+        "snippet": "Per AR 530-1, Operations Security, new contractor employees will complete Level I OPSEC training within thirty (30) calendar days of reporting for duty. All contractor employees will complete annual OPSEC awareness training.",
+        "context": [
+            "Per AR 530-1, Operations Security, new contractor employees will complete Level I OPSEC training within thirty (30) calendar days of reporting for duty. All contractor employees will complete annual OPSEC awareness training."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What tools must the Contractor include in the Continuous Monitoring Suite (CMS)?**",
+        "answer": "The CMS must include ACAS software, which provides automated vulnerability scanning, configuration assessment, and SCAP-compliant reporting.",
+        "snippet": "The Contractor will include the ACAS software in the CMS. [...] ACAS [...] provides the required automated network vulnerability scanning, configuration assessment, application vulnerability scanning, device configuration assessment, and network discovery [...] and is SCAP compliant.",
+        "context": [
+            "The Contractor will include the ACAS software in the CMS.",
+            "ACAS",
+            "provides the required automated network vulnerability scanning, configuration assessment, application vulnerability scanning, device configuration assessment, and network discovery",
+            "and is SCAP compliant."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "How must the Contractor handle STIG updates and vulnerabilities under RMF controls?**",
+        "answer": "The Contractor must filter quarterly STIG updates, perform initial IA assessments, justify non-applicable vulnerabilities, generate CRs, and provide quarterly STIG reports to the IASO.",
+        "snippet": "\u2212 Filter for applicability from the following: quarterly STIG updates; [...] \u2212 Perform initial IA assessment and document [...] \u2212 Provide justification for non-applicable vulnerabilities and STIG updates. \u2212 Generate CRs from IA analysis [...] \u2212 Provide quarterly report of STIGs to IASO.",
+        "context": [
+            "\u2212 Filter for applicability from the following: quarterly STIG updates;",
+            "\u2212 Perform initial IA assessment and document",
+            "\u2212 Provide justification for non-applicable vulnerabilities and STIG updates. \u2212 Generate CRs from IA analysis",
+            "\u2212 Provide quarterly report of STIGs to IASO."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What is the purpose of the SCAP Validation Program in the context of DoD RMF?**",
+        "answer": "The SCAP Validation Program tests products' ability to use SCAP features and functionality to standardize automation of security configurations linked to NIST SP 800-53 controls.",
+        "snippet": "The SCAP Validation Program is designed to test the ability of products to use the features and functionality available through SCAP and its component standards. SCAP checklists standardize and enable automation of the linkage between computer security configurations and the NIST SP 800-53 controls framework.",
+        "context": [
+            "The SCAP Validation Program is designed to test the ability of products to use the features and functionality available through SCAP and its component standards. SCAP checklists standardize and enable automation of the linkage between computer security configurations and the NIST SP 800-53 controls framework."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What must the Contractor\u2019s System Safety Program Plan (SSPP) include?**",
+        "answer": "The SSPP must include tasks to fulfill system and software safety analysis per MIL-STD-882E and the Joint Software System Safety Engineering Handbook.",
+        "snippet": "The SSPP will include the tasks the Contractor will perform to fulfill the level of rigor activities and system and software safety analysis per MIL-STD-882E and the Joint Software System Safety Engineering handbook.",
+        "context": [
+            "The SSPP will include the tasks the Contractor will perform to fulfill the level of rigor activities and system and software safety analysis per MIL-STD-882E and the Joint Software System Safety Engineering handbook."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What is required in the Safety Assessment Report?**",
+        "answer": "The Safety Assessment Report must include outputs from the tasks specified in the SSPP, such as hazard analyses and mitigation strategies.",
+        "snippet": "The safety assessment report will include the outputs from the tasks specified in the SSPP.",
+        "context": [
+            "The safety assessment report will include the outputs from the tasks specified in the SSPP."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What is the scope of regression testing required under Task 14?**",
+        "answer": "Regression testing must verify that prior capabilities function correctly, analyze new requirements and interfaces, and ensure no errors are introduced into previously working components.",
+        "snippet": "The Contractor will design and execute regression testing to verify that prior existing capability still function as required. The Contractor will conduct an analysis of the new requirements, anticipated interfaces, and other interoperability aspects to determine test modifications and scope of regression test threads.",
+        "context": [
+            "The Contractor will design and execute regression testing to verify that prior existing capability still function as required. The Contractor will conduct an analysis of the new requirements, anticipated interfaces, and other interoperability aspects to determine test modifications and scope of regression test threads."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What must the Test for Record (TFR) include?**",
+        "answer": "The TFR must include Government-approved system-level test cases, regression threads, stability tests, and security/safety requirements testing, observed by the Government for compliance.",
+        "snippet": "The Contractor will conduct a Test for Record (TFR), which is defined as the controlled execution of Government approved system-level test cases, regression threads, and a stability test. The Contractor will ensure that the TFR also includes testing of security and safety requirements. The TFR is subject to Government observation, the focus of which is to determine the level of compliance with the AFATDS specifications.",
+        "context": [
+            "The Contractor will conduct a Test for Record (TFR), which is defined as the controlled execution of Government approved system-level test cases, regression threads, and a stability test. The Contractor will ensure that the TFR also includes testing of security and safety requirements. The TFR is subject to Government observation, the focus of which is to determine the level of compliance with the AFATDS specifications."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What areas are targeted by the Engineering Support Services under Task 16?**",
+        "answer": "The Engineering Support Services target areas including systems/software engineering, new requirements decomposition, requirements trade analysis and risk assessments, training, and Government developmental/operational testing support.",
+        "snippet": "This support shall be targeted in the areas of but no[t] limited to: systems/software engineering; new requirements decomposition; requirements trade analysis and risk assessments; training; and Government developmental/operational testing support.",
+        "context": [
+            "This support shall be targeted in the areas of but no[t] limited to: systems/software engineering; new requirements decomposition; requirements trade analysis and risk assessments; training; and Government developmental/operational testing support."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What is the maximum allowable surge support cost for Engineering Support Services over the contract lifecycle?**",
+        "answer": "Surge support over the life of the contract will not exceed $20 million.",
+        "snippet": "Surge support over the life of the contract will not exceed $20M.",
+        "context": [
+            "Surge support over the life of the contract will not exceed $20M."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "Which deliverable is associated with CDRL A037?**",
+        "answer": "CDRL A037 corresponds to the \"Computer Software Product\" deliverable.",
+        "snippet": "Deliverable(s): CDRL A03[7] Computer Software Product (D I-IPSC-81488).",
+        "context": [
+            "Deliverable(s): CDRL A03[7] Computer Software Product (D I-IPSC-81488)."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "Where are the performance standards for Engineering Support Services defined?**",
+        "answer": "Performance standards are defined in the AFATDS Incentives Plan and individual Technical Direction Letters (TDLs).",
+        "snippet": "The performance standards associated with this contract are primarily defined in the AFATDS Incentives Plan. TDLs executed for Engineering Support Services will include performance standards and quality assurance surveillance procedures unique to the scope of each TDL.",
+        "context": [
+            "The performance standards associated with this contract are primarily defined in the AFATDS Incentives Plan. TDLs executed for Engineering Support Services will include performance standards and quality assurance surveillance procedures unique to the scope of each TDL."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What is the highest security classification level required for this contract?**",
+        "answer": "The highest security classification level for this effort is SECRET.",
+        "snippet": "The highest level of security for this effort is SECRET.",
+        "context": [
+            "The highest level of security for this effort is SECRET."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What security clearance and training requirements apply to contractor personnel accessing Secret information under this contract?",
+        "answer": "Personnel requiring access to Secret information must hold at least an interim Secret clearance and complete annual TARP training.",
+        "snippet": "Those personnel requiring access to Secret information require at a minimum an interim Secret security clearance. Per AR 381-12 Threat Awareness and Reporting Program (TARP), contractor employees with security clearances must complete annual TARP training.",
+        "context": [
+            "Those personnel requiring access to Secret information require at a minimum an interim Secret security clearance. Per AR 381-12 Threat Awareness and Reporting Program (TARP), contractor employees with security clearances must complete annual TARP training."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What investigation is required for personnel accessing Secret information under this contract?",
+        "answer": "Personnel must undergo a favorably adjudicated NACLC investigation, maintained current within 10 years, with Secret Periodic Reviews initiated 90 days before the 10-year anniversary.",
+        "snippet": "All personnel requiring access to Secret information...must undergo a favorably adjudicated National Agency Check, Local Agency Check and Credit Check (NACLC)...The NACLC will be maintained current within 10-years and requests for Secret Periodic Reviews (SPRs) will be initiated ninety (90) days prior to the 10-year anniversary date.",
+        "context": [
+            "All personnel requiring access to Secret information",
+            "must undergo a favorably adjudicated National Agency Check, Local Agency Check and Credit Check (NACLC)",
+            "The NACLC will be maintained current within 10-years and requests for Secret Periodic Reviews (SPRs) will be initiated ninety (90) days prior to the 10-year anniversary date."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What facility security clearance is required for access to the AFATDS software baseline?",
+        "answer": "Contractors must have a U.S. SECRET facility clearance from the Defense Security Service.",
+        "snippet": "Have an existing facility security clearance of at least U.S. SECRET from the Defense Security Service. Provide a copy of the facility clearance letter...for verification.",
+        "context": [
+            "Have an existing facility security clearance of at least U.S. SECRET from the Defense Security Service. Provide a copy of the facility clearance letter",
+            "for verification."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What ITAR compliance is required for AFATDS software baseline access?",
+        "answer": "Contractors must maintain compliance with ITAR (CFR Title 22, Subchapter M) and provide evidence of current registration under Part 122.",
+        "snippet": "Maintain compliance with Code of Federal Regulations Title 22, Subchapter M, ITAR and provide evidence of current registration in accordance with Part 122 Section 122.1.",
+        "context": [
+            "Maintain compliance with Code of Federal Regulations Title 22, Subchapter M, ITAR and provide evidence of current registration in accordance with Part 122 Section 122.1."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What are the destruction requirements for AFATDS materials after contract award?",
+        "answer": "Contractors must destroy AFATDS source code, technical documentation, and derivative products no later than 10 calendar days after contract award.",
+        "snippet": "Contractors are allowed to keep all AFATDS source code, technical documentation, and derivative products for no later than 10 CALENDAR DAYS AFTER CONTRACT AWARD...comply with destruction requirements as documented in their Access Compliance Certification.",
+        "context": [
+            "Contractors are allowed to keep all AFATDS source code, technical documentation, and derivative products for no later than 10 CALENDAR DAYS AFTER CONTRACT AWARD",
+            "comply with destruction requirements as documented in their Access Compliance Certification."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "What is the primary objective of modernizing AFATDS to version 7.0?**",
+        "answer": "The objective is to modernize the backend architecture, integrate COE v3 common services, implement role-based functionality, and provide embedded training.",
+        "snippet": "This next generation version of AFATDS is referred to as AFATDS 7.0. [...] modernized backend AFATDS architecture; incorporates the common services provided by COE Version 3 (v3); implements role duty based functionality; and provides embedded computer based training.",
+        "context": [
+            "This next generation version of AFATDS is referred to as AFATDS 7.0.",
+            "modernized backend AFATDS architecture; incorporates the common services provided by COE Version 3 (v3); implements role duty based functionality; and provides embedded computer based training."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "What are the two subtasks under Task 1 (Enterprise Management Controls)?**",
+        "answer": "The subtasks are Integration Management Control Planning (Subtask 1) and Task Order Management (Subtask 2).",
+        "snippet": "6.1.1 Subtask 1 - Integration Management Control Planning [...] 6.1.2 Subtask 2 - Task Order Management.",
+        "context": [
+            "6.1.1 Subtask 1 - Integration Management Control Planning",
+            "6.1.2 Subtask 2 - Task Order Management."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "What deliverables are required for Subtask 6.1.2 (Task Order Management)?**",
+        "answer": "The deliverables are the Task Order Management Plan and a Monthly Status Report.",
+        "snippet": "Deliverables: Task Order Management Plan (Example) Monthly Status Report.",
+        "context": [
+            "Deliverables: Task Order Management Plan (Example) Monthly Status Report."
+        ]
+    },
+    {
+        "chunk": 11,
+        "question": "Under what conditions can contractor employees be required to work at an alternate place of performance?",
+        "answer": "Contractor employees may be required to work at an alternate location during unforeseen conditions or contingencies, such as pandemics, exercises, or government closures due to inclement weather.",
+        "snippet": "As determined by the Contracting Officer\u2019s Representative (COR), contractor employees may be required to work at an alternate place of performance (e.g., home, the contractor's facility, or another approved activity within the local travel area) in cases of unforeseen conditions or contingencies (e.g., pandemic conditions, exercises, government closure due to inclement weather, etc.).",
+        "context": [
+            "As determined by the Contracting Officer\u2019s Representative (COR), contractor employees may be required to work at an alternate place of performance (e.g., home, the contractor's facility, or another approved activity within the local travel area) in cases of unforeseen conditions or contingencies (e.g., pandemic conditions, exercises, government closure due to inclement weather, etc.)."
+        ]
+    },
+    {
+        "chunk": 11,
+        "question": "What must non-emergency/non-essential contractors do if a government facility is closed?",
+        "answer": "Non-emergency/non-essential contractors should not report to a closed government facility.",
+        "snippet": "Non-emergency/non-essential contractors should not report to a closed government facility.",
+        "context": [
+            "Non-emergency/non-essential contractors should not report to a closed government facility."
+        ]
+    },
+    {
+        "chunk": 11,
+        "question": "How must the contractor prepare deliverables and contract documentation?",
+        "answer": "The contractor must use its own resources to prepare all deliverables and contract documentation.",
+        "snippet": "Contractor shall prepare all deliverables and other contract documentation utilizing contractor resources.",
+        "context": [
+            "Contractor shall prepare all deliverables and other contract documentation utilizing contractor resources."
+        ]
+    },
+    {
+        "chunk": 11,
+        "question": "What recourse is available if services are impacted or reduced during performance?",
+        "answer": "Either the Contracting Officer or the contractor may request an equitable adjustment under the Changes clause of the contract.",
+        "snippet": "In the event the services are impacted, reduced, compromised, etc., the Contracting Officer or the contractor may request an equitable adjustment pursuant to the Changes clause of the contract.",
+        "context": [
+            "In the event the services are impacted, reduced, compromised, etc., the Contracting Officer or the contractor may request an equitable adjustment pursuant to the Changes clause of the contract."
+        ]
+    }
+]

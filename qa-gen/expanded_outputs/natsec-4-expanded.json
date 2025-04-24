@@ -1,0 +1,289 @@
+[
+    {
+        "chunk": 1,
+        "question": "What is the maximum total extension period allowed under the Option to Extend Services clause?",
+        "answer": "The total extension of performance under the Option to Extend Services clause shall not exceed 6 months.",
+        "snippet": "The total extension of performance hereunder shall not exceed 6 months.",
+        "context": [
+            "The total extension of performance hereunder shall not exceed 6 months."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What is the maximum allowable duration of the contract, including extensions under the Option to Extend the Term?",
+        "answer": "The total duration of the contract, including the exercise of any options under the Option to Extend the Term clause, shall not exceed 60 months.",
+        "snippet": "The total duration of this contract, including the exercise of any options under this clause, shall not exceed 60 months.",
+        "context": [
+            "The total duration of this contract, including the exercise of any options under this clause, shall not exceed 60 months."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What authorization is required for a Contracting Officer\u2019s Representative (COR) to act on behalf of the Contracting Officer?",
+        "answer": "A COR must be authorized in writing by the contracting officer and designated in accordance with DFAR subsection 201.602-2.",
+        "snippet": "Contracting officer's representative means an individual designated in accordance with subsection 201.602-2 of the Defense Federal Acquisition Regulation Supplement and authorized in writing by the contracting officer.",
+        "context": [
+            "Contracting officer's representative means an individual designated in accordance with subsection 201.602-2 of the Defense Federal Acquisition Regulation Supplement and authorized in writing by the contracting officer."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What restrictions apply to a COR\u2019s authority under the contract?",
+        "answer": "A COR is not authorized to make commitments or changes affecting price, quality, quantity, delivery, or other contract terms.",
+        "snippet": "The COR is not authorized to make any commitments or changes that will affect price, quality, quantity, delivery, or any other term or condition of the contract.",
+        "context": [
+            "The COR is not authorized to make any commitments or changes that will affect price, quality, quantity, delivery, or any other term or condition of the contract."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What is required for contractors to access the Software Requirement Specifications (SRS) document?",
+        "answer": "Contractors must submit a Non-Disclosure Agreement (NDA) and request access via designated contacts.",
+        "snippet": "Contractors must have submitted a NDA and may request by contacting Dustie Thompson, Contract Specialist... AFATDS SRS will be distributed via secure website transfer.",
+        "context": [
+            "Contractors must have submitted a NDA and may request by contacting Dustie Thompson, Contract Specialist",
+            "AFATDS SRS will be distributed via secure website transfer."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What is the maximum fee percentage the contractor can earn under the Cost Control Incentive (CLIN 0001)?",
+        "answer": "The contractor can earn up to 5% of the actual cost under the Cost Control Incentive.",
+        "snippet": "The contractor is eligible to earn up to 30 cents on every dollar saved below the target cost in addition to the 2% target fee, with a not to exceed fee payment of up to 5% of the actual cost.",
+        "context": [
+            "The contractor is eligible to earn up to 30 cents on every dollar saved below the target cost in addition to the 2% target fee, with a not to exceed fee payment of up to 5% of the actual cost."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "Under what condition can the contractor invoice provisional fee payments during CLIN 0001?",
+        "answer": "Provisional fee payments (up to 1% of the target cost) are allowed if the contractor\u2019s Estimate at Completion (EAC) remains at or below the agreed-upon target cost.",
+        "snippet": "The contractor is eligible for provisional fee payments up to 1% of the agreed upon target cost... as long as their Estimate at Complete (EAC)... remains under or equal to the agreed upon target cost.",
+        "context": [
+            "The contractor is eligible for provisional fee payments up to 1% of the agreed upon target cost",
+            "as long as their Estimate at Complete (EAC)",
+            "remains under or equal to the agreed upon target cost."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What determines the fee percentage for Incentive #2 (Performance)?",
+        "answer": "The 5% fee for Incentive #2 is based on delivering an AFATDS 7.0 baseline that meets all requirements in the Software Requirements Specification (SRS).",
+        "snippet": "The contractor is eligible to earn up to 5% fee for delivering an AFATDS 7.0 baseline that operationally demonstrates it meets all baseline requirements as outlined in the AFATDS Software Requirements Specification (SRS).",
+        "context": [
+            "The contractor is eligible to earn up to 5% fee for delivering an AFATDS 7.0 baseline that operationally demonstrates it meets all baseline requirements as outlined in the AFATDS Software Requirements Specification (SRS)."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "When are provisional fee payments suspended for CLIN 0001?",
+        "answer": "Provisional payments are suspended if the contractor\u2019s EAC exceeds the target cost, as reported in CDRL A001.",
+        "snippet": "If the contractor submits CDRL A001 submission that shows EAC has exceeded the agreed upon target cost, all provisional fee payments will be suspended for the remainder of the PoP.",
+        "context": [
+            "If the contractor submits CDRL A001 submission that shows EAC has exceeded the agreed upon target cost, all provisional fee payments will be suspended for the remainder of the PoP."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What percentage of the available fee pool can the contractor earn for each of Gates 1, 2, and 3?**",
+        "answer": "The contractor can earn 10% of the available 5% fee pool for each of Gates 1, 2, and 3 if the engineering release has no Priority 1 or 2 errors.",
+        "snippet": "The contractor is eligible to earn 10% of the available 5% fee pool for engineering releases 3, 6, and 9 (for a total of 30% of the available 5% fee pool if each gate is achieved successfully).",
+        "context": [
+            "The contractor is eligible to earn 10% of the available 5% fee pool for engineering releases 3, 6, and 9 (for a total of 30% of the available 5% fee pool if each gate is achieved successfully)."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "Under what conditions does the contractor forfeit the flat fee bonus for Gates 1\u20133?**",
+        "answer": "The contractor forfeits the flat fee bonus if they do not successively pass Gates 1, 2, and 3. This does not affect their eligibility for the Final Gate fee.",
+        "snippet": "If the contractor does not successively pass Gates 1, 2, and 3 they forfeit their opportunity to earn the flat fee bonus. Forfeiting the flat fee bonus... does not impact the contractor\u2019s ability to earn fee at the Final Gate.",
+        "context": [
+            "If the contractor does not successively pass Gates 1, 2, and 3 they forfeit their opportunity to earn the flat fee bonus. Forfeiting the flat fee bonus",
+            "does not impact the contractor\u2019s ability to earn fee at the Final Gate."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What error priority levels disqualify the contractor from earning fees at Gates 1, 2, or 3?**",
+        "answer": "Priority 1 or 2 errors disqualify the contractor from earning fees at these gates. Priority 3 or 4 errors are allowed without restriction.",
+        "snippet": "The contractor is eligible to earn 10% of the available 5% fee pool at each Gate if the engineering release is delivered to the Government with no Priority 1 or 2 errors; no exceptions. There is no limit on Priority 3 or 4 error rates.",
+        "context": [
+            "The contractor is eligible to earn 10% of the available 5% fee pool at each Gate if the engineering release is delivered to the Government with no Priority 1 or 2 errors; no exceptions. There is no limit on Priority 3 or 4 error rates."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What thresholds trigger variance reporting explanations in Format 5?",
+        "answer": "The variance reporting thresholds are:",
+        "snippet": "(2) The variance reporting thresholds are a) $50K and 10% for current period cost or schedule variances b) $100K and 10% for cumulative cost or schedule variances c) $250K and 5% for at-complete variances.",
+        "context": [
+            "(2) The variance reporting thresholds are a) $50K and 10% for current period cost or schedule variances b) $100K and 10% for cumulative cost or schedule variances c) $250K and 5% for at-complete variances."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What unit of measurement must be used in Format 4 for staffing projections?",
+        "answer": "The reportable unit must be \"equivalent months.\"",
+        "snippet": "(3) The reportable unit in Format 4 shall be in 'equivalent months\u2019.",
+        "context": [
+            "(3) The reportable unit in Format 4 shall be in 'equivalent months\u2019."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What constitutes a \"significant change\" requiring explanation in Format 5?",
+        "answer": "Changes exceeding +/-5% between consecutive periods in specified columns.",
+        "snippet": "(2) Significant changes that require explanations in Format 5 are those that change more than +/-5% as measured between consecutive periods in columns 2, 4-9.",
+        "context": [
+            "(2) Significant changes that require explanations in Format 5 are those that change more than +/-5% as measured between consecutive periods in columns 2, 4-9."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What format must subcontractors use for IPMR submissions?",
+        "answer": "Subcontractors must use the DoD-approved XML format.",
+        "snippet": "(9) IPMRs required from subcontractors will be provided electronically using the DoD approved XML format.",
+        "context": [
+            "(9) IPMRs required from subcontractors will be provided electronically using the DoD approved XML format."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What are the distribution restrictions for CFSR-related documents under Block 9?",
+        "answer": "Distribution is limited to the Department of Defense (DoD) and U.S. DoD contractors, with further distribution requiring approval from the Project Manager, Mission Command.",
+        "snippet": "Block 9: Distribution D: Distribution authorized to the Department of Defense and U.S. DoD contractors only; further distribution at the direction of Project Manager, Mission Command, SFA E-CCC-MC.",
+        "context": [
+            "Block 9: Distribution D: Distribution authorized to the Department of Defense and U.S. DoD contractors only; further distribution at the direction of Project Manager, Mission Command, SFA E-CCC-MC."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "When is the initial CFSR submission required after contract award?",
+        "answer": "The initial submission must be provided within 25 calendar days after the end of the calendar quarter in which the contract is awarded.",
+        "snippet": "Block 12 & 13: The initial submission is required within 25 calendar days after the end of the calendar quarter in which the contract is awarded.",
+        "context": [
+            "Block 12 & 13: The initial submission is required within 25 calendar days after the end of the calendar quarter in which the contract is awarded."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "How must CFSR-related forms be submitted according to Block 14?",
+        "answer": "All forms must be electronically submitted to the DCARC portal and posted to IDE with email notification to the Contracting Officer\u2019s Representative.",
+        "snippet": "Block 14: All CFSR related forms must be electronically forwarded to the central repository at the DCARC web site... Submissions for PM MC shall be posted to IDE with email notification to the Contracting Officer\u2019s Representative.",
+        "context": [
+            "Block 14: All CFSR related forms must be electronically forwarded to the central repository at the DCARC web site",
+            "Submissions for PM MC shall be posted to IDE with email notification to the Contracting Officer\u2019s Representative."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What is the timeline for submitting meeting minutes after a government meeting?",
+        "answer": "Meeting minutes must be delivered 10 business days after meetings (e.g., PMRs, IPTs, TIMs) and include action item statuses.",
+        "snippet": "Block 10, 11, 12 & 13: The Contractor shall deliver Meeting Minutes 10 business days after meetings... Report shall include list and status of all action items.",
+        "context": [
+            "Block 10, 11, 12 & 13: The Contractor shall deliver Meeting Minutes 10 business days after meetings",
+            "Report shall include list and status of all action items."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What is the Contractor's delivery timeline after contract award for Blocks 10-13?",
+        "answer": "The Contractor shall deliver 90 calendar days after award of contract. The Contractor shall deliver 30 calendar days prior to contract expiration.",
+        "snippet": "Block 10, 11, 12 & 13: The Contractor shall deliver 90 calendar days after award of contract... The Contractor shall deliver 30 calendar days prior to contract expiration.",
+        "context": [
+            "Block 10, 11, 12 & 13: The Contractor shall deliver 90 calendar days after award of contract",
+            "The Contractor shall deliver 30 calendar days prior to contract expiration."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What happens if the Government does not respond to a submission within 45 calendar days?",
+        "answer": "No Government response after 45 calendar days constitutes approval.",
+        "snippet": "No Government response after 45 calendar days constitutes approval.",
+        "context": [
+            "No Government response after 45 calendar days constitutes approval."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "Where must submissions for PM MC be posted, and who must be notified?",
+        "answer": "Submissions must be posted to IDE and DI2E with email notification to the Contracting Officer\u2019s Representative.",
+        "snippet": "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative.",
+        "context": [
+            "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What compliance standard applies to the Software Development Plan (SDP)?",
+        "answer": "The SDP must be prepared in contractor format in accordance with DID DI-IPSC-81427A.",
+        "snippet": "Block 4: Prepare the required document, in contractor format, in accordance with the cited DID... DI-IPSC-81427A.",
+        "context": [
+            "Block 4: Prepare the required document, in contractor format, in accordance with the cited DID",
+            "DI-IPSC-81427A."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What distribution restrictions apply to documents marked with Distribution Statement D?",
+        "answer": "Distribution is authorized to the Department of Defense and U.S. DoD contractors only, with further distribution at the direction of Project Manager, Mission Command, SFAE-CCC-MC.",
+        "snippet": "Block 9: Distribution D: Distribution authorized to the Department of Defense and U.S. DoD contractors only; further distribution at the direction of Project Manager, Mission Command, SFAE-CCC-MC.",
+        "context": [
+            "Block 9: Distribution D: Distribution authorized to the Department of Defense and U.S. DoD contractors only; further distribution at the direction of Project Manager, Mission Command, SFAE-CCC-MC."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "What is the deadline for the Contractor to submit the draft version for Blocks 10-13?",
+        "answer": "The Contractor shall deliver a draft version no later than 20 calendar days prior to Test for Record (TFR).",
+        "snippet": "Block 10, 11, 12 & 13: The Contractor shall deliver a draft version no later than 20 calendar days prior to Test for Record (TFR).",
+        "context": [
+            "Block 10, 11, 12 & 13: The Contractor shall deliver a draft version no later than 20 calendar days prior to Test for Record (TFR)."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "When must the final version of Blocks 10-13 be delivered?",
+        "answer": "The final version must be delivered in conjunction with software Final Release.",
+        "snippet": "The Contractor shall deliver a final version in conjunction with software Final Release.",
+        "context": [
+            "The Contractor shall deliver a final version in conjunction with software Final Release."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "How long does the Government have to review and provide comments on submitted documents for Blocks 10-13?",
+        "answer": "The Government shall review and provide comments within 30 calendar days of receipt of the document.",
+        "snippet": "The Government shall review and provide comments within 30 calendar days of receipt of the document.",
+        "context": [
+            "The Government shall review and provide comments within 30 calendar days of receipt of the document."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "What is the timeline for the Contractor to return the final reproduced version after receiving comments?",
+        "answer": "The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments.",
+        "snippet": "The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments.",
+        "context": [
+            "The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "Where must submissions for PM MC (Block 14) be posted?",
+        "answer": "Submissions must be posted to DI2E and IDE.",
+        "snippet": "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative.",
+        "context": [
+            "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "Who must receive an email notification for Block 14 submissions?",
+        "answer": "The Contracting Officer\u2019s Representative must receive an email notification.",
+        "snippet": "Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative.",
+        "context": [
+            "Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative."
+        ]
+    }
+]

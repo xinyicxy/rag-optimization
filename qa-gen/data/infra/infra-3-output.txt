@@ -1,0 +1,85 @@
+LLM Output - Generated on 2025-03-18 12:09:24
+
+
+=== Chunk 1 ===
+Q1: What are the submission requirements for proposals exceeding $50,000?  
+A1: Proposals of $50,000.00 or more must be submitted by a general contractor licensed in Alabama or a state with reciprocity.  
+**Text Snippet**: "Pre-Qualifications: All proposals of $50,000.00 and more must be submitted by a general contractor who is licensed in the State of Alabama or state of reciprocity."  
+
+Q2: How must invoices be submitted under the contract terms?  
+A2: Invoices must be submitted monthly via email to ap@alexandercityal.gov or by mail to the Accounts Payable address.  
+**Text Snippet**: "Invoices for work completed may be submitted on a monthly basis. Invoices should be submitted to accounts payable by email to ap@alexandercityal.gov or by mail to: City of Alexander City Attn: Accounts Payable 281 James D. Nabors Drive Alexander City, AL 35010."  
+
+Q3: What compliance is required regarding Alabama Immigration Law?  
+A3: Bidders must enroll in the E-Verify program and comply with Act 2011-535, ensuring no employment of unauthorized aliens in Alabama.  
+**Text Snippet**: "Bidders must be enrolled and in full compliance with the E-Verify Program and all requirements of Alabama Immigration law, Act 2011-535 [...] Act No. 2012-491 [...] the bidder promises not to violate Federal Immigration Law."  
+
+Q4: Are sales taxes included in bid pricing?  
+A4: No sales taxes are allowed in bid prices; the city will provide tax exemption certificates.  
+**Text Snippet**: "No sales taxes of any kind are to be included in the bid prices. The City of Alexander City will furnish tax exemption certificates when necessary."  
+
+Q5: What local preference applies to bidders?  
+A5: A 5% variance consideration may apply to vendors within Alexander City limits or police jurisdiction under Alabama law.  
+**Text Snippet**: "In accordance with the State of Alabama Law
+
+=== Chunk 2 ===
+**Q1: What is required for a bidder to arrange a site survey for the Alexander City Recycling Center Construction Project?**  
+**A1:** Bidders must contact Drew Meacham, City Engineer & Public Works Director, via email to schedule an appointment.  
+**Text Snippet:** "Surveys should be conducted by an appointment. To arrange a date and time for an appointment, please contact Drew Meacham, City Engineer & Public Works Director at [drew.meacham@alexandercityal.gov]."  
+
+**Q2: Under what conditions can the City of Alexander City reject bids during the evaluation process?**  
+**A2:** The City reserves the right to reject any or all proposals, waive technicalities, and award the contract based on its determination of the City’s best interest.  
+**Text Snippet:** "(c) The City of Alexander reserves the right to reject any or all proposals, to waive any informality in the proposal process, and to award the contract to the proposal deemed to be in the best interest of the City."  
+
+**Q3: What is the minimum bid security required for proposals exceeding $10,000?**  
+**A3:** Bidders must provide bid security equal to 5% of the bid price, capped at $10,000, in the form of a bid bond or cashier’s check.  
+**Text Snippet:** "Bids shall be accompanied by a Bid Security equal to 5% of the bid price, but no more than $10,000.00. Bid Security shall be in the form of a Bid Bond or a cashier’s check payable to The City of Alexander City."  
+
+**Q4: What compliance documentation is required for subcontractors related to employment verification?**  
+**A4:** Subcontractors must provide notarized affidavits confirming they will not employ unauthorized aliens, enroll in E-Verify, and submit proof of enrollment.  
+**Text Snippet:** "4. ______________________________________ (business entity) shall acquire from its subcontractors notarized affidavits that they will not knowingly employ, hire for employment or continue to employ unauthorized aliens, that they will enroll in the E-Verify Program [...] and that
+
+=== Chunk 3 ===
+**Q1:** What are the structural specifications for the recycling center's main building?  
+**A1:** The main building requires a 40x60 enclosed blue metal structure with a 20x60 lean-to.  
+**Text Snippet:** "The facility will include the following: · 40 x 60 enclosed blue metal building with a 20 x 60 lean to structure • 6x6 timber posts with in ground protectors • Posts spaced at 12’ on center • Steel trusses • Metal and sides will be 29 -gauge metal."  
+
+**Q2:** What bond amount is required for bid security, and what are the exceptions?  
+**A2:** A Bid Security equal to 5% of the bid price (not exceeding $10,000) is required, except for bids under $10,000.  
+**Text Snippet:** "Bid Bond: Bids shall be accompanied by a Bid Security equal to 5% of the bid price, but no more than $10,000.00. No Bid Security is required on bids less than $10,000.00."  
+
+**Q3:** What is the deadline for project completion?  
+**A3:** The project must be completed by September 30th, 2025.  
+**Text Snippet:** "Proposed project timeline. Must be completed by September 30th, 2025."  
+
+**Q4:** What are the requirements for the Performance Bond?  
+**A4:** A Performance Bond for 100% of the contract price must be submitted within 15 days of award, approved by the Owner.  
+**Text Snippet:** "Performance Bond: A performance bond will be due within 15 days of the award date, each in the amount of
+
+=== Chunk 4 ===
+**Q1:** What is the contractor’s responsibility regarding subcontractors’ work under this RFP?  
+**A1:** The contractor is fully responsible to the City for all subcontractor work, including failures or omissions.  
+**Text Snippet:** "A sub-contractor shall be recognized only in the capacity of an employee or agent of the contractor and the contractor will be responsible to the City for all the subcontractor's work, including failures or omissions."  
+
+**Q2:** Who has the authority to require the removal of a subcontractor?  
+**A2:** The Project Manager may require the removal of a subcontractor.  
+**Text Snippet:** "His removal may be required by the Project Manager, as in the case of an employee."  
+
+**Q3:** What documentation is required if a bidder intends to purchase siding from a local vendor?  
+**A3:** The bidder must name the vendor and provide the cost of materials.  
+**Text Snippet:** "If yes, the vendor to be used is ___________________________________________ [...] Cost of materials? ______________________________"  
+
+**Q4:** Are bidders required to disclose the source of concrete purchases if not locally sourced?  
+**A4:** Yes, bidders must specify the non-local source and cost of concrete materials.  
+**Text Snippet:** "If no, where do you intend to purchase the materials? _______________________________________________________________ Cost of materials? ______________________________"  
+
+**Q5:** What additional materials must be reported if purchased locally?  
+**A5:** Any materials purchased from vendors within Alexander City Limits or Police Jurisdiction must be listed, including vendor names and approximate dollar amounts.  
+**Text Snippet:** "If yes, the vendor(s) and material to be purchased are: [...] If yes, what is the approximate dollar amount of the additional materials to be locally purchased?"  
+
+**Q6:** Is a detailed cost estimate still required even if locally purchased materials are listed?  
+**A6:** Yes, a detailed cost estimate is mandatory separately from the locally purchased materials list.  
+**Text Snippet:** "*A detailed cost estimate is still required outside of this locally purchased material list."  
+
+**Q7:** How is the "Grand Total Amount of All Locally Purchased Materials" calculated?  
+**A7:** It includes costs for siding, windows, doors, concrete, and

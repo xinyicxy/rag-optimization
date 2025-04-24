@@ -1,0 +1,114 @@
+LLM Output - Generated on 2025-03-18 12:03:43
+
+
+=== Chunk 1 ===
+**Q1:** What contract structure and delivery method is required for the Tribune Building Project's Construction Management services?  
+**A1:** The project requires an AIA A133 contract structure under the Construction Manager at Risk (CMAR) delivery method.  
+**Text Snippet:** *"Incourage is seeking proposals to provide Construction Management services under an AIA A133 contract structure with a guaranteed maximum price... The delivery method for the Project is 'Construction Manager at Risk' (CMAR), which consists of an AIA A133 based contract."*  
+
+---
+
+**Q2:** What are the key criteria Incourage prioritizes when selecting vendors or subcontractors?  
+**A2:** Vendors must be local (within 200 miles), hire equitably paid diverse talent, prioritize sustainability, demonstrate corporate social responsibility, and align with community values.  
+**Text Snippet:** *"Incourage strives to work with vendors and subcontractors who: Are located in the local community or within a 200-mile radius; Hire qualified, diverse talent, who are equitably paid... Have an eye on sustainability... and have demonstrated a commitment to corporate social responsibility."*  
+
+---
+
+**Q3:** What is the Construction Manager’s role during the preconstruction phase under the CMAR model?  
+**A3:** The CM collaborates with the Architect to refine designs, provide cost estimates, and establish a Guaranteed Maximum Price (GMP).  
+**Text Snippet:** *"The Architect and Construction Manager work together to cultivate and assay the design. Then, the Construction Manager gives the client a Guaranteed Maximum Price."*  
+
+---
+
+**Q4:** What insurance and bonding requirements are referenced in the RFP?  
+**A4:** The RFP specifies compliance with "Insurance and Bonds" requirements, though exact details are not excerpted here.  
+**Text Snippet:** *"Insurance and Bonds" is listed as Section 4 of the RFP, indicating compliance obligations, but the excerpt does not provide specific terms.*  
+
+---
+
+**Q5:** What is the submission deadline for proposals?  
+**A5:** Proposals must be submitted by **Friday, February 13, 2015, at 4:00 p.m. CST**.  
+**Text Sn
+
+=== Chunk 2 ===
+**Q1: What licensing requirement must the Construction Manager meet for the Project?**  
+**A1:** The Construction Manager must hold a Construction Manager’s license (or applicable license) valid for the State of Wisconsin.  
+**Text Snippet:** "The Construction Manager will be required to hold a Construction Manager’s license (or applicable license) valid for the State of Wisconsin."  
+
+**Q2: What advisory responsibilities does the Construction Manager have during the Preconstruction Phase?**  
+**A2:** The Construction Manager must advise the Owner and Architect on site use, material selection, building systems, constructability, labor/material availability, procurement timelines, cost factors, and accelerated scheduling.  
+**Text Snippet:** "The Construction Manager shall advise the Owner and the Architect on proposed site use and improvements, selection of materials, and building systems and equipment... [and] provide recommendations consistent with the Project requirements... including, but not limited to: costs of alternative designs or materials, preliminary budgets, life-cycle data, and possible cost reductions."  
+
+**Q3: When must the Construction Manager provide cost estimates during the design process?**  
+**A3:** The Construction Manager must provide estimates of the Cost of the Work for the Owner’s approval prior to the completion of each design phase.  
+**Text Snippet:** "Such estimates shall be provided for the Architect’s review and the Owner’s approval prior to the completion of each phase."  
+
+**Q4: What must the Guaranteed Maximum Price (GMP) proposal include?**  
+**A4:** The GMP proposal must include:  
+1. Drawings, Specifications, and Contract Conditions.  
+2. Clarifications and assumptions.  
+3. Estimated Cost of the Work by trade categories, contingency, and fees.  
+4. Milestone schedule and Substantial Completion date.  
+5. Schedule of Values.  
+6. Owner’s acceptance deadline.  
+**Text Snippet:** "The Construction Manager shall include with the Guaranteed Maximum Price proposal a written statement of its basis, which shall include the following: 1. A list of the Drawings and Specifications... 2. A list of clarifications and assumptions... 3. A statement of the proposed Guaranteed Maximum Price...
+
+=== Chunk 3 ===
+**Q1:** What triggers the commencement of the Construction Phase?  
+**A1:** The Construction Phase begins upon the execution of the Guaranteed Maximum Price Amendment or the Owner’s issuance of a Notice to Proceed, whichever occurs earlier.  
+**Text Snippet:** "The Construction Phase shall commence upon the execution of the Guaranteed Maximum Price Amendment or the Owner’s issuance of a Notice to Proceed, whichever occurs earlier."  
+
+---
+
+**Q2:** How are changes to the Work authorized, and who must acknowledge them?  
+**A2:** The Architect issues changes in writing, and all change orders must be signed and acknowledged by the Owner and Construction Manager.  
+**Text Snippet:** "The Architect shall issue such changes in writing and all change orders will be signed and acknowledged by Owner and Construction Manager."  
+
+---
+
+**Q3:** What adjustments is the Construction Manager entitled to if the Work changes?  
+**A3:** The Construction Manager is entitled to an equitable adjustment in the Contract Time due to changes in the Work.  
+**Text Snippet:** "The Construction Manager shall be entitled to an equitable adjustment in the Contract Time as a result of changes in the Work."  
+
+---
+
+**Q4:** What information must the Construction Manager include in monthly progress reports?  
+**A4:** Monthly reports must include percentages of completion, cost variances between actual and estimated costs, and other Owner-required information.  
+**Text Snippet:** "The Construction Manager shall update the Owner in writing on the progress of the Project on a monthly basis indicating the percentages of completion and other information required
+
+=== Chunk 4 ===
+**Q1: What timeline details must proposers provide regarding their current workload and project phases?**  
+**A1:** Proposers must submit a detailed summary of current workload and future commitments over the proposed timeline, assuming a two-week turnaround from proposal submission to service commencement. They must also provide the expected duration in days for each project phase.  
+**Text Snippet:** "Provide a detailed summary of your current workload and future commitments over the proposed timeline assuming a two-week turnaround from the submission of this proposal to the commencement of services. Submit your expected duration in days for each phase of the project."  
+
+**Q2: How must subcontractors be addressed in the proposal and after contract signing?**  
+**A2:** Subcontractors must be identified in the proposal. After contract signing, Incourage Community Foundation reserves the right to approve all subcontractors not approved during the RFP process.  
+**Text Snippet:** "Any subcontractors must be identified in the proposal. Please remember that after contract signing, Incourage Community Foundation reserves the right to approve all subcontractors that were not approved during the RFP process."  
+
+**Q3: What fee structure is required for the Construction Phase in addition to the Estimate of Probable Cost?**  
+**A3:** For the Construction Phase, proposers must provide the amount or basis for compensation **in addition** to the costs in the Estimate of Probable Cost (Exhibit B). The Guaranteed Maximum Price Proposal and quoted fees are binding, subject to mutually agreed change orders.  
+**Text Snippet:** "Construction Phase: Provide the amount of, or basis for, compensation IN ADDITION to the cost listed in the Estimate of Probable Cost (Exhibit B). The Proposer will guarantee to construct the Project [...] for the amount specified in the Guaranteed Maximum Price Proposal and the fees quoted in this proposal subject to change orders mutually agreed upon by the Proposer and the Owner."  
+
+**Q4: What are the submission requirements for proposals, including deadlines and delivery methods?**  
+**A4:** Proposals must be submitted by 4:00 p.m. on Friday, February 13, 201
+
+=== Chunk 5 ===
+Q1: Who is the designated point of contact for compliance-related inquiries about the Tribune Building project?  
+A1: The designated point of contact is Chelsey Mazurek, Tribune Building Project Manager at Incourage Community Foundation Inc.  
+**Text Snippet:** "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"  
+
+Q2: What contact information must be included when submitting compliance documentation for the Tribune Building project?  
+A2: Submissions must include Chelsey Mazurek’s phone number (715.423.3863) and email address (cmazurek@incouragecf.org).  
+**Text Snippet:** "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"  
+
+Q3: Which organization is responsible for overseeing compliance for the Tribune Building project?  
+A3: Incourage Community Foundation Inc. is the overseeing organization for compliance matters.  
+**Text Snippet:** "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"  
+
+Q4: What is the role of Chelsey Mazurek in the Tribune Building project’s compliance process?  
+A4: Chelsey Mazurek serves as the Tribune Building Project Manager, responsible for handling compliance inquiries and documentation.  
+**Text Snippet:** "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"  
+
+Q5: How should stakeholders formally direct compliance communications for the Tribune Building project?  
+A5: Communications must be directed to Chelsey Mazurek via the provided phone number or email address as specified in compliance guidelines.  
+**Text Snippet:** "should be directed to: Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"

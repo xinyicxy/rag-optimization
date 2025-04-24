@@ -1,0 +1,790 @@
+[
+    {
+        "chunk": 2,
+        "question": "What construction administration and inspection services must the A/E provide for the District?**",
+        "answer": "The A/E must coordinate regular progress meetings, review shop drawings, assist in material selection, undertake construction observation, process payment certificates, facilitate record drawings, and handle warranty follow-up.",
+        "snippet": "Construction Related Services - The A/E will provide on the District\u2019s behalf, construction administration and inspection services. At a minimum, services [...] process certificates for payment to prime contractors, and facilitate preparation of final record drawings, warranty follow-up and project closeout.",
+        "context": [
+            "Construction Related Services - The A/E will provide on the District\u2019s behalf, construction administration and inspection services. At a minimum, services",
+            "process certificates for payment to prime contractors, and facilitate preparation of final record drawings, warranty follow-up and project closeout."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "Which sustainability standards must the A/E apply in the District\u2019s projects?**",
+        "answer": "The A/E must use LEED, Declare, Cradle to Cradle, or other nationally recognized sustainability programs.",
+        "snippet": "The A/E shall apply/utilize standards found in the Leadership in Energy & Environmental Design Green Building Rating System, Declare, Cradle to Cradle or other nationally recognized sustainability program/certification.",
+        "context": [
+            "The A/E shall apply/utilize standards found in the Leadership in Energy & Environmental Design Green Building Rating System, Declare, Cradle to Cradle or other nationally recognized sustainability program/certification."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What is the deadline for submitting proposals to the District?**",
+        "answer": "Proposals are due to the District by August 25, 2017.",
+        "snippet": "Proposals due to District August 25, 2017.",
+        "context": [
+            "Proposals due to District August 25, 2017."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What staff qualifications must respondents include in their proposal?**",
+        "answer": "Resumes of key personnel, their roles, and relevant experience must be submitted.",
+        "snippet": "Staff qualifications: submit resumes showing relevant experience of key personnel [...] Specify the role of each key staff member in the project.",
+        "context": [
+            "Staff qualifications: submit resumes showing relevant experience of key personnel",
+            "Specify the role of each key staff member in the project."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What fee-related details must the A/E include in their proposal?**",
+        "answer": "The proposal must include all meeting costs, reimbursable expenses (excluding printing/submittal fees), and potential additional costs.",
+        "snippet": "Fees shall include ALL meetings [...] and ALL reimbursable costs other than plan/document printing costs [...] Provide a description of any possible additional related costs and/or fees.",
+        "context": [
+            "Fees shall include ALL meetings",
+            "and ALL reimbursable costs other than plan/document printing costs",
+            "Provide a description of any possible additional related costs and/or fees."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What rights does the District reserve during the RFP process?**",
+        "answer": "The District reserves rights including rejecting proposals, issuing subsequent RFPs, canceling the RFP, remedying technical errors, appointing evaluation committees, seeking outside experts, approving subcontractors, establishing shortlists, negotiating with A/Es, soliciting final offers, awarding contracts, waiving informalities, and awarding without discussion.",
+        "snippet": "The District also reserves certain rights, including, but not limited to, the following: a. Reject any or all of the proposals [...] m. Award without discussion.",
+        "context": [
+            "The District also reserves certain rights, including, but not limited to, the following: a. Reject any or all of the proposals",
+            "m. Award without discussion."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What contract document must the selected A/E enter into?**",
+        "answer": "The selected A/E must enter into the District\u2019s modified AIA Document B132-2009 Standard Form of Agreement Between Owner and Architect, Construction Manager as Adviser Edition.",
+        "snippet": "The successful A/E shall enter into the District\u2019s AIA Document B132 - 2009 Standard Form of Agreement [...] modified by the District and included in these RFP Documents (the 'Agreement').",
+        "context": [
+            "The successful A/E shall enter into the District\u2019s AIA Document B132 - 2009 Standard Form of Agreement",
+            "modified by the District and included in these RFP Documents (the 'Agreement')."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What are the deadlines for submitting questions and proposals?**",
+        "answer": "Questions must be submitted by August 18, 2017, at 1:00 PM, and proposals must be received by August 25, 2017, at 2:00 PM.",
+        "snippet": "Any questions [...] must be submitted via e-mail on or before August 18, 2017 at 1:00 PM [...] Responses to RFP shall be received by the District no later than 2:00 PM on August 25, 2017.",
+        "context": [
+            "Any questions",
+            "must be submitted via e-mail on or before August 18, 2017 at 1:00 PM",
+            "Responses to RFP shall be received by the District no later than 2:00 PM on August 25, 2017."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "How many copies of the proposal are required for submission?**",
+        "answer": "Six (6) copies of the proposal are requested.",
+        "snippet": "Six (6) copies of your proposal are requested.",
+        "context": [
+            "Six (6) copies of your proposal are requested."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "How must the A/E structure the fee proposal for the project?**",
+        "answer": "The fee must be expressed as a flat dollar amount based on total construction costs, with plan submittal and printing costs as the only allowable reimbursables.",
+        "snippet": "The Fee shall be expressed as a flat dollar of total construction costs [...] (the only allowable reimbursable will be plan submittal fees and plan printing costs).",
+        "context": [
+            "The Fee shall be expressed as a flat dollar of total construction costs",
+            "(the only allowable reimbursable will be plan submittal fees and plan printing costs)."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What must be included in the Owner's budget for the Cost of the Work under Section 1.1.3?**",
+        "answer": "The Owner's budget must include the total Cost of the Work and, if known, a line item breakdown.",
+        "snippet": "\u00a7 1.1.3 The Owner\u2019s budget for the Cost of the Work, as defined in Section 6.1: (Provide total and, if known, a line item breakdown.)",
+        "context": [
+            "\u00a7 1.1.3 The Owner\u2019s budget for the Cost of the Work, as defined in Section 6.1: (Provide total and, if known, a line item breakdown.)"
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "How does the Agreement address the Owner\u2019s use of Multiple Prime Contractors?**",
+        "answer": "If Multiple Prime Contractors are used, the term \"Contractor\" in the Agreement is treated as plural.",
+        "snippet": "\u00a7 1.1.5 [X] Multiple Prime Contractors ('Contractors') ... (Note that, if Multiple Prime Contractors are used, the term 'Contractor' as referred to throughout this Agreement will be as if plural in number.)",
+        "context": [
+            "\u00a7 1.1.5 [X] Multiple Prime Contractors ('Contractors')",
+            "(Note that, if Multiple Prime Contractors are used, the term 'Contractor' as referred to throughout this Agreement will be as if plural in number.)"
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "Who is the Owner\u2019s designated representative, and what happens if they are unavailable?**",
+        "answer": "The Owner\u2019s representative is Mr. Marvin Murdock. If terminated or unavailable, the Owner must designate a replacement in writing.",
+        "snippet": "\u00a7 1.1.8 ... Mr. Marvin Murdock ... In the event that the Owner\u2019s Designated Representative is terminated, or otherwise unavailable, the Owner shall designate a replacement representative in writing.",
+        "context": [
+            "\u00a7 1.1.8",
+            "Mr. Marvin Murdock",
+            "In the event that the Owner\u2019s Designated Representative is terminated, or otherwise unavailable, the Owner shall designate a replacement representative in writing."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What consultants must the Architect retain under Basic Services according to Section 1.1.12.1?**",
+        "answer": "The Architect must retain consultants for Associate Architect and Interior Design, Civil Engineer, Landscape Architect, Structural Engineer, Mechanical and Technology Design, Plumbing and Electrical Design, Educational Programming, and Food Service Design.",
+        "snippet": ".1 Associate Architect and Interior Design: .2 Civil Engineer: .3 Landscape Architect: .4 Structural Engineer: .5 Mechanical and Technology Design: .6 Plumbing and Electrical Design: .7 Educational Programming: [...] .8 Food Service Design: \u00a7 1.1.12.1 Consultants retained under Basic Services.",
+        "context": [
+            ".1 Associate Architect and Interior Design: .2 Civil Engineer: .3 Landscape Architect: .4 Structural Engineer: .5 Mechanical and Technology Design: .6 Plumbing and Electrical Design: .7 Educational Programming:",
+            ".8 Food Service Design: \u00a7 1.1.12.1 Consultants retained under Basic Services."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What insurance requirements must the Architect fulfill under Section 2.6.1?**",
+        "answer": "The Architect must purchase and maintain insurance policies from a company authorized in Indiana, with coverage limits not less than specified in Section 2.6.2 or required by law. Certified copies of policies or certificates must be provided to the Owner before services begin.",
+        "snippet": "The Architect shall purchase and maintain [...] policies of insurance acceptable to the Owner [...] Certified copies of all insurance policies or, with the Owner\u2019s consent, Certificates of Insurance acceptable to the Owner shall be given to the Owner prior to commencement of the services.",
+        "context": [
+            "The Architect shall purchase and maintain",
+            "policies of insurance acceptable to the Owner",
+            "Certified copies of all insurance policies or, with the Owner\u2019s consent, Certificates of Insurance acceptable to the Owner shall be given to the Owner prior to commencement of the services."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What is the Architect\u2019s obligation if they identify errors in the Owner-provided Initial Information?**",
+        "answer": "The Architect must provide prompt written notice to the Owner upon discovering errors, omissions, or inconsistencies in the Initial Information.",
+        "snippet": "The Architect shall provide prompt written notice to the Owner if the Architect becomes aware of any errors, omissions or inconsistencies in such information.",
+        "context": [
+            "The Architect shall provide prompt written notice to the Owner if the Architect becomes aware of any errors, omissions or inconsistencies in such information."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What standard of care must the Architect adhere to when performing services?**",
+        "answer": "The Architect\u2019s services must meet the professional skill and care ordinarily provided by architects with similar project experience in the same locality and circumstances.",
+        "snippet": "The Architect\u2019s services shall be performed consistent with professional skill and care ordinarily provided by Architects with experience with projects similar to these Projects practicing in the same or similar locality.",
+        "context": [
+            "The Architect\u2019s services shall be performed consistent with professional skill and care ordinarily provided by Architects with experience with projects similar to these Projects practicing in the same or similar locality."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What endorsement is required for the Commercial General Liability Policy regarding aggregate limits per project?",
+        "answer": "The Commercial General Liability Policy must be endorsed to apply the general aggregate amount separately to each project using ISO Endorsement CG2503 or equivalent.",
+        "snippet": "The Commercial General Liability Policy must be endorsed to provide that the general aggregate amount applies separately to each of Architect's separate projects. ISO Endorsement CG2503 Per Project Endorsement or its equivalent shall be used to satisfy this requirement.",
+        "context": [
+            "The Commercial General Liability Policy must be endorsed to provide that the general aggregate amount applies separately to each of Architect's separate projects. ISO Endorsement CG2503 Per Project Endorsement or its equivalent shall be used to satisfy this requirement."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What is the required coverage limit for Professional Liability Insurance?",
+        "answer": "Professional Liability Insurance must provide $5,000,000 per claim and $5,000,000 in the aggregate.",
+        "snippet": "The Architect shall carry and maintain...professional liability insurance in the amount of $5,000,000 for single limit claims and $5,000,000 in the aggregate.",
+        "context": [
+            "The Architect shall carry and maintain",
+            "professional liability insurance in the amount of $5,000,000 for single limit claims and $5,000,000 in the aggregate."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What prior acts coverage is required under the Professional Liability policy?",
+        "answer": "The policy must include prior acts coverage sufficient to cover all services performed by the Architect for the project.",
+        "snippet": "The Architect's policy of insurance shall contain prior acts coverage sufficient to cover all services performed by the Architect for this Project.",
+        "context": [
+            "The Architect's policy of insurance shall contain prior acts coverage sufficient to cover all services performed by the Architect for this Project."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "How must the Owner be included in the Architect\u2019s Commercial General Liability policy?",
+        "answer": "The Owner must be named as an Additional Insured using ISO forms CG 2010 07 04 and CG 2037 or equivalent, excluding Worker\u2019s Compensation and Professional Liability policies.",
+        "snippet": "All coverage provided above shall be endorsed to include the Owner, as Additional Insured except for the Worker's Compensation/Employer's Liability and Professional Liability policies. ISO forms CG 2010 07 04 and CG 2037 or equivalent endorsement forms must be used...",
+        "context": [
+            "All coverage provided above shall be endorsed to include the Owner, as Additional Insured except for the Worker's Compensation/Employer's Liability and Professional Liability policies. ISO forms CG 2010 07 04 and CG 2037 or equivalent endorsement forms must be used"
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What is the deadline for the Architect to submit certified insurance documentation to the Owner?",
+        "answer": "Certified copies or certificates of insurance must be delivered within 10 days of the agreement date and before starting work on-site.",
+        "snippet": "The Architect hereby agrees to deliver to the Owner, within ten (10) days of the date of the Owner-Architect Agreement and prior to bringing any equipment or personnel onto the site...certified copies of all insurance policies...or Certificates of Insurance.",
+        "context": [
+            "The Architect hereby agrees to deliver to the Owner, within ten (10) days of the date of the Owner-Architect Agreement and prior to bringing any equipment or personnel onto the site",
+            "certified copies of all insurance policies",
+            "or Certificates of Insurance."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What are the Architect's primary responsibilities under \u00a73.1.1?**",
+        "answer": "The Architect shall manage the Architect's services, consult with the Owner and the Construction Manager, research applicable design criteria, attend Project meetings, communicate with members of the Project team, and report to the Owner.",
+        "snippet": "The Architect shall manage the Architect's services, consult with the Owner and the Construction Manager, research applicable design criteria, attend Project meetings, communicate with members of the Project team and report to the Owner.",
+        "context": [
+            "The Architect shall manage the Architect's services, consult with the Owner and the Construction Manager, research applicable design criteria, attend Project meetings, communicate with members of the Project team and report to the Owner."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "How must the Architect coordinate services under \u00a73.1.2?**",
+        "answer": "The Architect shall coordinate its services with those provided by the Owner, the Construction Manager, and the Owner's other consultants. The Architect is entitled to rely on the accuracy and completeness of services and information furnished by these parties but must provide prompt written notice of any errors, omissions, or inconsistencies.",
+        "snippet": "The Architect shall coordinate its services with those services provided by the Owner, the Construction Manager and the Owner's other consultants. The Architect shall be entitled to rely on the accuracy and completeness of services and information furnished by the Owner, the Construction Manager, and the Owner's other consultants. The Architect shall provide prompt written notice to the Owner if the Architect becomes aware of any error, omission or inconsistency in such services or information.",
+        "context": [
+            "The Architect shall coordinate its services with those services provided by the Owner, the Construction Manager and the Owner's other consultants. The Architect shall be entitled to rely on the accuracy and completeness of services and information furnished by the Owner, the Construction Manager, and the Owner's other consultants. The Architect shall provide prompt written notice to the Owner if the Architect becomes aware of any error, omission or inconsistency in such services or information."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What environmental considerations must the Architect address during the Schematic Design Phase?**",
+        "answer": "The Architect must evaluate environmentally responsible design alternatives, including material choices and building orientation, while aligning with the Owner\u2019s program, schedule, and budget.",
+        "snippet": "The Architect shall consider environmentally responsible design alternatives, such as material choices and building orientation, together with other considerations based on program and aesthetics, in developing a design that is consistent with the Owner\u2019s program, schedule and budget for the Cost of the Work.",
+        "context": [
+            "The Architect shall consider environmentally responsible design alternatives, such as material choices and building orientation, together with other considerations based on program and aesthetics, in developing a design that is consistent with the Owner\u2019s program, schedule and budget for the Cost of the Work."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What actions must the Architect take if the schematic cost estimate exceeds the Project Budget?**",
+        "answer": "The Architect must discuss cost reduction options with the Owner and Construction Manager and modify the Schematic Design Documents accordingly.",
+        "snippet": "If the schematic cost estimate exceeds the Project Budget, Architect shall discuss with Owner and Construction Manager potential cost reduction options and modify the Schematic Design Documents.",
+        "context": [
+            "If the schematic cost estimate exceeds the Project Budget, Architect shall discuss with Owner and Construction Manager potential cost reduction options and modify the Schematic Design Documents."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What documents must the Architect prepare during the Design Development Phase?**",
+        "answer": "The Architect must prepare Design Development Documents, including plans, sections, elevations, construction details, system layouts, site plans, floor plans with furniture/equipment, and outline specifications for materials and systems.",
+        "snippet": "Design Development Documents shall consist of drawings and other documents including plans, sections, elevations, typical construction details, and diagrammatic layouts of building systems... [and] outline specifications that identify major materials and systems and establish in general their quality levels.",
+        "context": [
+            "Design Development Documents shall consist of drawings and other documents including plans, sections, elevations, typical construction details, and diagrammatic layouts of building systems",
+            "[and] outline specifications that identify major materials and systems and establish in general their quality levels."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What must the Architect include in the Construction Documents according to governmental requirements?",
+        "answer": "The Architect shall incorporate into the Construction Documents the design requirements of governmental authorities having jurisdiction over the Project.",
+        "snippet": "\u00a7 3.4.2 The Architect shall incorporate into the Construction Documents the design requirements of governmental authorities having jurisdiction over the Project.",
+        "context": [
+            "\u00a7 3.4.2 The Architect shall incorporate into the Construction Documents the design requirements of governmental authorities having jurisdiction over the Project."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What assistance must the Architect provide during the development of Construction Documents if requested by the Owner?",
+        "answer": "The Architect shall assist the Owner and Construction Manager in developing bidding/procurement information, forms of agreement, Contract Conditions, and compiling a project manual.",
+        "snippet": "\u00a7 3.4.3 ... the Architect shall assist the Owner and the Construction Manager in the development and preparation of (1) bidding and procurement information ... (2) the form of agreement ... (3) the Conditions of the Contract for Construction ... and (4) compile a project manual.",
+        "context": [
+            "\u00a7 3.4.3",
+            "the Architect shall assist the Owner and the Construction Manager in the development and preparation of (1) bidding and procurement information",
+            "(2) the form of agreement",
+            "(3) the Conditions of the Contract for Construction",
+            "and (4) compile a project manual."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "At what stages must the Architect review Construction Documents with the Owner and Construction Manager?",
+        "answer": "The Architect must meet with the Owner and Construction Manager to review the Construction Documents at 50% and 95% completion.",
+        "snippet": "\u00a7 3.4.4 ... the Architect shall meet with the Owner and Construction Manager to review the Construction Documents at fifty percent (50%) and ninety-five percent (95%) completion.",
+        "context": [
+            "\u00a7 3.4.4",
+            "the Architect shall meet with the Owner and Construction Manager to review the Construction Documents at fifty percent (50%) and ninety-five percent (95%) completion."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What actions must the Architect take after receiving the Construction Manager\u2019s estimate at the end of the Construction Documents Phase?",
+        "answer": "The Architect must take action under Section 6.7 and request the Owner\u2019s approval of the Construction Documents.",
+        "snippet": "\u00a7 3.4.5 ... the Architect shall take action as required under Section 6.7 and request the Owner's approval of the Construction Documents.",
+        "context": [
+            "\u00a7 3.4.5",
+            "the Architect shall take action as required under Section 6.7 and request the Owner's approval of the Construction Documents."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "What is the Architect's responsibility regarding non-conforming Work under \u00a73.6.2.2?**",
+        "answer": "The Architect has the authority to reject Work that does not conform to the Contract Documents and must notify the Construction Manager about the rejection.",
+        "snippet": "The Architect has the authority to reject Work that does not conform to the Contract Documents and shall notify the Construction Manager about the rejection.",
+        "context": [
+            "The Architect has the authority to reject Work that does not conform to the Contract Documents and shall notify the Construction Manager about the rejection."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "How frequently must the Architect review and certify payment applications under \u00a73.6.3.1?**",
+        "answer": "The Architect must review and certify payment applications no more frequently than monthly.",
+        "snippet": "The Architect shall review and certify an application for payment not more frequently than monthly.",
+        "context": [
+            "The Architect shall review and certify an application for payment not more frequently than monthly."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "What limitations apply to the Architect\u2019s on-site inspections?**",
+        "answer": "The Architect is not required to perform exhaustive or continuous on-site inspections to check the quality or quantity of the Work.",
+        "snippet": "The Architect shall not be required to make exhaustive or continuous on-site inspections to check the quality or quantity of the Work.",
+        "context": [
+            "The Architect shall not be required to make exhaustive or continuous on-site inspections to check the quality or quantity of the Work."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "Under what conditions can the Architect require additional inspections or testing of the Work?**",
+        "answer": "The Architect can require inspections or testing of the Work upon written authorization from the Owner and notification to the Construction Manager, if necessary to implement the intent of the Contract Documents.",
+        "snippet": "Upon written authorization from the Owner and notification to the Construction Manager, [the Architect] shall have the authority to require inspection or testing of the Work in accordance with the provisions of the Contract Documents.",
+        "context": [
+            "Upon written authorization from the Owner and notification to the Construction Manager, [the Architect] shall have the authority to require inspection or testing of the Work in accordance with the provisions of the Contract Documents."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "What must the Architect report to the Owner and Construction Manager after site visits?**",
+        "answer": "The Architect must report known deviations from the Contract Documents, deviations from the latest construction schedule, and defects or deficiencies observed in the Work.",
+        "snippet": "Report to the Owner and the Construction Manager (1) known deviations from the Contract Documents and from the most recent construction schedule, and (2) defects and deficiencies observed in the Work.",
+        "context": [
+            "Report to the Owner and the Construction Manager (1) known deviations from the Contract Documents and from the most recent construction schedule, and (2) defects and deficiencies observed in the Work."
+        ]
+    },
+    {
+        "chunk": 10,
+        "question": "Who has final authority on matters relating to aesthetic effect under \u00a73.6.2.4?**",
+        "answer": "The Owner and Construction Manager have final authority on all matters relating to aesthetic effect, even though the Architect provides guidance.",
+        "snippet": "The Owner and Construction Manager, however, shall have final authority on all matters relating to aesthetic effect.",
+        "context": [
+            "The Owner and Construction Manager, however, shall have final authority on all matters relating to aesthetic effect."
+        ]
+    },
+    {
+        "chunk": 12,
+        "question": "What is the purpose of the Architect's inspections as outlined in \u00a7 3.6.6.2?",
+        "answer": "The Architect's inspections are conducted to verify compliance with the Contract Documents and validate the accuracy of the Construction Manager\u2019s and Contractor\u2019s work list.",
+        "snippet": "The Architect's inspections shall be conducted with the Owner and Construction Manager to check conformance of the Work with the requirements of the Contract Documents and to verify the accuracy and completeness of the list submitted by the Construction Manager and Contractor of Work to be completed or corrected.",
+        "context": [
+            "The Architect's inspections shall be conducted with the Owner and Construction Manager to check conformance of the Work with the requirements of the Contract Documents and to verify the accuracy and completeness of the list submitted by the Construction Manager and Contractor of Work to be completed or corrected."
+        ]
+    },
+    {
+        "chunk": 12,
+        "question": "What must the Architect do once the Work is deemed substantially complete under \u00a7 3.6.6.3?",
+        "answer": "The Architect must inform the Owner about the remaining Contract Sum balance, including retained amounts for final completion or corrections.",
+        "snippet": "When the Work is found to be substantially complete... the Architect shall inform the Owner about the balance of the Contract Sum remaining to be paid the Contractor, including the amount to be retained from the Contract Sum, if any, for final completion or correction of the Work.",
+        "context": [
+            "When the Work is found to be substantially complete",
+            "the Architect shall inform the Owner about the balance of the Contract Sum remaining to be paid the Contractor, including the amount to be retained from the Contract Sum, if any, for final completion or correction of the Work."
+        ]
+    },
+    {
+        "chunk": 12,
+        "question": "Under \u00a7 3.6.6.4, when must the Architect conduct a facility review meeting with the Owner?",
+        "answer": "The Architect must conduct the meeting prior to the expiration of one year from the date of Substantial Completion, upon the Owner\u2019s request.",
+        "snippet": "Prior to the expiration of one (1) year from the date of Substantial Completion, the Architect shall, without additional compensation, conduct a meeting with the Owner to review the facility operations and performance.",
+        "context": [
+            "Prior to the expiration of one (1) year from the date of Substantial Completion, the Architect shall, without additional compensation, conduct a meeting with the Owner to review the facility operations and performance."
+        ]
+    },
+    {
+        "chunk": 12,
+        "question": "What is required for the Architect to commence Additional Services under \u00a7 4.1?",
+        "answer": "The Owner must provide prior written consent, and compensation must be agreed upon under Section 11.2.",
+        "snippet": "The Owner must provide prior written consent before the Architect commences Additional Services. If the Owner provides consent... the Owner shall compensate the Architect as provided in Section 11.2.",
+        "context": [
+            "The Owner must provide prior written consent before the Architect commences Additional Services. If the Owner provides consent",
+            "the Owner shall compensate the Architect as provided in Section 11.2."
+        ]
+    },
+    {
+        "chunk": 13,
+        "question": "What must the Owner include in the Project budget if selecting accelerated, phased, or fast-track scheduling?",
+        "answer": "The Owner agrees to include sufficient contingencies in the budget to cover costs incurred by the Architect for coordination/redesign and the Contractor for removing/replacing previously installed Work.",
+        "snippet": "If the Owner selects accelerated, phased or fast-track scheduling, the Owner agrees to include in the budget for the Project sufficient contingencies to cover such costs.",
+        "context": [
+            "If the Owner selects accelerated, phased or fast-track scheduling, the Owner agrees to include in the budget for the Project sufficient contingencies to cover such costs."
+        ]
+    },
+    {
+        "chunk": 13,
+        "question": "What information must the Owner-provided surveys include under \u00a75.6?",
+        "answer": "Surveys must include grades and lines of streets, alleys, pavements, wetlands, utility locations, zoning, boundaries, existing structures, trees, and utility service data, all referenced to a Project benchmark.",
+        "snippet": "The surveys and legal information shall include, as applicable, grades and lines of streets, alleys, pavements and adjoining property and structures; designated wetlands; adjacent drainage; rights-of-way, restrictions, easements, encroachments, zoning, deed restrictions, boundaries and contours of the site; locations, dimensions and necessary data with respect to existing buildings, other improvements and trees; and information concerning available utility services and lines, both public and private, above and below grade, including inverts and depths. All the information on the survey shall be referenced to a Project benchmark.",
+        "context": [
+            "The surveys and legal information shall include, as applicable, grades and lines of streets, alleys, pavements and adjoining property and structures; designated wetlands; adjacent drainage; rights-of-way, restrictions, easements, encroachments, zoning, deed restrictions, boundaries and contours of the site; locations, dimensions and necessary data with respect to existing buildings, other improvements and trees; and information concerning available utility services and lines, both public and private, above and below grade, including inverts and depths. All the information on the survey shall be referenced to a Project benchmark."
+        ]
+    },
+    {
+        "chunk": 13,
+        "question": "What geotechnical services must the Owner furnish under \u00a75.7?",
+        "answer": "The Owner must provide geotechnical services such as test borings, soil bearing value determinations, hazardous materials evaluations, seismic studies, and corrosion/resistivity tests, along with written reports.",
+        "snippet": "The Owner shall furnish services of geotechnical engineers, which may include but are not limited to test borings, test pits, determinations of soil bearing values, percolation tests, evaluations of hazardous materials, seismic evaluation, ground corrosion tests and resistivity tests, including necessary operations for anticipating subsoil conditions, with written reports and appropriate recommendations.",
+        "context": [
+            "The Owner shall furnish services of geotechnical engineers, which may include but are not limited to test borings, test pits, determinations of soil bearing values, percolation tests, evaluations of hazardous materials, seismic evaluation, ground corrosion tests and resistivity tests, including necessary operations for anticipating subsoil conditions, with written reports and appropriate recommendations."
+        ]
+    },
+    {
+        "chunk": 14,
+        "question": "What is the basis of the Architect\u2019s evaluations of the Owner\u2019s budget for the Cost of the Work?**",
+        "answer": "Evaluations of the Owner\u2019s budget for the Cost of the Work represent the Architect\u2019s judgment as a design professional.",
+        "snippet": "Evaluations of the Owner's budget for the Cost of the Work represent the Architect's judgment as a design professional.",
+        "context": [
+            "Evaluations of the Owner's budget for the Cost of the Work represent the Architect's judgment as a design professional."
+        ]
+    },
+    {
+        "chunk": 14,
+        "question": "What contingencies must the Construction Manager include in cost estimates?**",
+        "answer": "The Construction Manager must include contingencies for design, bidding or negotiating, price escalation, and market conditions.",
+        "snippet": "The Owner shall require the Construction Manager to include appropriate contingencies for design, bidding or negotiating, price escalation, and market conditions in estimates of the Cost of the Work.",
+        "context": [
+            "The Owner shall require the Construction Manager to include appropriate contingencies for design, bidding or negotiating, price escalation, and market conditions in estimates of the Cost of the Work."
+        ]
+    },
+    {
+        "chunk": 14,
+        "question": "What action must the Architect take if the Construction Manager\u2019s estimate exceeds the Owner\u2019s budget before the Design Development Phase concludes?**",
+        "answer": "The Architect, in consultation with the Construction Manager, shall make recommendations to adjust the Project\u2019s size, quality, or budget.",
+        "snippet": "If, prior to the conclusion of the Design Development Phase, the Construction Manager's estimate of the Cost of the Work exceeds the Owner's budget... the Architect... shall make appropriate recommendations to the Owner to adjust the Project\u2019s size, quality or budget.",
+        "context": [
+            "If, prior to the conclusion of the Design Development Phase, the Construction Manager's estimate of the Cost of the Work exceeds the Owner's budget",
+            "the Architect",
+            "shall make appropriate recommendations to the Owner to adjust the Project\u2019s size, quality or budget."
+        ]
+    },
+    {
+        "chunk": 14,
+        "question": "What are the Owner\u2019s options if the Cost of the Work exceeds the budget at the conclusion of the Design Development Phase?**",
+        "answer": "The Owner may approve a budget increase, revise the program/scope/quality to reduce costs, or implement another mutually acceptable alternative.",
+        "snippet": "If the estimate of the Cost of the Work at the conclusion of the Design Development Phase exceeds the Owner\u2019s budget... the Owner shall: .1 give written approval of an increase...; .2 revise the Project program, scope, or quality...; or .3 implement any other mutually acceptable alternative.",
+        "context": [
+            "If the estimate of the Cost of the Work at the conclusion of the Design Development Phase exceeds the Owner\u2019s budget",
+            "the Owner shall: .1 give written approval of an increase",
+            "; .2 revise the Project program, scope, or quality",
+            "; or .3 implement any other mutually acceptable alternative."
+        ]
+    },
+    {
+        "chunk": 15,
+        "question": "Under what conditions does ownership of the Drawings and Specifications transfer to the Owner?**",
+        "answer": "Ownership transfers to the Owner upon full payment of fees owed to the Architect.",
+        "snippet": "Upon payment by the Owner of all fees due and owing Architect for professional services under this Agreement, all right, title and interest in the Drawings and Specifications and other documents... shall become the property of the Owner.",
+        "context": [
+            "Upon payment by the Owner of all fees due and owing Architect for professional services under this Agreement, all right, title and interest in the Drawings and Specifications and other documents",
+            "shall become the property of the Owner."
+        ]
+    },
+    {
+        "chunk": 15,
+        "question": "What liability does the Architect waive regarding electronic format documents?**",
+        "answer": "The Architect waives claims against the Owner for copyright or patent infringement arising from the Owner\u2019s use of electronic information.",
+        "snippet": "If the information is provided in electronic format, the Architect expressly waives any and all actions or claims against the Owner alleging infringement of any copyrights or patents by reason of the Owner's use of the electronic information.",
+        "context": [
+            "If the information is provided in electronic format, the Architect expressly waives any and all actions or claims against the Owner alleging infringement of any copyrights or patents by reason of the Owner's use of the electronic information."
+        ]
+    },
+    {
+        "chunk": 15,
+        "question": "Can the Owner use the Architect\u2019s Drawings for a different project?**",
+        "answer": "Yes, but the Owner assumes full expense and liability for such use.",
+        "snippet": "The Owner's use of the Architect's Drawings and Specifications for any other construction purpose other than for the Project shall be at Owner's expense and liability.",
+        "context": [
+            "The Owner's use of the Architect's Drawings and Specifications for any other construction purpose other than for the Project shall be at Owner's expense and liability."
+        ]
+    },
+    {
+        "chunk": 15,
+        "question": "What indemnification obligations does the Architect have under Section 7.3.1?**",
+        "answer": "The Architect must defend and indemnify the Owner against claims related to copyright/patent infringement or disputes over ownership of the Drawings.",
+        "snippet": "The Architect shall defend all actions or claims charging infringement of any copyrights or patents by reason of the use or adoption of any designs, Drawings or Specifications supplied by it and shall hold the Owner... harmless from claims, loss, damages, liability, costs and expenses... resulting therefrom.",
+        "context": [
+            "The Architect shall defend all actions or claims charging infringement of any copyrights or patents by reason of the use or adoption of any designs, Drawings or Specifications supplied by it and shall hold the Owner",
+            "harmless from claims, loss, damages, liability, costs and expenses",
+            "resulting therefrom."
+        ]
+    },
+    {
+        "chunk": 15,
+        "question": "What restrictions apply to the Architect\u2019s Standard Details/Specifications?**",
+        "answer": "Standard Details/Specifications remain the Architect\u2019s property and may be reused unless they replicate the Project\u2019s overall design.",
+        "snippet": "The Standard Details/Specifications shall remain the property of the Architect and may be used... on other projects... so long as they are not collectively used in a manner which replicates the overall design of the Project.",
+        "context": [
+            "The Standard Details/Specifications shall remain the property of the Architect and may be used",
+            "on other projects",
+            "so long as they are not collectively used in a manner which replicates the overall design of the Project."
+        ]
+    },
+    {
+        "chunk": 15,
+        "question": "Can the Owner transfer its license rights without the Architect\u2019s consent?**",
+        "answer": "No, the Owner cannot assign, delegate, or transfer licenses without the Architect\u2019s prior written agreement.",
+        "snippet": "The Owner shall not assign, delegate, sublicense, pledge or otherwise transfer any license or ownership granted herein to another party without the prior written agreement of the Architect.",
+        "context": [
+            "The Owner shall not assign, delegate, sublicense, pledge or otherwise transfer any license or ownership granted herein to another party without the prior written agreement of the Architect."
+        ]
+    },
+    {
+        "chunk": 15,
+        "question": "What happens to the license granted in Section 7.3 if the Architect terminates the Agreement for cause?**",
+        "answer": "The license terminates if the Architect rightfully terminates the Agreement for cause.",
+        "snippet": "If the Architect rightfully terminates this Agreement for cause as provided in Section 9.4, the license granted in this Section 7.3 shall terminate.",
+        "context": [
+            "If the Architect rightfully terminates this Agreement for cause as provided in Section 9.4, the license granted in this Section 7.3 shall terminate."
+        ]
+    },
+    {
+        "chunk": 16,
+        "question": "What insurance-related rights do the Owner and Architect waive under \u00a78.1.2?",
+        "answer": "The Owner and Architect waive all rights against each other and against contractors, consultants, agents, and employees for damages covered by property insurance, except rights to insurance proceeds.",
+        "snippet": "To the extent damages are covered by property insurance, the Owner and Architect waive all rights against each other and against the contractors, consultants, agents and employees of the other for damages, except such rights as they may have to the proceeds of such insurance.",
+        "context": [
+            "To the extent damages are covered by property insurance, the Owner and Architect waive all rights against each other and against the contractors, consultants, agents and employees of the other for damages, except such rights as they may have to the proceeds of such insurance."
+        ]
+    },
+    {
+        "chunk": 16,
+        "question": "What must the Architect indemnify the Owner against under \u00a78.1.3?",
+        "answer": "The Architect must indemnify the Owner against claims arising from the Architect\u2019s negligent or willful acts or omissions, including bodily injury, property damage, and associated legal fees.",
+        "snippet": "Architect shall... indemnify, defend and hold harmless Owner... from and against all claims, damages, losses and expenses... arising out of or relating to the negligent or willful acts or omissions of the Architect or those for whom the Architect is responsible.",
+        "context": [
+            "Architect shall",
+            "indemnify, defend and hold harmless Owner",
+            "from and against all claims, damages, losses and expenses",
+            "arising out of or relating to the negligent or willful acts or omissions of the Architect or those for whom the Architect is responsible."
+        ]
+    },
+    {
+        "chunk": 16,
+        "question": "What are the requirements for written dispute notices under \u00a78.1.4?",
+        "answer": "Dispute notices must include: (1) a statement of the dispute, (2) the party\u2019s position and supporting evidence, and (3) the name/title of the authorized representative.",
+        "snippet": "written notice of a dispute... shall include: (1) a statement specifying that a dispute has occurred... (2) a statement of the party\u2019s position... (3) the name and title of the disputing party\u2019s authorized representative.",
+        "context": [
+            "written notice of a dispute",
+            "shall include: (1) a statement specifying that a dispute has occurred",
+            "(2) a statement of the party\u2019s position",
+            "(3) the name and title of the disputing party\u2019s authorized representative."
+        ]
+    },
+    {
+        "chunk": 17,
+        "question": "What constitutes a \"prevailing party\" under Section 8.3.2 of the Agreement?",
+        "answer": "A \"prevailing party\" is defined as the party that receives all or substantially all of the relief sought, based on an assessment of major arguments or positions taken in the dispute.",
+        "snippet": "For the purposes of this Section, 'prevailing party' shall mean the party that receives all or substantially all of the relief sought by that party, based upon an assessment of the party's major arguments or positions taken in the suit or proceeding and whether it could fairly be said that party prevailed over the other party's major arguments or positions on major disputed issues.",
+        "context": [
+            "For the purposes of this Section, 'prevailing party' shall mean the party that receives all or substantially all of the relief sought by that party, based upon an assessment of the party's major arguments or positions taken in the suit or proceeding and whether it could fairly be said that party prevailed over the other party's major arguments or positions on major disputed issues."
+        ]
+    },
+    {
+        "chunk": 17,
+        "question": "What costs can a prevailing party recover under Section 8.3.2?",
+        "answer": "The prevailing party is entitled to recover all reasonable attorneys\u2019 fees and costs incurred in litigation, post-judgment proceedings, and appeals.",
+        "snippet": "The prevailing party in any such action shall be entitled to recover from the other party all reasonable attorneys\u2019 fees and costs incurred in connection therewith, including litigation, post-judgment proceedings and appeals.",
+        "context": [
+            "The prevailing party in any such action shall be entitled to recover from the other party all reasonable attorneys\u2019 fees and costs incurred in connection therewith, including litigation, post-judgment proceedings and appeals."
+        ]
+    },
+    {
+        "chunk": 17,
+        "question": "What must the Architect include in contracts with Consultants under Section 8.4?",
+        "answer": "The Architect must bind Consultants to the dispute resolution procedures outlined in the Agreement.",
+        "snippet": "The Architect shall include in its contracts with its Consultants provisions that bind the Consultants to the dispute resolution procedures of this Agreement.",
+        "context": [
+            "The Architect shall include in its contracts with its Consultants provisions that bind the Consultants to the dispute resolution procedures of this Agreement."
+        ]
+    },
+    {
+        "chunk": 18,
+        "question": "What is the Architect's obligation regarding certificate execution requested by the Owner?**",
+        "answer": "The Architect is not required to execute certificates that exceed the scope of the Agreement or impose additional liabilities.",
+        "snippet": "The Architect shall not be required to execute certificates or consents that would require knowledge, services or responsibilities beyond the scope of this Agreement... or subject the Architect to liabilities, claims or causes of action other than those that would be available to the Owner under this Agreement.",
+        "context": [
+            "The Architect shall not be required to execute certificates or consents that would require knowledge, services or responsibilities beyond the scope of this Agreement",
+            "or subject the Architect to liabilities, claims or causes of action other than those that would be available to the Owner under this Agreement."
+        ]
+    },
+    {
+        "chunk": 18,
+        "question": "Does the Agreement create third-party rights against the Owner or Architect?**",
+        "answer": "No, the Agreement does not grant third parties contractual rights or causes of action.",
+        "snippet": "\u00a7 10.5 Nothing contained in this Agreement shall create a contractual relationship with or a cause of action in favor of a third party against either the Owner or Architect.",
+        "context": [
+            "\u00a7 10.5 Nothing contained in this Agreement shall create a contractual relationship with or a cause of action in favor of a third party against either the Owner or Architect."
+        ]
+    },
+    {
+        "chunk": 18,
+        "question": "What is the Architect\u2019s responsibility regarding hazardous materials at the Project site?**",
+        "answer": "The Architect has no responsibility for hazardous materials unless explicitly required by the Agreement.",
+        "snippet": "\u00a7 10.6 Unless otherwise required in this Agreement, the Architect shall have no responsibility for the discovery, presence, handling, removal or disposal of, or exposure of persons to, hazardous materials or toxic substances in any form at the Project site.",
+        "context": [
+            "\u00a7 10.6 Unless otherwise required in this Agreement, the Architect shall have no responsibility for the discovery, presence, handling, removal or disposal of, or exposure of persons to, hazardous materials or toxic substances in any form at the Project site."
+        ]
+    },
+    {
+        "chunk": 18,
+        "question": "Under what conditions can the Architect include the Project\u2019s design in promotional materials?**",
+        "answer": "The Architect may include representations of the design if they exclude the Owner\u2019s confidential/proprietary information and are given access to the completed Project.",
+        "snippet": "The Architect shall have the right to include photographic or artistic representations of the design of the Project among the Architect\u2019s promotional and professional materials... The Architect\u2019s materials shall not include the Owner\u2019s confidential or proprietary information if the Owner has previously advised the Architect in writing of the specific information considered confidential.",
+        "context": [
+            "The Architect shall have the right to include photographic or artistic representations of the design of the Project among the Architect\u2019s promotional and professional materials",
+            "The Architect\u2019s materials shall not include the Owner\u2019s confidential or proprietary information if the Owner has previously advised the Architect in writing of the specific information considered confidential."
+        ]
+    },
+    {
+        "chunk": 18,
+        "question": "What confidentiality obligations apply to the Architect or Owner?**",
+        "answer": "Confidential information must be kept strictly confidential and disclosed only to employees, contractors, or consultants working on the Project.",
+        "snippet": "\u00a7 10.8... the receiving party shall keep such information strictly confidential and shall not disclose it to any other person except to (1) its employees, (2) those who need to know... to perform services... for the Project, or (3) its consultants and contractors whose contracts include similar restrictions.",
+        "context": [
+            "\u00a7 10.8",
+            "the receiving party shall keep such information strictly confidential and shall not disclose it to any other person except to (1) its employees, (2) those who need to know",
+            "to perform services",
+            "for the Project, or (3) its consultants and contractors whose contracts include similar restrictions."
+        ]
+    },
+    {
+        "chunk": 19,
+        "question": "What documentation must the Architect maintain regarding consultants under \u00a710.9.5?",
+        "answer": "The Architect must retain certifications verifying consultants\u2019 compliance with federal employment laws and E-Verify participation.",
+        "snippet": "Architect shall maintain in its files a certification of each of its consultant(s) throughout the duration of the term of this Agreement and the term of Architect's agreement with its consultant(s).",
+        "context": [
+            "Architect shall maintain in its files a certification of each of its consultant(s) throughout the duration of the term of this Agreement and the term of Architect's agreement with its consultant(s)."
+        ]
+    },
+    {
+        "chunk": 19,
+        "question": "What legal standards govern the criminal background checks required for Project workers?",
+        "answer": "Background checks must comply with Indiana Code \u00a720-26-5-10 and \u00a720-26-5-11, covering the prior 10 years.",
+        "snippet": "The Owner will require the Architect to conduct a background check for criminal history for all workers on the Project in compliance with Indiana Code \u00a720-26-5-10 and \u00a720-26-5-11 for the last ten (10) years.",
+        "context": [
+            "The Owner will require the Architect to conduct a background check for criminal history for all workers on the Project in compliance with Indiana Code \u00a720-26-5-10 and \u00a720-26-5-11 for the last ten (10) years."
+        ]
+    },
+    {
+        "chunk": 19,
+        "question": "Which criminal convictions require immediate removal of a worker from the Project?",
+        "answer": "Convictions for offenses like murder, kidnapping, sex crimes, arson, or drug-related crimes require immediate removal.",
+        "snippet": "Evidence of behavior that is prohibited would include, but not limited to, the following: (1) Murder [...] (8) Kidnapping [...] (10) A sex offense [...] (12) Arson [...] (18) An offense relating to controlling substances [...]",
+        "context": [
+            "Evidence of behavior that is prohibited would include, but not limited to, the following: (1) Murder",
+            "(8) Kidnapping",
+            "(10) A sex offense",
+            "(12) Arson",
+            "(18) An offense relating to controlling substances"
+        ]
+    },
+    {
+        "chunk": 19,
+        "question": "How recent must drug testing results be for personnel listed under \u00a710.11.1?",
+        "answer": "Drug testing evidence must be dated within seven (7) days of the Agreement\u2019s effective date.",
+        "snippet": "The list of persons shall be provided written evidence of drug and alcohol testing with respect to all persons on the list dated within seven (7) days of the said date of the Agreement.",
+        "context": [
+            "The list of persons shall be provided written evidence of drug and alcohol testing with respect to all persons on the list dated within seven (7) days of the said date of the Agreement."
+        ]
+    },
+    {
+        "chunk": 20,
+        "question": "What are the firearm restrictions on the Project site?**",
+        "answer": "Firearms are prohibited on the Project site or within the Project property, except for law enforcement officials, security forces specified in the Specifications, or as explicitly allowed by the Owner.",
+        "snippet": "\u00a7 10.12.1 There shall be no firearms allowed on the Project site or anywhere within the Project property. Exceptions would be made for law enforcement officials, security forces required elsewhere by these Specifications, or per other requirements or allowances specifically made by the Owner.",
+        "context": [
+            "\u00a7 10.12.1 There shall be no firearms allowed on the Project site or anywhere within the Project property. Exceptions would be made for law enforcement officials, security forces required elsewhere by these Specifications, or per other requirements or allowances specifically made by the Owner."
+        ]
+    },
+    {
+        "chunk": 20,
+        "question": "What actions are required if tobacco use is detected on the Project site?**",
+        "answer": "Violators of the no-smoking or tobacco policy must be removed immediately, and any construction materials exposed to tobacco products must be replaced at the responsible party\u2019s expense.",
+        "snippet": "Violators shall be removed from the Project immediately. Any construction materials in contact with or exposure to such tobacco products shall be removed and replaced with new, at the responsible party\u2019s expense.",
+        "context": [
+            "Violators shall be removed from the Project immediately. Any construction materials in contact with or exposure to such tobacco products shall be removed and replaced with new, at the responsible party\u2019s expense."
+        ]
+    },
+    {
+        "chunk": 20,
+        "question": "Which types of buildings qualify for additional protections under Indiana Code \u00a7 16-41-37?**",
+        "answer": "Public buildings include enclosed structures occupied by state/local government agencies, educational institutions, healthcare facilities, fire/police stations, childcare centers, hospitals, schools, and school buses.",
+        "snippet": "Additional requirements and levels of protection are afforded to Public Buildings in compliance with Indiana Code \u00a7 16-41-37, and include an enclosed structure or part of an enclosed structure that is one of the following: (1) Occupied by an agency of state or local government... (10) School bus (as defined in IC \u00a7 16-41-37-2.3).",
+        "context": [
+            "Additional requirements and levels of protection are afforded to Public Buildings in compliance with Indiana Code \u00a7 16-41-37, and include an enclosed structure or part of an enclosed structure that is one of the following: (1) Occupied by an agency of state or local government",
+            "(10) School bus (as defined in IC \u00a7 16-41-37-2.3)."
+        ]
+    },
+    {
+        "chunk": 20,
+        "question": "What are the Architect\u2019s obligations regarding employment practices?**",
+        "answer": "The Architect must comply with all non-discrimination laws, correct violations at their own expense, and indemnify the Owner against related claims.",
+        "snippet": "The Architect, and the Architect\u2019s consultants shall comply with all federal, state, and municipal and local rules... The Architect, and the Architect\u2019s consultants shall be responsible for and shall correct, at its own cost and expense, any violations of this Section... [and] indemnify and hold harmless the Owner against any and all claims, losses, costs, damages and expenses.",
+        "context": [
+            "The Architect, and the Architect\u2019s consultants shall comply with all federal, state, and municipal and local rules",
+            "The Architect, and the Architect\u2019s consultants shall be responsible for and shall correct, at its own cost and expense, any violations of this Section",
+            "[and] indemnify and hold harmless the Owner against any and all claims, losses, costs, damages and expenses."
+        ]
+    },
+    {
+        "chunk": 21,
+        "question": "What is the basis for compensation for Basic Services under \u00a711.5?",
+        "answer": "Compensation for Basic Services is based on a stipulated sum allocated across defined project phases.",
+        "snippet": "Compensation for Basic Services is based on a stipulated sum, the compensation for each phase of services shall be as follows: Programming/Standards I Contractual/Schematic Design Phase percent %) II (Design Development Phase III percent %) (Construction Documents Phase IV percent %) (Bidding or Contract_ Phase V percent %) (Construction Admin & Closeout percent %) Phase VI.",
+        "context": [
+            "Compensation for Basic Services is based on a stipulated sum, the compensation for each phase of services shall be as follows: Programming/Standards I Contractual/Schematic Design Phase percent %) II (Design Development Phase III percent %) (Construction Documents Phase IV percent %) (Bidding or Contract_ Phase V percent %) (Construction Admin & Closeout percent %) Phase VI."
+        ]
+    },
+    {
+        "chunk": 21,
+        "question": "What expenses qualify as Reimbursable Expenses under \u00a711.8.1?",
+        "answer": "Reimbursable Expenses include transportation, long-distance services, fees for approvals, printing, postage, authorized overtime, renderings, insurance, taxes, site office costs, and similar project-related expenditures.",
+        "snippet": "Reimbursable Expenses... include expenses incurred by the Architect and the Architect\u2019s consultants directly related to the Project, as follows: .1 Transportation and authorized out-of-town travel and subsistence; .2 Long distance services... .3 Fees paid for securing approval of authorities... .4 Printing, reproductions... .5 Postage... .6 Expense of overtime work... .7 Renderings... .8 Architect's Consultant's expense of professional liability insurance... .9 All taxes... .10 Site office expenses; and .11 Other similar Project-related expenditures.",
+        "context": [
+            "Reimbursable Expenses",
+            "include expenses incurred by the Architect and the Architect\u2019s consultants directly related to the Project, as follows: .1 Transportation and authorized out-of-town travel and subsistence; .2 Long distance services",
+            ".3 Fees paid for securing approval of authorities",
+            ".4 Printing, reproductions",
+            ".5 Postage",
+            ".6 Expense of overtime work",
+            ".7 Renderings",
+            ".8 Architect's Consultant's expense of professional liability insurance",
+            ".9 All taxes",
+            ".10 Site office expenses; and .11 Other similar Project-related expenditures."
+        ]
+    },
+    {
+        "chunk": 21,
+        "question": "How is compensation calculated for Reimbursable Expenses under \u00a711.8.2?",
+        "answer": "Reimbursable Expenses are calculated as the incurred expenses plus 10%, with a maximum cap per project.",
+        "snippet": "For Reimbursable Expenses the compensation shall be the expenses incurred by the Architect and the Architect\u2019s consultants plus ten percent (10%) of the expenses incurred, with the maximum not to exceed '$ ' for each elementary Project.",
+        "context": [
+            "For Reimbursable Expenses the compensation shall be the expenses incurred by the Architect and the Architect\u2019s consultants plus ten percent (10%) of the expenses incurred, with the maximum not to exceed '$ ' for each elementary Project."
+        ]
+    },
+    {
+        "chunk": 22,
+        "question": "What documents define the physical and additional parameters for the Project?",
+        "answer": "The physical parameters are outlined in the program identified in Section 2.2.4, and additional parameters are specified in the Construction Documents and other site restrictions.",
+        "snippet": "The physical parameters for the Project are as set forth in the program identified in Section 2.2.4. Additional parameters for the Project are contained in the Construction Documents and any other restrictions on the site available by actual/constructive knowledge or notice.",
+        "context": [
+            "The physical parameters for the Project are as set forth in the program identified in Section 2.2.4. Additional parameters for the Project are contained in the Construction Documents and any other restrictions on the site available by actual/constructive knowledge or notice."
+        ]
+    },
+    {
+        "chunk": 22,
+        "question": "What obligations does the Architect have regarding changes to their designated representative(s)?",
+        "answer": "The Architect must immediately notify the Owner in writing of any proposed change, and the Owner may withhold consent. The Architect must ensure no negative impact on services and cannot charge the Owner for related costs unless pre-approved.",
+        "snippet": "If the Architect contemplates any changes in the representative(s), the Architect shall immediately provide written notice to the Owner of any proposed change. The Owner shall have the right to withhold consent... The Architect shall ensure that the change in representative shall not have any negative impact on the Architect's Services... [and] will not charge Owner for any cost... unless Owner has already agreed to pay.",
+        "context": [
+            "If the Architect contemplates any changes in the representative(s), the Architect shall immediately provide written notice to the Owner of any proposed change. The Owner shall have the right to withhold consent",
+            "The Architect shall ensure that the change in representative shall not have any negative impact on the Architect's Services",
+            "[and] will not charge Owner for any cost",
+            "unless Owner has already agreed to pay."
+        ]
+    },
+    {
+        "chunk": 22,
+        "question": "What are the Architect\u2019s reimbursement obligations for changes in representatives?",
+        "answer": "The Architect must reimburse the Owner for costs, losses, damages (including attorney\u2019s fees) incurred due to representative changes, even after the Agreement ends.",
+        "snippet": "The Architect shall also reimburse Owner for any cost, loss, damage (including attorney's fees) that Owner incurs because of any change in the designated representative(s)... [and] such obligation shall continue notwithstanding the expiration or termination of this Agreement.",
+        "context": [
+            "The Architect shall also reimburse Owner for any cost, loss, damage (including attorney's fees) that Owner incurs because of any change in the designated representative(s)",
+            "[and] such obligation shall continue notwithstanding the expiration or termination of this Agreement."
+        ]
+    }
+]

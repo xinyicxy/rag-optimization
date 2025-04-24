@@ -1,0 +1,274 @@
+[
+    {
+        "chunk": 1,
+        "question": "What type of solicitation is used for this contract?",
+        "answer": "The solicitation type is a Negotiated (RFP).",
+        "snippet": "4. TYPE OF SOLICITATION SEALED BID (IFB ) NEGOTIATED (RFP ) [ ] [ X ]",
+        "context": [
+            "4. TYPE OF SOLICITATION SEALED BID (IFB ) NEGOTIATED (RFP ) [ ] [ X ]"
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What is the primary objective of CLIN 0001 under this contract?",
+        "answer": "CLIN 0001 requires modernizing the AFATDS software baseline to align with AFATDS v7.0 requirements, including backend architecture updates, Common Services integration, role-based functionality, and embedded training.",
+        "snippet": "The contractor shall modernize the existing AFATDS software baseline to provide a modernized backend AFATDS architecture; incorporate the Common Services provided by Common Operating Environment v3; implement role duty based functionality; and provide embedded computer based training.",
+        "context": [
+            "The contractor shall modernize the existing AFATDS software baseline to provide a modernized backend AFATDS architecture; incorporate the Common Services provided by Common Operating Environment v3; implement role duty based functionality; and provide embedded computer based training."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "Which DFARS clauses govern data rights for non-commercial software under CLIN 0001?",
+        "answer": "DFARS 252.227-7013 and DFARS 252.227-7014 govern data rights, requiring the contractor to provide Unlimited Rights to the Government.",
+        "snippet": "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014.",
+        "context": [
+            "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What restriction applies to proprietary data or code in the AFATDS baseline?",
+        "answer": "Proprietary data, code, or products are strictly prohibited in the AFATDS baseline, except for free and open-source software (FOSS).",
+        "snippet": "The introduction of propriety data, code, or products into the Government owned AFATDS baseline is strictly prohibited, with the exception of free and open source software (FOSS).",
+        "context": [
+            "The introduction of propriety data, code, or products into the Government owned AFATDS baseline is strictly prohibited, with the exception of free and open source software (FOSS)."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What type of funding structure applies to CLIN 0001?",
+        "answer": "CLIN 0001 is a Cost Plus Incentive Fee (CPIF) CLIN with incremental funding.",
+        "snippet": "This is a Cost Plus Incentive Fee CLIN. [...] This CLIN is incrementally funded.",
+        "context": [
+            "This is a Cost Plus Incentive Fee CLIN.",
+            "This CLIN is incrementally funded."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "How long is the period of performance for CLIN 0001?",
+        "answer": "The period of performance is 26 months.",
+        "snippet": "PERIOD OF PERFORMANCE: 26 MONTHS",
+        "context": [
+            "PERIOD OF PERFORMANCE: 26 MONTHS"
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What documents must the contractor align with for CLIN 0002 AFATDS Modernization and Development?**",
+        "answer": "The contractor must align with the AFATDS v7.0 Statement of Objectives, contractor-developed performance work statement, contractor-developed integrated master plan, and AFATDS v7.0 Software Requirements Specification Target Requirements.",
+        "snippet": "Work shall be accomplished in alignment with AFATDS v7.0 Statement of Objectives; contractor developed performance work statement; contractor developed integrated master plan; and AFATDS v7.0 Software Requirements Specification Target Requirements.",
+        "context": [
+            "Work shall be accomplished in alignment with AFATDS v7.0 Statement of Objectives; contractor developed performance work statement; contractor developed integrated master plan; and AFATDS v7.0 Software Requirements Specification Target Requirements."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What rights must the contractor provide for non-commercial software under CLIN 0002?**",
+        "answer": "The contractor must provide Unlimited Rights for all data and non-commercial software developed/modified under CLIN 0002, as defined in DFARS 252.227-7013 and DFARS 252.227-7014.",
+        "snippet": "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014.",
+        "context": [
+            "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What exception allows proprietary data in the AFATDS baseline under CLINs 0002 and 0003?**",
+        "answer": "The introduction of proprietary data, code, or products is prohibited except for free and open source software (FOSS).",
+        "snippet": "The introduction of propriety data, code, or products into the Government owned AFATDS baseline is strictly prohibited, with the exception of free and open source software (FOSS).",
+        "context": [
+            "The introduction of propriety data, code, or products into the Government owned AFATDS baseline is strictly prohibited, with the exception of free and open source software (FOSS)."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What types of tasks can Technical Direction Letters (TDLs) issued under CLIN 1006 involve?",
+        "answer": "TDLs may involve tasks such as Systems/Software Engineering Support Services, New Requirements Decomposition and Analysis, Requirements Trade Analysis and Risk Assessments, Conducting Training, and Government Developmental/Operational Testing Support.",
+        "snippet": "Technical Direction Letters (TDLs) may be issued under this CLIN for tasks involving: - Systems/Software Engineering Support Services - New Requirements Decomposition and Analysis - Requirements Trade Analysis and Risk Assessments - Conducting Training - Government Developmental/Operational Testing Support.",
+        "context": [
+            "Technical Direction Letters (TDLs) may be issued under this CLIN for tasks involving: - Systems/Software Engineering Support Services - New Requirements Decomposition and Analysis - Requirements Trade Analysis and Risk Assessments - Conducting Training - Government Developmental/Operational Testing Support."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What rights must the contractor provide for data and non-commercial software developed under CLIN 1006?",
+        "answer": "The contractor must provide Unlimited Rights for all data and non-commercial software developed/modified under this CLIN, as defined in DFARS 252.227-7013 and DFARS 252.227-7014.",
+        "snippet": "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014.",
+        "context": [
+            "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What DFARS clauses govern the Contractor's provision of Unlimited Rights for data and non-commercial software?",
+        "answer": "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014.",
+        "snippet": "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014.",
+        "context": [
+            "The Contractor shall provide Unlimited Rights for all data and all non-commercial software developed/modified under this CLIN as defined in DFARS 252.227-7013 and DFARS 252.227-7014."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What is the overarching program objective for AFATDS 7.0 under Subtask 1?**",
+        "answer": "The overarching objective is to acquire a software baseline that transitions from a traditional thick client to Smart Client and Web Client architectures, enabling access via commodity devices.",
+        "snippet": "Acquire an AFATDS 7.0 software baseline that is Smart Client and Web Client based, no longer dependent upon a traditional thick client... In environments with reliable network connectivity... the user will interact with AFATDS 7.0 via a browser... In environments with less reliable network connections... the AFATDS 7.0 application(s) will be locally hosted on the end user device.",
+        "context": [
+            "Acquire an AFATDS 7.0 software baseline that is Smart Client and Web Client based, no longer dependent upon a traditional thick client",
+            "In environments with reliable network connectivity",
+            "the user will interact with AFATDS 7.0 via a browser",
+            "In environments with less reliable network connections",
+            "the AFATDS 7.0 application(s) will be locally hosted on the end user device."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What technical standards must AFATDS 7.0\u2019s Web Client and Smart Client adhere to under Subtask 2?**",
+        "answer": "The Web Client must use HTML5, while Smart Client instances can be HTML5-based or native Android applications.",
+        "snippet": "Acquire an AFATDS 7.0 software baseline that has application(s) implemented in HTML5 when used as a Web Client. Smart Client instances will be implemented using HTML5 or as a native Android application(s).",
+        "context": [
+            "Acquire an AFATDS 7.0 software baseline that has application(s) implemented in HTML5 when used as a Web Client. Smart Client instances will be implemented using HTML5 or as a native Android application(s)."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "How does Subtask 3 require AFATDS 7.0 to interface with external services?**",
+        "answer": "It mandates reliance on COE common services to streamline development efforts toward fires capabilities and integration.",
+        "snippet": "Acquire an AFATDS 7.0 software baseline that maximizes the use of common services made available from the COE environment... allowing the AFATDS 7.0 developer to focus their primary efforts on the development of fires capabilities and integration tasks.",
+        "context": [
+            "Acquire an AFATDS 7.0 software baseline that maximizes the use of common services made available from the COE environment",
+            "allowing the AFATDS 7.0 developer to focus their primary efforts on the development of fires capabilities and integration tasks."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What user interface requirements are specified in Subtask 4?**",
+        "answer": "The interface must follow Industry Best Practices, dynamically tailoring itself to user roles to hide irrelevant information and expose relevant capabilities.",
+        "snippet": "The interface will dynamically tailor itself to the needs of different user roles... irrelevant information and capability is hidden while relevant capabilities are exposed.",
+        "context": [
+            "The interface will dynamically tailor itself to the needs of different user roles",
+            "irrelevant information and capability is hidden while relevant capabilities are exposed."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What is the authoritative source for issue reporting and tracking under the Contractor's responsibilities?",
+        "answer": "The Contractor must use DI2E as the authoritative source for issue reporting and tracking.",
+        "snippet": "d. Utilize DI2E as the authoritative source for issue reporting and tracking. DI2E will be kept up-to-date to reflect the latest status of issues from initial identification thru closure.",
+        "context": [
+            "d. Utilize DI2E as the authoritative source for issue reporting and tracking. DI2E will be kept up-to-date to reflect the latest status of issues from initial identification thru closure."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What must the Contractor\u2019s Configuration Management (CM) program ensure for AFATDS 7.0?",
+        "answer": "The CM program must ensure consistency of the product\u2019s performance, functionality, and attributes with its requirements, and maintain control of all architectures, requirements, specifications, and documentation.",
+        "snippet": "e. The Contractor will maintain a Configuration Management (CM) program visible on DI2E. The CM program will establish and maintain consistency of the product\u2019s performance, functionality, and attributes with respect to its requirements. The CM program will establish and maintain control of all architectures, requirements, specifications, designs, drawings, interfaces, software, hardware, firmware, operational information, and documentation for the project.",
+        "context": [
+            "e. The Contractor will maintain a Configuration Management (CM) program visible on DI2E. The CM program will establish and maintain consistency of the product\u2019s performance, functionality, and attributes with respect to its requirements. The CM program will establish and maintain control of all architectures, requirements, specifications, designs, drawings, interfaces, software, hardware, firmware, operational information, and documentation for the project."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What is the Government's preferred implementation method for AFATDS 7.0 and why?**",
+        "answer": "The Government prefers implementing AFATDS 7.0 as a web application to avoid maintaining two separate variants and due to portability challenges with native Android.",
+        "snippet": "Development of AFATDS 7.0 as a native Android application(s) is not a preferred implementation method given portability challenges that may exist with this approach.",
+        "context": [
+            "Development of AFATDS 7.0 as a native Android application(s) is not a preferred implementation method given portability challenges that may exist with this approach."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What happens to legacy code in AFATDS 7.0 that duplicates COE functionality?**",
+        "answer": "Redundant legacy code overlapping with COE-derived functionality will be removed from AFATDS 7.0.",
+        "snippet": "Organic functionality that is redundant with capability provided via COE will be removed from AFATDS 7.0.",
+        "context": [
+            "Organic functionality that is redundant with capability provided via COE will be removed from AFATDS 7.0."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "How must AFATDS 7.0 interface with Data Distribution Service (DDS)?**",
+        "answer": "AFATDS 7.0 interfaces with DDS via COE-provided publication and subscription services for Web and Smart Clients.",
+        "snippet": "AFATDS 7.0 will interface with DDS via the publication and subscription services made available to Web and Smart Clients.",
+        "context": [
+            "AFATDS 7.0 will interface with DDS via the publication and subscription services made available to Web and Smart Clients."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What messaging requirements must AFATDS 7.0 retain from previous versions?**",
+        "answer": "AFATDS 7.0 must retain all messaging formats and communication methods supported in AFATDS 6.8.1.1, using COE common services as the primary means.",
+        "snippet": "All messaging formats and communication methods supported in AFATDS 6.8.1.1 will be retained in AFATDS 7.0. COE common services will be utilized as the primary means for meeting all messaging requirements.",
+        "context": [
+            "All messaging formats and communication methods supported in AFATDS 6.8.1.1 will be retained in AFATDS 7.0. COE common services will be utilized as the primary means for meeting all messaging requirements."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What are the default roles supported by AFATDS 7.0's role-based operating construct?**",
+        "answer": "AFATDS 7.0 supports four default roles: Fire Direction, Fire Control, Fire Support, and Universal.",
+        "snippet": "AFATDS 7.0 will support the following default roles of: \u2212 Fire Direction \u2212 Fire Control \u2212 Fire Support \u2212 Universal.",
+        "context": [
+            "AFATDS 7.0 will support the following default roles of: \u2212 Fire Direction \u2212 Fire Control \u2212 Fire Support \u2212 Universal."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "How does AFATDS 7.0 ensure compatibility with the Host Based Security System (HBSS)?**",
+        "answer": "AFATDS 7.0 will execute on the HBSS with no degradation in speed or quality of service, and the Government provides access to HBSS environments at Aberdeen Proving Ground, Maryland, or Fort Hood, Texas.",
+        "snippet": "AFATDS 7.0 will execute, with no degradation in speed of service or quality of service, on the HBSS. The Government will provide the awardee access to the Government facility with the HBSS environment. HBSS environment is located at Aberdeen Proving Ground, Maryland or Fort Hood, Texas.",
+        "context": [
+            "AFATDS 7.0 will execute, with no degradation in speed of service or quality of service, on the HBSS. The Government will provide the awardee access to the Government facility with the HBSS environment. HBSS environment is located at Aberdeen Proving Ground, Maryland or Fort Hood, Texas."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What architectural changes are required for AFATDS 7.0\u2019s service-based backend?**",
+        "answer": "The backend will be re-architected using a common COE-derived message bus, with all business logic exposed as web services. Existing non-service-based logic will be converted or wrapped into web services.",
+        "snippet": "The AFATDS 7.0 backend will be re-architected and modernized to form a modern service-based architecture... All AFATDS business logic will be exposed as a web service to the common bus. Approaches to be used... include conversion to native web service, web service wrapper, or hybrid methods.",
+        "context": [
+            "The AFATDS 7.0 backend will be re-architected and modernized to form a modern service-based architecture",
+            "All AFATDS business logic will be exposed as a web service to the common bus. Approaches to be used",
+            "include conversion to native web service, web service wrapper, or hybrid methods."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What standard governs system safety requirements for defense contracts?",
+        "answer": "MIL-STD-882E outlines system safety requirements.",
+        "snippet": "r. MIL-STD-882E, System Safety, 11 May 2012",
+        "context": [
+            "r. MIL-STD-882E, System Safety, 11 May 2012"
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "Which documents must the Contractor comply with under Task 4 performance objectives?",
+        "answer": "The Contractor must comply with the AFATDS SRS and documents listed in section 6.3.1.",
+        "snippet": "a. The Contractor will provide the services... in compliance with the AFATDS SRS and other applicable documents found in section 6.3.1.",
+        "context": [
+            "a. The Contractor will provide the services",
+            "in compliance with the AFATDS SRS and other applicable documents found in section 6.3.1."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What publication defines security and privacy controls for federal information systems?",
+        "answer": "NIST SP 800-53 Rev. 4 specifies these controls.",
+        "snippet": "cc. National Institute of Standards and Technology Special Publication 800-53, Revision 4, Security and Privacy Controls... April 2013",
+        "context": [
+            "cc. National Institute of Standards and Technology Special Publication 800-53, Revision 4, Security and Privacy Controls",
+            "April 2013"
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "Which standard applies to Configuration Management for defense contracts?",
+        "answer": "EIA-649-1 establishes Configuration Management requirements.",
+        "snippet": "i. Electronic Industries Alliance (EIA)-649-1, Configuration Management Requirements for Defense Contracts, 20 November 2014",
+        "context": [
+            "i. Electronic Industries Alliance (EIA)-649-1, Configuration Management Requirements for Defense Contracts, 20 November 2014"
+        ]
+    }
+]

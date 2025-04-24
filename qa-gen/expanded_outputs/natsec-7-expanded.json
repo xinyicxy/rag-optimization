@@ -1,0 +1,265 @@
+[
+    {
+        "chunk": 1,
+        "question": "What is the submission timeline for the Software Test Report (STR) under CDRL A036?**",
+        "answer": "The Contractor shall deliver 60 calendar days after completion of Test Completion Review (TCR). The Government shall review and provide comments within 30 calendar days of receipt of the document. The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments.",
+        "snippet": "Block 10, 11, 12 & 13: The Contractor shall deliver 60 calendar days after completion of Test Completion Review (TCR). The Government shall review and provide comments within 30 calendar days of receipt of the document. The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments.",
+        "context": [
+            "Block 10, 11, 12 & 13: The Contractor shall deliver 60 calendar days after completion of Test Completion Review (TCR). The Government shall review and provide comments within 30 calendar days of receipt of the document. The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What materials must the contractor provide for the Computer Software Product (CDRL A037) to build the source code?**",
+        "answer": "The Contractor shall provide all materials necessary to build the source code into an executable and functioning application, including build scripts, build environment details, patch installer creation instructions, build logs, build tools with configurations, and integrated development environment (IDE) details.",
+        "snippet": "The Contractor shall provide all materials necessary to build the source code into an executable and functioning application. This includes but is not limited to: (1) build scripts (2) build environment details (3) Patch installer creation instructions, (4) build logs, (5) build tools with associated configurations and (6) integrated development environment (IDE) details associated with loading, reading, modifying and building source code documents.",
+        "context": [
+            "The Contractor shall provide all materials necessary to build the source code into an executable and functioning application. This includes but is not limited to: (1) build scripts (2) build environment details (3) Patch installer creation instructions, (4) build logs, (5) build tools with associated configurations and (6) integrated development environment (IDE) details associated with loading, reading, modifying and building source code documents."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What distribution channels are required for submissions to PM Mission Command (PM MC)?**",
+        "answer": "Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative.",
+        "snippet": "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative.",
+        "context": [
+            "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What is the authority document for preparing the Software Test Report (STR) under CDRL A036?**",
+        "answer": "The authority document is DI-IPSC-81440A.",
+        "snippet": "Block 4: Prepare the required document, in contractor format, in accordance with the cited DID. [...] Authority (Data Acquisition Document No.): DI-IPSC-81440A.",
+        "context": [
+            "Block 4: Prepare the required document, in contractor format, in accordance with the cited DID.",
+            "Authority (Data Acquisition Document No.): DI-IPSC-81440A."
+        ]
+    },
+    {
+        "chunk": 1,
+        "question": "What additional items may the government request as part of CDRL A037 deliverables?**",
+        "answer": "Additional items include DOORS database and database extracts, JMUL updates (or equivalent for AFATDS 7.0), and Non-Developmental Software (NDS) with associated documentation.",
+        "snippet": "Additional related items to be provided as part of this CDRL upon government request include: (1) DOORS database and database extracts, (2) JMUL updates (or equivalent for AFATDS 7.0) and (3) Non-Developmental Software (NDS) and associated documentation.",
+        "context": [
+            "Additional related items to be provided as part of this CDRL upon government request include: (1) DOORS database and database extracts, (2) JMUL updates (or equivalent for AFATDS 7.0) and (3) Non-Developmental Software (NDS) and associated documentation."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What is the timeline for the Government's review and the contractor's final submission after comments?",
+        "answer": "The Government shall review and provide comments within 30 calendar days of receipt of the deliverable. The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments.",
+        "snippet": "The Government shall review and provide comments within 30 calendar days of receipt of the deliverable. The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments.",
+        "context": [
+            "The Government shall review and provide comments within 30 calendar days of receipt of the deliverable. The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "Where must submissions for PM MC be posted, and what notification is required?",
+        "answer": "Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative.",
+        "snippet": "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative.",
+        "context": [
+            "Block 14: Submissions for PM MC shall be posted to DI2E and IDE with email notification to the Contracting Officer\u2019s Representative."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What are the requirements for an offeror to be considered \"registered\" in the System for Award Management (SAM)?",
+        "answer": "To be registered in SAM, the offeror must:",
+        "snippet": "Registered in the System for Award Management SAM database means that-- (1) The offeror has entered all mandatory information... (2) The offeror has completed the Core, Assertions, and Representations and Certifications... (3) The Government has validated all mandatory data fields... (4) The Government has marked the record 'Active'.",
+        "context": [
+            "Registered in the System for Award Management SAM database means that-- (1) The offeror has entered all mandatory information",
+            "(2) The offeror has completed the Core, Assertions, and Representations and Certifications",
+            "(3) The Government has validated all mandatory data fields",
+            "(4) The Government has marked the record 'Active'."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What must offerors subject to 48 CFR Chapter 99 submit as a condition of contracting?",
+        "answer": "Offerors must submit a Disclosure Statement unless one has already been filed for the pricing practices used in the proposal.",
+        "snippet": "offerors subject to 48 CFR Chapter 99 must, as a condition of contracting, submit a Disclosure Statement as required by 48 CFR 9903.202. When required, the Disclosure Statement must be submitted as a part of the offeror\u2019s proposal under this solicitation unless the offeror has already submitted a Disclosure Statement disclosing the practices used in connection with the pricing of this proposal.",
+        "context": [
+            "offerors subject to 48 CFR Chapter 99 must, as a condition of contracting, submit a Disclosure Statement as required by 48 CFR 9903.202. When required, the Disclosure Statement must be submitted as a part of the offeror\u2019s proposal under this solicitation unless the offeror has already submitted a Disclosure Statement disclosing the practices used in connection with the pricing of this proposal."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What are the submission requirements for the Certificate of Concurrent Submission of Disclosure Statement?",
+        "answer": "The offeror must submit an original and one copy to the cognizant ACO/Federal official and one copy to the Federal auditor.",
+        "snippet": "(i) Original and one copy to the cognizant Administrative Contracting Officer (ACO) or cognizant Federal agency official... (ii) One copy to the cognizant Federal auditor.",
+        "context": [
+            "(i) Original and one copy to the cognizant Administrative Contracting Officer (ACO) or cognizant Federal agency official",
+            "(ii) One copy to the cognizant Federal auditor."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What are the technical objectives of the AFATDS 7.0 Modernization?",
+        "answer": "The modernization aims to transition to net-centric military operations, leverage web-based networks, and enhance operator usability.",
+        "snippet": "The modernization of the AFATDS baseline will satisfy the technical requirements for a transition to net-centric military operations, take advantage of web-based networks to exploit fires capabilities, and support the execution of joint critical operations. [...] provide the operator an easier, more intuitive capability and feature embedded training [...] modernize the backend AFATDS architecture; incorporate the common services provided by Common Operating Environment v3; implement role duty based functionality; and provide embedded computer based training.",
+        "context": [
+            "The modernization of the AFATDS baseline will satisfy the technical requirements for a transition to net-centric military operations, take advantage of web-based networks to exploit fires capabilities, and support the execution of joint critical operations.",
+            "provide the operator an easier, more intuitive capability and feature embedded training",
+            "modernize the backend AFATDS architecture; incorporate the common services provided by Common Operating Environment v3; implement role duty based functionality; and provide embedded computer based training."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What are the consequences of exceeding page limitations in the proposal?**",
+        "answer": "If page limits are exceeded, the excess pages will not be read or considered in the evaluation.",
+        "snippet": "Page limitations shall be treated as maximums. If exceeded, the excess pages will not be read or considered in the evaluation of the proposal.",
+        "context": [
+            "Page limitations shall be treated as maximums. If exceeded, the excess pages will not be read or considered in the evaluation of the proposal."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What font types and sizes are permitted for proposal text?**",
+        "answer": "The text size must be no less than 10-point Arial, Times New Roman, or Courier New font.",
+        "snippet": "Except for the reproduced sections of the solicitation document, the text size shall be no less than 10 point Ariel, Times New Roman, or Courier New font for all text.",
+        "context": [
+            "Except for the reproduced sections of the solicitation document, the text size shall be no less than 10 point Ariel, Times New Roman, or Courier New font for all text."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What file formats are required for submitting the technical volume of the proposal?**",
+        "answer": "The technical volume must be submitted as a Microsoft Word 2007, Word 2010, or PDF document.",
+        "snippet": "The technical volume of the proposal is to be submitted as a Microsoft Word 2007, Microsoft Word 2010 or PDF document.",
+        "context": [
+            "The technical volume of the proposal is to be submitted as a Microsoft Word 2007, Microsoft Word 2010 or PDF document."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What information must the cover of the proposal include?**",
+        "answer": "The cover must show the solicitation number, offeror\u2019s name, address, telephone number, and email address.",
+        "snippet": "Cover of the proposal must show: (i) The solicitation number; (ii) The offerors name, address, telephone number and email address.",
+        "context": [
+            "Cover of the proposal must show: (i) The solicitation number; (ii) The offerors name, address, telephone number and email address."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "How are pages counted if printed on both sides of a sheet?**",
+        "answer": "Each side of a sheet is counted as a separate page.",
+        "snippet": "A page is defined as each face of a sheet of paper containing information. When both sides of a sheet display printed material, it shall be counted as two pages.",
+        "context": [
+            "A page is defined as each face of a sheet of paper containing information. When both sides of a sheet display printed material, it shall be counted as two pages."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What are the three parts required in Volume III - Past Performance volume organization?**",
+        "answer": "The Past Performance volume must be organized into Part A (Summary of Relevant Past Performance Contracts), Part B (Subcontractor/Teaming Partner Consent Letters), and Part C (Client Authorization Letters).",
+        "snippet": "Part A \u2013 Summary of Relevant Past Performance Contracts... Part B - Subcontractor/Teaming Partner Consent Letters... Part C - Client Authorization Letters.",
+        "context": [
+            "Part A \u2013 Summary of Relevant Past Performance Contracts",
+            "Part B - Subcontractor/Teaming Partner Consent Letters",
+            "Part C - Client Authorization Letters."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "Where can offerors find the sample consent letter format for subcontractors/teaming partners?**",
+        "answer": "The sample consent letter is provided in HC1028-16-R-0005, Section L, Attachment L-4.",
+        "snippet": "A sample consent letter is provided at HC1028-16-R-0005, Section L, Attachment L-4.",
+        "context": [
+            "A sample consent letter is provided at HC1028-16-R-0005, Section L, Attachment L-4."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "How many recent contracts must be included in the Past Performance volume, and what time frame defines \"recent\"?**",
+        "answer": "Up to three recent contracts active within the past five years (or ongoing efforts started at least nine months before the proposal due date) must be submitted.",
+        "snippet": "Past Performance Information on no more than three recent (active within the past five years... or for ongoing efforts the period of performance of which must have started at least nine months before the original proposal due date).",
+        "context": [
+            "Past Performance Information on no more than three recent (active within the past five years",
+            "or for ongoing efforts the period of performance of which must have started at least nine months before the original proposal due date)."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What specific requirement applies to the prime offeror\u2019s past performance submission?**",
+        "answer": "The prime offeror must include at least one recent contract demonstrating its ability to perform the proposed effort.",
+        "snippet": "The prime offeror shall include information on a minimum of one recent contract performed by the prime offeror that you consider most relevant in demonstrating your ability to perform the proposed effort.",
+        "context": [
+            "The prime offeror shall include information on a minimum of one recent contract performed by the prime offeror that you consider most relevant in demonstrating your ability to perform the proposed effort."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What techniques are used to evaluate the cost/price proposal?",
+        "answer": "The cost/price proposal is evaluated using techniques defined in FAR 15.404 to determine reasonableness, completeness, affordability, and realism. A color rating is not assigned.",
+        "snippet": "The offeror's cost/price proposal will be evaluated, using one or more of the techniques defined in FAR 15.404, in order to determine if it is reasonable and complete; a color rating is not assigned to the cost/price factor.",
+        "context": [
+            "The offeror's cost/price proposal will be evaluated, using one or more of the techniques defined in FAR 15.404, in order to determine if it is reasonable and complete; a color rating is not assigned to the cost/price factor."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What are the consequences of proposing unrealistically low or high costs?",
+        "answer": "Unrealistically low or high proposed costs may result in elimination from competition, as they indicate the offeror may not understand requirements or has submitted an unrealistic proposal. Unbalanced costs may also lead to rejection.",
+        "snippet": "Note that unrealistically low or high proposed costs, initially or subsequently, may be grounds for eliminating a proposal from competition [...] Additionally, unbalanced costs pose an unacceptable risk to the Government and may be a reason to reject an offeror\u2019s proposal.",
+        "context": [
+            "Note that unrealistically low or high proposed costs, initially or subsequently, may be grounds for eliminating a proposal from competition",
+            "Additionally, unbalanced costs pose an unacceptable risk to the Government and may be a reason to reject an offeror\u2019s proposal."
+        ]
+    },
+    {
+        "chunk": 8,
+        "question": "What documentation is required to support a DCAA audit?",
+        "answer": "Cost submissions must include detailed labor rates, overhead, fringe benefits, G&A, fee breakdowns, and a basis of estimate for all rates.",
+        "snippet": "Labor and overhead rates should include sufficient detail to sustain a DCAA audit (e.g., direct labor rates, overhead, fringe benefits, General and Administrative Expense (G&A), fee, etc.). The offeror must provide the basis of estimate for all rates with detailed rationale to support the rates.",
+        "context": [
+            "Labor and overhead rates should include sufficient detail to sustain a DCAA audit (e.g., direct labor rates, overhead, fringe benefits, General and Administrative Expense (G&A), fee, etc.). The offeror must provide the basis of estimate for all rates with detailed rationale to support the rates."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What evidence is required regarding the adequacy of the accounting system under section 6.3.4?**",
+        "answer": "The offeror must indicate whether the DCAA has determined their accounting system to be adequate and provide evidence of such determination.",
+        "snippet": "Indicate whether the DCAA has determined your accounting system to be adequate and if so, provide evidence of such determination.",
+        "context": [
+            "Indicate whether the DCAA has determined your accounting system to be adequate and if so, provide evidence of such determination."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What information must be included when explaining estimating methods for cost elements (6.3.5)?**",
+        "answer": "The explanation must include a breakdown of hours by labor category, labor rates (base rate, overhead rates), and state if any required information is not applicable.",
+        "snippet": "Provide the following information for each cost element (i.e., breakdown for hours by labor category, breakout of labor rates to include base rate, overhead rates, etc.). If a portion of the required information is not applicable for a particular cost element, so state.",
+        "context": [
+            "Provide the following information for each cost element (i.e., breakdown for hours by labor category, breakout of labor rates to include base rate, overhead rates, etc.). If a portion of the required information is not applicable for a particular cost element, so state."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What format requirements apply to the electronic cost/price model submission (6.3.6)?**",
+        "answer": "The cost/price model must be in .XLS format (MS-Excel 2007 or earlier), include all formulas, and avoid hard-numbered values.",
+        "snippet": "(a) Data file should be .XLS file format (MS-Excel 2007 or earlier) compatible format. (b) Data file shall include all mathematical and operational formulas and shall NOT be 'hard numbered.'",
+        "context": [
+            "(a) Data file should be .XLS file format (MS-Excel 2007 or earlier) compatible format. (b) Data file shall include all mathematical and operational formulas and shall NOT be 'hard numbered.'"
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What must the labor rate schedules include under section 6.3.7?**",
+        "answer": "Schedules must show fully burdened labor rates by year for cost-plus contracts, including prime contractor, subcontractor, and inter-divisional transfer rates.",
+        "snippet": "The labor rate schedules shall include (but separately identify) prime contractor, subcontractor, and inter-divisional transfer rates.",
+        "context": [
+            "The labor rate schedules shall include (but separately identify) prime contractor, subcontractor, and inter-divisional transfer rates."
+        ]
+    },
+    {
+        "chunk": 9,
+        "question": "What is required regarding the CAS Disclosure Statement (6.3.9)?**",
+        "answer": "The offeror must disclose the current status of their CAS Disclosure Statement and explain any inadequacies or non-compliances.",
+        "snippet": "The offeror shall provide current status of its CAS Disclosure Statement and explain any inadequacies or non-compliances.",
+        "context": [
+            "The offeror shall provide current status of its CAS Disclosure Statement and explain any inadequacies or non-compliances."
+        ]
+    }
+]

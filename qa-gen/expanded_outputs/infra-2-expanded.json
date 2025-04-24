@@ -1,0 +1,131 @@
+[
+    {
+        "chunk": 2,
+        "question": "What licensing requirement must the Construction Manager meet for the Project?**",
+        "answer": "The Construction Manager must hold a Construction Manager\u2019s license (or applicable license) valid for the State of Wisconsin.",
+        "snippet": "The Construction Manager will be required to hold a Construction Manager\u2019s license (or applicable license) valid for the State of Wisconsin.",
+        "context": [
+            "The Construction Manager will be required to hold a Construction Manager\u2019s license (or applicable license) valid for the State of Wisconsin."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "What advisory responsibilities does the Construction Manager have during the Preconstruction Phase?**",
+        "answer": "The Construction Manager must advise the Owner and Architect on site use, material selection, building systems, constructability, labor/material availability, procurement timelines, cost factors, and accelerated scheduling.",
+        "snippet": "The Construction Manager shall advise the Owner and the Architect on proposed site use and improvements, selection of materials, and building systems and equipment... [and] provide recommendations consistent with the Project requirements... including, but not limited to: costs of alternative designs or materials, preliminary budgets, life-cycle data, and possible cost reductions.",
+        "context": [
+            "The Construction Manager shall advise the Owner and the Architect on proposed site use and improvements, selection of materials, and building systems and equipment",
+            "[and] provide recommendations consistent with the Project requirements",
+            "including, but not limited to: costs of alternative designs or materials, preliminary budgets, life-cycle data, and possible cost reductions."
+        ]
+    },
+    {
+        "chunk": 2,
+        "question": "When must the Construction Manager provide cost estimates during the design process?**",
+        "answer": "The Construction Manager must provide estimates of the Cost of the Work for the Owner\u2019s approval prior to the completion of each design phase.",
+        "snippet": "Such estimates shall be provided for the Architect\u2019s review and the Owner\u2019s approval prior to the completion of each phase.",
+        "context": [
+            "Such estimates shall be provided for the Architect\u2019s review and the Owner\u2019s approval prior to the completion of each phase."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What triggers the commencement of the Construction Phase?",
+        "answer": "The Construction Phase begins upon the execution of the Guaranteed Maximum Price Amendment or the Owner\u2019s issuance of a Notice to Proceed, whichever occurs earlier.",
+        "snippet": "The Construction Phase shall commence upon the execution of the Guaranteed Maximum Price Amendment or the Owner\u2019s issuance of a Notice to Proceed, whichever occurs earlier.",
+        "context": [
+            "The Construction Phase shall commence upon the execution of the Guaranteed Maximum Price Amendment or the Owner\u2019s issuance of a Notice to Proceed, whichever occurs earlier."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "How are changes to the Work authorized, and who must acknowledge them?",
+        "answer": "The Architect issues changes in writing, and all change orders must be signed and acknowledged by the Owner and Construction Manager.",
+        "snippet": "The Architect shall issue such changes in writing and all change orders will be signed and acknowledged by Owner and Construction Manager.",
+        "context": [
+            "The Architect shall issue such changes in writing and all change orders will be signed and acknowledged by Owner and Construction Manager."
+        ]
+    },
+    {
+        "chunk": 3,
+        "question": "What adjustments is the Construction Manager entitled to if the Work changes?",
+        "answer": "The Construction Manager is entitled to an equitable adjustment in the Contract Time due to changes in the Work.",
+        "snippet": "The Construction Manager shall be entitled to an equitable adjustment in the Contract Time as a result of changes in the Work.",
+        "context": [
+            "The Construction Manager shall be entitled to an equitable adjustment in the Contract Time as a result of changes in the Work."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What timeline details must proposers provide regarding their current workload and project phases?**",
+        "answer": "Proposers must submit a detailed summary of current workload and future commitments over the proposed timeline, assuming a two-week turnaround from proposal submission to service commencement. They must also provide the expected duration in days for each project phase.",
+        "snippet": "Provide a detailed summary of your current workload and future commitments over the proposed timeline assuming a two-week turnaround from the submission of this proposal to the commencement of services. Submit your expected duration in days for each phase of the project.",
+        "context": [
+            "Provide a detailed summary of your current workload and future commitments over the proposed timeline assuming a two-week turnaround from the submission of this proposal to the commencement of services. Submit your expected duration in days for each phase of the project."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "How must subcontractors be addressed in the proposal and after contract signing?**",
+        "answer": "Subcontractors must be identified in the proposal. After contract signing, Incourage Community Foundation reserves the right to approve all subcontractors not approved during the RFP process.",
+        "snippet": "Any subcontractors must be identified in the proposal. Please remember that after contract signing, Incourage Community Foundation reserves the right to approve all subcontractors that were not approved during the RFP process.",
+        "context": [
+            "Any subcontractors must be identified in the proposal. Please remember that after contract signing, Incourage Community Foundation reserves the right to approve all subcontractors that were not approved during the RFP process."
+        ]
+    },
+    {
+        "chunk": 4,
+        "question": "What fee structure is required for the Construction Phase in addition to the Estimate of Probable Cost?**",
+        "answer": "For the Construction Phase, proposers must provide the amount or basis for compensation **in addition** to the costs in the Estimate of Probable Cost (Exhibit B). The Guaranteed Maximum Price Proposal and quoted fees are binding, subject to mutually agreed change orders.",
+        "snippet": "Construction Phase: Provide the amount of, or basis for, compensation IN ADDITION to the cost listed in the Estimate of Probable Cost (Exhibit B). The Proposer will guarantee to construct the Project [...] for the amount specified in the Guaranteed Maximum Price Proposal and the fees quoted in this proposal subject to change orders mutually agreed upon by the Proposer and the Owner.",
+        "context": [
+            "Construction Phase: Provide the amount of, or basis for, compensation IN ADDITION to the cost listed in the Estimate of Probable Cost (Exhibit B). The Proposer will guarantee to construct the Project",
+            "for the amount specified in the Guaranteed Maximum Price Proposal and the fees quoted in this proposal subject to change orders mutually agreed upon by the Proposer and the Owner."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "Who is the designated point of contact for compliance-related inquiries about the Tribune Building project?",
+        "answer": "The designated point of contact is Chelsey Mazurek, Tribune Building Project Manager at Incourage Community Foundation Inc.",
+        "snippet": "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org",
+        "context": [
+            "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What contact information must be included when submitting compliance documentation for the Tribune Building project?",
+        "answer": "Submissions must include Chelsey Mazurek\u2019s phone number (715.423.3863) and email address (cmazurek@incouragecf.org).",
+        "snippet": "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org",
+        "context": [
+            "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "Which organization is responsible for overseeing compliance for the Tribune Building project?",
+        "answer": "Incourage Community Foundation Inc. is the overseeing organization for compliance matters.",
+        "snippet": "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org",
+        "context": [
+            "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What is the role of Chelsey Mazurek in the Tribune Building project\u2019s compliance process?",
+        "answer": "Chelsey Mazurek serves as the Tribune Building Project Manager, responsible for handling compliance inquiries and documentation.",
+        "snippet": "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org",
+        "context": [
+            "Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "How should stakeholders formally direct compliance communications for the Tribune Building project?",
+        "answer": "Communications must be directed to Chelsey Mazurek via the provided phone number or email address as specified in compliance guidelines.",
+        "snippet": "should be directed to: Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org",
+        "context": [
+            "should be directed to: Chelsey Mazurek, Tribune Building Project Manager Incourage Community Foundation Inc. 715.423.3863 cmazurek@incouragecf.org"
+        ]
+    }
+]

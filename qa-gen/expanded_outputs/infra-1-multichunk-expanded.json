@@ -1,0 +1,224 @@
+[
+    {
+        "chunks": [
+            1,
+            4
+        ],
+        "question": "What compliance requirements must engineering firms meet regarding legal standards in their service delivery?",
+        "answer": "Firms must comply with all federal, state, and local laws, ordinances, and regulations, including environmental and procurement laws. (Section 1.1) requires adherence to \"regulations, laws, ordinances, and requirements of all governmental agencies,\" while (Exhibit A, Section 2.C) mandates conformity with the Civil Rights Act, Virginia Fair Employment Contracting Act, and Immigration Reform and Control Act.",
+        "context": [
+            "The Engineer will comply with the regulations, laws, ordinances, and requirements of all governmental agencies and authorities",
+            "Conforming to the provisions of the Civil Rights Act of 1964",
+            "and the Virginia Human Rights Act",
+            "[and] not employing illegal alien workers"
+        ]
+    },
+    {
+        "chunks": [
+            1,
+            4
+        ],
+        "question": "How does the County evaluate technical capabilities during the selection process?",
+        "answer": "Technical capabilities are assessed through staff expertise, facilities, and past performance. (Section 3, 8) lists \"technical capabilities\" and \"facilities and production capabilities\" as criteria, while (Section 1.1) requires services to align with \"generally accepted professional standards.\"",
+        "context": [
+            "The Engineer",
+            "will perform all tasks in accordance with generally accepted professional standards.",
+            "Technical capabilities: a. description of facilities and production capabilities."
+        ]
+    },
+    {
+        "chunks": [
+            1,
+            4
+        ],
+        "question": "What contractual flexibility does the County retain for awarding work assignments?",
+        "answer": "The County reserves the right to award contracts to multiple firms, perform work in-house, or bid large projects separately. (Background) states the contract is \"non-exclusive\" and allows for multi-award, while (Selection Procedure) confirms negotiations occur with ranked firms until terms are met.",
+        "context": [
+            "The County reserves the right to award contracts to more than one qualified offeror",
+            "Caroline County may make final award to multiple offerors",
+            "[and] negotiate with the offeror ranked first",
+            "then second, etc."
+        ]
+    },
+    {
+        "chunks": [
+            1,
+            4
+        ],
+        "question": "What insurance and indemnity obligations apply to contractors under this RFP?",
+        "answer": "Contractors must adhere to the General Terms in Exhibit A, including insurance requirements. (Exhibit A, Title) explicitly references insurance, while (Section 1.1) implicitly ties compliance to broader legal obligations.",
+        "context": [
+            "The Engineer will comply with",
+            "requirements of all governmental agencies.",
+            "Exhibit A General Terms and Conditions (Including Insurance and Indemnity)",
+            "incorporated into any contract awarded."
+        ]
+    },
+    {
+        "chunks": [
+            2,
+            5
+        ],
+        "question": "What compliance requirements apply to subcontractor agreements in both the bidding phase and general contract obligations?",
+        "answer": "Subcontractors must meet non-discrimination and drug-free workplace requirements. During bidding (Excerpt 1, 1.4.B), the Engineer must evaluate subcontractor acceptability. (Section 2.B.1) mandates that subcontracts over $10,000 include clauses prohibiting discrimination and requiring drug-free workplaces.",
+        "context": [
+            "Consult with and advise the County as to the acceptability of subcontractors",
+            "The Contractor will include the provisions of the foregoing subparagraph 2.(B)(1) in every subcontract or purchase order under this Contract of over $10,000"
+        ]
+    },
+    {
+        "chunks": [
+            2,
+            5
+        ],
+        "question": "How do federal compliance requirements intersect with final design deliverables?",
+        "answer": "Final design documents must include federal compliance elements such as bonding, insurance, and drug-free workplace adherence. (1.3.A) requires \"federal compliance requirements\" in contractor documents, while (2.F) obligates compliance with the federal Drug-Free Workplace Act.",
+        "context": [
+            "contractor documents, which shall include",
+            "federal compliance requirements.",
+            "Contractor shall comply with the federal Drug-Free Workplace Act."
+        ]
+    },
+    {
+        "chunks": [
+            3,
+            6
+        ],
+        "question": "What are the Engineer's responsibilities regarding payment approvals and subcontractor payment compliance?",
+        "answer": "The Engineer must review contractor payment applications and advise the County on amounts owed, certifying work alignment with plans/specifications (Excerpt 1, Section F). Simultaneously, contractors must comply with Section 12 of Excerpt 2, ensuring subcontractors are paid within 7 days of receiving County payments or provide written justification for withholding.",
+        "context": [
+            "Based on the Engineer's",
+            "advise the County as to the amount owing to contractor(s)",
+            "quality of the work is in accordance with the final plans and specifications.",
+            "Contractor covenants",
+            "pay any subcontractor for its proportionate share",
+            "within seven (7) days after receipt of any amounts paid."
+        ]
+    },
+    {
+        "chunks": [
+            3,
+            6
+        ],
+        "question": "How do design criteria and warranty requirements intersect for compliance?",
+        "answer": "Designs must conform to County, state, and federal regulations (Excerpt 1, \"Design Criteria\"), while warranties for materials/services under (Section 4) must match the \"most favorable warranties\" provided by the contractor. Non-compliant designs or breached warranties could trigger liability.",
+        "context": [
+            "All designs shall conform to the latest County, state, and federal regulations or standards.",
+            "Goods or services",
+            "covered by the most favorable warranties",
+            "Contractor will pay the full contract price if warranties are breached."
+        ]
+    },
+    {
+        "chunks": [
+            3,
+            6
+        ],
+        "question": "What limitations apply to contract modifications, and who authorizes them?",
+        "answer": "The Engineer may issue change orders as the County\u2019s representative (Excerpt 1, Section E), but (Section 5) restricts modifications to a 25%/$50,000 increase without County approval. All changes require written agreement and adequate consideration.",
+        "context": [
+            "Engineer may",
+            "prepare all change orders as required.",
+            "No fixed priced contract may be increased by more than twenty-five (25) percent",
+            "without approval of the County."
+        ]
+    },
+    {
+        "chunks": [
+            4,
+            7
+        ],
+        "question": "What insurance requirements must contractors meet under both the selection criteria and general terms?",
+        "answer": "Contractors must maintain comprehensive insurance coverage meeting specified limits, including Workers' Compensation, General Liability, and Professional Liability, as outlined in Section 15 (Excerpt 2). This aligns with Section 3 (Excerpt 1), which emphasizes technical capabilities and compliance with federal/state laws.",
+        "context": [
+            "Familiarity with federal, state and local codes, conditions, and ordinances",
+            "Workers' Compensation",
+            "$100,000 Each Accident",
+            "Professional Liability Insurance $1,000,000 Limit."
+        ]
+    },
+    {
+        "chunks": [
+            4,
+            7
+        ],
+        "question": "How do past performance evaluations relate to termination for default clauses?",
+        "answer": "Past performance (Excerpt 1, Section 5) is evaluated for quality, timeliness, and budget adherence, which directly impacts the County\u2019s right to terminate for default (Excerpt 2, Section 16) if contractors fail to meet obligations.",
+        "context": [
+            "Past performance record",
+            "quality of work, timeliness, diligence, ability to meet budget.",
+            "In case of default",
+            "County may procure services from other sources and hold the contractor responsible for additional costs."
+        ]
+    },
+    {
+        "chunks": [
+            5,
+            8
+        ],
+        "question": "How does the County address breaches of compliance with drug-free workplace policies?",
+        "answer": "The Contractor must post workplace notices prohibiting drug-related activities and include compliance terms in solicitations. If breached, the County may issue a \"Show Cause Notice\" under termination provisions, allowing 10 days to cure the failure. Persistent non-compliance may lead to contract termination for default, with costs borne by the Contractor.",
+        "context": [
+            "post",
+            "a statement notifying employees that the unlawful manufacture, sale, distribution",
+            "of a controlled substance",
+            "is prohibited",
+            "the Contractor shall breach any of the other cures after receiving a 'Show Cause Notice'",
+            "the County may immediately terminate the agreement for default."
+        ]
+    },
+    {
+        "chunks": [
+            6,
+            9
+        ],
+        "question": "What warranty protections does the County require from contractors, and how do these relate to dispute resolution timelines in case of breach?",
+        "answer": "Contractors must provide their most favorable warranties for goods/services, with breach remedies including full contract price repayment (Section 4). If a dispute arises from a breach, contractors must address claims within 15 days of written notice (Section 8) or face termination. Dispute resolution timelines in Section 2(B) require the County to issue a decision within 120 days of final payment, with appeals filed within six months (Section 2(D)).",
+        "context": [
+            "The Contractor will pay to the County the full contract price",
+            "for supplies",
+            "furnished under the bid",
+            "if warranties are breached.",
+            "this Agreement shall be governed by",
+            "the Commonwealth of Virginia",
+            "jurisdiction and venue only in the Circuit Court of Caroline or",
+            "U.S. District Court, Eastern District of Virginia."
+        ]
+    },
+    {
+        "chunks": [
+            6,
+            9
+        ],
+        "question": "How are subcontractor payment obligations enforced under the contract, and what certifications ensure compliance with antitrust laws?",
+        "answer": "Contractors must pay subcontractors within seven days of receiving County payments or provide written justification for withholding (Section 12). Subcontracts must include these terms. The Proposal Signature Sheet (Section 2) certifies compliance with the Sherman Act and Virginia antitrust laws, prohibiting collusion in bidding.",
+        "context": [
+            "Within 7 days",
+            "pay subcontractor",
+            "or notify County",
+            "of withholding.",
+            "The County",
+            "shall render [a] decision within 120 days of final payment",
+            "Contractor appeals [must be filed] within six months."
+        ]
+    },
+    {
+        "chunks": [
+            6,
+            9
+        ],
+        "question": "What audit requirements apply to contractors, and how long must records be retained post-contract?",
+        "answer": "Contractors must retain records for five years after final payment or pending matters closure (Section 9). Auditors, including state/federal entities, may access records. This aligns with Section 2\u2019s dispute resolution, which ties claims to final payment timelines.",
+        "context": [
+            "Retain all books",
+            "for five years",
+            "County",
+            "auditors",
+            "shall have access.",
+            "Offeror did not",
+            "enter into any collusion",
+            "in violation of the Sherman Act",
+            "or Virginia Code."
+        ]
+    }
+]

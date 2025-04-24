@@ -1,0 +1,122 @@
+[
+    {
+        "chunk": 5,
+        "question": "What documents are referenced for supply chain risk management best practices?**",
+        "answer": "The NIST Interagency Report 7622 and the National Defense Industrial Association Guidebook, *Engineering for System Assurance*, are referenced.",
+        "snippet": "Supply Chain Risk Management key practices may be found in the NIST Interagency Report 7622, Piloting Supply Chain Risk Management for Federal Information Systems, and the National Defense Industrial Association Guidebook, Engineering for System Assurance, both publicly available.",
+        "context": [
+            "Supply Chain Risk Management key practices may be found in the NIST Interagency Report 7622, Piloting Supply Chain Risk Management for Federal Information Systems, and the National Defense Industrial Association Guidebook, Engineering for System Assurance, both publicly available."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What must the enumeration of potential suppliers include?**",
+        "answer": "The enumeration must include cost, schedule, performance information, and plans for risk management collaboration with the government.",
+        "snippet": "The enumeration of potential suppliers shall include cost, schedule and performance information relevant for choice among alternates and planned selection for the purpose of engaging with the government to develop mutually-agreeable risk management plans.",
+        "context": [
+            "The enumeration of potential suppliers shall include cost, schedule and performance information relevant for choice among alternates and planned selection for the purpose of engaging with the government to develop mutually-agreeable risk management plans."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "How must access by foreign nationals to program information be controlled?**",
+        "answer": "Processes must control access to system design information, DoD-unique technology, and integration tools for commercial technology.",
+        "snippet": "The processes to control access by foreign nationals to program information, including, but not limited to, system design information, DoD-unique technology, and software or hardware used to integrate commercial technology.",
+        "context": [
+            "The processes to control access by foreign nationals to program information, including, but not limited to, system design information, DoD-unique technology, and software or hardware used to integrate commercial technology."
+        ]
+    },
+    {
+        "chunk": 5,
+        "question": "What is required to ensure genuine ICT in the solution?**",
+        "answer": "Processes must verify genuine ICT and enforce requirements on subcontractors.",
+        "snippet": "The processes and practices employed to ensure that genuine information and communications technology (ICT) will be employed in the solution and that processes and requirements for genuine ICT are levied upon subcontractors.",
+        "context": [
+            "The processes and practices employed to ensure that genuine information and communications technology (ICT) will be employed in the solution and that processes and requirements for genuine ICT are levied upon subcontractors."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What is the deadline for submitting documents after Government approval of Engineering Change Proposals?**",
+        "answer": "The submission is required within 5 calendar days after Government approval of any Engineering Change Proposals.",
+        "snippet": "Submissions also required 5 calendar days after Government approval of any Engineering Change Proposals.",
+        "context": [
+            "Submissions also required 5 calendar days after Government approval of any Engineering Change Proposals."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "How long does the Government have to review and comment on submitted documents?**",
+        "answer": "The Government must review and provide comments within 30 calendar days of receipt.",
+        "snippet": "The Government shall review and provide comments within 30 calendar days of receipt of the document.",
+        "context": [
+            "The Government shall review and provide comments within 30 calendar days of receipt of the document."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What is the timeframe for returning the final reproduced version to the Government after receiving comments?**",
+        "answer": "The final version must be submitted within 30 business days following receipt of comments.",
+        "snippet": "The final reproduced version is due back to the Government within 30 business days following the receipt of comments.",
+        "context": [
+            "The final reproduced version is due back to the Government within 30 business days following the receipt of comments."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What templates or checklists must be included in the documentation per Block 4?**",
+        "answer": "The documentation must include applicable Assured Compliance Assessment Solution (ACAS) templates and Security Content Automation Protocols (SCAP) checklists.",
+        "snippet": "a. Applicable Assured Compliance Assessment Solution (ACAS) templates b. Applicable Security Content Automation Protocols (SCAP) checklists.",
+        "context": [
+            "a. Applicable Assured Compliance Assessment Solution (ACAS) templates b. Applicable Security Content Automation Protocols (SCAP) checklists."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "Where must submissions for PM MC be posted, and what notification is required?**",
+        "answer": "Submissions must be posted to IDE with email notification to the Contracting Officer\u2019s Representative.",
+        "snippet": "Block 14: Submissions for PM MC shall be posted to IDE with email notification to the Contracting Officer\u2019s Representative.",
+        "context": [
+            "Block 14: Submissions for PM MC shall be posted to IDE with email notification to the Contracting Officer\u2019s Representative."
+        ]
+    },
+    {
+        "chunk": 6,
+        "question": "What distribution restrictions apply to unclassified technical data under Block 9?**",
+        "answer": "Unclassified data is export-controlled and subject to DoD Directive 5230.25, with distribution limited to DoD agencies and U.S. DoD contractors.",
+        "snippet": "Distribution authorized to DoD agencies and U.S. DoD contractors only...when unclassified, it is export-controlled and subject to the provisions of DoD Directive 5230.25.",
+        "context": [
+            "Distribution authorized to DoD agencies and U.S. DoD contractors only",
+            "when unclassified, it is export-controlled and subject to the provisions of DoD Directive 5230.25."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What distribution restrictions apply to the Safety Assessment Report (SAR)?**",
+        "answer": "Distribution is limited to Department of Defense (DoD) entities and U.S. DoD contractors, with further distribution requiring explicit approval from the Project Manager, Mission Command, SFA E-CCC-MC.",
+        "snippet": "Block 9: Distribution D: Distribution authorized to the Department of Defense and U.S. DoD contractors only; further distribution at the direction of Project Manager, Mission Command, SFA E-CCC-MC.",
+        "context": [
+            "Block 9: Distribution D: Distribution authorized to the Department of Defense and U.S. DoD contractors only; further distribution at the direction of Project Manager, Mission Command, SFA E-CCC-MC."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What are the submission deadlines for the draft and final SAR?**",
+        "answer": "The draft SAR must be submitted 30 calendar days prior to the Preliminary Design Review (PDR). Subsequent submissions are required at Critical Design Review (CDR), after capability drops affecting safety assessments, and 15 business days post-Test for Record (TFR). The final version is due 30 calendar days after receiving government comments.",
+        "snippet": "Block 10, 11, 12 & 13: The Contractor shall deliver a draft SAR 30 calendar days prior to Preliminary Design Review (PDR)... Subsequent submission shall be made 15 business days after completion of Test for Record (TFR)... The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments.",
+        "context": [
+            "Block 10, 11, 12 & 13: The Contractor shall deliver a draft SAR 30 calendar days prior to Preliminary Design Review (PDR)",
+            "Subsequent submission shall be made 15 business days after completion of Test for Record (TFR)",
+            "The final reproduced version is due back to the Government within 30 calendar days following the receipt of comments."
+        ]
+    },
+    {
+        "chunk": 7,
+        "question": "What analytical techniques must the Contractor use in the SAR?**",
+        "answer": "The Contractor must perform Software Fault Tree Analysis and Petri Net Analysis.",
+        "snippet": "d. Analytical techniques to be used in the analysis performance are: Software fault tree analysis and Petri net analysis.",
+        "context": [
+            "d. Analytical techniques to be used in the analysis performance are: Software fault tree analysis and Petri net analysis."
+        ]
+    }
+]
