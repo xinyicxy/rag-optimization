@@ -17,7 +17,7 @@ from langchain_openai import OpenAI
 import csv
 
 # setting api key
-OPENAI_KEY = "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"
+OPENAI_KEY = ""
 os.environ["OPENAI_API_KEY"] = OPENAI_KEY  # Set for RAGAS
 
 """

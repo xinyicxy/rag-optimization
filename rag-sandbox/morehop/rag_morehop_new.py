@@ -19,7 +19,7 @@ CHUNK_SIZE = args.chunk_size
 
 
 # TODO: set the api key
-OPENAI_KEY = "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"
+OPENAI_KEY = ""
 openai.api_key = OPENAI_KEY
 TOP_K = 2 # set to 2 because morehop needs exactly 2 contexts
 
