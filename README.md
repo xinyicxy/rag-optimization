@@ -11,8 +11,8 @@ Extracts QA pairs from documents
 Combines them into a final dataset for use in RAG models
 
 ### multihop-data/
-Contains preprocessing for the morehop benchmark dataset.
-Includes multihop benchmark data
+Contains data and preprocessing scripts for the MoreHop benchmark dataset.
+(https://github.com/Alab-NII/morehopqa)
 
 Scripts to format it appropriately for downstream RAG tasks
 
