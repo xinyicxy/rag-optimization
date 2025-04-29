@@ -168,7 +168,8 @@ def process_results(doc_score_pairs, method, query):
     # Initial Chroma score filtering
     if method == "filtering" or method == "reranking_filtering":
         sorted_by_score = sorted(doc_score_pairs, key=lambda x: x[1])
-        filtered_docs = sorted_by_score[:len(sorted_by_score)//2]
+        #filtered_docs = sorted_by_score[:len(sorted_by_score)//2]
+        filtered_docs = [(doc, score) for doc, score in doc_score_pairs if score >= 0.7]
 
         if method == "filtering":
             return [doc for doc, _ in filtered_docs]
