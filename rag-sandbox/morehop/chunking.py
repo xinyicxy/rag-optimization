@@ -1,7 +1,7 @@
 import re
 import PyPDF2
 
-# Note: will assume are pdf not .txt, following parsonsgpt
+# Note: will assume files are pdf not .txt, following parsonsgpt
 
 
 def load_pdf(pdf_path, chunk_type, chunk_size):
@@ -25,7 +25,7 @@ def load_pdf(pdf_path, chunk_type, chunk_size):
         with open(pdf_path, "rb") as file:
             reader = PyPDF2.PdfReader(file)
             text = ""
-                                    #####################################error is here: \n are not here
+
             # Extract text from each page
             for page_num in range(len(reader.pages)):
                 page = reader.pages[page_num]
@@ -132,8 +132,6 @@ def chunk_by_sentences(doc_text, lines_per_chunk=10):
 
     return chunks
 
-
-# TODO: follows parsons gpt in recognising as \n, see if correct (more usually for lines?)
 def chunk_by_paragraphs(doc_text, chunk_size):
     """
     Chunk text into groups of paragraphs based on the specified chunk size.
