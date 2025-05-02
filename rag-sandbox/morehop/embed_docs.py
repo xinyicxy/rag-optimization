@@ -110,7 +110,7 @@ if __name__ == "__main__":
     for doc_id, chunks in documents:
         print(f"Processing {doc_id} with {len(chunks)} chunks...")
 
-        # To deal w paragraphs
+        # To deal with paragraphs
         checked_chunks = []
         for chunk in chunks:
             checked_chunks.extend(split_text_if_too_long(chunk))
