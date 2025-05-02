@@ -51,7 +51,7 @@ df['answer_type'] = df['metadata'].apply(lambda x: x['answer_type'])
 
 
 def compute_metrics(row):
-    # lots of type fixes here -> making sure they are list of strings
+    # making sure they are list of strings
     retrieved_contexts = row['retrieved_context']
     ground_truths = [entry[1] for entry in row['ground_truth_context']]
 
@@ -72,11 +72,10 @@ def compute_metrics(row):
             "response": row["llm_response"],
             "retrieved_contexts": retrieved_contexts,
             "reference": row['ground_truth_answer'],
-            "ground_truths": ground_truths  # TODO: this one may not be needed
+            "ground_truths": ground_truths  
         }
     ])
 
-    # actaully compute the metrics -> roughly 1 to 4 seconds / example
     scores = evaluate(
         dataset,
         metrics=[
