@@ -21,7 +21,7 @@ from credentials import OPENAI_KEY
 os.environ["OPENAI_API_KEY"] = OPENAI_KEY  # Set for RAGAS
 
 """
-# configuring faster model for eval
+# TODO? configuring faster model for eval
 gpt3_llm = LangchainLLMWrapper(model_name=OpenAI(model_name="gpt-3.5-turbo", temperature=0))
 answer_relevancy.llm = gpt3_llm
 faithfulness.llm = gpt3_llm

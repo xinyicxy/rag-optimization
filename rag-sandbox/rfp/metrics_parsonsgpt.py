@@ -1,10 +1,8 @@
+"""parsonsgpt metrics - this was never used"""
 import json
 import pandas as pd
 from ragas.metrics import (
     answer_relevancy,
-    faithfulness,
-    context_recall,
-    context_precision,
     answer_correctness
 )
 from ragas import evaluate

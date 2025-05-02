@@ -92,17 +92,6 @@ def retrieve_similar_docs(queries, rfp_ids, top_k=TOP_K):
         for embedding, rfp_id in zip(query_embeddings, rfp_ids)
     ]
 
-    # print("results list len", len(results_list))
-
-    """
-    #print(results_list[0])
-
-    # include=["metadatas", "distances"])
-    text = [[res["text"] for res in results["metadatas"][0]] if results["metadatas"] else [] for results in results_list]
-    scores = [result["distances"][0] for result in results_list]
-
-    output = list(zip(text, scores))
-    """
     output = []
     for results in results_list:
         if results["metadatas"]:
@@ -177,15 +166,11 @@ def process_results(doc_score_pairs, method, query):
         # we are reranking
         filtered_docs = doc_score_pairs
 
-    # prepare for reranking - reranking or reranking/filtering
-    # print(filtered_docs[0])
     docs_to_rerank = [doc for doc, _ in filtered_docs]
 
     # LLM reranking
     ranked_indices = llm_rerank(query, docs_to_rerank)
-    #print(ranked_indices)
     reranked_docs = [docs_to_rerank[i] for i in ranked_indices]
-    #print(reranked_docs[0])
     if method == "reranking":
         return reranked_docs
 
@@ -233,12 +218,7 @@ if __name__ == "__main__":
     # retrieving relevant context
     retrieve_start = time.time()
     retrieved_docs = retrieve_similar_docs(queries, rfp_ids)
-    # print(retrieved_docs)
     retrieve_time = time.time() - retrieve_start
-
-    # checking to make sure some output was received
-    # contexts = [" ".join(
-    #    docs) if docs else "No relevant context found" for docs in retrieved_docs]
 
     """sending -> LLM"""
 
@@ -247,14 +227,11 @@ if __name__ == "__main__":
     for idx, (qa_pair, doc_pairs) in enumerate(zip(qa_data, retrieved_docs)):
         query = qa_pair["question"]
 
-        # print(retrieved_context)
         og_context = copy.deepcopy(doc_pairs)
         retrieved_context_for_json = [random_idx for random_idx, _ in og_context]
         # process based on method
         process_start = time.time()
         processed_docs = process_results(doc_pairs, METHOD, query)
-        # print(processed_docs)
-        # print(retrieved_context_for_json)
         context = " ".join(processed_docs) if processed_docs else ""
         process_time = time.time() - process_start
 
