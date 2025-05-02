@@ -39,7 +39,6 @@ def is_collection_empty(collection):
 
 def embed_queries(queries, batch_size=10):
     """Generates embeddings using OpenAI's text-embedding-3-large in batches"""
-    # TODO: make it so that embedding model is not hard coded
     embeddings = []
     for i in range(0, len(queries), batch_size):
         batch = queries[i:i + batch_size]
